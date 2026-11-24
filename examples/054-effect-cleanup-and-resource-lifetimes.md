@@ -204,6 +204,10 @@ function loadMockRecord(recordId, signal) {
 
     const timeoutId = window.setTimeout(() => {
       signal.removeEventListener("abort", handleAbort);
+      if (recordId === "error") {
+        reject(new Error("The simulated request failed."));
+        return;
+      }
       resolve({
         id: recordId,
         title: "Details for record " + recordId,
@@ -267,6 +271,7 @@ function RecordLookup() {
         <option value="alpha">Alpha · quick</option>
         <option value="beta">Beta · quick</option>
         <option value="slow">Slow · 2.8 seconds</option>
+        <option value="error">Error · simulated failure</option>
       </select>
 
       {currentRecord ? (
@@ -550,7 +555,8 @@ select {
 2. Resize the browser. The displayed width changes while the listener is active.
 3. Open the modal dialog and close it with Escape or its button. Cleanup closes the native dialog.
 4. Select Slow, then quickly select Alpha or Beta. Cleanup aborts the old simulated lookup, and only the current selection can display a result.
-5. In development Strict Mode, setup and cleanup may run an extra time. The examples should still have one active timer or listener, one dialog state, and one current lookup.
+5. Select Error to see the asynchronous failure message.
+6. In development Strict Mode, setup and cleanup may run an extra time. The examples should still have one active timer or listener, one dialog state, and one current lookup.
 
 ## Why both abort and an active flag are used
 
