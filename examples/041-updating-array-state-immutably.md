@@ -76,6 +76,7 @@ function TaskItem({
           id={doneId}
           type="checkbox"
           checked={task.done}
+          aria-label={'Mark ' + task.title + ' complete'}
           onChange={(event) => onToggle(task.id, event.target.checked)}
         />
 
@@ -309,7 +310,7 @@ export default function App() {
           </button>
         </form>
 
-        <div className="toolbar" aria-label="Task list actions">
+        <div className="toolbar" role="group" aria-label="Task list actions">
           <button
             className="secondary-button"
             type="button"
