@@ -185,7 +185,7 @@ export default function App() {
 1. Add a lesson with a new stable ID and confirm it appears in the correct filtered group.
 2. Change the beginner filter to select one lesson by ID instead of by level.
 3. Add another glossary record with its own ID.
-4. Temporarily replace `key={lesson.id}` with `key={Math.random()}` and observe the list's React warning and unstable identity when it renders again. Restore the stable ID afterward.
+4. Temporarily replace `key={lesson.id}` with `key={Math.random()}` and observe that the keys change whenever the list renders again, so React treats the rows as new items. Restore the stable ID afterward.
 5. Try `key={index}` and explain why that choice becomes unsafe if the lessons are reordered or removed.
 
 ## Chapter navigation
