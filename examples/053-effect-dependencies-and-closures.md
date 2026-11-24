@@ -531,7 +531,9 @@ const options = { serverKey, roomId };
 
 useEffect(() => {
   const connection = createMockConnection(options.serverKey, options.roomId);
-  connection.connect(handleMessage);
+  connection.connect((message) => {
+    setMessages((currentMessages) => [...currentMessages, message]);
+  });
   return () => connection.disconnect();
 }, [options]);
 ~~~
@@ -541,7 +543,9 @@ Every render creates a new options object. The runnable version builds any setup
 ~~~jsx
 useEffect(() => {
   const connection = createMockConnection(serverKey, roomId);
-  connection.connect(handleMessage);
+  connection.connect((message) => {
+    setMessages((currentMessages) => [...currentMessages, message]);
+  });
   return () => connection.disconnect();
 }, [serverKey, roomId]);
 ~~~
