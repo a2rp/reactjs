@@ -50,9 +50,15 @@ function App() {
 }
 
 function ProductTable({ products }) {
-  return products.map((product) => (
-    <ProductRow key={product.id} product={product} />
-  ));
+  return (
+    <table>
+      <tbody>
+        {products.map((product) => (
+          <ProductRow key={product.id} product={product} />
+        ))}
+      </tbody>
+    </table>
+  );
 }
 ~~~
 
