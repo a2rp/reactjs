@@ -59,7 +59,7 @@ export default function App() {
       ...currentPerson,
       artwork: {
         ...currentPerson.artwork,
-        [name]: name === 'year' ? Number(value) : value,
+        [name]: name === 'year' && value !== '' ? Number(value) : value,
       },
     }));
   }
@@ -88,7 +88,8 @@ export default function App() {
 
   function handleRemoveNickname() {
     setPerson((currentPerson) => {
-      const { nickname, ...personWithoutNickname } = currentPerson;
+      const personWithoutNickname = { ...currentPerson };
+      delete personWithoutNickname.nickname;
       return personWithoutNickname;
     });
   }
