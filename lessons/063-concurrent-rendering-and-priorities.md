@@ -1,4 +1,4 @@
-﻿# Concurrent Rendering and Update Priorities
+# Concurrent Rendering and Update Priorities
 
 ## Keep urgent interactions responsive
 
@@ -134,7 +134,9 @@ function SearchPage() {
         value={query}
         onChange={(event) => setQuery(event.target.value)}
       />
-      <SlowResults query={deferredQuery} aria-busy={isStale} />
+      <div aria-busy={isStale}>
+        <SlowResults query={deferredQuery} />
+      </div>
     </>
   );
 }
