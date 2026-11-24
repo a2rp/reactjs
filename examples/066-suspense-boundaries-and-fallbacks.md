@@ -236,7 +236,7 @@ function SuspenseDemo() {
       </p>
 
       {resources && (
-        <div className="course-region" aria-label="Course content">
+        <div className="course-region" role="region" aria-label="Course content">
           {mode === "together" ? (
             <Suspense
               fallback={
