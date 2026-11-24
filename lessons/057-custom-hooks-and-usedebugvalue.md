@@ -25,21 +25,27 @@ After this lesson, you should be able to:
 A custom Hook is an ordinary JavaScript function that follows the Rules of Hooks and calls one or more built-in or custom Hooks. Its name begins with **use** followed by a capital letter, such as **useOnlineStatus** or **useChatRoom**.
 
 ~~~jsx
+import { useSyncExternalStore } from "react";
+
+function subscribeToResize(callback) {
+  window.addEventListener("resize", callback);
+  return () => window.removeEventListener("resize", callback);
+}
+
+function getWindowWidth() {
+  return window.innerWidth;
+}
+
+function getServerWindowWidth() {
+  return 0;
+}
+
 function useWindowWidth() {
-  const [width, setWidth] = useState(window.innerWidth);
-
-  useEffect(() => {
-    function updateWidth() {
-      setWidth(window.innerWidth);
-    }
-
-    window.addEventListener("resize", updateWidth);
-    return () => {
-      window.removeEventListener("resize", updateWidth);
-    };
-  }, []);
-
-  return width;
+  return useSyncExternalStore(
+    subscribeToResize,
+    getWindowWidth,
+    getServerWindowWidth
+  );
 }
 ~~~
 
@@ -53,7 +59,7 @@ function WindowSizeLabel() {
 }
 ~~~
 
-This example demonstrates the shape of a custom Hook. For a real browser API subscription, first check whether a purpose-built Hook such as **useSyncExternalStore** is the better integration.
+This browser API Hook uses **useSyncExternalStore** so React can subscribe to resize events and read the current width. Its server snapshot is a 0-pixel placeholder because a server has no browser window; after hydration, React reads the actual browser width.
 
 ## A custom Hook shares logic, not state
 

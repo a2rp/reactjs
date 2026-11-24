@@ -268,7 +268,7 @@ export default function App() {
         </div>
 
         <p className="section-description">
-          Each timer component calls **useStopwatch** for itself. Starting,
+          Each timer component calls <strong>useStopwatch</strong> for itself. Starting,
           pausing, or resetting one timer does not change the other.
         </p>
 
@@ -289,7 +289,7 @@ export default function App() {
           <li>Start or pause a timer and inspect the formatted label again.</li>
         </ol>
         <p>
-          **useDebugValue** is visible in developer tooling, not in the app's
+          <strong>useDebugValue</strong> is visible in developer tooling, not in the app's
           rendered interface. The Hook still returns its normal values to its
           component.
         </p>
