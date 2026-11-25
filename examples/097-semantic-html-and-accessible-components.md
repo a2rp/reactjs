@@ -1,4 +1,4 @@
-﻿# React Example: A Semantic and Accessible Contact Page
+# React Example: A Semantic and Accessible Contact Page
 
 This example creates a small React contact page using native HTML semantics. It includes page landmarks, a skip link, a reusable labeled input component, native form validation, a named radio group, a status message, and visible keyboard focus.
 
@@ -93,7 +93,7 @@ Create src/ContactPage.tsx:
             </nav>
           </header>
 
-          <main className="page" id="main-content">
+          <main className="page" id="main-content" tabIndex={-1}>
             <h1>Contact our support team</h1>
             <p className="intro">
               Send us a message and choose how you would like us to reply.
