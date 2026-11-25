@@ -1,4 +1,4 @@
-﻿# Safe Text and URL Handling — Complete Example
+# Safe Text and URL Handling — Complete Example
 
 This example is a small Vite React feature for previewing a user-written message and checking a destination URL before rendering a link. It demonstrates three separate rules:
 
@@ -380,7 +380,7 @@ For the URL field, submit each value and observe whether a link is created:
 | http://example.com | Accepted by this demo's HTTP/HTTPS policy |
 | javascript:alert(1) | Rejected because its protocol is not HTTP or HTTPS |
 | data:text/html,hello | Rejected because its protocol is not HTTP or HTTPS |
-| not a valid URL [ | Rejected if the browser URL parser cannot parse it |
+| http://[ | Rejected because the URL has an invalid host |
 | An empty value | Rejected |
 
 The text preview accepts angle brackets and other ordinary characters. They remain visible text; they are not converted into HTML elements.
