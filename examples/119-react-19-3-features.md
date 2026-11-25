@@ -106,7 +106,11 @@ function ProductCard({ product, onOpen }) {
 
 function CatalogPage({ onOpen }) {
   return (
-    <ViewTransition enter="page-enter" exit="page-exit" default="none">
+    <ViewTransition
+  enter={{ backward: "page-enter-from-left" }}
+  exit={{ forward: "page-exit-to-left" }}
+  default="none"
+>
       <main className="page" aria-labelledby="catalog-title">
         <p className="eyebrow">React 19.3 demo</p>
         <h1 id="catalog-title">Field goods</h1>
@@ -131,7 +135,11 @@ function CatalogPage({ onOpen }) {
 
 function ProductPage({ product, onBack }) {
   return (
-    <ViewTransition enter="page-enter" exit="page-exit" default="none">
+    <ViewTransition
+  enter={{ forward: "page-enter-from-right" }}
+  exit={{ backward: "page-exit-to-right" }}
+  default="none"
+>
       <main className="page" aria-labelledby="product-title">
         <button className="back-button" type="button" onClick={onBack}>
           <span aria-hidden="true">←</span> All products
@@ -345,12 +353,20 @@ h1 {
   line-height: 1.6;
 }
 
-::view-transition-new(.page-enter) {
-  animation: page-enter 180ms ease-out both;
+::view-transition-new(.page-enter-from-right) {
+  animation: page-enter-from-right 180ms ease-out both;
 }
 
-::view-transition-old(.page-exit) {
-  animation: page-exit 140ms ease-in both;
+::view-transition-new(.page-enter-from-left) {
+  animation: page-enter-from-left 180ms ease-out both;
+}
+
+::view-transition-old(.page-exit-to-left) {
+  animation: page-exit-to-left 140ms ease-in both;
+}
+
+::view-transition-old(.page-exit-to-right) {
+  animation: page-exit-to-right 140ms ease-in both;
 }
 
 ::view-transition-group(.product-image-share) {
@@ -358,33 +374,53 @@ h1 {
   animation-timing-function: cubic-bezier(0.2, 0.75, 0.25, 1);
 }
 
-@keyframes page-enter {
+@keyframes page-enter-from-right {
   from {
     opacity: 0;
-    transform: translateY(0.5rem);
+    transform: translateX(1rem);
   }
 
   to {
     opacity: 1;
-    transform: translateY(0);
+    transform: translateX(0);
   }
 }
 
-@keyframes page-exit {
+@keyframes page-enter-from-left {
+  from {
+    opacity: 0;
+    transform: translateX(-1rem);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes page-exit-to-left {
   to {
     opacity: 0;
-    transform: translateY(-0.25rem);
+    transform: translateX(-0.75rem);
+  }
+}
+
+@keyframes page-exit-to-right {
+  to {
+    opacity: 0;
+    transform: translateX(0.75rem);
   }
 }
 
 @media (prefers-reduced-motion: reduce) {
-  ::view-transition-group(.page-enter),
-  ::view-transition-group(.page-exit),
+  ::view-transition-group(.page-enter-from-right),
+  ::view-transition-group(.page-enter-from-left),
+  ::view-transition-group(.page-exit-to-left),
+  ::view-transition-group(.page-exit-to-right),
   ::view-transition-group(.product-image-share) {
     animation-duration: 1ms;
   }
 }
-
 @media (max-width: 38rem) {
   .product-detail .product-artwork {
     min-height: 18rem;
