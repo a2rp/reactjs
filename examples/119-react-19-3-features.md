@@ -107,10 +107,10 @@ function ProductCard({ product, onOpen }) {
 function CatalogPage({ onOpen }) {
   return (
     <ViewTransition
-  enter={{ backward: "page-enter-from-left" }}
-  exit={{ forward: "page-exit-to-left" }}
-  default="none"
->
+      enter={{ backward: "page-enter-from-left" }}
+      exit={{ forward: "page-exit-to-left" }}
+      default="none"
+    >
       <main className="page" aria-labelledby="catalog-title">
         <p className="eyebrow">React 19.3 demo</p>
         <h1 id="catalog-title">Field goods</h1>
@@ -136,10 +136,10 @@ function CatalogPage({ onOpen }) {
 function ProductPage({ product, onBack }) {
   return (
     <ViewTransition
-  enter={{ forward: "page-enter-from-right" }}
-  exit={{ backward: "page-exit-to-right" }}
-  default="none"
->
+      enter={{ forward: "page-enter-from-right" }}
+      exit={{ backward: "page-exit-to-right" }}
+      default="none"
+    >
       <main className="page" aria-labelledby="product-title">
         <button className="back-button" type="button" onClick={onBack}>
           <span aria-hidden="true">←</span> All products
@@ -421,6 +421,7 @@ h1 {
     animation-duration: 1ms;
   }
 }
+
 @media (max-width: 38rem) {
   .product-detail .product-artwork {
     min-height: 18rem;
@@ -446,6 +447,10 @@ The following optional replacement for the page boundary demonstrates an imperat
 <ViewTransition
   enter="auto"
   onEnter={(instance) => {
+    if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+      return () => {};
+    }
+
     const animation = instance.new.animate(
       [{ opacity: 0, transform: "translateY(12px)" }, { opacity: 1, transform: "translateY(0)" }],
       { duration: 180, easing: "ease-out" }
