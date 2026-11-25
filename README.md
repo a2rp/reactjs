@@ -1,6 +1,6 @@
 # ReactJS: Practical Notes
 
-These are my personal learning notes for React. This repository is planned as a practical, beginner-friendly guide that grows into a detailed reference for building accessible, reliable React web applications.
+These are my personal learning notes for React: a practical, beginner-friendly course and reference for building accessible, reliable React web applications.
 
 React is a JavaScript library for building user interfaces from components. The roadmap starts with the React mental model and core APIs, then covers state, effects, modern React features, application architecture, accessibility, testing, performance, and delivery.
 
@@ -168,4 +168,4 @@ The setup chapters will use a current build-tool workflow to teach React fundame
 | 119 | Performance, security, and delivery | [React 19.3: View Transitions, Fragment refs, and browser APIs](lessons/119-react-19-3-features.md) | [Open Q&A](qnas/119-react-19-3-features.md) | [Open Example](examples/119-react-19-3-features.md) |
 | 120 | Performance, security, and delivery | [React quick reference and glossary](lessons/120-react-quick-reference-and-glossary.md) | [Open Q&A](qnas/120-react-quick-reference-and-glossary.md) | [Open Example](examples/120-react-quick-reference-and-glossary.md) |
 
-The roadmap is the planned course sequence. The lesson, Q&A, and example files will be created and completed in order as the notes are developed.
+The roadmap lists the 120-chapter course sequence. Every chapter has a lesson, Q&A, and practical example linked above.
