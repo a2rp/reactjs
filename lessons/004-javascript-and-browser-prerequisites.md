@@ -323,9 +323,13 @@ You can learn advanced JavaScript alongside React. A basic working familiarity i
 - Browser APIs and server APIs differ even though both can run JavaScript.
 - Use developer tools to inspect the actual browser page and diagnose errors.
 - React renders UI; it does not replace JavaScript fundamentals or automatically load backend data.
-
 ## Chapter navigation
 
-| Previous chapter | Chapter Q&A | Chapter example | Next chapter |
-| --- | --- | --- | --- |
-| [003 - React, React DOM, and the framework ecosystem](003-react-react-dom-and-frameworks.md) | [Open Q&A](../qnas/004-javascript-and-browser-prerequisites.md) | [Open Example](../examples/004-javascript-and-browser-prerequisites.md) | [005 - Choose a React project setup](005-choose-a-react-project-setup.md) |
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="003-react-react-dom-and-frameworks.md">003 - React, React DOM, and the framework ecosystem</a></td><td><a href="../qnas/004-javascript-and-browser-prerequisites.md">Q&amp;A</a></td><td><a href="../examples/004-javascript-and-browser-prerequisites.md">Example</a></td><td><a href="005-choose-a-react-project-setup.md">005 - Choose a React project setup</a></td></tr>
+  </tbody>
+</table>

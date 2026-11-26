@@ -701,3 +701,13 @@ tbody th {
 6. Compare the render failure above with a throw placed directly inside an event handler: an Error Boundary does not catch the event-handler exception. Handle that error in the handler instead.
 
 This is a client-rendering example. An Error Boundary is not server-rendering error handling, and ordinary rejected requests or timer callbacks must be handled in their own code paths.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="067-lazy-loading-components.md">067 - Example: On-Demand Dashboard Panels with lazy</a></td><td><a href="../lessons/068-error-boundaries-and-recovery-ui.md">Lesson</a></td><td><a href="../qnas/068-error-boundaries-and-recovery-ui.md">Q&amp;A</a></td><td><a href="069-portals.md">069 - Example: A Portaled Help Panel</a></td></tr>
+  </tbody>
+</table>

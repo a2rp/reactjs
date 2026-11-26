@@ -146,9 +146,13 @@ If the field is empty, the browser's required-field validation prevents a normal
 4. Change the form handler to use `event.currentTarget.elements.displayName.value` instead of `FormData`.
 5. Temporarily remove `event.preventDefault()` and observe the browser's normal form behavior.
 6. Add an `onMouseLeave` handler and inspect both `event.type` and `event.nativeEvent.type` for learning. Do not make application logic depend on a particular native-event mapping.
-
 ## Chapter navigation
 
-| Previous chapter | Chapter lesson | Chapter Q&A | Next chapter |
-| --- | --- | --- | --- |
-| [025 - Event handlers and user interactions](../lessons/025-event-handlers-and-user-interactions.md) | [026 - Event objects and React's event system](../lessons/026-event-objects-and-react-event-system.md) | [Open Q&A](../qnas/026-event-objects-and-react-event-system.md) | [027 - Event propagation, default actions, and cancellation](../lessons/027-event-propagation-and-default-actions.md) |
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="025-event-handlers-and-user-interactions.md">025 - Event handlers and user interactions - Example</a></td><td><a href="../lessons/026-event-objects-and-react-event-system.md">Lesson</a></td><td><a href="../qnas/026-event-objects-and-react-event-system.md">Q&amp;A</a></td><td><a href="027-event-propagation-and-default-actions.md">027 - Event propagation, default actions, and cancellation - Example</a></td></tr>
+  </tbody>
+</table>

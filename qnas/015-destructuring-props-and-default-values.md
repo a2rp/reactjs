@@ -166,9 +166,13 @@ No. It changes how JavaScript reads the values, not who owns them. Do not assign
 ### 24. Can I destructure `children` the same way?
 
 Yes. `children` is a regular prop, so it can be read as `props.children` or destructured. The next chapter focuses on how nested JSX becomes the `children` prop and common ways to compose it.
-
 ## Chapter navigation
 
-| Lesson | Example | Previous chapter | Next chapter |
-| --- | --- | --- | --- |
-| [015 - Destructuring props and default values](../lessons/015-destructuring-props-and-default-values.md) | [Open Example](../examples/015-destructuring-props-and-default-values.md) | [014 - Props and passing data](../lessons/014-props-and-passing-data.md) | [016 - The children prop and nested content](../lessons/016-children-prop-and-nested-content.md) |
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="014-props-and-passing-data.md">014 - Props and passing data - Q&amp;A</a></td><td><a href="../lessons/015-destructuring-props-and-default-values.md">Lesson</a></td><td><a href="../examples/015-destructuring-props-and-default-values.md">Example</a></td><td><a href="016-children-prop-and-nested-content.md">016 - The children prop and nested content - Q&amp;A</a></td></tr>
+  </tbody>
+</table>

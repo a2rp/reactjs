@@ -182,9 +182,13 @@ Do not directly change the DOM to show or hide React-managed UI. Use state to de
 - Use native buttons for actions and links for navigation.
 - Keep interaction work in event handlers and render the resulting UI from props and state.
 - Use the event object and propagation deliberately; those details have their own chapters.
-
 ## Chapter navigation
 
-| Previous chapter | Chapter Q&A | Chapter example | Next chapter |
-| --- | --- | --- | --- |
-| [024 - Component identity, position, and keys](024-component-identity-position-and-keys.md) | [Open Q&A](../qnas/025-event-handlers-and-user-interactions.md) | [Open Example](../examples/025-event-handlers-and-user-interactions.md) | [026 - Event objects and React's event system](026-event-objects-and-react-event-system.md) |
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="024-component-identity-position-and-keys.md">024 - Component identity, position, and keys</a></td><td><a href="../qnas/025-event-handlers-and-user-interactions.md">Q&amp;A</a></td><td><a href="../examples/025-event-handlers-and-user-interactions.md">Example</a></td><td><a href="026-event-objects-and-react-event-system.md">026 - Event objects and React's event system</a></td></tr>
+  </tbody>
+</table>

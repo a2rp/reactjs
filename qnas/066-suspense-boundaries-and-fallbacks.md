@@ -1,4 +1,4 @@
-# Suspense Boundaries and Fallbacks — Q&A
+# Suspense Boundaries and Fallbacks - Q&A
 
 ## Boundaries and fallbacks
 
@@ -211,3 +211,13 @@ Pending content is not ready and may use a Suspense fallback. Failed content has
 ### 50. What is the core mental model?
 
 Suspense defines a reveal boundary for supported resources. Its position determines which content can be replaced while waiting; Error Boundaries handle failures instead.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="065-usedeferredvalue.md">065 - useDeferredValue - Q&amp;A</a></td><td><a href="../lessons/066-suspense-boundaries-and-fallbacks.md">Lesson</a></td><td><a href="../examples/066-suspense-boundaries-and-fallbacks.md">Example</a></td><td><a href="067-lazy-loading-components.md">067 - Lazy Loading Components with lazy - Q&amp;A</a></td></tr>
+  </tbody>
+</table>

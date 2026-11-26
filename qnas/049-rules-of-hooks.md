@@ -1,4 +1,4 @@
-# Rules of Hooks — Q&A
+# Rules of Hooks - Q&A
 
 ## Core rules
 
@@ -200,3 +200,13 @@ The use prefix signals that the function may call Hooks and must follow Hook cal
 - Conditions go inside Hook logic; repeated item behavior belongs in child components.
 - Custom Hooks reuse stateful logic, but each call has independent state.
 - React's use API has a specific conditional and loop exception; other Hooks do not.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="048-preserving-and-resetting-state.md">048 - Preserving and Resetting State - Q&amp;A</a></td><td><a href="../lessons/049-rules-of-hooks.md">Lesson</a></td><td><a href="../examples/049-rules-of-hooks.md">Example</a></td><td><a href="050-context-and-usecontext.md">050 - Context and useContext - Q&amp;A</a></td></tr>
+  </tbody>
+</table>

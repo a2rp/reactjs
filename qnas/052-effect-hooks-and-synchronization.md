@@ -1,4 +1,4 @@
-# Effect Hooks and Synchronization — Q&A
+# Effect Hooks and Synchronization - Q&A
 
 ## Understanding Effects
 
@@ -208,3 +208,13 @@ Identify the external system, verify that setup starts the intended synchronizat
 - Derive values during render and handle known user actions in event handlers.
 - Choose `useEffect` by default; use the other two Hooks only for their specialized timing needs.
 - Effects do not run during server rendering.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="051-context-provider-design.md">051 - Designing Context Providers and Avoiding Overuse - Q&amp;A</a></td><td><a href="../lessons/052-effect-hooks-and-synchronization.md">Lesson</a></td><td><a href="../examples/052-effect-hooks-and-synchronization.md">Example</a></td><td><a href="053-effect-dependencies-and-closures.md">053 - Effect Dependencies, Closures, and Synchronization - Q&amp;A</a></td></tr>
+  </tbody>
+</table>

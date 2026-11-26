@@ -173,9 +173,13 @@ Create one when it names a meaningful piece of UI, separates a responsibility, o
 ### 23. Is a component the right place for every calculation?
 
 No. Keep small calculations in helper functions when that makes the code clearer. Components describe UI; helpers can prepare values used by that UI.
-
 ## Chapter navigation
 
-| Lesson | Example | Previous chapter | Next chapter |
-| --- | --- | --- | --- |
-| [013 - Function components and component naming](../lessons/013-function-components-and-naming.md) | [Open Example](../examples/013-function-components-and-naming.md) | [012 - Strict Mode and development checks](../lessons/012-strict-mode-and-development-checks.md) | [014 - Props and passing data](../lessons/014-props-and-passing-data.md) |
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="012-strict-mode-and-development-checks.md">012 - Strict Mode and development checks - Q&amp;A</a></td><td><a href="../lessons/013-function-components-and-naming.md">Lesson</a></td><td><a href="../examples/013-function-components-and-naming.md">Example</a></td><td><a href="014-props-and-passing-data.md">014 - Props and passing data - Q&amp;A</a></td></tr>
+  </tbody>
+</table>

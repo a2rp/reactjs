@@ -198,3 +198,13 @@ The server can normalize, reject, merge, or recalculate a value. Use the respons
 - Update the base state from confirmed results on success.
 - Leave the base unchanged on failure so the optimistic value can roll back.
 - Explain failures to users and enforce important rules on the server.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="080-useformstatus.md">080 - Pending form state with useFormStatus</a></td><td><a href="../qnas/081-useoptimistic.md">Q&amp;A</a></td><td><a href="../examples/081-useoptimistic.md">Example</a></td><td><a href="082-server-functions-and-form-actions.md">082 - Server Functions and form Actions</a></td></tr>
+  </tbody>
+</table>

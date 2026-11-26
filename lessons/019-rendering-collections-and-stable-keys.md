@@ -230,9 +230,13 @@ An empty list and a missing list are different cases. If a prop may be `null` or
 - `key` belongs to React; pass a separate prop if the component needs the ID.
 - Use an explicitly keyed `Fragment` when one record renders multiple siblings.
 - Handle empty collections deliberately when users need an explanation.
-
 ## Chapter navigation
 
-| Previous chapter | Chapter Q&A | Chapter example | Next chapter |
-| --- | --- | --- | --- |
-| [018 - Conditional rendering patterns](018-conditional-rendering-patterns.md) | [Open Q&A](../qnas/019-rendering-collections-and-stable-keys.md) | [Open Example](../examples/019-rendering-collections-and-stable-keys.md) | [020 - Component boundaries and responsibility](020-component-boundaries-and-responsibility.md) |
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="018-conditional-rendering-patterns.md">018 - Conditional rendering patterns</a></td><td><a href="../qnas/019-rendering-collections-and-stable-keys.md">Q&amp;A</a></td><td><a href="../examples/019-rendering-collections-and-stable-keys.md">Example</a></td><td><a href="020-component-boundaries-and-responsibility.md">020 - Component boundaries and responsibility</a></td></tr>
+  </tbody>
+</table>

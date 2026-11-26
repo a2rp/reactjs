@@ -1,4 +1,4 @@
-# 010. Fragments and returning multiple elements — Example
+# 010. Fragments and returning multiple elements - Example
 
 ## Goal
 
@@ -122,9 +122,13 @@ The main element and footer are siblings. Inside the description list, each term
 ## Expected result
 
 The page displays a heading and introduction, followed by three course facts and a short footer. The Fragments let each component return or group multiple elements while keeping the browser DOM limited to the meaningful main, footer, dl, dt, and dd elements.
-
 ## Chapter navigation
 
-| Lesson | Q&A | Previous chapter | Next chapter |
-| --- | --- | --- | --- |
-| [010 - Fragments and returning multiple elements](../lessons/010-fragments-and-multiple-elements.md) | [Open Q&A](../qnas/010-fragments-and-multiple-elements.md) | [009 - JSX styles, event props, and DOM properties](../lessons/009-jsx-styles-events-and-dom-properties.md) | [011 - Create a root and render a React application](../lessons/011-create-a-root-and-render-an-application.md) |
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="009-jsx-styles-events-and-dom-properties.md">009 - JSX styles, event props, and DOM properties - Example</a></td><td><a href="../lessons/010-fragments-and-multiple-elements.md">Lesson</a></td><td><a href="../qnas/010-fragments-and-multiple-elements.md">Q&amp;A</a></td><td><a href="011-create-a-root-and-render-an-application.md">011 - Create a root and render a React application - Example</a></td></tr>
+  </tbody>
+</table>

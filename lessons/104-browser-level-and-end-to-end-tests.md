@@ -1,4 +1,4 @@
-﻿# Browser-Level Tests and End-to-End Behavior
+# Browser-Level Tests and End-to-End Behavior
 
 ## Learning goals
 
@@ -196,3 +196,13 @@ Run the critical smoke tests on changes that affect the application. Run a wider
 ## Summary
 
 Browser end-to-end tests protect a small number of important journeys in the real application and browser. Configure a local test server, use semantic locators, rely on auto-waiting assertions, and isolate browser state and data. Control external boundaries when testing the UI, and use a dedicated test service when the integration itself is the subject. Diagnose failures from traces and observable evidence instead of hiding them with sleeps or broad assertions.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="103-testing-forms-and-async-ui.md">103 - Testing Forms, Asynchronous UI, and API Boundaries</a></td><td><a href="../qnas/104-browser-level-and-end-to-end-tests.md">Q&amp;A</a></td><td><a href="../examples/104-browser-level-and-end-to-end-tests.md">Example</a></td><td><a href="105-react-devtools-and-debugging.md">105 - React DevTools, Debugging, and Common Warnings</a></td></tr>
+  </tbody>
+</table>

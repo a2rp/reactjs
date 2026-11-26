@@ -562,3 +562,13 @@ h1 {
 - The summary links use each control's id as a fragment target.
 - The success paragraph uses role="status" for a polite announcement.
 - No network request is made. A real server must receive and validate a submitted payload before the interface can report that a question was delivered.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="035-browser-apis-and-event-listeners.md">035 - Working with browser APIs and external event listeners - Example</a></td><td><a href="../lessons/036-accessible-interactive-form-project.md">Lesson</a></td><td><a href="../qnas/036-accessible-interactive-form-project.md">Q&amp;A</a></td><td><a href="037-state-with-usestate.md">037 - State with useState - Example</a></td></tr>
+  </tbody>
+</table>

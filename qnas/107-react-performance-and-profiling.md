@@ -1,4 +1,4 @@
-﻿# React Performance Fundamentals and Profiling: Questions and Answers
+# React Performance Fundamentals and Profiling: Questions and Answers
 
 ## Measuring the problem
 
@@ -145,3 +145,13 @@ Not necessarily. Check whether it lies on the user-visible critical path, how of
 ### 34. What is the main rule for React performance work?
 
 Measure the interaction that feels slow, identify which kind of work causes it, make one targeted change, and compare under the same conditions. Keep the simplest solution that improves the user's actual experience.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="106-profiling-during-development.md">106 - Profiling Component Behavior During Development: Questions and Answers</a></td><td><a href="../lessons/107-react-performance-and-profiling.md">Lesson</a></td><td><a href="../examples/107-react-performance-and-profiling.md">Example</a></td><td><a href="108-react-compiler.md">108 - React Compiler - Q&amp;A</a></td></tr>
+  </tbody>
+</table>

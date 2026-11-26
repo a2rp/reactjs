@@ -1,4 +1,4 @@
-﻿# 030. Form submission and browser validation - Q&A
+# 030. Form submission and browser validation - Q&A
 
 ## Submission flow
 
@@ -149,9 +149,13 @@ React resets the form's uncontrolled fields to their initial values after the ac
 ### 35. Where can I learn the React Actions APIs in more detail?
 
 Continue with [React form Actions and asynchronous submissions](../lessons/078-react-form-actions.md), [Managing submissions with useActionState](../lessons/079-useactionstate.md), and [Pending form state with useFormStatus](../lessons/080-useformstatus.md).
-
 ## Chapter navigation
 
-| Previous chapter | Chapter lesson | Chapter example | Next chapter |
-| --- | --- | --- | --- |
-| [029 - Text inputs, selects, checkboxes, and radio buttons](../lessons/029-inputs-selects-checkboxes-and-radio-buttons.md) | [030 - Form submission and browser validation](../lessons/030-form-submission-and-browser-validation.md) | [Open Example](../examples/030-form-submission-and-browser-validation.md) | [031 - Accessible validation messages and error summaries](../lessons/031-accessible-validation-messages.md) |
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="029-inputs-selects-checkboxes-and-radio-buttons.md">029 - Text inputs, selects, checkboxes, and radio buttons - Q&amp;A</a></td><td><a href="../lessons/030-form-submission-and-browser-validation.md">Lesson</a></td><td><a href="../examples/030-form-submission-and-browser-validation.md">Example</a></td><td><a href="031-accessible-validation-messages.md">031 - Accessible validation messages and error summaries - Q&amp;A</a></td></tr>
+  </tbody>
+</table>

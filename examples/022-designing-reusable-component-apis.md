@@ -130,7 +130,7 @@ export default function App() {
 
 The `Notice` calls use the same component in two ways. The first supplies a named `tone` variant and an `actions` slot. The second omits `tone`, so `Notice` uses its `info` default. Both put the primary message inside `children`.
 
-The action button is supplied as JSX by the caller. That keeps the `Notice` component independent of what “view profile” means. `App` owns the handler and decides what to do when the action is selected.
+The action button is supplied as JSX by the caller. That keeps the `Notice` component independent of what ï¿½view profileï¿½ means. `App` owns the handler and decides what to do when the action is selected.
 
 `Disclosure` has a controlled contract:
 
@@ -172,9 +172,13 @@ The API avoids separate props for every possible action button, an ambiguous `st
 3. Change `Disclosure` so its callback receives an object like `{ nextOpen }`. Decide whether that extra wrapper makes the API clearer for this component.
 4. Sketch an uncontrolled disclosure using an initial `defaultOpen` prop. Write down how its contract differs from the controlled version before implementing it.
 5. Review every prop and explain what caller decision it represents. Remove any prop that has no clear role.
-
 ## Chapter navigation
 
-| Previous chapter | Chapter lesson | Chapter Q&A | Next chapter |
-| --- | --- | --- | --- |
-| [021 - Pure components and predictable rendering](../lessons/021-pure-components-and-predictable-rendering.md) | [022 - Designing reusable component APIs](../lessons/022-designing-reusable-component-apis.md) | [Open Q&A](../qnas/022-designing-reusable-component-apis.md) | [023 - Thinking in React: from a design to a component tree](../lessons/023-thinking-in-react-and-component-trees.md) |
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="021-pure-components-and-predictable-rendering.md">021 - Pure components and predictable rendering - Example</a></td><td><a href="../lessons/022-designing-reusable-component-apis.md">Lesson</a></td><td><a href="../qnas/022-designing-reusable-component-apis.md">Q&amp;A</a></td><td><a href="023-thinking-in-react-and-component-trees.md">023 - Thinking in React: from a design to a component tree - Example</a></td></tr>
+  </tbody>
+</table>

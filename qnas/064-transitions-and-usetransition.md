@@ -1,4 +1,4 @@
-# Transitions with useTransition and startTransition — Q&A
+# Transitions with useTransition and startTransition - Q&A
 
 ## Hook and API basics
 
@@ -233,3 +233,13 @@ Inspect whether requests overlap and finish out of order. Add ordering or cancel
 ### 50. What is the core mental model?
 
 An Action starts immediately, React tracks its pending UI work through **isPending**, and Transition priority keeps non-urgent rendering from blocking urgent interactions. Async request semantics and business-level error handling still belong to the application.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="063-concurrent-rendering-and-priorities.md">063 - Concurrent Rendering and Update Priorities - Q&amp;A</a></td><td><a href="../lessons/064-transitions-and-usetransition.md">Lesson</a></td><td><a href="../examples/064-transitions-and-usetransition.md">Example</a></td><td><a href="065-usedeferredvalue.md">065 - useDeferredValue - Q&amp;A</a></td></tr>
+  </tbody>
+</table>

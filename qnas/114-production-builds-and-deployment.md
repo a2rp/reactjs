@@ -1,4 +1,4 @@
-﻿# Production Builds, Configuration, and Deployment — Q&A
+# Production Builds, Configuration, and Deployment - Q&A
 
 ## Builds and artifacts
 
@@ -167,3 +167,13 @@ Set Vite's base path to the repository's published subdirectory, such as /reposi
 ### 40. What is the main release principle?
 
 Build a traceable artifact from a clean, locked dependency install; configure it for the intended public path and environment; deploy it using the correct hosting model; then verify the live release and keep a rollback path.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="113-html-injection-and-trusted-types.md">113 - HTML Injection, Sanitization, and Trusted Types - Q&amp;A</a></td><td><a href="../lessons/114-production-builds-and-deployment.md">Lesson</a></td><td><a href="../examples/114-production-builds-and-deployment.md">Example</a></td><td><a href="115-production-monitoring-and-maintenance.md">115 - Q&amp;A: Production Errors, Monitoring, and Maintenance</a></td></tr>
+  </tbody>
+</table>

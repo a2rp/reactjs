@@ -1,4 +1,4 @@
-# Safe Text and URL Handling — Complete Example
+# Safe Text and URL Handling - Complete Example
 
 This example is a small Vite React feature for previewing a user-written message and checking a destination URL before rendering a link. It demonstrates three separate rules:
 
@@ -376,11 +376,11 @@ For the URL field, submit each value and observe whether a link is created:
 | Input | Expected result |
 | --- | --- |
 | /help | Accepted as a relative path on the current origin |
-| https://example.com/docs | Accepted as an HTTPS URL |
-| http://example.com | Accepted by this demo's HTTP/HTTPS policy |
+| `https://example.com/docs` | Accepted as an HTTPS URL |
+| `http://example.com` | Accepted by this demo's HTTP/HTTPS policy |
 | javascript:alert(1) | Rejected because its protocol is not HTTP or HTTPS |
 | data:text/html,hello | Rejected because its protocol is not HTTP or HTTPS |
-| http://[ | Rejected because the URL has an invalid host |
+| `http://[` | Rejected because the URL has an invalid host |
 | An empty value | Rejected |
 
 The text preview accepts angle brackets and other ordinary characters. They remain visible text; they are not converted into HTML elements.
@@ -418,3 +418,13 @@ Before shipping a similar feature:
 - URLSearchParams is for structured query construction, not whole-URL trust.
 - External HTTP or HTTPS destinations can still be deceptive.
 - Client checks improve the interface; the server must enforce validation and authorization.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="111-code-splitting-and-asset-loading.md">111 - Code Splitting and Asset Loading - Complete Example</a></td><td><a href="../lessons/112-security-and-untrusted-data.md">Lesson</a></td><td><a href="../qnas/112-security-and-untrusted-data.md">Q&amp;A</a></td><td><a href="113-html-injection-and-trusted-types.md">113 - Sanitized Rich Text with React and Trusted Types - Complete Example</a></td></tr>
+  </tbody>
+</table>

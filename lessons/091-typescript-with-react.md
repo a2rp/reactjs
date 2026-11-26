@@ -364,3 +364,13 @@ Keep runtime validation for data that can be malformed and runtime UI behavior f
 - Use explicit types for empty or nullable state, reducers, refs, and context boundaries.
 - Treat `unknown` external data as unvalidated until runtime checks establish its shape.
 - Types improve correctness and editor support; they do not replace runtime validation.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="090-global-state-and-usesyncexternalstore.md">090 - Global State, `useSyncExternalStore`, and External Stores</a></td><td><a href="../qnas/091-typescript-with-react.md">Q&amp;A</a></td><td><a href="../examples/091-typescript-with-react.md">Example</a></td><td><a href="092-styling-and-theming.md">092 - Styling Strategies, CSS Modules, and Theming in React</a></td></tr>
+  </tbody>
+</table>

@@ -1,4 +1,4 @@
-# 012. Strict Mode and development checks — Example
+# 012. Strict Mode and development checks - Example
 
 ## Goal
 
@@ -134,9 +134,13 @@ The page should show a heading, a short explanation, and three topic items. Stri
 - Effects that install browser listeners should remove those listeners during cleanup.
 - The development setup-cleanup-setup sequence is a diagnostic, not an instruction to keep duplicate listeners.
 - Removing Strict Mode hides the check; it does not repair mutation or missing cleanup.
-
 ## Chapter navigation
 
-| Lesson | Q&A | Previous chapter | Next chapter |
-| --- | --- | --- | --- |
-| [012 - Strict Mode and development checks](../lessons/012-strict-mode-and-development-checks.md) | [Open Q&A](../qnas/012-strict-mode-and-development-checks.md) | [011 - Create a root and render a React application](../lessons/011-create-a-root-and-render-an-application.md) | [013 - Function components and component naming](../lessons/013-function-components-and-naming.md) |
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="011-create-a-root-and-render-an-application.md">011 - Create a root and render a React application - Example</a></td><td><a href="../lessons/012-strict-mode-and-development-checks.md">Lesson</a></td><td><a href="../qnas/012-strict-mode-and-development-checks.md">Q&amp;A</a></td><td><a href="013-function-components-and-naming.md">013 - Function components and component naming - Example</a></td></tr>
+  </tbody>
+</table>

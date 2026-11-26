@@ -115,9 +115,13 @@ No. Extraction introduces a new name and boundary. It is useful when that bounda
 ### 22. How is a component boundary related to pure rendering?
 
 A component boundary organizes the UI into named parts. Pure rendering is about a component producing predictable output from its inputs. They are related design concerns but different topics; the next chapter covers predictable rendering.
-
 ## Chapter navigation
 
-| Previous chapter | Chapter lesson | Chapter example | Next chapter |
-| --- | --- | --- | --- |
-| [019 - Rendering collections and choosing stable keys](../lessons/019-rendering-collections-and-stable-keys.md) | [020 - Component boundaries and responsibility](../lessons/020-component-boundaries-and-responsibility.md) | [Open Example](../examples/020-component-boundaries-and-responsibility.md) | [021 - Pure components and predictable rendering](../lessons/021-pure-components-and-predictable-rendering.md) |
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="019-rendering-collections-and-stable-keys.md">019 - Rendering collections and choosing stable keys - Q&amp;A</a></td><td><a href="../lessons/020-component-boundaries-and-responsibility.md">Lesson</a></td><td><a href="../examples/020-component-boundaries-and-responsibility.md">Example</a></td><td><a href="021-pure-components-and-predictable-rendering.md">021 - Pure components and predictable rendering - Q&amp;A</a></td></tr>
+  </tbody>
+</table>

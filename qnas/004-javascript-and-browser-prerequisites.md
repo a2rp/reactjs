@@ -199,9 +199,13 @@ Where can you see its request and response details?
 6. The `save` function as a callback.
 7. Network, and Console for related errors.
 8. No. Browser and server environments expose different APIs.
-
 ## Chapter navigation
 
-| Previous chapter | Chapter lesson | Chapter example | Next chapter |
-| --- | --- | --- | --- |
-| [003 - React, React DOM, and the framework ecosystem](../lessons/003-react-react-dom-and-frameworks.md) | [Open lesson](../lessons/004-javascript-and-browser-prerequisites.md) | [Open example](../examples/004-javascript-and-browser-prerequisites.md) | [005 - Choose a React project setup](../qnas/005-choose-a-react-project-setup.md) |
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="003-react-react-dom-and-frameworks.md">003 - Q&amp;A: React, React DOM, and the framework ecosystem</a></td><td><a href="../lessons/004-javascript-and-browser-prerequisites.md">Lesson</a></td><td><a href="../examples/004-javascript-and-browser-prerequisites.md">Example</a></td><td><a href="005-choose-a-react-project-setup.md">005 - Q&amp;A: Choose a React project setup</a></td></tr>
+  </tbody>
+</table>

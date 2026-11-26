@@ -113,9 +113,13 @@ Do not put private credentials in browser-delivered code. Frontend variables use
 ### 24. How should I choose if I am not sure yet?
 
 Write down the immediate requirements: browser or native UI, number of routes, data-loading needs, rendering needs, existing infrastructure, and team familiarity. For a small learning exercise, use the course's Vite setup. For a new full web app, evaluate a framework before creating the project. For an existing site, investigate adding React in one area.
-
 ## Chapter navigation
 
-| Previous chapter | Lesson | Example | Next chapter |
-| --- | --- | --- | --- |
-| [004 - JavaScript and browser prerequisites](../lessons/004-javascript-and-browser-prerequisites.md) | [Open lesson](../lessons/005-choose-a-react-project-setup.md) | [Open Example](../examples/005-choose-a-react-project-setup.md) | [006 - Project files, scripts, and the development server](../lessons/006-project-files-scripts-and-dev-server.md) |
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="004-javascript-and-browser-prerequisites.md">004 - Q&amp;A: JavaScript and browser prerequisites</a></td><td><a href="../lessons/005-choose-a-react-project-setup.md">Lesson</a></td><td><a href="../examples/005-choose-a-react-project-setup.md">Example</a></td><td><a href="006-project-files-scripts-and-dev-server.md">006 - Q&amp;A: Project files, scripts, and the development server</a></td></tr>
+  </tbody>
+</table>

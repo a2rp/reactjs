@@ -205,9 +205,13 @@ The key belongs on the outer Fragment returned for each item, not on each child.
 - Shorthand Fragments cannot receive props. Use imported Fragment when a group needs a key.
 - In a mapped list, put the stable key on the Fragment returned for each item.
 - Fragments do not make invalid HTML nesting valid.
-
 ## Chapter navigation
 
-| Previous chapter | Chapter Q&A | Chapter example | Next chapter |
-| --- | --- | --- | --- |
-| [009 - JSX styles, event props, and DOM properties](009-jsx-styles-events-and-dom-properties.md) | [Open Q&A](../qnas/010-fragments-and-multiple-elements.md) | [Open Example](../examples/010-fragments-and-multiple-elements.md) | [011 - Create a root and render a React application](011-create-a-root-and-render-an-application.md) |
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="009-jsx-styles-events-and-dom-properties.md">009 - JSX styles, event props, and DOM properties</a></td><td><a href="../qnas/010-fragments-and-multiple-elements.md">Q&amp;A</a></td><td><a href="../examples/010-fragments-and-multiple-elements.md">Example</a></td><td><a href="011-create-a-root-and-render-an-application.md">011 - Create a root and render a React application</a></td></tr>
+  </tbody>
+</table>

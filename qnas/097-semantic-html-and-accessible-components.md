@@ -1,4 +1,4 @@
-﻿# Semantic HTML and Accessible React Components: Questions and Answers
+# Semantic HTML and Accessible React Components: Questions and Answers
 
 ## Foundations
 
@@ -202,3 +202,13 @@ Render the native HTML element that fits the purpose, preserve its built-in beha
 - Write alt text according to the image's purpose.
 - Use ARIA to fill genuine semantic gaps, not to imitate native behavior.
 - Inspect and test the rendered interface, not only the JSX.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="096-react-native-and-shared-react-concepts.md">096 - React Native and the Shared React Mental Model: Questions and Answers</a></td><td><a href="../lessons/097-semantic-html-and-accessible-components.md">Lesson</a></td><td><a href="../examples/097-semantic-html-and-accessible-components.md">Example</a></td><td><a href="098-keyboard-focus-and-dialogs.md">098 - Keyboard Support, Focus, and Dialogs: Questions and Answers</a></td></tr>
+  </tbody>
+</table>

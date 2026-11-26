@@ -1,4 +1,4 @@
-# Complex State with useReducer — Q&A
+# Complex State with useReducer - Q&A
 
 ## Basics
 
@@ -224,3 +224,13 @@ An action describes what happened. The reducer transforms the current state and 
 ## Key takeaway
 
 Dispatch describes an interaction, and the reducer returns the complete next state. Keep reducers pure and immutable, then choose useReducer only when it makes related state transitions clearer.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="045-controlled-and-uncontrolled-component-apis.md">045 - Controlled and Uncontrolled Component APIs - Q&amp;A</a></td><td><a href="../lessons/046-complex-state-with-usereducer.md">Lesson</a></td><td><a href="../examples/046-complex-state-with-usereducer.md">Example</a></td><td><a href="047-reducer-design-and-state-machines.md">047 - Reducer Design, Transitions, and State Machines - Q&amp;A</a></td></tr>
+  </tbody>
+</table>

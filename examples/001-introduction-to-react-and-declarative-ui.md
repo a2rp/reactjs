@@ -231,3 +231,13 @@ A component can receive additional props when its callers need to supply additio
 - [Lesson 001: Introduction to React and declarative UI](../lessons/001-introduction-to-react-and-declarative-ui.md)
 - [Q&A 001: Introduction to React and declarative UI](../qnas/001-introduction-to-react-and-declarative-ui.md)
 - [Next: How React fits into the web platform](../lessons/002-how-react-fits-into-the-web-platform.md)
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Start of course</td><td><a href="../lessons/001-introduction-to-react-and-declarative-ui.md">Lesson</a></td><td><a href="../qnas/001-introduction-to-react-and-declarative-ui.md">Q&amp;A</a></td><td><a href="002-how-react-fits-into-the-web-platform.md">002 - Example: Mount a React feature inside an existing page</a></td></tr>
+  </tbody>
+</table>

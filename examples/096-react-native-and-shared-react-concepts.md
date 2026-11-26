@@ -1,4 +1,4 @@
-﻿# React Native Example: A Native Task List with Shared React Logic
+# React Native Example: A Native Task List with Shared React Logic
 
 This example builds a small task list for a React Native app. It uses familiar React state and components while rendering native UI through React Native primitives.
 
@@ -357,3 +357,13 @@ Create app/index.tsx:
 ## Key lesson
 
 React state and component composition work as expected, but the host components, events, styles, and accessibility behavior are native. Share pure task logic; render and verify the screen using the platform's components and conventions.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="095-frameworks-and-rendering-strategies.md">095 - React Rendering Modes: One Article Page as CSR, SSR, and SSG</a></td><td><a href="../lessons/096-react-native-and-shared-react-concepts.md">Lesson</a></td><td><a href="../qnas/096-react-native-and-shared-react-concepts.md">Q&amp;A</a></td><td><a href="097-semantic-html-and-accessible-components.md">097 - React Example: A Semantic and Accessible Contact Page</a></td></tr>
+  </tbody>
+</table>

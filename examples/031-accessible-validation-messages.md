@@ -458,9 +458,13 @@ button:hover {
 ## Important limitation
 
 This is a local teaching example, not a production contact form. A real application must send values to a server, handle network and server validation failures, protect sensitive data, and apply the same visible and programmatic error associations to returned field errors.
-
 ## Chapter navigation
 
-| Previous chapter | Chapter lesson | Chapter Q&A | Next chapter |
-| --- | --- | --- | --- |
-| [030 - Form submission and browser validation](../lessons/030-form-submission-and-browser-validation.md) | [031 - Accessible validation messages and error summaries](../lessons/031-accessible-validation-messages.md) | [Open Q&A](../qnas/031-accessible-validation-messages.md) | [032 - Managing state for multi-field forms](../lessons/032-multi-field-form-state.md) |
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="030-form-submission-and-browser-validation.md">030 - Form submission and browser validation - Example</a></td><td><a href="../lessons/031-accessible-validation-messages.md">Lesson</a></td><td><a href="../qnas/031-accessible-validation-messages.md">Q&amp;A</a></td><td><a href="032-multi-field-form-state.md">032 - Managing state for multi-field forms - Example</a></td></tr>
+  </tbody>
+</table>

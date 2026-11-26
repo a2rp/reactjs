@@ -1,4 +1,4 @@
-# Loading, Empty, Success, and Error States — Q&A
+# Loading, Empty, Success, and Error States - Q&A
 
 ## State model
 
@@ -189,3 +189,13 @@ A status with loading, success, and error branches, plus a check for an empty re
 ### 44. What is the key principle for reliable request UI?
 
 Describe the operation honestly. Loading means pending, empty means success with nothing to show, success means usable data arrived, and error means the operation failed. Tie each result to the request key and make recovery a real action.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="074-request-cancellation-and-race-conditions.md">074 - Request Cancellation, Stale Responses, and Race Conditions - Q&amp;A</a></td><td><a href="../lessons/075-loading-empty-success-and-error-states.md">Lesson</a></td><td><a href="../examples/075-loading-empty-success-and-error-states.md">Example</a></td><td><a href="076-caching-and-revalidation.md">076 - Caching, Deduplication, Invalidation, and Revalidation - Q&amp;A</a></td></tr>
+  </tbody>
+</table>

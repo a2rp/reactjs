@@ -230,3 +230,13 @@ The modern client APIs should be imported from `react-dom/client`. Keep the root
 ## Summary
 
 `createRoot` starts a client-rendered React tree in a DOM container. `hydrateRoot` adopts existing HTML produced from the same React tree and attaches client behavior. Their first-render behavior is different, so choose based on the container's contents. Create a root once, update the UI through React, keep server and client output consistent during hydration, and unmount a root when its container is being disposed.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="069-portals.md">069 - Portals and Rendering Outside the Parent DOM Node</a></td><td><a href="../qnas/070-react-dom-roots-and-client-apis.md">Q&amp;A</a></td><td><a href="../examples/070-react-dom-roots-and-client-apis.md">Example</a></td><td><a href="071-flushsync.md">071 - Synchronous DOM Updates with flushSync</a></td></tr>
+  </tbody>
+</table>

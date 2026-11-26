@@ -174,9 +174,13 @@ Open the local address printed by Vite. The page should show an explanation pane
 - A callback prop lets a child request an action from the parent.
 - Nested JSX is received as `props.children`.
 - Props are inputs to a component; the child does not mutate the parent's data.
-
 ## Chapter navigation
 
-| Lesson | Q&A | Previous chapter | Next chapter |
-| --- | --- | --- | --- |
-| [014 - Props and passing data](../lessons/014-props-and-passing-data.md) | [Open Q&A](../qnas/014-props-and-passing-data.md) | [013 - Function components and component naming](../lessons/013-function-components-and-naming.md) | [015 - Destructuring props and default values](../lessons/015-destructuring-props-and-default-values.md) |
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="013-function-components-and-naming.md">013 - Function components and component naming - Example</a></td><td><a href="../lessons/014-props-and-passing-data.md">Lesson</a></td><td><a href="../qnas/014-props-and-passing-data.md">Q&amp;A</a></td><td><a href="015-destructuring-props-and-default-values.md">015 - Destructuring props and default values - Example</a></td></tr>
+  </tbody>
+</table>

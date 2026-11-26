@@ -71,7 +71,7 @@ function UnreadMessage({ count }) {
 
 function RequestStatus({ status }) {
   if (status === 'loading') {
-    return <p role="status">Loading your courses…</p>;
+    return <p role="status">Loading your coursesï¿½</p>;
   }
 
   if (status === 'error') {
@@ -153,9 +153,13 @@ export default function App() {
 3. Change `MembershipMessage` to use an early return, then compare which form is easier to scan.
 4. Add a second optional notice and decide whether its condition should live in the parent or inside that component.
 5. Rewrite the request-state branches with a `switch` and compare the readability.
-
 ## Chapter navigation
 
-| Previous chapter | Chapter lesson | Chapter Q&A | Next chapter |
-| --- | --- | --- | --- |
-| [017 - Composition, containment, and reusable layouts](../lessons/017-composition-containment-and-layouts.md) | [018 - Conditional rendering patterns](../lessons/018-conditional-rendering-patterns.md) | [Open Q&A](../qnas/018-conditional-rendering-patterns.md) | [019 - Rendering collections and choosing stable keys](../lessons/019-rendering-collections-and-stable-keys.md) |
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="017-composition-containment-and-layouts.md">017 - Composition, containment, and reusable layouts - Example</a></td><td><a href="../lessons/018-conditional-rendering-patterns.md">Lesson</a></td><td><a href="../qnas/018-conditional-rendering-patterns.md">Q&amp;A</a></td><td><a href="019-rendering-collections-and-stable-keys.md">019 - Rendering collections and choosing stable keys - Example</a></td></tr>
+  </tbody>
+</table>

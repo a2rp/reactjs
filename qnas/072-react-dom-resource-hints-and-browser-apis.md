@@ -1,4 +1,4 @@
-# React DOM Resource Hints and Browser APIs — Q&A
+# React DOM Resource Hints and Browser APIs - Q&A
 
 ## API basics
 
@@ -175,3 +175,13 @@ If the resource URL is already known and should start downloading, use a specifi
 ### 40. What is the safest resource-hint strategy?
 
 Let the framework handle routine assets, identify a real delay, choose the least eager matching hint, keep its request options consistent, and verify the change with network measurements.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="071-flushsync.md">071 - Synchronous DOM Updates with flushSync - Q&amp;A</a></td><td><a href="../lessons/072-react-dom-resource-hints-and-browser-apis.md">Lesson</a></td><td><a href="../examples/072-react-dom-resource-hints-and-browser-apis.md">Example</a></td><td><a href="073-client-side-data-fetching-and-use-api.md">073 - Client-Side Data Fetching, the `use` API, and Async Values - Q&amp;A</a></td></tr>
+  </tbody>
+</table>

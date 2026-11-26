@@ -1,4 +1,4 @@
-# Request Cancellation, Stale Responses, and Race Conditions — Example
+# Request Cancellation, Stale Responses, and Race Conditions - Example
 
 This Vite demo makes response-order bugs visible with three search panels:
 
@@ -223,7 +223,7 @@ function SearchPanel({ strategy, query }) {
             {isStale && (
               <strong>
                 {" "}
-                — stale; current input is “{query || "all people"}”
+                - stale; current input is “{query || "all people"}”
               </strong>
             )}
           </p>
@@ -571,3 +571,13 @@ The local file is small, so the artificial delay creates the visible race. It on
 ## Key takeaway
 
 Cancellation and stale-result protection have separate jobs. Abort supported work that is no longer needed, and only let a result update state while it still belongs to the current request. Keep the query that produced each result so the UI can never mistake stale data for current data.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="073-client-side-data-fetching-and-use-api.md">073 - Client-Side Data Fetching, the `use` API, and Async Values - Example</a></td><td><a href="../lessons/074-request-cancellation-and-race-conditions.md">Lesson</a></td><td><a href="../qnas/074-request-cancellation-and-race-conditions.md">Q&amp;A</a></td><td><a href="075-loading-empty-success-and-error-states.md">075 - Loading, Empty, Success, and Error States - Example</a></td></tr>
+  </tbody>
+</table>

@@ -624,3 +624,13 @@ If a component calling useTasks or useTasksDispatch is moved outside TasksProvid
 - Each consumer imports a feature-specific Hook instead of the raw context.
 - The form's temporary draft remains local.
 - A context provider is not needed for every component or every prop.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="050-context-and-usecontext.md">050 - Example: Context and useContext</a></td><td><a href="../lessons/051-context-provider-design.md">Lesson</a></td><td><a href="../qnas/051-context-provider-design.md">Q&amp;A</a></td><td><a href="052-effect-hooks-and-synchronization.md">052 - Example: Effect Hooks and Synchronization</a></td></tr>
+  </tbody>
+</table>

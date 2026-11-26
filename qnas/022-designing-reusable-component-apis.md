@@ -80,7 +80,7 @@ Its parent supplies the current value and receives a callback when the user requ
 
 It owns its current value internally. The caller may provide an initial value, often through a prop named with `default`, without controlling every later update.
 
-### 18. Are “controlled” and “uncontrolled” special React APIs?
+### 18. Are ï¿½controlledï¿½ and ï¿½uncontrolledï¿½ special React APIs?
 
 No. They are common terms for describing who owns a value. The behavior comes from the component's contract, not a special keyword.
 
@@ -133,9 +133,13 @@ No. A visual variant changes presentation. The component still needs suitable HT
 ### 30. What is a quick way to review a component API?
 
 Read a few realistic call sites. Check that the purpose, required values, optional defaults, content regions, and interaction callbacks are obvious, and that the values have one clear owner.
-
 ## Chapter navigation
 
-| Previous chapter | Chapter lesson | Chapter example | Next chapter |
-| --- | --- | --- | --- |
-| [021 - Pure components and predictable rendering](../lessons/021-pure-components-and-predictable-rendering.md) | [022 - Designing reusable component APIs](../lessons/022-designing-reusable-component-apis.md) | [Open Example](../examples/022-designing-reusable-component-apis.md) | [023 - Thinking in React: from a design to a component tree](../lessons/023-thinking-in-react-and-component-trees.md) |
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="021-pure-components-and-predictable-rendering.md">021 - Pure components and predictable rendering - Q&amp;A</a></td><td><a href="../lessons/022-designing-reusable-component-apis.md">Lesson</a></td><td><a href="../examples/022-designing-reusable-component-apis.md">Example</a></td><td><a href="023-thinking-in-react-and-component-trees.md">023 - Thinking in React: from a design to a component tree - Q&amp;A</a></td></tr>
+  </tbody>
+</table>

@@ -259,3 +259,13 @@ For each server-to-client boundary, ask:
 ## Summary
 
 The `"use client"` boundary affects the module graph and its imports, while the rendered component tree can interleave server output with client interaction. Values sent across that boundary must use React's supported serialization types. Treat rendered output and props as visible to the visitor, return minimal DTOs, keep privileged code in a server-only layer, validate untrusted input, and authorize each protected operation at its server entry point.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="083-react-server-components.md">083 - React Server Components and server rendering</a></td><td><a href="../qnas/084-client-server-boundaries-and-serialization.md">Q&amp;A</a></td><td><a href="../examples/084-client-server-boundaries-and-serialization.md">Example</a></td><td><a href="085-routing-concepts-and-router-choice.md">085 - Routing concepts and choosing a router</a></td></tr>
+  </tbody>
+</table>

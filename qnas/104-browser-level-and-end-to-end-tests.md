@@ -1,4 +1,4 @@
-﻿# Browser-Level Tests and End-to-End Behavior: Questions and Answers
+# Browser-Level Tests and End-to-End Behavior: Questions and Answers
 
 ## Purpose and scope
 
@@ -124,7 +124,7 @@ Inspect the failing step, trace, screenshot, HTML report, browser console, and r
 
 ### 29. Should I increase retries if a test is flaky?
 
-Retries can capture diagnostics, but passing only after a retry is evidence of instability. Investigate the cause—shared data, an uncontrolled service, a weak locator, or timing assumptions—and fix it instead of treating retries as the solution.
+Retries can capture diagnostics, but passing only after a retry is evidence of instability. Investigate the cause-shared data, an uncontrolled service, a weak locator, or timing assumptions-and fix it instead of treating retries as the solution.
 
 ### 30. Is a failed end-to-end test always an application bug?
 
@@ -145,3 +145,13 @@ A smoke test checks that a small number of essential paths still start and work.
 ### 34. What is the key rule for a reliable browser test?
 
 Make the test state explicit, perform the user action once, and assert the user-visible result. Use controlled boundaries where appropriate and investigate failure evidence instead of hiding it with sleeps or loose assertions.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="103-testing-forms-and-async-ui.md">103 - Testing Forms, Asynchronous UI, and API Boundaries: Questions and Answers</a></td><td><a href="../lessons/104-browser-level-and-end-to-end-tests.md">Lesson</a></td><td><a href="../examples/104-browser-level-and-end-to-end-tests.md">Example</a></td><td><a href="105-react-devtools-and-debugging.md">105 - React DevTools, Debugging, and Common Warnings: Questions and Answers</a></td></tr>
+  </tbody>
+</table>

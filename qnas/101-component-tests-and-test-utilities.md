@@ -1,4 +1,4 @@
-﻿# Component Tests and React Test Utilities: Questions and Answers
+# Component Tests and React Test Utilities: Questions and Answers
 
 ## Rendering and querying
 
@@ -171,3 +171,13 @@ Use render to mount a component, screen to query the document, and an appropriat
 ### 40. What is the main rule for these utilities?
 
 Use helpers that make the test look like a clear account of rendered UI and its lifecycle. Keep the component visible in the test, use semantic queries, and let the test runner handle routine setup and cleanup where configured.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="100-testing-strategy-and-component-design.md">100 - Testing Strategy and Testable Component Design: Questions and Answers</a></td><td><a href="../lessons/101-component-tests-and-test-utilities.md">Lesson</a></td><td><a href="../examples/101-component-tests-and-test-utilities.md">Example</a></td><td><a href="102-testing-user-interactions.md">102 - Testing User Interactions and Complete Flows: Questions and Answers</a></td></tr>
+  </tbody>
+</table>

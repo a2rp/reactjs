@@ -551,3 +551,13 @@ This panel is a small illustration of the API rather than a benchmark. On a larg
 - Use a memoized slow child so it can skip an urgent parent render while its deferred prop is unchanged.
 - Put accessibility status and **aria-busy** on meaningful DOM elements.
 - Neither API adds a fixed delay, runs JavaScript on another thread, speeds up calculations, or reduces network requests by itself.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="062-reconciliation-and-component-identity.md">062 - Example: Reconciliation, Component Identity, and Keys</a></td><td><a href="../lessons/063-concurrent-rendering-and-priorities.md">Lesson</a></td><td><a href="../qnas/063-concurrent-rendering-and-priorities.md">Q&amp;A</a></td><td><a href="064-transitions-and-usetransition.md">064 - Example: Async Actions with useTransition</a></td></tr>
+  </tbody>
+</table>

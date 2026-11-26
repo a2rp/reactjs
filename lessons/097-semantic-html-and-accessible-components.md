@@ -1,4 +1,4 @@
-﻿# Semantic HTML and Accessible React Components
+# Semantic HTML and Accessible React Components
 
 ## Learning goals
 
@@ -267,3 +267,13 @@ In React, semantic HTML is still the foundation of accessible interfaces. Choose
 3. Connect every form input to a visible label.
 4. Decide whether each image is informative or decorative and choose alt text accordingly.
 5. Inspect a component's rendered accessibility tree and use it with only a keyboard.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="096-react-native-and-shared-react-concepts.md">096 - React Native and the Shared React Mental Model</a></td><td><a href="../qnas/097-semantic-html-and-accessible-components.md">Q&amp;A</a></td><td><a href="../examples/097-semantic-html-and-accessible-components.md">Example</a></td><td><a href="098-keyboard-focus-and-dialogs.md">098 - Keyboard Support, Focus, and Dialogs in React</a></td></tr>
+  </tbody>
+</table>

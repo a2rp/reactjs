@@ -173,9 +173,13 @@ Client-side validation is for a better interaction, not a security boundary. Req
 - An error summary should have a clear heading and links to the fields that need attention.
 - Announce dynamic feedback once, and avoid unexpected focus changes.
 - Server-side validation remains necessary even when client-side validation is accessible.
-
 ## Chapter navigation
 
-| Previous chapter | Chapter Q&A | Chapter example | Next chapter |
-| --- | --- | --- | --- |
-| [030 - Form submission and browser validation](030-form-submission-and-browser-validation.md) | [Open Q&A](../qnas/031-accessible-validation-messages.md) | [Open Example](../examples/031-accessible-validation-messages.md) | [032 - Managing state for multi-field forms](032-multi-field-form-state.md) |
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="030-form-submission-and-browser-validation.md">030 - Form submission and browser validation</a></td><td><a href="../qnas/031-accessible-validation-messages.md">Q&amp;A</a></td><td><a href="../examples/031-accessible-validation-messages.md">Example</a></td><td><a href="032-multi-field-form-state.md">032 - Managing state for multi-field forms</a></td></tr>
+  </tbody>
+</table>

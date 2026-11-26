@@ -290,3 +290,13 @@ It produces a new person object and a new artwork object with city set to "Oslo"
 - Copy every object along the path to a nested property.
 - Use functional updaters when the new object should be based on pending state.
 - Keep previous objects unchanged so old render snapshots stay reliable.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="039-queued-batched-and-functional-updates.md">039 - Queued updates, batching, and functional updates - Q&amp;A</a></td><td><a href="../lessons/040-updating-object-state-immutably.md">Lesson</a></td><td><a href="../examples/040-updating-object-state-immutably.md">Example</a></td><td><a href="041-updating-array-state-immutably.md">041 - Updating array state immutably - Q&amp;A</a></td></tr>
+  </tbody>
+</table>

@@ -1,4 +1,4 @@
-﻿# React Example: Testing a Complete User Interaction Flow
+# React Example: Testing a Complete User Interaction Flow
 
 This example builds a small task board and tests two user paths. The first adds a task, marks it complete, removes it, and checks each visible checkpoint. The second uses keyboard focus and Enter to submit a task. The tests operate the rendered controls rather than calling component handlers.
 
@@ -237,3 +237,13 @@ A DOM-based test does not prove that list items have correct visual spacing, tha
 - Keyboard navigation and Enter submission are exercised separately.
 - Tests check rendered behavior rather than component handlers or private state.
 - Browser layout and assistive-technology requirements are checked in suitable environments.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="101-component-tests-and-test-utilities.md">101 - React Example: Component Tests and React Test Utilities</a></td><td><a href="../lessons/102-testing-user-interactions.md">Lesson</a></td><td><a href="../qnas/102-testing-user-interactions.md">Q&amp;A</a></td><td><a href="103-testing-forms-and-async-ui.md">103 - React Example: Testing an Async Username Form and API Boundary</a></td></tr>
+  </tbody>
+</table>

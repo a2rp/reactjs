@@ -1,4 +1,4 @@
-﻿# Virtualizing a Large Responsive List — Complete Example
+# Virtualizing a Large Responsive List - Complete Example
 
 This example uses the current react-window v2 List API to display 10,000 product records while mounting only rows near the scroll viewport. The row has a fixed height so the virtualizer can calculate positions without measuring every item.
 
@@ -290,4 +290,14 @@ The filter input and select remain normal keyboard controls. Rows in this exampl
 
 ## Key takeaway
 
-Virtualization keeps a long scrollable list while limiting mounted rows. Stable data keys, correct row dimensions, responsive CSS, and accessibility checks are part of the implementation—not optional finishing touches.
+Virtualization keeps a long scrollable list while limiting mounted rows. Stable data keys, correct row dimensions, responsive CSS, and accessibility checks are part of the implementation-not optional finishing touches.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="109-memo-and-optimization-decisions.md">109 - Memoization with memo - Complete Example</a></td><td><a href="../lessons/110-large-lists-and-virtualization.md">Lesson</a></td><td><a href="../qnas/110-large-lists-and-virtualization.md">Q&amp;A</a></td><td><a href="111-code-splitting-and-asset-loading.md">111 - Code Splitting and Asset Loading - Complete Example</a></td></tr>
+  </tbody>
+</table>

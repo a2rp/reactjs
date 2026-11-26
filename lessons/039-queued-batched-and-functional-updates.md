@@ -336,3 +336,13 @@ function handleClick() {
 - React applies queue entries in order; later replacements can replace earlier results.
 - Use functional updaters when the next value depends on pending state, especially for multiple updates to the same state.
 - Keep updater functions pure and return the next value without side effects.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="038-state-as-a-render-snapshot.md">038 - State as a render snapshot</a></td><td><a href="../qnas/039-queued-batched-and-functional-updates.md">Q&amp;A</a></td><td><a href="../examples/039-queued-batched-and-functional-updates.md">Example</a></td><td><a href="040-updating-object-state-immutably.md">040 - Updating object state immutably</a></td></tr>
+  </tbody>
+</table>

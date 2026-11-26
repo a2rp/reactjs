@@ -169,9 +169,13 @@ State reset is not a bug by itself. It is a consequence of the tree identity you
 - Changing a key intentionally resets that component subtree; changing it accidentally loses state and user input.
 - Keep component function definitions stable by declaring them outside other components.
 - Decide whether state should reset, stay mounted, move up, or live elsewhere based on the user's task.
-
 ## Chapter navigation
 
-| Previous chapter | Chapter Q&A | Chapter example | Next chapter |
-| --- | --- | --- | --- |
-| [023 - Thinking in React: from a design to a component tree](023-thinking-in-react-and-component-trees.md) | [Open Q&A](../qnas/024-component-identity-position-and-keys.md) | [Open Example](../examples/024-component-identity-position-and-keys.md) | [025 - Event handlers and user interactions](025-event-handlers-and-user-interactions.md) |
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="023-thinking-in-react-and-component-trees.md">023 - Thinking in React: from a design to a component tree</a></td><td><a href="../qnas/024-component-identity-position-and-keys.md">Q&amp;A</a></td><td><a href="../examples/024-component-identity-position-and-keys.md">Example</a></td><td><a href="025-event-handlers-and-user-interactions.md">025 - Event handlers and user interactions</a></td></tr>
+  </tbody>
+</table>

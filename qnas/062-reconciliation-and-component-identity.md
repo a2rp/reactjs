@@ -1,4 +1,4 @@
-﻿# Reconciliation, Component Identity, and Keys — Q&A
+# Reconciliation, Component Identity, and Keys - Q&A
 
 ## Reconciliation and component identity
 
@@ -175,3 +175,13 @@ Check whether the component was removed, its type changed, its key changed, its 
 ### 42. What should I inspect if state appears on the wrong list item?
 
 Check whether the list uses indexes, duplicate keys, or keys that change between renders. Replace them with unique stable IDs from the item data.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="061-rendering-and-committing.md">061 - Rendering, Committing, and Updating the UI - Q&amp;A</a></td><td><a href="../lessons/062-reconciliation-and-component-identity.md">Lesson</a></td><td><a href="../examples/062-reconciliation-and-component-identity.md">Example</a></td><td><a href="063-concurrent-rendering-and-priorities.md">063 - Concurrent Rendering and Update Priorities - Q&amp;A</a></td></tr>
+  </tbody>
+</table>

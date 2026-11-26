@@ -1,4 +1,4 @@
-# Designing Context Providers and Avoiding Overuse — Q&A
+# Designing Context Providers and Avoiding Overuse - Q&A
 
 ## Choosing context
 
@@ -164,3 +164,13 @@ First identify the value's owner and consumers. Try direct props or composition.
 - State and dispatch contexts can be separated when that makes subscriptions more focused.
 - Context distributes values; state and reducers own transitions.
 - Optimize value identity when it matters, and keep unrelated state out of broad contexts.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="050-context-and-usecontext.md">050 - Context and useContext - Q&amp;A</a></td><td><a href="../lessons/051-context-provider-design.md">Lesson</a></td><td><a href="../examples/051-context-provider-design.md">Example</a></td><td><a href="052-effect-hooks-and-synchronization.md">052 - Effect Hooks and Synchronization - Q&amp;A</a></td></tr>
+  </tbody>
+</table>

@@ -1,4 +1,4 @@
-# Async UI, Suspense, and Framework Data Loading — Q&A
+# Async UI, Suspense, and Framework Data Loading - Q&A
 
 ## Suspense fundamentals
 
@@ -169,3 +169,13 @@ Announce meaningful progress without repeatedly announcing trivial changes, pres
 ### 40. What should I confirm before using Suspense for data?
 
 Confirm the source supports it, Promise identity is stable, boundaries match the user experience, and errors and retries have a clear owner.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="076-caching-and-revalidation.md">076 - Caching, Deduplication, Invalidation, and Revalidation - Q&amp;A</a></td><td><a href="../lessons/077-async-ui-and-framework-data-loading.md">Lesson</a></td><td><a href="../examples/077-async-ui-and-framework-data-loading.md">Example</a></td><td><a href="078-react-form-actions.md">078 - React Form Actions and Asynchronous Submissions - Q&amp;A</a></td></tr>
+  </tbody>
+</table>

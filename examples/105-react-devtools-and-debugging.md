@@ -1,4 +1,4 @@
-﻿# React Example: Debug and Profile a Task Board with React DevTools
+# React Example: Debug and Profile a Task Board with React DevTools
 
 This example creates a small task board with a component tree that is useful to inspect. Use the Components panel to follow props and state, toggle tasks and add a new one, then record those interactions in the Profiler. Short debugging exercises introduce common mistakes and show how to correct them.
 
@@ -372,3 +372,13 @@ For performance, make a Profiler recording around the exact interaction that fee
 - List children have stable keys and the text field remains controlled.
 - Profiler records the actual interactions instead of relying on a guess about re-renders.
 - The debugging exercises reveal why the warnings occur and how to restore the correct implementation.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="104-browser-level-and-end-to-end-tests.md">104 - React Example: Browser-Test a Complete Checkout Journey</a></td><td><a href="../lessons/105-react-devtools-and-debugging.md">Lesson</a></td><td><a href="../qnas/105-react-devtools-and-debugging.md">Q&amp;A</a></td><td><a href="106-profiling-during-development.md">106 - React Example: Profile an Effect-Driven Update</a></td></tr>
+  </tbody>
+</table>

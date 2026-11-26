@@ -168,7 +168,7 @@ For example:
 function Status({ completed, score }) {
   return (
     <p>
-      {completed ? 'Complete' : 'In progress'} — score: {score}
+      {completed ? 'Complete' : 'In progress'} - score: {score}
     </p>
   );
 }
@@ -274,9 +274,13 @@ The component reads object properties, renders strings and a number, selects a s
 - Normal JSX text interpolation displays a string as text, not parsed HTML.
 - Raw HTML insertion is a security-sensitive exception; use only trusted, sanitized content.
 - Validate dynamic URLs separately from rendering text.
-
 ## Chapter navigation
 
-| Previous chapter | Chapter Q&A | Chapter example | Next chapter |
-| --- | --- | --- | --- |
-| [007 - JSX syntax and markup](007-jsx-syntax-and-markup.md) | [Open Q&A](../qnas/008-jsx-expressions-attributes-and-escaping.md) | [Open Example](../examples/008-jsx-expressions-attributes-and-escaping.md) | [009 - JSX styles, event props, and DOM properties](009-jsx-styles-events-and-dom-properties.md) |
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="007-jsx-syntax-and-markup.md">007 - JSX syntax and markup</a></td><td><a href="../qnas/008-jsx-expressions-attributes-and-escaping.md">Q&amp;A</a></td><td><a href="../examples/008-jsx-expressions-attributes-and-escaping.md">Example</a></td><td><a href="009-jsx-styles-events-and-dom-properties.md">009 - JSX styles, event props, and DOM properties</a></td></tr>
+  </tbody>
+</table>

@@ -1,4 +1,4 @@
-# Global State, `useSyncExternalStore`, and External Stores — Examples
+# Global State, `useSyncExternalStore`, and External Stores - Examples
 
 This example connects a small JavaScript counter store to React with `useSyncExternalStore`. The store exists outside the component tree, and two separate components subscribe to its cached snapshot.
 
@@ -344,3 +344,13 @@ For a counter used only inside one React subtree, `useState` or `useReducer` wou
 Use this external-store pattern when there is a meaningful source outside React or when integrating a store that already has its own subscription API. In larger applications, a state library may provide selectors, devtools, persistence, and server-rendering integration.
 
 This example does not implement persistence or server rendering. A module-level mutable singleton should not be shared across independent server requests. For SSR, create a store per request or app instance and ensure the initial server snapshot matches the snapshot used during hydration.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="089-design-systems-and-component-libraries.md">089 - Design Systems, Shared Components, and Component Libraries - Examples</a></td><td><a href="../lessons/090-global-state-and-usesyncexternalstore.md">Lesson</a></td><td><a href="../qnas/090-global-state-and-usesyncexternalstore.md">Q&amp;A</a></td><td><a href="091-typescript-with-react.md">091 - TypeScript with React: Reading List Example</a></td></tr>
+  </tbody>
+</table>

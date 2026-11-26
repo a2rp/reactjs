@@ -1,4 +1,4 @@
-# Organizing Components, Features, and Application Code — Q&A
+# Organizing Components, Features, and Application Code - Q&A
 
 ## Structure and boundaries
 
@@ -157,3 +157,13 @@ Start with a small entry point, a root app component, and a few focused componen
 - Custom Hooks reuse stateful logic, not a shared state instance.
 - Use component interfaces, composition, and dependency direction to make data flow clear.
 - Add abstractions when they solve an observed problem.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="087-url-state-and-navigation.md">087 - URL State, Search Parameters, and Navigation - Q&amp;A</a></td><td><a href="../lessons/088-organizing-react-applications.md">Lesson</a></td><td><a href="../examples/088-organizing-react-applications.md">Example</a></td><td><a href="089-design-systems-and-component-libraries.md">089 - Design Systems, Shared Components, and Component Libraries - Q&amp;A</a></td></tr>
+  </tbody>
+</table>

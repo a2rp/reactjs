@@ -1,4 +1,4 @@
-﻿# React 19 Refs, forwardRef, and Imperative Handles — Q&A
+# React 19 Refs, forwardRef, and Imperative Handles - Q&A
 
 ## Refs across component boundaries
 
@@ -159,3 +159,13 @@ Use props to say what the component should render. Use a ref handle to request a
 ### 38. What does the React 19 version of a custom input look like in one sentence?
 
 It accepts **ref** as a prop, holds its internal input in **useRef**, and uses **useImperativeHandle** to expose only intentional methods such as **focus()**.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="058-useref.md">058 - useRef for DOM Nodes and Mutable Values - Q&amp;A</a></td><td><a href="../lessons/059-refs-and-imperative-handles.md">Lesson</a></td><td><a href="../examples/059-refs-and-imperative-handles.md">Example</a></td><td><a href="060-memoization-useid-usememo-usecallback.md">060 - Memoization, useId, useMemo, and useCallback - Q&amp;A</a></td></tr>
+  </tbody>
+</table>

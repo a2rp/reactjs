@@ -1,4 +1,4 @@
-# Async UI, Suspense, and Framework Data Loading — Example
+# Async UI, Suspense, and Framework Data Loading - Example
 
 This React 19 + Vite demo reads one shared Promise from two regions. Each region has a local loading fallback. A button forces the next request to fail so you can see the Error Boundary and retry path.
 
@@ -430,3 +430,13 @@ Clicking the button clears the cached successful value and schedules a re-render
 - Error Boundaries handle rejected Promise reads.
 - A retry must create a new request instead of reusing a rejected Promise.
 - The sample cache intentionally omits production concerns such as freshness, cancellation, invalidation, and user isolation.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="076-caching-and-revalidation.md">076 - Caching, Deduplication, Invalidation, and Revalidation - Example</a></td><td><a href="../lessons/077-async-ui-and-framework-data-loading.md">Lesson</a></td><td><a href="../qnas/077-async-ui-and-framework-data-loading.md">Q&amp;A</a></td><td><a href="078-react-form-actions.md">078 - React Form Actions and Asynchronous Submissions - Example</a></td></tr>
+  </tbody>
+</table>

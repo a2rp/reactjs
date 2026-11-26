@@ -1,4 +1,4 @@
-# React DOM Roots, Hydration, and Client APIs — Q&A
+# React DOM Roots, Hydration, and Client APIs - Q&A
 
 ## Core concepts
 
@@ -193,3 +193,13 @@ Keeping it allows explicit lifecycle cleanup with `root.unmount()` and makes the
 ### 45. What is the simplest decision rule?
 
 If React should create the UI in an empty container, use `createRoot`. If React already rendered that UI to HTML on the server, use `hydrateRoot` with the same initial tree and data.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="069-portals.md">069 - Portals and Rendering Outside the Parent DOM Node - Q&amp;A</a></td><td><a href="../lessons/070-react-dom-roots-and-client-apis.md">Lesson</a></td><td><a href="../examples/070-react-dom-roots-and-client-apis.md">Example</a></td><td><a href="071-flushsync.md">071 - Synchronous DOM Updates with flushSync - Q&amp;A</a></td></tr>
+  </tbody>
+</table>

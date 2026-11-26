@@ -1,4 +1,4 @@
-﻿# Example: Rendering, Committing, and Updating the UI
+# Example: Rendering, Committing, and Updating the UI
 
 This runnable React app lets you observe the difference between React calling components and React changing the DOM:
 
@@ -570,3 +570,13 @@ The initial client output must match the server-rendered tree. Do not call **cre
 4. Move the detail panel into a child component and keep its open state in the parent. Describe which component’s state setter triggers the update.
 5. Temporarily add a render-time mutation to a module-level variable, observe Strict Mode’s development behavior, then remove the impurity.
 6. Use the React Developer Tools Profiler to inspect the component tree while toggling details and updating the counter.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="060-memoization-useid-usememo-usecallback.md">060 - Example: Memoization and useId</a></td><td><a href="../lessons/061-rendering-and-committing.md">Lesson</a></td><td><a href="../qnas/061-rendering-and-committing.md">Q&amp;A</a></td><td><a href="062-reconciliation-and-component-identity.md">062 - Example: Reconciliation, Component Identity, and Keys</a></td></tr>
+  </tbody>
+</table>

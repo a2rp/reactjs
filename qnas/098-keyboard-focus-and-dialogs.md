@@ -1,4 +1,4 @@
-﻿# Keyboard Support, Focus, and Dialogs: Questions and Answers
+# Keyboard Support, Focus, and Dialogs: Questions and Answers
 
 ## Keyboard operation
 
@@ -195,3 +195,13 @@ Do not move focus without a user-centered reason. When it must move, place it wh
 - Prefer native keyboard behavior over custom handlers.
 - Use refs only for clear imperative tasks.
 - For modal dialogs, verify focus entry, containment, Escape, close controls, and focus return.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="097-semantic-html-and-accessible-components.md">097 - Semantic HTML and Accessible React Components: Questions and Answers</a></td><td><a href="../lessons/098-keyboard-focus-and-dialogs.md">Lesson</a></td><td><a href="../examples/098-keyboard-focus-and-dialogs.md">Example</a></td><td><a href="099-accessible-announcements-and-async-ui.md">099 - Accessible Announcements and Asynchronous Interfaces: Questions and Answers</a></td></tr>
+  </tbody>
+</table>

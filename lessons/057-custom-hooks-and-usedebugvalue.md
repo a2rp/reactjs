@@ -2,7 +2,7 @@
 
 ## Reuse behavior without hiding the data flow
 
-A custom Hook is a JavaScript function that uses React Hooks to package reusable, stateful behavior. It lets components share the logic for a capability—such as a timer, online status, or chat connection—while keeping their own rendering decisions.
+A custom Hook is a JavaScript function that uses React Hooks to package reusable, stateful behavior. It lets components share the logic for a capability-such as a timer, online status, or chat connection-while keeping their own rendering decisions.
 
 A custom Hook does not create one shared state value for every component that calls it. Each call runs as part of its calling component and owns an independent Hook state position. To share the same state between components, give that state one owner and pass it down, or use an appropriate shared store.
 
@@ -324,3 +324,13 @@ A debug value is most useful when a custom Hook has complex internal data or is 
 - Prefer focused hooks with names that describe a capability; avoid generic lifecycle wrappers.
 - **useDebugValue** adds optional React DevTools labels and does not render UI.
 - Provide a formatter when lazy, readable debug output is useful; do not add debug labels to every Hook.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="056-useeffectevent.md">056 - useEffectEvent and Non-Reactive Event Logic</a></td><td><a href="../qnas/057-custom-hooks-and-usedebugvalue.md">Q&amp;A</a></td><td><a href="../examples/057-custom-hooks-and-usedebugvalue.md">Example</a></td><td><a href="058-useref.md">058 - useRef for DOM Nodes and Mutable Values</a></td></tr>
+  </tbody>
+</table>

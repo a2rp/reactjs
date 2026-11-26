@@ -187,3 +187,13 @@ Effects caused by a background render run only if that render commits. If React 
 - Compare primitive source and deferred values to indicate stale content.
 - There is no fixed delay, and the Hook does not optimize calculations, control request frequency, or cancel network work.
 - Suspense can preserve revealed stale content while new deferred content is unavailable.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="064-transitions-and-usetransition.md">064 - Transitions with useTransition and startTransition</a></td><td><a href="../qnas/065-usedeferredvalue.md">Q&amp;A</a></td><td><a href="../examples/065-usedeferredvalue.md">Example</a></td><td><a href="066-suspense-boundaries-and-fallbacks.md">066 - Suspense Boundaries and Fallbacks</a></td></tr>
+  </tbody>
+</table>

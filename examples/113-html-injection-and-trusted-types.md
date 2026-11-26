@@ -1,4 +1,4 @@
-﻿# Sanitized Rich Text with React and Trusted Types — Complete Example
+# Sanitized Rich Text with React and Trusted Types - Complete Example
 
 This Vite React example lets a user enter a small amount of rich HTML and previews only the sanitized result. It demonstrates:
 
@@ -347,3 +347,13 @@ Before using this pattern:
 - Trusted Types policy functions must apply a real transformation.
 - CSP enforcement can make covered sinks reject ordinary strings in supported browsers.
 - Keep sanitizer policy, Trusted Types policy, URL rules, server validation, and authorization explicit.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="112-security-and-untrusted-data.md">112 - Safe Text and URL Handling - Complete Example</a></td><td><a href="../lessons/113-html-injection-and-trusted-types.md">Lesson</a></td><td><a href="../qnas/113-html-injection-and-trusted-types.md">Q&amp;A</a></td><td><a href="114-production-builds-and-deployment.md">114 - Build and Deploy a Vite React App - Complete Example</a></td></tr>
+  </tbody>
+</table>

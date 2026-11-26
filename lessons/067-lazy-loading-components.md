@@ -249,3 +249,13 @@ Look at production build output and real navigation behavior. The goal is to def
 - A lazy component suspends while code is pending; `Suspense` controls the visible fallback.
 - An Error Boundary handles a rejected import; a loading fallback represents pending content.
 - Use lazy loading for meaningful code that is not needed on the common initial path, and confirm that the project build actually benefits.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="066-suspense-boundaries-and-fallbacks.md">066 - Suspense Boundaries and Fallbacks</a></td><td><a href="../qnas/067-lazy-loading-components.md">Q&amp;A</a></td><td><a href="../examples/067-lazy-loading-components.md">Example</a></td><td><a href="068-error-boundaries-and-recovery-ui.md">068 - Error Boundaries and Recovery UI</a></td></tr>
+  </tbody>
+</table>

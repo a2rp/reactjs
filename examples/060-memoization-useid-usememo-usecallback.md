@@ -1,4 +1,4 @@
-﻿# Example: Memoization and useId
+# Example: Memoization and useId
 
 This runnable React 19 app is a small searchable catalog. It demonstrates:
 
@@ -743,3 +743,13 @@ This project uses explicit **memo**, **useMemo**, and **useCallback** to teach m
 4. Add a second **SearchField** in a separate panel and inspect that its label and help IDs remain distinct.
 5. Add a product and give it a stable data ID. Use that ID for **key**, not a Hook-generated ID or array position.
 6. Make the filter calculation intentionally expensive only in a local experiment, measure before and after, then remove the artificial slowdown.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="059-refs-and-imperative-handles.md">059 - Example: React 19 Refs and Imperative Handles</a></td><td><a href="../lessons/060-memoization-useid-usememo-usecallback.md">Lesson</a></td><td><a href="../qnas/060-memoization-useid-usememo-usecallback.md">Q&amp;A</a></td><td><a href="061-rendering-and-committing.md">061 - Example: Rendering, Committing, and Updating the UI</a></td></tr>
+  </tbody>
+</table>

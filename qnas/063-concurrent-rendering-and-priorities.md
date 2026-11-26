@@ -1,4 +1,4 @@
-﻿# Concurrent Rendering and Update Priorities — Q&A
+# Concurrent Rendering and Update Priorities - Q&A
 
 ## Concurrent rendering
 
@@ -185,3 +185,13 @@ Check that the Transition triggers work that remains pending long enough to obse
 ### 44. What is the short rule for update priorities?
 
 Keep immediate input feedback urgent. Use Transitions or deferred values for slower rendering that can catch up after urgent interactions.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="062-reconciliation-and-component-identity.md">062 - Reconciliation, Component Identity, and Keys - Q&amp;A</a></td><td><a href="../lessons/063-concurrent-rendering-and-priorities.md">Lesson</a></td><td><a href="../examples/063-concurrent-rendering-and-priorities.md">Example</a></td><td><a href="064-transitions-and-usetransition.md">064 - Transitions with useTransition and startTransition - Q&amp;A</a></td></tr>
+  </tbody>
+</table>

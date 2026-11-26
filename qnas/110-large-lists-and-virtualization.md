@@ -1,4 +1,4 @@
-﻿# Large Lists and Virtualization — Q&A
+# Large Lists and Virtualization - Q&A
 
 ## Concepts and choosing a strategy
 
@@ -182,3 +182,13 @@ Only if the number of rows causes a measured problem and the table's semantics a
 ## Key takeaway
 
 Virtualization limits mounted rows; it does not solve every large-data problem. Choose it from measured evidence, and design row identity, sizing, accessibility, focus, responsive behavior, and loading together.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="109-memo-and-optimization-decisions.md">109 - Memoization and Optimization Decisions - Q&amp;A</a></td><td><a href="../lessons/110-large-lists-and-virtualization.md">Lesson</a></td><td><a href="../examples/110-large-lists-and-virtualization.md">Example</a></td><td><a href="111-code-splitting-and-asset-loading.md">111 - Code Splitting, Asset Loading, and Bundle Analysis - Q&amp;A</a></td></tr>
+  </tbody>
+</table>

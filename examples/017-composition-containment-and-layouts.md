@@ -176,9 +176,13 @@ The page shows a course heading, lesson navigation, a warning message, a course 
 2. Add a `header` prop to `WarningNotice` only if callers should be able to customize its title; otherwise keep its fixed title.
 3. Create a second page that reuses `PageLayout` but supplies a different heading and sidebar.
 4. Remove one of the named layout regions and decide whether it belongs as a named prop or as part of `children`.
-
 ## Chapter navigation
 
-| Previous chapter | Chapter lesson | Chapter Q&A | Next chapter |
-| --- | --- | --- | --- |
-| [016 - The children prop and nested content](../lessons/016-children-prop-and-nested-content.md) | [017 - Composition, containment, and reusable layouts](../lessons/017-composition-containment-and-layouts.md) | [Open Q&A](../qnas/017-composition-containment-and-layouts.md) | [018 - Conditional rendering patterns](../lessons/018-conditional-rendering-patterns.md) |
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="016-children-prop-and-nested-content.md">016 - The children prop and nested content - Example</a></td><td><a href="../lessons/017-composition-containment-and-layouts.md">Lesson</a></td><td><a href="../qnas/017-composition-containment-and-layouts.md">Q&amp;A</a></td><td><a href="018-conditional-rendering-patterns.md">018 - Conditional rendering patterns - Example</a></td></tr>
+  </tbody>
+</table>

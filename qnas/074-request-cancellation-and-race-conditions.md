@@ -1,4 +1,4 @@
-# Request Cancellation, Stale Responses, and Race Conditions — Q&A
+# Request Cancellation, Stale Responses, and Race Conditions - Q&A
 
 ## Understanding response races
 
@@ -183,3 +183,13 @@ The previous lesson explained reading a stable Promise with `use` and Suspense. 
 ### 40. What is the core rule for race-safe UI?
 
 Tie each result to the request key that produced it. When that key stops being current, cancel supported work and prevent its completion from publishing stale success or error state. Keep genuine failures visible and treat cancellation as expected lifecycle behavior.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="073-client-side-data-fetching-and-use-api.md">073 - Client-Side Data Fetching, the `use` API, and Async Values - Q&amp;A</a></td><td><a href="../lessons/074-request-cancellation-and-race-conditions.md">Lesson</a></td><td><a href="../examples/074-request-cancellation-and-race-conditions.md">Example</a></td><td><a href="075-loading-empty-success-and-error-states.md">075 - Loading, Empty, Success, and Error States - Q&amp;A</a></td></tr>
+  </tbody>
+</table>

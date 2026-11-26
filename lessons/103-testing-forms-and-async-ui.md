@@ -1,4 +1,4 @@
-﻿# Testing Forms, Asynchronous UI, and API Boundaries
+# Testing Forms, Asynchronous UI, and API Boundaries
 
 ## Learning goals
 
@@ -125,3 +125,13 @@ Test forms through their labeled fields and real submit path. Control only the s
 8. Await the visible condition and avoid arbitrary sleeps.
 9. Verify form reset behavior for the chosen React submission pattern.
 10. Use a browser-level check for important native validation behavior.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="102-testing-user-interactions.md">102 - Testing User Interactions and Complete Flows</a></td><td><a href="../qnas/103-testing-forms-and-async-ui.md">Q&amp;A</a></td><td><a href="../examples/103-testing-forms-and-async-ui.md">Example</a></td><td><a href="104-browser-level-and-end-to-end-tests.md">104 - Browser-Level Tests and End-to-End Behavior</a></td></tr>
+  </tbody>
+</table>

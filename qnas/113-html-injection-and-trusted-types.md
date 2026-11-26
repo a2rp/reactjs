@@ -1,4 +1,4 @@
-﻿# HTML Injection, Sanitization, and Trusted Types — Q&A
+# HTML Injection, Sanitization, and Trusted Types - Q&A
 
 ## HTML injection and React
 
@@ -177,3 +177,13 @@ Define the smallest useful markup policy, sanitize the final HTML with a maintai
 ### 42. What is the central rule for Trusted Types?
 
 Create narrowly named policies whose transformations are reviewed, then use CSP enforcement to require those values at covered sinks. Trusted Types makes the path auditable; the policy must still make the content safe.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="112-security-and-untrusted-data.md">112 - Security Basics: Escaping, URLs, and Untrusted Data - Q&amp;A</a></td><td><a href="../lessons/113-html-injection-and-trusted-types.md">Lesson</a></td><td><a href="../examples/113-html-injection-and-trusted-types.md">Example</a></td><td><a href="114-production-builds-and-deployment.md">114 - Production Builds, Configuration, and Deployment - Q&amp;A</a></td></tr>
+  </tbody>
+</table>

@@ -211,3 +211,13 @@ Then the HTML page can provide one app container, and the `App` component descri
 - [Lesson 002: How React fits into the web platform](../lessons/002-how-react-fits-into-the-web-platform.md)
 - [Q&A 002: How React fits into the web platform](../qnas/002-how-react-fits-into-the-web-platform.md)
 - [Next: React, React DOM, and the framework ecosystem](../lessons/003-react-react-dom-and-frameworks.md)
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="001-introduction-to-react-and-declarative-ui.md">001 - Example: Build a small course catalog with components</a></td><td><a href="../lessons/002-how-react-fits-into-the-web-platform.md">Lesson</a></td><td><a href="../qnas/002-how-react-fits-into-the-web-platform.md">Q&amp;A</a></td><td><a href="003-react-react-dom-and-frameworks.md">003 - Example: Map a React app to its ecosystem layers</a></td></tr>
+  </tbody>
+</table>

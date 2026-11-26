@@ -205,7 +205,7 @@ export default function App() {
 
 ## Observe list identity
 
-Each `TaskRow` has local `detailsOpen` state. Open the details for “Prepare examples,” then reverse the task list. Because each row uses `key={task.id}`, React can match each task with the same row after its position changes. The open details remain associated with that task.
+Each `TaskRow` has local `detailsOpen` state. Open the details for ï¿½Prepare examples,ï¿½ then reverse the task list. Because each row uses `key={task.id}`, React can match each task with the same row after its position changes. The open details remain associated with that task.
 
 Remove a task after opening its details. The row leaves the tree, so its local state is destroyed. Adding the same record again later would create a new row instance unless the state had been stored elsewhere.
 
@@ -236,9 +236,13 @@ The editor still receives `profile` as an ordinary prop. It cannot read its `key
 3. Give one task a different title but keep its ID. Its row identity remains stable because the ID represents the task.
 4. Change a task's ID during rendering and observe that the row is recreated. Do not use this pattern in the finished application.
 5. Add a component to the mapped task rows and keep the stable key on the outermost element returned by the map.
-
 ## Chapter navigation
 
-| Previous chapter | Chapter lesson | Chapter Q&A | Next chapter |
-| --- | --- | --- | --- |
-| [023 - Thinking in React: from a design to a component tree](../lessons/023-thinking-in-react-and-component-trees.md) | [024 - Component identity, position, and keys](../lessons/024-component-identity-position-and-keys.md) | [Open Q&A](../qnas/024-component-identity-position-and-keys.md) | [025 - Event handlers and user interactions](../lessons/025-event-handlers-and-user-interactions.md) |
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="023-thinking-in-react-and-component-trees.md">023 - Thinking in React: from a design to a component tree - Example</a></td><td><a href="../lessons/024-component-identity-position-and-keys.md">Lesson</a></td><td><a href="../qnas/024-component-identity-position-and-keys.md">Q&amp;A</a></td><td><a href="025-event-handlers-and-user-interactions.md">025 - Event handlers and user interactions - Example</a></td></tr>
+  </tbody>
+</table>

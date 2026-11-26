@@ -1,4 +1,4 @@
-﻿# Frameworks, Client Rendering, SSR, and Static Generation in React
+# Frameworks, Client Rendering, SSR, and Static Generation in React
 
 ## Learning goals
 
@@ -162,3 +162,13 @@ Consider what visitors see while code loads, when a request fails, and when Java
 ## Summary
 
 CSR renders in the browser; SSR renders HTML for a request; SSG generates HTML ahead of requests. SSR and interactive SSG typically hydrate that HTML with the same initial React tree and data. Choose a framework and rendering mode around each route's data freshness, interactivity, privacy, caching, and delivery needs. For production, let the framework coordinate routing, data, server rendering, streaming, hydration, and deployment.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="094-internationalization-and-localization.md">094 - Internationalization, Localization, and Text Direction in React</a></td><td><a href="../qnas/095-frameworks-and-rendering-strategies.md">Q&amp;A</a></td><td><a href="../examples/095-frameworks-and-rendering-strategies.md">Example</a></td><td><a href="096-react-native-and-shared-react-concepts.md">096 - React Native and the Shared React Mental Model</a></td></tr>
+  </tbody>
+</table>

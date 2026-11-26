@@ -171,9 +171,13 @@ It can be useful when a component intentionally forwards a whole set of props. P
 ### 24. Are props and HTML attributes the same?
 
 They look similar in JSX, but their meaning depends on the element. For a built-in element such as `<button>`, React interprets supported DOM props. For a custom component such as `<CourseCard>`, the component receives the values and decides how to use them.
-
 ## Chapter navigation
 
-| Lesson | Example | Previous chapter | Next chapter |
-| --- | --- | --- | --- |
-| [014 - Props and passing data](../lessons/014-props-and-passing-data.md) | [Open Example](../examples/014-props-and-passing-data.md) | [013 - Function components and component naming](../lessons/013-function-components-and-naming.md) | [015 - Destructuring props and default values](../lessons/015-destructuring-props-and-default-values.md) |
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="013-function-components-and-naming.md">013 - Function components and component naming - Q&amp;A</a></td><td><a href="../lessons/014-props-and-passing-data.md">Lesson</a></td><td><a href="../examples/014-props-and-passing-data.md">Example</a></td><td><a href="015-destructuring-props-and-default-values.md">015 - Destructuring props and default values - Q&amp;A</a></td></tr>
+  </tbody>
+</table>

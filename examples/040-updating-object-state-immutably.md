@@ -588,3 +588,13 @@ input {
 - Nested updates copy the nested object and each outer object along the changed path.
 - The saved snapshot remains unchanged after later edits because the previous objects are not mutated.
 - The state setter replaces the complete object; it does not merge partial objects automatically.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="039-queued-batched-and-functional-updates.md">039 - Queued updates, batching, and functional updates - Example</a></td><td><a href="../lessons/040-updating-object-state-immutably.md">Lesson</a></td><td><a href="../qnas/040-updating-object-state-immutably.md">Q&amp;A</a></td><td><a href="041-updating-array-state-immutably.md">041 - Updating array state immutably - Example</a></td></tr>
+  </tbody>
+</table>

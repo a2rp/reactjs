@@ -1,4 +1,4 @@
-﻿# Reconciliation, Component Identity, and Keys
+# Reconciliation, Component Identity, and Keys
 
 ## React matches the next tree with the previous tree
 
@@ -222,3 +222,13 @@ When a row shows another item’s state or a form unexpectedly resets, check:
 - Keys are unique among siblings, are consumed by React, and are not passed as props or rendered as DOM IDs.
 - Changing a key intentionally resets a subtree, but does not cache its state for later.
 - Keep component function definitions at module scope so their types remain stable.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="061-rendering-and-committing.md">061 - Rendering, Committing, and Updating the UI</a></td><td><a href="../qnas/062-reconciliation-and-component-identity.md">Q&amp;A</a></td><td><a href="../examples/062-reconciliation-and-component-identity.md">Example</a></td><td><a href="063-concurrent-rendering-and-priorities.md">063 - Concurrent Rendering and Update Priorities</a></td></tr>
+  </tbody>
+</table>

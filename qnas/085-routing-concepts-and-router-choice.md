@@ -1,4 +1,4 @@
-# Routing concepts and choosing a router — Q&A
+# Routing concepts and choosing a router - Q&A
 
 ## Routing basics
 
@@ -145,3 +145,13 @@ A simple client router is enough to learn URL matching, links, parameters, and b
 ### 34. What is the safest mental model for routing?
 
 A router decides which UI responds to a URL and how users move between routes. It does not make user-provided URL values trustworthy and does not replace server-side permission checks.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="084-client-server-boundaries-and-serialization.md">084 - Client and server boundaries, serialization, and security - Q&amp;A</a></td><td><a href="../lessons/085-routing-concepts-and-router-choice.md">Lesson</a></td><td><a href="../examples/085-routing-concepts-and-router-choice.md">Example</a></td><td><a href="086-nested-routes-layouts-and-errors.md">086 - Nested routes, layouts, and route errors - Q&amp;A</a></td></tr>
+  </tbody>
+</table>

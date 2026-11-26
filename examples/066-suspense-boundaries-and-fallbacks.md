@@ -604,3 +604,13 @@ The controls remain outside both boundaries, so they remain available while cont
 - The demo reads Promise resources with React **use**, so they can activate Suspense.
 - Reuse the same Promise instance across retries; do not create the resource during render.
 - Suspense fallbacks represent pending content. Use an Error Boundary for failures.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="065-usedeferredvalue.md">065 - Example: useDeferredValue with a Search Results List</a></td><td><a href="../lessons/066-suspense-boundaries-and-fallbacks.md">Lesson</a></td><td><a href="../qnas/066-suspense-boundaries-and-fallbacks.md">Q&amp;A</a></td><td><a href="067-lazy-loading-components.md">067 - Example: On-Demand Dashboard Panels with lazy</a></td></tr>
+  </tbody>
+</table>

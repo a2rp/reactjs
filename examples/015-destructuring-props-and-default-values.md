@@ -166,9 +166,13 @@ Open the local address printed by Vite. You should see three lesson cards. The s
 - A module-level array can provide a stable fallback for an omitted array prop.
 - A nested object is checked before its fields are read.
 - Rest props can forward appropriate DOM attributes after component-specific props are consumed.
-
 ## Chapter navigation
 
-| Lesson | Q&A | Previous chapter | Next chapter |
-| --- | --- | --- | --- |
-| [015 - Destructuring props and default values](../lessons/015-destructuring-props-and-default-values.md) | [Open Q&A](../qnas/015-destructuring-props-and-default-values.md) | [014 - Props and passing data](../lessons/014-props-and-passing-data.md) | [016 - The children prop and nested content](../lessons/016-children-prop-and-nested-content.md) |
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="014-props-and-passing-data.md">014 - Props and passing data - Example</a></td><td><a href="../lessons/015-destructuring-props-and-default-values.md">Lesson</a></td><td><a href="../qnas/015-destructuring-props-and-default-values.md">Q&amp;A</a></td><td><a href="016-children-prop-and-nested-content.md">016 - The children prop and nested content - Example</a></td></tr>
+  </tbody>
+</table>

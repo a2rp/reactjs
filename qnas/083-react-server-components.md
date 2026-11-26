@@ -1,4 +1,4 @@
-# React Server Components and server rendering — Q&A
+# React Server Components and server rendering - Q&A
 
 ## Core concepts
 
@@ -161,3 +161,13 @@ A Server Component's implementation remains server-side. A Client Component has 
 ### 38. What is the safest mental model for the server/client boundary?
 
 Treat the server as a place to load and prepare UI data, and the client as the place for browser interaction. Anything rendered or passed across the boundary may be visible; authorization and data minimization still matter.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="082-server-functions-and-form-actions.md">082 - Server Functions and form Actions - Q&amp;A</a></td><td><a href="../lessons/083-react-server-components.md">Lesson</a></td><td><a href="../examples/083-react-server-components.md">Example</a></td><td><a href="084-client-server-boundaries-and-serialization.md">084 - Client and server boundaries, serialization, and security - Q&amp;A</a></td></tr>
+  </tbody>
+</table>

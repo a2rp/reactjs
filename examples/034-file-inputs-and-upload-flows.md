@@ -84,7 +84,7 @@ function App() {
     }
 
     setUploading(true);
-    setStatus('Uploading selected filesâ€¦');
+    setStatus('Uploading selected files…');
 
     try {
       const response = await fetch('/api/uploads', {
@@ -161,7 +161,7 @@ function App() {
                   <strong>{file.name}</strong>
                   <span>
                     {Math.ceil(file.size / 1024)} KB
-                    {file.type ? ' Â· ' + file.type : ' Â· Type not reported'}
+                    {file.type ? ' · ' + file.type : ' · Type not reported'}
                   </span>
                 </li>
               ))}
@@ -171,7 +171,7 @@ function App() {
 
         <div className="actions">
           <button type="submit" disabled={uploading}>
-            {uploading ? 'Uploadingâ€¦' : 'Upload selected files'}
+            {uploading ? 'Uploading…' : 'Upload selected files'}
           </button>
           <button
             type="button"
@@ -381,9 +381,13 @@ A real endpoint should authenticate and authorize the request, enforce file-coun
 ## Important limitation
 
 Client-side metadata and checks do not prove that a file is safe or valid. This example's endpoint is not included; real uploads require server-side validation, authorization, size limits, and safe storage.
-
 ## Chapter navigation
 
-| Previous chapter | Chapter lesson | Chapter Q&A | Next chapter |
-| --- | --- | --- | --- |
-| [033 - Uncontrolled forms and refs](../lessons/033-uncontrolled-forms-and-refs.md) | [034 - File inputs and upload flows](../lessons/034-file-inputs-and-upload-flows.md) | [Open Q&A](../qnas/034-file-inputs-and-upload-flows.md) | [035 - Browser APIs and event listeners](../lessons/035-browser-apis-and-event-listeners.md) |
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="033-uncontrolled-forms-and-refs.md">033 - Uncontrolled forms and refs - Example</a></td><td><a href="../lessons/034-file-inputs-and-upload-flows.md">Lesson</a></td><td><a href="../qnas/034-file-inputs-and-upload-flows.md">Q&amp;A</a></td><td><a href="035-browser-apis-and-event-listeners.md">035 - Working with browser APIs and external event listeners - Example</a></td></tr>
+  </tbody>
+</table>

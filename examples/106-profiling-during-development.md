@@ -1,4 +1,4 @@
-﻿# React Example: Profile an Effect-Driven Update
+# React Example: Profile an Effect-Driven Update
 
 This example compares two searchable lists with the same data and UI. One stores filtered results in state and recalculates them in an Effect; the other derives the filtered list during render. Profiling the same search interaction makes the extra update from the Effect-based version visible.
 
@@ -309,3 +309,13 @@ This comparison is intentionally small. It demonstrates how an Effect can create
 - The render-derived panel calculates the filtered result without syncing duplicate state.
 - React Profiler and the browser Performance panel provide complementary evidence.
 - Profiling overhead and Strict Mode development behavior are accounted for in the comparison.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="105-react-devtools-and-debugging.md">105 - React Example: Debug and Profile a Task Board with React DevTools</a></td><td><a href="../lessons/106-profiling-during-development.md">Lesson</a></td><td><a href="../qnas/106-profiling-during-development.md">Q&amp;A</a></td><td><a href="107-react-performance-and-profiling.md">107 - React Example: Measure and Reduce Unnecessary Search Work</a></td></tr>
+  </tbody>
+</table>

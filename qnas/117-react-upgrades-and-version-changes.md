@@ -1,4 +1,4 @@
-﻿# Q&A: Upgrading React and Handling Version Changes
+# Q&A: Upgrading React and Handling Version Changes
 
 ## 1. Why is a React upgrade more than changing a package number?
 
@@ -167,3 +167,13 @@ As of 2026-11-25, it listed React 19.3. Version numbers change, so check the cur
 ## 38. What is the central rule for a safe React upgrade?
 
 Make one understandable change at a time, follow the migration guide for the target version, inspect compatibility across the dependency graph, verify real application behavior, and keep a rollback path.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="116-react-capstone-project.md">116 - Q&amp;A: Build and Ship a Complete Accessible React Application</a></td><td><a href="../lessons/117-react-upgrades-and-version-changes.md">Lesson</a></td><td><a href="../examples/117-react-upgrades-and-version-changes.md">Example</a></td><td><a href="118-react-19-2-features.md">118 - Q&amp;A: React 19.2 Activity and Performance Tooling</a></td></tr>
+  </tbody>
+</table>

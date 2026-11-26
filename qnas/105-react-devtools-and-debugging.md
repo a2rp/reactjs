@@ -1,4 +1,4 @@
-﻿# React DevTools, Debugging, and Common Warnings: Questions and Answers
+# React DevTools, Debugging, and Common Warnings: Questions and Answers
 
 ## React Developer Tools
 
@@ -147,3 +147,13 @@ Check whether Strict Mode is enabled, whether rendering mutates inputs or causes
 ### 35. What is a reliable debugging habit?
 
 Reproduce one issue, inspect the first useful message and relevant component inputs, make one root-cause correction, and repeat the same path. Keep the warning visible until the actual cause is fixed.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="104-browser-level-and-end-to-end-tests.md">104 - Browser-Level Tests and End-to-End Behavior: Questions and Answers</a></td><td><a href="../lessons/105-react-devtools-and-debugging.md">Lesson</a></td><td><a href="../examples/105-react-devtools-and-debugging.md">Example</a></td><td><a href="106-profiling-during-development.md">106 - Profiling Component Behavior During Development: Questions and Answers</a></td></tr>
+  </tbody>
+</table>

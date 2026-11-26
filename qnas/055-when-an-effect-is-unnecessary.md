@@ -1,4 +1,4 @@
-# When an Effect Is Unnecessary — Q&A
+# When an Effect Is Unnecessary - Q&A
 
 ## Core idea
 
@@ -214,3 +214,13 @@ Name the external system, identify the values it synchronizes, make the dependen
 - Use a stable key when a new component identity should reset its state.
 - Treat render-time state adjustment as a narrow advanced pattern.
 - Use Effects and external-store Hooks for their intended external synchronization jobs.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="054-effect-cleanup-and-resource-lifetimes.md">054 - Effect Cleanup and Resource Lifetimes - Q&amp;A</a></td><td><a href="../lessons/055-when-an-effect-is-unnecessary.md">Lesson</a></td><td><a href="../examples/055-when-an-effect-is-unnecessary.md">Example</a></td><td><a href="056-useeffectevent.md">056 - useEffectEvent and Non-Reactive Event Logic - Q&amp;A</a></td></tr>
+  </tbody>
+</table>

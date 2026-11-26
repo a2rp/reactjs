@@ -216,3 +216,13 @@ See the earlier [HTML injection, sanitization, and Trusted Types lesson](../less
 - Use an explicit Fragment ref only when group-level DOM access is needed.
 - Keep `use(browser())` inside a Client Component and a server-side Suspense boundary.
 - Treat Trusted Types as a browser-enforced safety layer, not as a substitute for sanitization.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="118-react-19-2-features.md">118 - Q&amp;A: React 19.2 Activity and Performance Tooling</a></td><td><a href="../lessons/119-react-19-3-features.md">Lesson</a></td><td><a href="../examples/119-react-19-3-features.md">Example</a></td><td><a href="120-react-quick-reference-and-glossary.md">120 - Q&amp;A: React quick reference and glossary</a></td></tr>
+  </tbody>
+</table>

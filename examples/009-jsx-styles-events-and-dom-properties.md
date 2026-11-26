@@ -1,4 +1,4 @@
-# 009. JSX styles, event props, and DOM properties — Example
+# 009. JSX styles, event props, and DOM properties - Example
 
 ## Goal
 
@@ -230,9 +230,13 @@ input {
 ## Expected result
 
 The page shows a centered course card with a blue top border, course information, a labeled read-only email field, and two buttons. Clicking either available button writes a message to the browser console. The browser console should not show a React warning about these props.
-
 ## Chapter navigation
 
-| Lesson | Q&A | Previous chapter | Next chapter |
-| --- | --- | --- | --- |
-| [009 - JSX styles, event props, and DOM properties](../lessons/009-jsx-styles-events-and-dom-properties.md) | [Open Q&A](../qnas/009-jsx-styles-events-and-dom-properties.md) | [008 - JavaScript expressions, attributes, and escaping in JSX](../lessons/008-jsx-expressions-attributes-and-escaping.md) | [010 - Fragments and returning multiple elements](../lessons/010-fragments-and-multiple-elements.md) |
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="008-jsx-expressions-attributes-and-escaping.md">008 - Example: Render data and expressions in JSX</a></td><td><a href="../lessons/009-jsx-styles-events-and-dom-properties.md">Lesson</a></td><td><a href="../qnas/009-jsx-styles-events-and-dom-properties.md">Q&amp;A</a></td><td><a href="010-fragments-and-multiple-elements.md">010 - Fragments and returning multiple elements - Example</a></td></tr>
+  </tbody>
+</table>

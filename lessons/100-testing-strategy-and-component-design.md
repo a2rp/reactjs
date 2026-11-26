@@ -1,4 +1,4 @@
-﻿# Testing Strategy and Testable Component Design
+# Testing Strategy and Testable Component Design
 
 ## Learning goals
 
@@ -144,3 +144,13 @@ Choose tests by the behavior and risk they need to cover. Test pure logic as pur
 5. Identify an external dependency and choose a seam to control it.
 6. Add one failure or boundary case that matters to the user.
 7. Remove any assertion that depends on private state or incidental markup.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="099-accessible-announcements-and-async-ui.md">099 - Accessible Announcements and Asynchronous Interfaces in React</a></td><td><a href="../qnas/100-testing-strategy-and-component-design.md">Q&amp;A</a></td><td><a href="../examples/100-testing-strategy-and-component-design.md">Example</a></td><td><a href="101-component-tests-and-test-utilities.md">101 - Component Tests and React Test Utilities</a></td></tr>
+  </tbody>
+</table>

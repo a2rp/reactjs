@@ -1,4 +1,4 @@
-﻿# React Example: Measure and Reduce Unnecessary Search Work
+# React Example: Measure and Reduce Unnecessary Search Work
 
 This example renders the same searchable records in two panels. The baseline filters records whenever its component renders. The optimized panel uses `memo` to skip a parent-driven render when its props have not changed, and `useMemo` to reuse the filtered records when its own unrelated display state changes.
 
@@ -336,3 +336,13 @@ If React Compiler is enabled in the project, it may optimize the baseline too, s
 - The optimized panel can reuse its filtered result during its local group-label update.
 - Both panels calculate new results when the query changes.
 - Profiler recordings show why each optimization helps only for a particular update path.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="106-profiling-during-development.md">106 - React Example: Profile an Effect-Driven Update</a></td><td><a href="../lessons/107-react-performance-and-profiling.md">Lesson</a></td><td><a href="../qnas/107-react-performance-and-profiling.md">Q&amp;A</a></td><td><a href="108-react-compiler.md">108 - React Compiler - Complete Example</a></td></tr>
+  </tbody>
+</table>

@@ -407,3 +407,13 @@ Before keeping an Effect, check:
 - Prefer `useEffect`; reserve `useLayoutEffect` for necessary pre-paint layout work.
 - Reserve `useInsertionEffect` for CSS-in-JS library authors.
 - Effects run only on the client, not during server rendering.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="051-context-provider-design.md">051 - Designing Context Providers and Avoiding Overuse</a></td><td><a href="../qnas/052-effect-hooks-and-synchronization.md">Q&amp;A</a></td><td><a href="../examples/052-effect-hooks-and-synchronization.md">Example</a></td><td><a href="053-effect-dependencies-and-closures.md">053 - Effect Dependencies, Closures, and Synchronization</a></td></tr>
+  </tbody>
+</table>

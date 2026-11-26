@@ -1,4 +1,4 @@
-# Portals and Rendering Outside the Parent DOM Node — Q&A
+# Portals and Rendering Outside the Parent DOM Node - Q&A
 
 ## Portal basics
 
@@ -221,3 +221,13 @@ A shared target is usually enough for a small app. Several targets can be useful
 ### 52. What is the key mental model for portals?
 
 The DOM node is placed elsewhere, but the React component remains in its original React tree. Use the DOM tree to reason about CSS and physical layout, and the React tree to reason about context and React event propagation.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="068-error-boundaries-and-recovery-ui.md">068 - Error Boundaries and Recovery UI - Q&amp;A</a></td><td><a href="../lessons/069-portals.md">Lesson</a></td><td><a href="../examples/069-portals.md">Example</a></td><td><a href="070-react-dom-roots-and-client-apis.md">070 - React DOM Roots, Hydration, and Client APIs - Q&amp;A</a></td></tr>
+  </tbody>
+</table>

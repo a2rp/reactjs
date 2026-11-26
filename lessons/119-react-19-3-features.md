@@ -425,7 +425,7 @@ export const UserContext = createContext(null);
 ~~~
 
 ~~~jsx
-// layout.jsx — a Server Component in a framework that supports RSC
+// layout.jsx - a Server Component in a framework that supports RSC
 import { UserContext } from "./user-context.js";
 
 export default async function Layout({ children }) {
@@ -476,10 +476,13 @@ Before shipping code that uses these APIs, confirm:
 - `use(browser())` opts a Client Component out of server rendering behind a Suspense fallback.
 - React's Trusted Types support preserves typed values for browser validation but does not sanitize them.
 - React 19.3 also lets Server Components render Context objects imported from client modules as providers.
+## Chapter navigation
 
-## Official references
-
-- [React 19.3 release post](https://react.dev/blog/2026/09/09/react-19-3)
-- [`<ViewTransition>` reference](https://react.dev/reference/react/ViewTransition)
-- [`<Fragment>` and FragmentInstance reference](https://react.dev/reference/react/Fragment)
-- [`browser` reference](https://react.dev/reference/react-dom/browser)
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="118-react-19-2-features.md">118 - React 19.2: Activity and Performance Tooling</a></td><td><a href="../qnas/119-react-19-3-features.md">Q&amp;A</a></td><td><a href="../examples/119-react-19-3-features.md">Example</a></td><td><a href="120-react-quick-reference-and-glossary.md">120 - React quick reference and glossary</a></td></tr>
+  </tbody>
+</table>

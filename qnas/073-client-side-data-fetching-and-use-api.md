@@ -1,4 +1,4 @@
-# Client-Side Data Fetching, the `use` API, and Async Values — Q&A
+# Client-Side Data Fetching, the `use` API, and Async Values - Q&A
 
 ## Choosing a data-loading approach
 
@@ -193,3 +193,13 @@ A rejected Promise goes to an Error Boundary. Inspect the request, status check,
 ### 43. What is the safest general rule for data fetching in React?
 
 Let one deliberate system own each request lifecycle. Check HTTP status and parsing, represent loading, empty, success, and error states, clean up obsolete Effect work, and use Suspense only with a Promise source designed for it.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="072-react-dom-resource-hints-and-browser-apis.md">072 - React DOM Resource Hints and Browser APIs - Q&amp;A</a></td><td><a href="../lessons/073-client-side-data-fetching-and-use-api.md">Lesson</a></td><td><a href="../examples/073-client-side-data-fetching-and-use-api.md">Example</a></td><td><a href="074-request-cancellation-and-race-conditions.md">074 - Request Cancellation, Stale Responses, and Race Conditions - Q&amp;A</a></td></tr>
+  </tbody>
+</table>

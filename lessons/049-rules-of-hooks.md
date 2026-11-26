@@ -457,3 +457,13 @@ The conditional and loop exception applies specifically to React's use API. It d
 - Custom Hooks share reusable logic; each call has independent state.
 - React's use API has a limited conditional and loop exception; ordinary Hooks do not.
 - Use the React Hooks ESLint plugin to help detect mistakes.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="048-preserving-and-resetting-state.md">048 - Preserving and Resetting State with Tree Position and Keys</a></td><td><a href="../qnas/049-rules-of-hooks.md">Q&amp;A</a></td><td><a href="../examples/049-rules-of-hooks.md">Example</a></td><td><a href="050-context-and-usecontext.md">050 - Context and useContext</a></td></tr>
+  </tbody>
+</table>

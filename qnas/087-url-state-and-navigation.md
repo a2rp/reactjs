@@ -1,4 +1,4 @@
-# URL State, Search Parameters, and Navigation — Q&A
+# URL State, Search Parameters, and Navigation - Q&A
 
 ## Core ideas
 
@@ -16,7 +16,7 @@ The path identifies a route or resource, such as `/products/42`. Search paramete
 
 ### 4. Should all React state be put in the URL?
 
-No. Put shareable, reproducible navigation state in the URL. Keep temporary UI state—such as focus, a closed/open menu, or an unsubmitted draft—in component state. Remote data and its loading/cache lifecycle belong to a data layer, even if the URL identifies what data to request.
+No. Put shareable, reproducible navigation state in the URL. Keep temporary UI state-such as focus, a closed/open menu, or an unsubmitted draft-in component state. Remote data and its loading/cache lifecycle belong to a data layer, even if the URL identifies what data to request.
 
 ### 5. Does a query string automatically make server data?
 
@@ -146,7 +146,7 @@ Usually, application logic should not depend on key order. `?sort=name&page=2` a
 
 ### 31. What should happen to unrelated query parameters when a filter changes?
 
-Usually preserve parameters that are still meaningful. Clone the current parameter set and update the relevant key. If a filter makes another value invalid—for example, changing the result set resets pagination—remove or update that dependent value intentionally.
+Usually preserve parameters that are still meaningful. Clone the current parameter set and update the relevant key. If a filter makes another value invalid-for example, changing the result set resets pagination-remove or update that dependent value intentionally.
 
 ### 32. Should a filter change reset pagination?
 
@@ -168,3 +168,13 @@ Check direct loading and reload, missing and malformed values, repeated keys if 
 - Use router-aware links and navigation so history and rendered state stay aligned.
 - Choose push or replace based on how Back should behave.
 - Keep secrets out of URLs and validate server inputs independently.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="086-nested-routes-layouts-and-errors.md">086 - Nested routes, layouts, and route errors - Q&amp;A</a></td><td><a href="../lessons/087-url-state-and-navigation.md">Lesson</a></td><td><a href="../examples/087-url-state-and-navigation.md">Example</a></td><td><a href="088-organizing-react-applications.md">088 - Organizing Components, Features, and Application Code - Q&amp;A</a></td></tr>
+  </tbody>
+</table>

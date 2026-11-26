@@ -1,4 +1,4 @@
-﻿# React 19 Refs, forwardRef, and Imperative Handles
+# React 19 Refs, forwardRef, and Imperative Handles
 
 ## Let a parent request a small imperative action
 
@@ -255,3 +255,13 @@ Before exposing a ref, ask:
 - React 18 and earlier use **forwardRef** to let a function component receive a ref; React 19 does not require it for new function components.
 - Use props and state for declarative UI. Reserve handles for focused imperative operations.
 - Keep ref operations out of rendering and avoid destructive edits to React-managed DOM.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="058-useref.md">058 - useRef for DOM Nodes and Mutable Values</a></td><td><a href="../qnas/059-refs-and-imperative-handles.md">Q&amp;A</a></td><td><a href="../examples/059-refs-and-imperative-handles.md">Example</a></td><td><a href="060-memoization-useid-usememo-usecallback.md">060 - Memoization, useId, useMemo, and useCallback</a></td></tr>
+  </tbody>
+</table>

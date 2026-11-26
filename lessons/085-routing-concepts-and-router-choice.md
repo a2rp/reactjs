@@ -172,3 +172,13 @@ For protected routes:
 ## Summary
 
 A router maps URLs to UI and coordinates navigation. Route paths may include static segments, dynamic values, query state, and fragments. Router libraries and frameworks offer different levels of help with data loading, rendering, code splitting, and deployment. Choose based on the application's needs and the team's ability to operate the whole stack. Use semantic links, configure the host for direct route requests, validate URL input, and enforce security outside the client router.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="084-client-server-boundaries-and-serialization.md">084 - Client and server boundaries, serialization, and security</a></td><td><a href="../qnas/085-routing-concepts-and-router-choice.md">Q&amp;A</a></td><td><a href="../examples/085-routing-concepts-and-router-choice.md">Example</a></td><td><a href="086-nested-routes-layouts-and-errors.md">086 - Nested routes, layouts, and route errors</a></td></tr>
+  </tbody>
+</table>

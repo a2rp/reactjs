@@ -1,4 +1,4 @@
-# Caching, Deduplication, Invalidation, and Revalidation — Example
+# Caching, Deduplication, Invalidation, and Revalidation - Example
 
 This Vite demo uses a small in-memory mock API and a shared query cache to demonstrate:
 
@@ -830,3 +830,13 @@ The **Create product** action updates the mock data in memory, invalidates produ
 ## Key takeaway
 
 A shared query cache needs complete keys, in-flight request deduplication, successful data storage, freshness rules, and mutation invalidation. Revalidation can keep useful old data on screen while it refreshes. This demo makes those mechanics visible; use a production data library or framework to handle the many lifecycle and security details a real application needs.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="075-loading-empty-success-and-error-states.md">075 - Loading, Empty, Success, and Error States - Example</a></td><td><a href="../lessons/076-caching-and-revalidation.md">Lesson</a></td><td><a href="../qnas/076-caching-and-revalidation.md">Q&amp;A</a></td><td><a href="077-async-ui-and-framework-data-loading.md">077 - Async UI, Suspense, and Framework Data Loading - Example</a></td></tr>
+  </tbody>
+</table>

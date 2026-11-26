@@ -324,3 +324,13 @@ Do not rely on a reset alone to communicate a context change. Give the page a cl
 - Keys are sibling-local, are not passed as props, and must not change on every render.
 - Define component functions at module scope.
 - Choose deliberately whether state should reset, persist per identity, or be owned by a parent.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="047-reducer-design-and-state-machines.md">047 - Reducer Design, Transitions, and State Machines</a></td><td><a href="../qnas/048-preserving-and-resetting-state.md">Q&amp;A</a></td><td><a href="../examples/048-preserving-and-resetting-state.md">Example</a></td><td><a href="049-rules-of-hooks.md">049 - Rules of Hooks and Why They Matter</a></td></tr>
+  </tbody>
+</table>

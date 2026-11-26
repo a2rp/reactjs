@@ -1,4 +1,4 @@
-﻿# Production Builds, Configuration, and Deployment
+# Production Builds, Configuration, and Deployment
 
 ## Learning objectives
 
@@ -212,3 +212,13 @@ Use browser developer tools and hosting logs to distinguish a build problem from
 - Set the correct base path and SPA fallback for the deployed URL structure.
 - Refresh HTML promptly and cache fingerprinted assets according to their filenames.
 - Verify the live deployment, not only the local build.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="113-html-injection-and-trusted-types.md">113 - HTML Injection, Sanitization, and Trusted Types</a></td><td><a href="../qnas/114-production-builds-and-deployment.md">Q&amp;A</a></td><td><a href="../examples/114-production-builds-and-deployment.md">Example</a></td><td><a href="115-production-monitoring-and-maintenance.md">115 - Production Errors, Monitoring, and Maintenance</a></td></tr>
+  </tbody>
+</table>

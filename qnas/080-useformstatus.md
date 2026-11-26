@@ -201,3 +201,13 @@ pending describes the active form operation, not the lifetime of a success messa
 ### 40. What is the main mental model?
 
 The form owns the submission; useFormStatus lets a descendant observe that parent form's active submission. The hook is status plumbing, not a request, validation, persistence, or authorization mechanism.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="079-useactionstate.md">079 - Managing Submissions with useActionState - Q&amp;A</a></td><td><a href="../lessons/080-useformstatus.md">Lesson</a></td><td><a href="../examples/080-useformstatus.md">Example</a></td><td><a href="081-useoptimistic.md">081 - Optimistic UI with useOptimistic - Q&amp;A</a></td></tr>
+  </tbody>
+</table>

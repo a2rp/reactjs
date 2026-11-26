@@ -208,7 +208,7 @@ Do not store a second state value when it can be calculated from the form values
 const summary = [
   form.fullName || 'Your name',
   form.email || 'Your email',
-].join(' — ');
+].join(' - ');
 ~~~
 
 When either input changes, React renders again and calculates the latest summary. Keeping a separate summary state would require every change handler to update both the field and the summary, creating a chance that they disagree.
@@ -287,9 +287,13 @@ Use a structure that makes valid updates straightforward:
 - Use `checked` with boolean state for checkboxes.
 - Keep text-like values as strings and compute simple derived information during render.
 - Choose a form state shape that is easy to understand and hard to update incorrectly.
-
 ## Chapter navigation
 
-| Previous chapter | Chapter Q&A | Chapter example | Next chapter |
-| --- | --- | --- | --- |
-| [031 - Accessible validation messages and error summaries](031-accessible-validation-messages.md) | [Open Q&A](../qnas/032-multi-field-form-state.md) | [Open Example](../examples/032-multi-field-form-state.md) | [033 - Uncontrolled forms and refs](033-uncontrolled-forms-and-refs.md) |
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="031-accessible-validation-messages.md">031 - Accessible validation messages and error summaries</a></td><td><a href="../qnas/032-multi-field-form-state.md">Q&amp;A</a></td><td><a href="../examples/032-multi-field-form-state.md">Example</a></td><td><a href="033-uncontrolled-forms-and-refs.md">033 - Uncontrolled forms and refs</a></td></tr>
+  </tbody>
+</table>

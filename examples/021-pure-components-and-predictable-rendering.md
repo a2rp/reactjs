@@ -143,9 +143,13 @@ function GuestLabel({ guestNumber }) {
 3. Explain why changing `ingredient.amountPerServing` inside `IngredientList` would be unsafe.
 4. Replace the local `rows` array loop with `map()` and keep the same keys and output.
 5. Add a button with an `onClick` handler that calls a passed-in `onSave` function. Keep the call inside the handler, not in the render body.
-
 ## Chapter navigation
 
-| Previous chapter | Chapter lesson | Chapter Q&A | Next chapter |
-| --- | --- | --- | --- |
-| [020 - Component boundaries and responsibility](../lessons/020-component-boundaries-and-responsibility.md) | [021 - Pure components and predictable rendering](../lessons/021-pure-components-and-predictable-rendering.md) | [Open Q&A](../qnas/021-pure-components-and-predictable-rendering.md) | [022 - Designing reusable component APIs](../lessons/022-designing-reusable-component-apis.md) |
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="020-component-boundaries-and-responsibility.md">020 - Component boundaries and responsibility - Example</a></td><td><a href="../lessons/021-pure-components-and-predictable-rendering.md">Lesson</a></td><td><a href="../qnas/021-pure-components-and-predictable-rendering.md">Q&amp;A</a></td><td><a href="022-designing-reusable-component-apis.md">022 - Designing reusable component APIs - Example</a></td></tr>
+  </tbody>
+</table>

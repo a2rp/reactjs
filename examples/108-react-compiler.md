@@ -1,4 +1,4 @@
-﻿# React Compiler — Complete Example
+# React Compiler - Complete Example
 
 This example shows how to add the React Compiler to a small React application, write ordinary React code without manual memoization, and check whether compilation is active.
 
@@ -52,9 +52,9 @@ Create or replace src/App.jsx with:
       return (
         <li>
           <strong>{product.name}</strong>
-          {' — '}
+          {' - '}
           {product.category}
-          {' — '}
+          {' - '}
           {product.inStock ? 'In stock' : 'Out of stock'}
         </li>
       );
@@ -174,3 +174,13 @@ Do not keep a directive as a substitute for fixing code that violates React's ru
 - For React 17 or 18, configure the compatibility runtime and compiler target as required.
 - Keep manual memoization when it is needed for a clear, measured, or documented reason; the compiler does not make memoization a correctness guarantee.
 - This small list does not need optimization. The example demonstrates setup and verification, not a claim that memoization improves this particular interface.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="107-react-performance-and-profiling.md">107 - React Example: Measure and Reduce Unnecessary Search Work</a></td><td><a href="../lessons/108-react-compiler.md">Lesson</a></td><td><a href="../qnas/108-react-compiler.md">Q&amp;A</a></td><td><a href="109-memo-and-optimization-decisions.md">109 - Memoization with memo - Complete Example</a></td></tr>
+  </tbody>
+</table>

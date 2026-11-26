@@ -1,4 +1,4 @@
-﻿# Rendering, Committing, and Updating the UI — Q&A
+# Rendering, Committing, and Updating the UI - Q&A
 
 ## The update sequence
 
@@ -169,3 +169,13 @@ No. React may determine there is no visible host change to apply, or abandon a r
 ### 40. What is the simplest phase mental model?
 
 An update is requested, components calculate the next UI, React applies needed DOM changes, and the browser paints. Keep calculation, user actions, DOM commits, and external synchronization in their proper roles.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="060-memoization-useid-usememo-usecallback.md">060 - Memoization, useId, useMemo, and useCallback - Q&amp;A</a></td><td><a href="../lessons/061-rendering-and-committing.md">Lesson</a></td><td><a href="../examples/061-rendering-and-committing.md">Example</a></td><td><a href="062-reconciliation-and-component-identity.md">062 - Reconciliation, Component Identity, and Keys - Q&amp;A</a></td></tr>
+  </tbody>
+</table>

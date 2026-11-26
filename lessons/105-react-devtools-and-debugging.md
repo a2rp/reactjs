@@ -1,4 +1,4 @@
-﻿# React DevTools, Debugging, and Common Warnings
+# React DevTools, Debugging, and Common Warnings
 
 ## Learning goals
 
@@ -204,3 +204,13 @@ A visible fallback should explain that something went wrong and offer a recovery
 ## Summary
 
 React DevTools helps inspect component inputs and profile React commits. Browser developer tools help inspect the DOM, source, requests, and overall runtime. Debug by reproducing the issue, reading the first useful message, inspecting the component stack and data, and correcting the source. Treat warnings as evidence: stable keys preserve identity, Hooks follow their call rules, controlled values stay defined, render remains pure, Effects clean up, and server and client initial output must agree.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="104-browser-level-and-end-to-end-tests.md">104 - Browser-Level Tests and End-to-End Behavior</a></td><td><a href="../qnas/105-react-devtools-and-debugging.md">Q&amp;A</a></td><td><a href="../examples/105-react-devtools-and-debugging.md">Example</a></td><td><a href="106-profiling-during-development.md">106 - Profiling Component Behavior During Development</a></td></tr>
+  </tbody>
+</table>

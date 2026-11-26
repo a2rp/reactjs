@@ -1,4 +1,4 @@
-﻿# 029. Text inputs, selects, checkboxes, and radio buttons - Example
+# 029. Text inputs, selects, checkboxes, and radio buttons - Example
 
 ## Goal
 
@@ -361,9 +361,13 @@ The reset button calls a function that puts every state variable back at its ini
 - Radio buttons share a `name` and use one selected string in state.
 - State can be shared between controls when they represent the same choices.
 - Reset controlled values by updating React state.
-
 ## Chapter navigation
 
-| Previous chapter | Chapter lesson | Chapter Q&A | Next chapter |
-| --- | --- | --- | --- |
-| [028 - Controlled form elements](../lessons/028-controlled-form-elements.md) | [029 - Text inputs, selects, checkboxes, and radio buttons](../lessons/029-inputs-selects-checkboxes-and-radio-buttons.md) | [Open Q&A](../qnas/029-inputs-selects-checkboxes-and-radio-buttons.md) | [030 - Form submission and browser validation](../lessons/030-form-submission-and-browser-validation.md) |
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="028-controlled-form-elements.md">028 - Controlled form elements - Example</a></td><td><a href="../lessons/029-inputs-selects-checkboxes-and-radio-buttons.md">Lesson</a></td><td><a href="../qnas/029-inputs-selects-checkboxes-and-radio-buttons.md">Q&amp;A</a></td><td><a href="030-form-submission-and-browser-validation.md">030 - Form submission and browser validation - Example</a></td></tr>
+  </tbody>
+</table>

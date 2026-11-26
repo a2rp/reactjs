@@ -113,7 +113,7 @@ function PrintStatus() {
 }
 ~~~
 
-The `beforeprint` handler is an external browser callback where the browser may use the document as soon as the callback completes. The synchronous commit makes the print-mode content available by then. Register and remove listeners in an Effect, but call `flushSync` from the callback—not while the Effect itself is running.
+The `beforeprint` handler is an external browser callback where the browser may use the document as soon as the callback completes. The synchronous commit makes the print-mode content available by then. Register and remove listeners in an Effect, but call `flushSync` from the callback-not while the Effect itself is running.
 
 For basic print styling, prefer CSS `@media print` when it is sufficient. Use a React state change only when the printed interface genuinely depends on application state or markup.
 
@@ -194,3 +194,13 @@ The need to synchronously inspect React-managed DOM is relatively uncommon. Keep
 ## Summary
 
 `flushSync(callback)` forces React to synchronously flush relevant updates so the DOM is current before the next line runs. It is an uncommon escape hatch for browser or third-party integrations that require immediate DOM changes. It can flush unrelated work, reveal Suspense fallbacks, and hurt performance, so prefer normal React scheduling and use it only when a concrete synchronous DOM requirement remains.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="070-react-dom-roots-and-client-apis.md">070 - React DOM Roots, Hydration, and Client APIs</a></td><td><a href="../qnas/071-flushsync.md">Q&amp;A</a></td><td><a href="../examples/071-flushsync.md">Example</a></td><td><a href="072-react-dom-resource-hints-and-browser-apis.md">072 - React DOM Resource Hints and Browser APIs</a></td></tr>
+  </tbody>
+</table>

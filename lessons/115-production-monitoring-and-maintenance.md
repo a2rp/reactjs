@@ -1,4 +1,4 @@
-﻿# Production Errors, Monitoring, and Maintenance
+# Production Errors, Monitoring, and Maintenance
 
 A React application is not finished when it works on a developer's laptop. Production users can encounter a failed request, a browser-specific issue, a stale deployment asset, or a bug that only appears with a particular set of data. This lesson explains how to give users a useful recovery path, capture enough safe diagnostic information to investigate, and keep a deployed application healthy over time.
 
@@ -322,3 +322,13 @@ A lockfile makes dependency resolution repeatable; it does not guarantee every d
 ## Next steps
 
 Continue to the chapter Q&A to review common production error and monitoring decisions, then work through the example to put a boundary and explicit async error state into a small React interface.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="114-production-builds-and-deployment.md">114 - Production Builds, Configuration, and Deployment</a></td><td><a href="../qnas/115-production-monitoring-and-maintenance.md">Q&amp;A</a></td><td><a href="../examples/115-production-monitoring-and-maintenance.md">Example</a></td><td><a href="116-react-capstone-project.md">116 - Build and Ship a Complete Accessible React Application</a></td></tr>
+  </tbody>
+</table>

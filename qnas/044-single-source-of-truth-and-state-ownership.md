@@ -1,4 +1,4 @@
-# Single Source of Truth and State Ownership — Q&A
+# Single Source of Truth and State Ownership - Q&A
 
 ## Core concepts
 
@@ -217,3 +217,13 @@ Give each shared fact one clear owner at the nearest level that can coordinate i
 ## Key takeaway
 
 One shared fact should have one clear client-side owner. Consumers receive that value and report requested changes. Store distinct facts separately, derive what can be calculated, and keep unrelated state close to its use.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="043-lifting-state-up-and-sharing-data.md">043 - Lifting State Up and Sharing Data - Q&amp;A</a></td><td><a href="../lessons/044-single-source-of-truth-and-state-ownership.md">Lesson</a></td><td><a href="../examples/044-single-source-of-truth-and-state-ownership.md">Example</a></td><td><a href="045-controlled-and-uncontrolled-component-apis.md">045 - Controlled and Uncontrolled Component APIs - Q&amp;A</a></td></tr>
+  </tbody>
+</table>

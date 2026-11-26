@@ -1,4 +1,4 @@
-﻿# Security Basics: Escaping, URLs, and Untrusted Data
+# Security Basics: Escaping, URLs, and Untrusted Data
 
 ## Learning objectives
 
@@ -227,3 +227,13 @@ Review data flow from its source to its final use. Filtering input once at the s
 - Avoid raw HTML insertion and never convert user data into executable code.
 - Validate on the server and authorize every protected operation.
 - Treat browser storage, API responses, and database values as potentially untrusted.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="111-code-splitting-and-asset-loading.md">111 - Code Splitting, Asset Loading, and Bundle Analysis</a></td><td><a href="../qnas/112-security-and-untrusted-data.md">Q&amp;A</a></td><td><a href="../examples/112-security-and-untrusted-data.md">Example</a></td><td><a href="113-html-injection-and-trusted-types.md">113 - HTML Injection, Sanitization, and Trusted Types</a></td></tr>
+  </tbody>
+</table>

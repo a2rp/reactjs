@@ -671,3 +671,13 @@ function ImportedArticle({ untrustedMarkup }) {
 - Fragment refs coordinate DOM APIs across siblings without an extra wrapper.
 - `use(browser())` renders a Suspense fallback on the server and browser-dependent content after hydration.
 - Trusted Types requires an application-managed sanitizer and policy; React only preserves the typed values.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="118-react-19-2-features.md">118 - Example: Preserve Panel State and Profile React 19.2 Work</a></td><td><a href="../lessons/119-react-19-3-features.md">Lesson</a></td><td><a href="../qnas/119-react-19-3-features.md">Q&amp;A</a></td><td><a href="120-react-quick-reference-and-glossary.md">120 - React quick reference and glossary: examples</a></td></tr>
+  </tbody>
+</table>

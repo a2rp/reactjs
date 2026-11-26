@@ -1,4 +1,4 @@
-﻿# 029. Text inputs, selects, checkboxes, and radio buttons - Q&A
+# 029. Text inputs, selects, checkboxes, and radio buttons - Q&A
 
 ## Text inputs
 
@@ -138,9 +138,13 @@ Ask what the user is choosing and how many choices are allowed:
 - Exactly one choice from a small visible set: use a radio group.
 
 Then give each control a label and name, and choose state that matches the control's value shape.
-
 ## Chapter navigation
 
-| Previous chapter | Chapter lesson | Chapter example | Next chapter |
-| --- | --- | --- | --- |
-| [028 - Controlled form elements](../lessons/028-controlled-form-elements.md) | [029 - Text inputs, selects, checkboxes, and radio buttons](../lessons/029-inputs-selects-checkboxes-and-radio-buttons.md) | [Open Example](../examples/029-inputs-selects-checkboxes-and-radio-buttons.md) | [030 - Form submission and browser validation](../lessons/030-form-submission-and-browser-validation.md) |
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="028-controlled-form-elements.md">028 - Controlled form elements - Q&amp;A</a></td><td><a href="../lessons/029-inputs-selects-checkboxes-and-radio-buttons.md">Lesson</a></td><td><a href="../examples/029-inputs-selects-checkboxes-and-radio-buttons.md">Example</a></td><td><a href="030-form-submission-and-browser-validation.md">030 - Form submission and browser validation - Q&amp;A</a></td></tr>
+  </tbody>
+</table>

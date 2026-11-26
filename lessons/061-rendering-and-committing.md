@@ -1,13 +1,13 @@
-﻿# Rendering, Committing, and Updating the UI
+# Rendering, Committing, and Updating the UI
 
 ## React works out the next interface before changing the DOM
 
 React updates the screen through a sequence of work:
 
-1. **Trigger** — an initial root render or an update requests work.
-2. **Render** — React calls components to calculate the next UI description.
-3. **Commit** — React applies the necessary changes to the browser DOM.
-4. **Paint** — the browser draws the updated DOM on screen.
+1. **Trigger** - an initial root render or an update requests work.
+2. **Render** - React calls components to calculate the next UI description.
+3. **Commit** - React applies the necessary changes to the browser DOM.
+4. **Paint** - the browser draws the updated DOM on screen.
 
 A component render is a calculation. It does not mean React immediately rewrites the entire DOM. React compares the new result with the previous tree and commits only the changes needed to make the DOM match.
 
@@ -196,3 +196,13 @@ The component function describes what should be visible. State setters, event ha
 - State is a snapshot for one render. Setters request future work, and updater functions compose queued updates.
 - React manages DOM inside its root. Use state to describe structural changes rather than editing React-owned structure by hand.
 - Use **createRoot** for client-rendered markup and **hydrateRoot** for React-rendered server markup.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="060-memoization-useid-usememo-usecallback.md">060 - Memoization, useId, useMemo, and useCallback</a></td><td><a href="../qnas/061-rendering-and-committing.md">Q&amp;A</a></td><td><a href="../examples/061-rendering-and-committing.md">Example</a></td><td><a href="062-reconciliation-and-component-identity.md">062 - Reconciliation, Component Identity, and Keys</a></td></tr>
+  </tbody>
+</table>

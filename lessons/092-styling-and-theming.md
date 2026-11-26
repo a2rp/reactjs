@@ -1,4 +1,4 @@
-﻿# Styling Strategies, CSS Modules, and Theming in React
+# Styling Strategies, CSS Modules, and Theming in React
 
 ## Learning goals
 
@@ -361,3 +361,13 @@ The simplest setup that supports the app's layout, reuse, theming, and team work
 ## Summary
 
 React connects UI elements to CSS through attributes such as `className` and the `style` object, while leaving stylesheet organization to the project. CSS Modules provide local class mappings when supported by the build tool; they reduce naming collisions without replacing the cascade. CSS custom properties make shared semantic tokens and light/dark themes practical. React state or a shared preference can select a theme, while CSS handles responsive layout, focus styles, contrast, and motion preferences.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="091-typescript-with-react.md">091 - TypeScript with React Components and Hooks</a></td><td><a href="../qnas/092-styling-and-theming.md">Q&amp;A</a></td><td><a href="../examples/092-styling-and-theming.md">Example</a></td><td><a href="093-animation-and-motion-preferences.md">093 - Animation, Motion Preferences, and View Transitions in React</a></td></tr>
+  </tbody>
+</table>

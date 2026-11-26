@@ -182,7 +182,7 @@ A navigation can either add a new history entry or replace the current entry:
 - **Push** adds an entry. Back returns to the previous view.
 - **Replace** changes the current entry. Back skips the replaced intermediate value.
 
-A committed search, filter, or page selection often deserves a new history entry. A rapidly changing value—such as a query synchronized on every keystroke—may use replacement or debouncing so Back does not need to step through dozens of keystrokes.
+A committed search, filter, or page selection often deserves a new history entry. A rapidly changing value-such as a query synchronized on every keystroke-may use replacement or debouncing so Back does not need to step through dozens of keystrokes.
 
 Choose intentionally. If each meaningful selection is pushed, Back can undo those selections. If each transient update replaces the current entry, Back leaves the page instead of revisiting every intermediate value.
 
@@ -244,3 +244,13 @@ A search term can itself be sensitive. Consider whether it belongs in a shareabl
 - Use router links and navigation APIs so the URL, history, and rendered route stay coordinated.
 - Push meaningful navigation steps; replace transient updates when that matches the desired Back behavior.
 - URLs are public-facing input. Keep secrets out and validate values on the server when needed.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="086-nested-routes-layouts-and-errors.md">086 - Nested routes, layouts, and route errors</a></td><td><a href="../qnas/087-url-state-and-navigation.md">Q&amp;A</a></td><td><a href="../examples/087-url-state-and-navigation.md">Example</a></td><td><a href="088-organizing-react-applications.md">088 - Organizing Components, Features, and Application Code</a></td></tr>
+  </tbody>
+</table>

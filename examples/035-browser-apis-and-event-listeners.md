@@ -317,3 +317,13 @@ h2 {
 ## Expected behavior
 
 The initial page can display a short reading message until the Effects run. The dimensions then match the current browser viewport and change after resizing. The motion message reflects the browser's current preference and updates when that preference changes. The click count changes only when the button is activated.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="034-file-inputs-and-upload-flows.md">034 - File inputs and upload flows - Example</a></td><td><a href="../lessons/035-browser-apis-and-event-listeners.md">Lesson</a></td><td><a href="../qnas/035-browser-apis-and-event-listeners.md">Q&amp;A</a></td><td><a href="036-accessible-interactive-form-project.md">036 - Build an accessible interactive form feature - Example</a></td></tr>
+  </tbody>
+</table>

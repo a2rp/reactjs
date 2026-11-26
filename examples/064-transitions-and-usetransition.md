@@ -561,3 +561,13 @@ Awaiting the callback keeps the Transition pending for its asynchronous work. Di
 - It does not make synchronous JavaScript calculations run in the background.
 - It does not cancel requests or resolve overlapping request races.
 - It does not use a Transition to control the fields’ values.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="063-concurrent-rendering-and-priorities.md">063 - Example: Concurrent Rendering and Update Priorities</a></td><td><a href="../lessons/064-transitions-and-usetransition.md">Lesson</a></td><td><a href="../qnas/064-transitions-and-usetransition.md">Q&amp;A</a></td><td><a href="065-usedeferredvalue.md">065 - Example: useDeferredValue with a Search Results List</a></td></tr>
+  </tbody>
+</table>

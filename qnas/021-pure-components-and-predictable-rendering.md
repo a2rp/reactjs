@@ -116,9 +116,13 @@ No. Memoization can skip some renders as an optimization, but it does not correc
 ### 24. What is the main rule to remember?
 
 During render, read the current inputs, calculate the JSX, and avoid changing the outside world. Put user-triggered work in event handlers and external synchronization in Effects when needed.
-
 ## Chapter navigation
 
-| Previous chapter | Chapter lesson | Chapter example | Next chapter |
-| --- | --- | --- | --- |
-| [020 - Component boundaries and responsibility](../lessons/020-component-boundaries-and-responsibility.md) | [021 - Pure components and predictable rendering](../lessons/021-pure-components-and-predictable-rendering.md) | [Open Example](../examples/021-pure-components-and-predictable-rendering.md) | [022 - Designing reusable component APIs](../lessons/022-designing-reusable-component-apis.md) |
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="020-component-boundaries-and-responsibility.md">020 - Component boundaries and responsibility - Q&amp;A</a></td><td><a href="../lessons/021-pure-components-and-predictable-rendering.md">Lesson</a></td><td><a href="../examples/021-pure-components-and-predictable-rendering.md">Example</a></td><td><a href="022-designing-reusable-component-apis.md">022 - Designing reusable component APIs - Q&amp;A</a></td></tr>
+  </tbody>
+</table>

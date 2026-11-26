@@ -1,4 +1,4 @@
-# Managing Submissions with useActionState — Example
+# Managing Submissions with useActionState - Example
 
 This React 19 + Vite demo edits a small profile. The Action returns a state object with field errors, submitted values, pending status, and the saved profile. Validation failures preserve what the user typed; success clears the form and updates the profile summary.
 
@@ -388,3 +388,13 @@ The submitted object becomes each input's new defaultValue. When the Action comp
 - Updated defaultValue values preserve failed submissions during React's form reset.
 - Success can return empty defaults to clear the form.
 - The browser demo does not provide server persistence, authentication, or authorization.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="078-react-form-actions.md">078 - React Form Actions and Asynchronous Submissions - Example</a></td><td><a href="../lessons/079-useactionstate.md">Lesson</a></td><td><a href="../qnas/079-useactionstate.md">Q&amp;A</a></td><td><a href="080-useformstatus.md">080 - Example: Pending form state with useFormStatus</a></td></tr>
+  </tbody>
+</table>

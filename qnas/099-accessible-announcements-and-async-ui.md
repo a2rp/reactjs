@@ -1,4 +1,4 @@
-﻿# Accessible Announcements and Asynchronous Interfaces: Questions and Answers
+# Accessible Announcements and Asynchronous Interfaces: Questions and Answers
 
 ## Live regions and announcement priority
 
@@ -194,3 +194,13 @@ Show meaningful progress and outcomes to all users, announce only important chan
 - Do not announce every keystroke or every result item.
 - Ignore stale responses so the message matches the latest user intent.
 - Test with real browser and assistive technology combinations.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="098-keyboard-focus-and-dialogs.md">098 - Keyboard Support, Focus, and Dialogs: Questions and Answers</a></td><td><a href="../lessons/099-accessible-announcements-and-async-ui.md">Lesson</a></td><td><a href="../examples/099-accessible-announcements-and-async-ui.md">Example</a></td><td><a href="100-testing-strategy-and-component-design.md">100 - Testing Strategy and Testable Component Design: Questions and Answers</a></td></tr>
+  </tbody>
+</table>

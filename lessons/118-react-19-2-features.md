@@ -1,4 +1,4 @@
-﻿# React 19.2: Activity and Performance Tooling
+# React 19.2: Activity and Performance Tooling
 
 React 19.2 introduced `<Activity>`, Effect Events with `useEffectEvent`, and React-specific Performance Tracks in the browser Performance panel. These features help preserve useful interface state, manage work that belongs to Effects, and investigate where rendering time is spent.
 
@@ -275,3 +275,13 @@ Use Activity where the answer supports it, not as a default wrapper for every ro
 - Profile a repeatable user interaction, identify the cause, change one thing, and compare.
 - Use development or profiling instrumentation to diagnose, then verify behavior and performance in the actual production setup.
 - Adopt React 19.2 features when they solve a measured product problem and fit the framework.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="117-react-upgrades-and-version-changes.md">117 - Upgrading React and Handling Version Changes</a></td><td><a href="../qnas/118-react-19-2-features.md">Q&amp;A</a></td><td><a href="../examples/118-react-19-2-features.md">Example</a></td><td><a href="119-react-19-3-features.md">119 - React 19.3: View Transitions, Fragment refs, and browser APIs</a></td></tr>
+  </tbody>
+</table>

@@ -1,4 +1,4 @@
-# Reducer Design, Transitions, and State Machines — Example
+# Reducer Design, Transitions, and State Machines - Example
 
 This example is a local event-registration wizard with four modes:
 
@@ -826,7 +826,7 @@ h2 {
       name="description"
       content="A React reducer example with guarded state-machine transitions."
     />
-    <title>Reducer State Machine — React Example</title>
+    <title>Reducer State Machine - React Example</title>
   </head>
   <body>
     <div id="root"></div>
@@ -878,3 +878,13 @@ Open the local address printed by Vite. Try continuing with empty contact fields
 - One action changes related fields together.
 - The confirmation code is created outside the reducer.
 - The complete screen explicitly says this local example does not submit data.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="046-complex-state-with-usereducer.md">046 - Complex State with useReducer - Example</a></td><td><a href="../lessons/047-reducer-design-and-state-machines.md">Lesson</a></td><td><a href="../qnas/047-reducer-design-and-state-machines.md">Q&amp;A</a></td><td><a href="048-preserving-and-resetting-state.md">048 - Example: Preserving and Resetting State with Keys</a></td></tr>
+  </tbody>
+</table>

@@ -138,3 +138,13 @@ A server-rendered result is still visible to the person who receives it. Check a
 ## Expected result
 
 The page displays three lesson summaries and a button labeled `Likes: 0`. Each click increments the number. The lesson list is rendered by the Server Component, while the button's state and click behavior are provided by the Client Component.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="082-server-functions-and-form-actions.md">082 - Server Functions and form Actions - Example</a></td><td><a href="../lessons/083-react-server-components.md">Lesson</a></td><td><a href="../qnas/083-react-server-components.md">Q&amp;A</a></td><td><a href="084-client-server-boundaries-and-serialization.md">084 - Client/server boundaries: safe course cards and local interaction</a></td></tr>
+  </tbody>
+</table>

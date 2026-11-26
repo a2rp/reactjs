@@ -4,7 +4,7 @@
 
 This small React app has two demonstrations:
 
-1. A counter shows that a click handler still reads the count from its own render after it calls a setter. Its â€œAdd three (direct updates)â€ button makes three calculations from the same snapshot.
+1. A counter shows that a click handler still reads the count from its own render after it calls a setter. Its “Add three (direct updates)” button makes three calculations from the same snapshot.
 2. A delayed message uses the recipient and message captured when the scheduling handler ran. You can edit the form while the timer is running and compare the current form values with the values used by the callback.
 
 The timer cleanup is included so an unfinished timer is cleared if the component unmounts. It is not part of the snapshot rule itself.
@@ -217,7 +217,7 @@ export default function App() {
         <p className="explanation">
           Editing a controlled input requests a new render. It does not change
           the recipient or message captured by an already scheduled callback.
-          Choosing â€œReplace with current valuesâ€ creates a new callback from
+          Choosing “Replace with current values” creates a new callback from
           the latest render.
         </p>
       </section>
@@ -480,3 +480,13 @@ textarea {
 - The delayed callback continues to use the recipient and message captured when it was created.
 - Editing the form creates new state and handlers for a later render. It does not rewrite an existing callback.
 - In the following chapter, the direct updates are replaced with updater functions so each queued increment can build on the pending value.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="037-state-with-usestate.md">037 - State with useState - Example</a></td><td><a href="../lessons/038-state-as-a-render-snapshot.md">Lesson</a></td><td><a href="../qnas/038-state-as-a-render-snapshot.md">Q&amp;A</a></td><td><a href="039-queued-batched-and-functional-updates.md">039 - Queued updates, batching, and functional updates - Example</a></td></tr>
+  </tbody>
+</table>

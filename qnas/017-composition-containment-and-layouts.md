@@ -147,9 +147,13 @@ Extract a component when the boundary makes the UI easier to name, reuse, test i
 ### 20. Is a React element passed through a prop rendered automatically?
 
 No. A JSX element passed as `header`, `sidebar`, or another prop is a value. The receiving component must render that prop in its JSX, just as it must render `children`.
-
 ## Chapter navigation
 
-| Previous chapter | Chapter lesson | Chapter example | Next chapter |
-| --- | --- | --- | --- |
-| [016 - The children prop and nested content](../lessons/016-children-prop-and-nested-content.md) | [017 - Composition, containment, and reusable layouts](../lessons/017-composition-containment-and-layouts.md) | [Open Example](../examples/017-composition-containment-and-layouts.md) | [018 - Conditional rendering patterns](../lessons/018-conditional-rendering-patterns.md) |
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="016-children-prop-and-nested-content.md">016 - The children prop and nested content - Q&amp;A</a></td><td><a href="../lessons/017-composition-containment-and-layouts.md">Lesson</a></td><td><a href="../examples/017-composition-containment-and-layouts.md">Example</a></td><td><a href="018-conditional-rendering-patterns.md">018 - Conditional rendering patterns - Q&amp;A</a></td></tr>
+  </tbody>
+</table>

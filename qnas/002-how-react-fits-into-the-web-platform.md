@@ -165,9 +165,13 @@ Should the password be included in browser JavaScript?
 4. No. The app, framework, or data library must arrange data loading.
 5. React DOM, based on the React tree.
 6. Yes. React can manage a dedicated region of a larger page.
-
 ## Chapter navigation
 
-| Previous chapter | Chapter lesson | Chapter example | Next chapter |
-| --- | --- | --- | --- |
-| [001 - Introduction to React and declarative UI](../lessons/001-introduction-to-react-and-declarative-ui.md) | [Open lesson](../lessons/002-how-react-fits-into-the-web-platform.md) | [Open example](../examples/002-how-react-fits-into-the-web-platform.md) | [003 - React, React DOM, and the framework ecosystem](003-react-react-dom-and-frameworks.md) |
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="001-introduction-to-react-and-declarative-ui.md">001 - Q&amp;A: Introduction to React and declarative UI</a></td><td><a href="../lessons/002-how-react-fits-into-the-web-platform.md">Lesson</a></td><td><a href="../examples/002-how-react-fits-into-the-web-platform.md">Example</a></td><td><a href="003-react-react-dom-and-frameworks.md">003 - Q&amp;A: React, React DOM, and the framework ecosystem</a></td></tr>
+  </tbody>
+</table>

@@ -167,9 +167,13 @@ Avoid names that only describe implementation details, such as `Wrapper2`, or na
 - Define components at the top level, not inside another component.
 - Choose file boundaries based on reuse and readability, not as a rule that every component gets a file.
 - Avoid both one giant component and a component for every tiny element.
-
 ## Chapter navigation
 
-| Previous chapter | Chapter Q&A | Chapter example | Next chapter |
-| --- | --- | --- | --- |
-| [019 - Rendering collections and choosing stable keys](019-rendering-collections-and-stable-keys.md) | [Open Q&A](../qnas/020-component-boundaries-and-responsibility.md) | [Open Example](../examples/020-component-boundaries-and-responsibility.md) | [021 - Pure components and predictable rendering](021-pure-components-and-predictable-rendering.md) |
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="019-rendering-collections-and-stable-keys.md">019 - Rendering collections and choosing stable keys</a></td><td><a href="../qnas/020-component-boundaries-and-responsibility.md">Q&amp;A</a></td><td><a href="../examples/020-component-boundaries-and-responsibility.md">Example</a></td><td><a href="021-pure-components-and-predictable-rendering.md">021 - Pure components and predictable rendering</a></td></tr>
+  </tbody>
+</table>

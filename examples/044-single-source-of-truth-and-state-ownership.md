@@ -1,4 +1,4 @@
-# Single Source of Truth and State Ownership — Example
+# Single Source of Truth and State Ownership - Example
 
 This example lets a user choose a product and shows that selection in three places:
 
@@ -185,7 +185,7 @@ function SelectionSummary({ product }) {
         </h2>
       </div>
       <p className="summary-price">
-        {product ? currency.format(product.price) : "—"}
+        {product ? currency.format(product.price) : "-"}
       </p>
     </section>
   );
@@ -516,7 +516,7 @@ h2 {
       name="description"
       content="A React example of one source of truth and clear state ownership."
     />
-    <title>State Ownership — React Example</title>
+    <title>State Ownership - React Example</title>
   </head>
   <body>
     <div id="root"></div>
@@ -570,3 +570,13 @@ Open the local address printed by Vite. Select different products and confirm th
 - The product object is derived from the ID instead of stored as a second state value.
 - ProductPicker has independent local state for its search query.
 - A single source of truth applies to a shared fact; it does not move unrelated state to one global component.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="043-lifting-state-up-and-sharing-data.md">043 - Lifting State Up and Sharing Data - Example</a></td><td><a href="../lessons/044-single-source-of-truth-and-state-ownership.md">Lesson</a></td><td><a href="../qnas/044-single-source-of-truth-and-state-ownership.md">Q&amp;A</a></td><td><a href="045-controlled-and-uncontrolled-component-apis.md">045 - Controlled and Uncontrolled Component APIs - Example</a></td></tr>
+  </tbody>
+</table>

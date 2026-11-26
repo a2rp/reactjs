@@ -142,9 +142,13 @@ Unmounting is useful when an external system may remove a DOM container that Rea
 - Use hydrateRoot for HTML already rendered by React on the server.
 - Frameworks may create the root for you, so follow their setup.
 - Unmount a root when an external system removes its container; it is rarely needed in a standalone app.
-
 ## Chapter navigation
 
-| Previous chapter | Chapter Q&A | Chapter example | Next chapter |
-| --- | --- | --- | --- |
-| [010 - Fragments and returning multiple elements](010-fragments-and-multiple-elements.md) | [Open Q&A](../qnas/011-create-a-root-and-render-an-application.md) | [Open Example](../examples/011-create-a-root-and-render-an-application.md) | [012 - Strict Mode and development checks](012-strict-mode-and-development-checks.md) |
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="010-fragments-and-multiple-elements.md">010 - Fragments and returning multiple elements</a></td><td><a href="../qnas/011-create-a-root-and-render-an-application.md">Q&amp;A</a></td><td><a href="../examples/011-create-a-root-and-render-an-application.md">Example</a></td><td><a href="012-strict-mode-and-development-checks.md">012 - Strict Mode and development checks</a></td></tr>
+  </tbody>
+</table>

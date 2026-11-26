@@ -380,3 +380,13 @@ Suggested answers:
 - Keep reducers pure; perform asynchronous work and other effects outside them.
 - Use request identifiers when overlapping responses could arrive out of order.
 - Use a formal state-machine library only when a plain reducer no longer expresses the workflow clearly.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="046-complex-state-with-usereducer.md">046 - Complex State with useReducer</a></td><td><a href="../qnas/047-reducer-design-and-state-machines.md">Q&amp;A</a></td><td><a href="../examples/047-reducer-design-and-state-machines.md">Example</a></td><td><a href="048-preserving-and-resetting-state.md">048 - Preserving and Resetting State with Tree Position and Keys</a></td></tr>
+  </tbody>
+</table>

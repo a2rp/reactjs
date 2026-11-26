@@ -129,9 +129,13 @@ Ask two separate questions: should the browser perform its default action, and s
 ### 30. What is the main rule to remember?
 
 Let normal event flow work unless a real interaction needs a boundary. Use semantic controls, cancel browser defaults only when replacing them, and stop propagation only when ancestors should not handle the event.
-
 ## Chapter navigation
 
-| Previous chapter | Chapter lesson | Chapter example | Next chapter |
-| --- | --- | --- | --- |
-| [026 - Event objects and React's event system](../lessons/026-event-objects-and-react-event-system.md) | [027 - Event propagation, default actions, and cancellation](../lessons/027-event-propagation-and-default-actions.md) | [Open Example](../examples/027-event-propagation-and-default-actions.md) | [028 - Controlled form elements](../lessons/028-controlled-form-elements.md) |
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="026-event-objects-and-react-event-system.md">026 - Event objects and React's event system - Q&amp;A</a></td><td><a href="../lessons/027-event-propagation-and-default-actions.md">Lesson</a></td><td><a href="../examples/027-event-propagation-and-default-actions.md">Example</a></td><td><a href="028-controlled-form-elements.md">028 - Controlled form elements - Q&amp;A</a></td></tr>
+  </tbody>
+</table>

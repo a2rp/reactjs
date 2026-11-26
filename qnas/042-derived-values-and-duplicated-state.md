@@ -239,3 +239,13 @@ Ask whether the value changes independently, whether it can be calculated from c
 - Store selected IDs and derive current objects from the current collection.
 - Use props directly when they should track the parent; use local draft state only when divergence is intentional.
 - useMemo is an optional performance cache, not a source of truth.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="041-updating-array-state-immutably.md">041 - Updating array state immutably - Q&amp;A</a></td><td><a href="../lessons/042-derived-values-and-duplicated-state.md">Lesson</a></td><td><a href="../examples/042-derived-values-and-duplicated-state.md">Example</a></td><td><a href="043-lifting-state-up-and-sharing-data.md">043 - Lifting State Up and Sharing Data - Q&amp;A</a></td></tr>
+  </tbody>
+</table>

@@ -1,4 +1,4 @@
-﻿# Memoization, useId, useMemo, and useCallback — Q&A
+# Memoization, useId, useMemo, and useCallback - Q&A
 
 ## Memoization basics
 
@@ -187,3 +187,13 @@ Profile the interaction, identify which calculation or component work is actuall
 ### 44. What is the quick rule for choosing among these APIs?
 
 Use **useMemo** for a calculated value, **useCallback** for a function identity, **memo** for a component that can skip some renders, and **useId** for accessibility IDs. Use none of them unless their specific purpose is needed.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="059-refs-and-imperative-handles.md">059 - React 19 Refs, forwardRef, and Imperative Handles - Q&amp;A</a></td><td><a href="../lessons/060-memoization-useid-usememo-usecallback.md">Lesson</a></td><td><a href="../examples/060-memoization-useid-usememo-usecallback.md">Example</a></td><td><a href="061-rendering-and-committing.md">061 - Rendering, Committing, and Updating the UI - Q&amp;A</a></td></tr>
+  </tbody>
+</table>

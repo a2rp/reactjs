@@ -174,9 +174,13 @@ Treat this as a clue to look for render-time changes. Do not fix it by relying o
 - Keep side effects out of render; handle user-triggered work in event handlers.
 - Use Effects to synchronize with external systems when needed, not as a default calculation step.
 - Strict Mode can expose code that breaks when rendering happens more than once.
-
 ## Chapter navigation
 
-| Previous chapter | Chapter Q&A | Chapter example | Next chapter |
-| --- | --- | --- | --- |
-| [020 - Component boundaries and responsibility](020-component-boundaries-and-responsibility.md) | [Open Q&A](../qnas/021-pure-components-and-predictable-rendering.md) | [Open Example](../examples/021-pure-components-and-predictable-rendering.md) | [022 - Designing reusable component APIs](022-designing-reusable-component-apis.md) |
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="020-component-boundaries-and-responsibility.md">020 - Component boundaries and responsibility</a></td><td><a href="../qnas/021-pure-components-and-predictable-rendering.md">Q&amp;A</a></td><td><a href="../examples/021-pure-components-and-predictable-rendering.md">Example</a></td><td><a href="022-designing-reusable-component-apis.md">022 - Designing reusable component APIs</a></td></tr>
+  </tbody>
+</table>

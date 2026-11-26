@@ -1,4 +1,4 @@
-﻿# Internationalization, Localization, and Text Direction in React
+# Internationalization, Localization, and Text Direction in React
 
 ## Learning goals
 
@@ -273,3 +273,13 @@ Localization can change content length and direction, so use flexible layouts an
 ## Summary
 
 Internationalization makes an application ready for different languages, formats, and directions; localization supplies the actual translated content and locale choices. Keep messages in catalogs, use `Intl` for locale-sensitive formatting and plural categories, and set `lang` and `dir` deliberately. Use logical CSS properties and isolate unknown-direction text with `<bdi>` or `dir="auto"`. Match server and client locale settings, translate accessible content, and test long strings, RTL, dates, numbers, and plural forms.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="093-animation-and-motion-preferences.md">093 - Animation, Motion Preferences, and View Transitions in React</a></td><td><a href="../qnas/094-internationalization-and-localization.md">Q&amp;A</a></td><td><a href="../examples/094-internationalization-and-localization.md">Example</a></td><td><a href="095-frameworks-and-rendering-strategies.md">095 - Frameworks, Client Rendering, SSR, and Static Generation in React</a></td></tr>
+  </tbody>
+</table>

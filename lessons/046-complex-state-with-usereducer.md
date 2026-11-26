@@ -456,3 +456,13 @@ Suggested answers:
 - Keep side effects, IDs, and timestamps outside the reducer.
 - Use an initializer function for computed initial state when useful.
 - Choose useReducer when it clarifies related transitions; useState remains appropriate for simple state.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="045-controlled-and-uncontrolled-component-apis.md">045 - Controlled and Uncontrolled Component APIs</a></td><td><a href="../qnas/046-complex-state-with-usereducer.md">Q&amp;A</a></td><td><a href="../examples/046-complex-state-with-usereducer.md">Example</a></td><td><a href="047-reducer-design-and-state-machines.md">047 - Reducer Design, Transitions, and State Machines</a></td></tr>
+  </tbody>
+</table>

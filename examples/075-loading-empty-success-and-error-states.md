@@ -1,4 +1,4 @@
-# Loading, Empty, Success, and Error States — Example
+# Loading, Empty, Success, and Error States - Example
 
 This Vite demo loads a local product list and renders an explicit request state:
 
@@ -602,3 +602,13 @@ Try the steps shown under **Try these states**. Use the browser's Network panel 
 ## Key takeaway
 
 Render the state that actually occurred: pending, successful with results, successful but empty, or failed. Associate data with its query, keep loading and error feedback accessible, and make retry start a real request.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="074-request-cancellation-and-race-conditions.md">074 - Request Cancellation, Stale Responses, and Race Conditions - Example</a></td><td><a href="../lessons/075-loading-empty-success-and-error-states.md">Lesson</a></td><td><a href="../qnas/075-loading-empty-success-and-error-states.md">Q&amp;A</a></td><td><a href="076-caching-and-revalidation.md">076 - Caching, Deduplication, Invalidation, and Revalidation - Example</a></td></tr>
+  </tbody>
+</table>

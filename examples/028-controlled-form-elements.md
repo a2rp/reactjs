@@ -1,4 +1,4 @@
-﻿# 028. Controlled form elements - Example
+# 028. Controlled form elements - Example
 
 ## Goal
 
@@ -227,9 +227,13 @@ The controls have meaningful `name` attributes, so their values can also be insp
 - State can drive other UI, such as a preview, while the user edits.
 - A submitted snapshot can be separate from the live field state.
 - Labels and `name` attributes are still important in a controlled form.
-
 ## Chapter navigation
 
-| Previous chapter | Chapter lesson | Chapter Q&A | Next chapter |
-| --- | --- | --- | --- |
-| [027 - Event propagation and default actions](../lessons/027-event-propagation-and-default-actions.md) | [028 - Controlled form elements](../lessons/028-controlled-form-elements.md) | [Open Q&A](../qnas/028-controlled-form-elements.md) | [029 - Text inputs, selects, checkboxes, and radio buttons](../lessons/029-inputs-selects-checkboxes-and-radio-buttons.md) |
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="027-event-propagation-and-default-actions.md">027 - Event propagation, default actions, and cancellation - Example</a></td><td><a href="../lessons/028-controlled-form-elements.md">Lesson</a></td><td><a href="../qnas/028-controlled-form-elements.md">Q&amp;A</a></td><td><a href="029-inputs-selects-checkboxes-and-radio-buttons.md">029 - Text inputs, selects, checkboxes, and radio buttons - Example</a></td></tr>
+  </tbody>
+</table>

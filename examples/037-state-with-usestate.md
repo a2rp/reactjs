@@ -360,3 +360,13 @@ progress {
 ## Expected behavior
 
 Each StudyPanel begins with a count of zero and its hint hidden. The count cannot go below zero or above five because the related buttons become disabled at those limits. Activating the hint button changes its label, aria-expanded value, and hint visibility. State in one panel does not change the other panel.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="036-accessible-interactive-form-project.md">036 - Build an accessible interactive form feature - Example</a></td><td><a href="../lessons/037-state-with-usestate.md">Lesson</a></td><td><a href="../qnas/037-state-with-usestate.md">Q&amp;A</a></td><td><a href="038-state-as-a-render-snapshot.md">038 - State as a render snapshot - Example</a></td></tr>
+  </tbody>
+</table>

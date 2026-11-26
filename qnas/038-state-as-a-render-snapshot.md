@@ -231,3 +231,13 @@ Ask which render created the function that is reading the value. Then identify t
 - A later render creates new handlers with its new values.
 - Asynchronous callbacks retain values from the render that created them.
 - Direct repeated expressions read the same snapshot; queued and functional updates are explained in the next chapter.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="037-state-with-usestate.md">037 - State with useState - Q&amp;A</a></td><td><a href="../lessons/038-state-as-a-render-snapshot.md">Lesson</a></td><td><a href="../examples/038-state-as-a-render-snapshot.md">Example</a></td><td><a href="039-queued-batched-and-functional-updates.md">039 - Queued updates, batching, and functional updates - Q&amp;A</a></td></tr>
+  </tbody>
+</table>

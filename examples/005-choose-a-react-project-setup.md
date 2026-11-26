@@ -130,9 +130,13 @@ Revisit the original decision. A plain Vite starter does not automatically suppl
 - [ ] The previewed production build opens locally.
 - [ ] You can explain why this learning scenario uses Vite and what the starter does not include.
 - [ ] You can name a different setup to evaluate if the project becomes a full production web app, an existing-site integration, or a native mobile app.
-
 ## Chapter navigation
 
-| Previous chapter | Lesson | Q&A | Next chapter |
-| --- | --- | --- | --- |
-| [004 - JavaScript and browser prerequisites](../lessons/004-javascript-and-browser-prerequisites.md) | [Open lesson](../lessons/005-choose-a-react-project-setup.md) | [Open Q&A](../qnas/005-choose-a-react-project-setup.md) | [006 - Project files, scripts, and the development server](../lessons/006-project-files-scripts-and-dev-server.md) |
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="004-javascript-and-browser-prerequisites.md">004 - Example: Use JavaScript data and functions in a React component</a></td><td><a href="../lessons/005-choose-a-react-project-setup.md">Lesson</a></td><td><a href="../qnas/005-choose-a-react-project-setup.md">Q&amp;A</a></td><td><a href="006-project-files-scripts-and-dev-server.md">006 - Example: Trace and run a Vite React project</a></td></tr>
+  </tbody>
+</table>

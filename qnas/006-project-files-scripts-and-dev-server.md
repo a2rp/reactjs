@@ -131,9 +131,13 @@ Check the browser Console for JavaScript runtime or module errors. Then inspect 
 ### 30. Why should I not fix a problem by editing `node_modules/` or `dist/`?
 
 Those are generated directories. Package installation can replace `node_modules/`, and a build recreates `dist/`. Find and change the responsible source file or configuration, then rerun the appropriate command.
-
 ## Chapter navigation
 
-| Previous chapter | Lesson | Example | Next chapter |
-| --- | --- | --- | --- |
-| [005 - Choose a React project setup](../lessons/005-choose-a-react-project-setup.md) | [Open lesson](../lessons/006-project-files-scripts-and-dev-server.md) | [Open Example](../examples/006-project-files-scripts-and-dev-server.md) | [007 - JSX syntax and markup](../lessons/007-jsx-syntax-and-markup.md) |
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="005-choose-a-react-project-setup.md">005 - Q&amp;A: Choose a React project setup</a></td><td><a href="../lessons/006-project-files-scripts-and-dev-server.md">Lesson</a></td><td><a href="../examples/006-project-files-scripts-and-dev-server.md">Example</a></td><td><a href="007-jsx-syntax-and-markup.md">007 - Q&amp;A: JSX syntax and markup</a></td></tr>
+  </tbody>
+</table>

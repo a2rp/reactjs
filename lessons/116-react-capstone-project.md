@@ -1,4 +1,4 @@
-﻿# Build and Ship a Complete Accessible React Application
+# Build and Ship a Complete Accessible React Application
 
 This capstone brings together the React skills from the course by building a small task tracker. The goal is not to use every React API. It is to turn a clear product requirement into a maintainable interface, keep state minimal, handle real interaction states, support keyboard and assistive technology users, and prepare the application for a responsible release.
 
@@ -254,3 +254,13 @@ The capstone is ready for review when:
 ## Key takeaways
 
 A complete React application is a set of deliberate decisions: product requirements, component boundaries, minimal state, data flow, accessible controls, external-system synchronization, and release checks. React helps render the interface from state; the developer is responsible for making state accurate, actions understandable, and failures recoverable.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="115-production-monitoring-and-maintenance.md">115 - Production Errors, Monitoring, and Maintenance</a></td><td><a href="../qnas/116-react-capstone-project.md">Q&amp;A</a></td><td><a href="../examples/116-react-capstone-project.md">Example</a></td><td><a href="117-react-upgrades-and-version-changes.md">117 - Upgrading React and Handling Version Changes</a></td></tr>
+  </tbody>
+</table>

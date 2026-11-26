@@ -1,4 +1,4 @@
-﻿# 028. Controlled form elements - Q&A
+# 028. Controlled form elements - Q&A
 
 ## Core ideas
 
@@ -135,9 +135,13 @@ No. Browsers restrict setting a file input's selected file through script, so fi
 ### 32. What is the main rule for controlled form elements?
 
 Choose a clear owner for the current value. If React owns it, pass a stable `value` or `checked` and synchronously update the backing state in `onChange`. If the browser owns it, use an initial-value prop when needed and do not treat that prop as ongoing control.
-
 ## Chapter navigation
 
-| Previous chapter | Chapter lesson | Chapter example | Next chapter |
-| --- | --- | --- | --- |
-| [027 - Event propagation and default actions](../lessons/027-event-propagation-and-default-actions.md) | [028 - Controlled form elements](../lessons/028-controlled-form-elements.md) | [Open Example](../examples/028-controlled-form-elements.md) | [029 - Text inputs, selects, checkboxes, and radio buttons](../lessons/029-inputs-selects-checkboxes-and-radio-buttons.md) |
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="027-event-propagation-and-default-actions.md">027 - Event propagation, default actions, and cancellation - Q&amp;A</a></td><td><a href="../lessons/028-controlled-form-elements.md">Lesson</a></td><td><a href="../examples/028-controlled-form-elements.md">Example</a></td><td><a href="029-inputs-selects-checkboxes-and-radio-buttons.md">029 - Text inputs, selects, checkboxes, and radio buttons - Q&amp;A</a></td></tr>
+  </tbody>
+</table>

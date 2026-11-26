@@ -234,3 +234,13 @@ Before extracting an Effect Event:
 - Pass the triggering event's specific values as arguments when they must retain their original identity.
 - Effect Events are not user event handlers, stable callbacks, or a way to bypass dependency rules.
 - Call them only from Effect logic in the component or custom Hook that owns them.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="055-when-an-effect-is-unnecessary.md">055 - When an Effect Is Unnecessary</a></td><td><a href="../qnas/056-useeffectevent.md">Q&amp;A</a></td><td><a href="../examples/056-useeffectevent.md">Example</a></td><td><a href="057-custom-hooks-and-usedebugvalue.md">057 - Custom Hooks and useDebugValue</a></td></tr>
+  </tbody>
+</table>

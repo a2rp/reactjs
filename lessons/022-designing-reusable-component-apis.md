@@ -146,7 +146,7 @@ Controlled behavior is useful when a parent must coordinate multiple components,
 
 An uncontrolled component owns its current value internally and may allow an initial value such as `defaultOpen`. This can make a self-contained interaction easy to use when callers do not need to coordinate every update. For example, a native input's `defaultValue` provides an initial value without making the parent responsible for each keystroke.
 
-The word “default” matters: an initial value is not the same contract as a value that is expected to stay synchronized with changing parent props. Do not initialize local state from a prop and then ignore later prop changes while claiming the component is controlled.
+The word ï¿½defaultï¿½ matters: an initial value is not the same contract as a value that is expected to stay synchronized with changing parent props. Do not initialize local state from a prop and then ignore later prop changes while claiming the component is controlled.
 
 Controlled and uncontrolled are common design terms, not special React APIs. Pick one clear contract for a component. If an API intentionally supports both modes, define the rule for selecting the mode and avoid letting both the value prop and internal state compete. For a simple reusable component, offering one predictable mode is often easier to maintain.
 
@@ -190,7 +190,7 @@ Small call-site examples are often the quickest way to spot an API that is diffi
 | Naming several unrelated callbacks `callback` or `handler` | Callers cannot tell which action will run. | Name callbacks for the event or requested change, such as `onDismiss`. |
 | Passing the same content through both `title` and `children` | The values can conflict and the source of display becomes unclear. | Give each input one role or remove the duplicate. |
 | Mixing a controlled value with private state that overrides it | The parent and child disagree about the current value. | Choose a single owner and pair controlled values with change callbacks. |
-| Treating `defaultValue` as a value that stays synchronized | “Default” describes initialization, not ongoing control. | Use a controlled value when the parent must keep it synchronized. |
+| Treating `defaultValue` as a value that stays synchronized | ï¿½Defaultï¿½ describes initialization, not ongoing control. | Use a controlled value when the parent must keep it synchronized. |
 | Adding many interacting boolean props | Invalid or confusing combinations become easy to create. | Use a named variant, composition, or focused components. |
 | Spreading all props onto an arbitrary DOM node | Component-only props or behavior can reach the wrong element. | Forward only supported props to the element they describe. |
 
@@ -203,9 +203,13 @@ Small call-site examples are often the quickest way to spot an API that is diffi
 - Avoid duplicated sources of truth, speculative props, and combinations of flags that callers cannot reason about.
 - Forward props intentionally and preserve the semantics and accessibility of the underlying HTML.
 - Review the API at its call site before expanding it.
-
 ## Chapter navigation
 
-| Previous chapter | Chapter Q&A | Chapter example | Next chapter |
-| --- | --- | --- | --- |
-| [021 - Pure components and predictable rendering](021-pure-components-and-predictable-rendering.md) | [Open Q&A](../qnas/022-designing-reusable-component-apis.md) | [Open Example](../examples/022-designing-reusable-component-apis.md) | [023 - Thinking in React: from a design to a component tree](023-thinking-in-react-and-component-trees.md) |
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="021-pure-components-and-predictable-rendering.md">021 - Pure components and predictable rendering</a></td><td><a href="../qnas/022-designing-reusable-component-apis.md">Q&amp;A</a></td><td><a href="../examples/022-designing-reusable-component-apis.md">Example</a></td><td><a href="023-thinking-in-react-and-component-trees.md">023 - Thinking in React: from a design to a component tree</a></td></tr>
+  </tbody>
+</table>

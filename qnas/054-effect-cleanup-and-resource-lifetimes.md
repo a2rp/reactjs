@@ -1,4 +1,4 @@
-# Effect Cleanup and Resource Lifetimes — Q&A
+# Effect Cleanup and Resource Lifetimes - Q&A
 
 ## Cleanup and Effect lifetimes
 
@@ -171,3 +171,13 @@ Identify the exact resource setup creates, find its documented release operation
 - Strict Mode's extra development setup-cleanup cycle checks that cleanup mirrors setup.
 - Abort and ignore protect local UI from obsolete work; they do not roll back a completed server action.
 - React does not await an asynchronous cleanup function.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="053-effect-dependencies-and-closures.md">053 - Effect Dependencies, Closures, and Synchronization - Q&amp;A</a></td><td><a href="../lessons/054-effect-cleanup-and-resource-lifetimes.md">Lesson</a></td><td><a href="../examples/054-effect-cleanup-and-resource-lifetimes.md">Example</a></td><td><a href="055-when-an-effect-is-unnecessary.md">055 - When an Effect Is Unnecessary - Q&amp;A</a></td></tr>
+  </tbody>
+</table>

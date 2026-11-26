@@ -1,4 +1,4 @@
-﻿# Q&A: Build and Ship a Complete Accessible React Application
+# Q&A: Build and Ship a Complete Accessible React Application
 
 ## 1. What application does this capstone build?
 
@@ -26,7 +26,7 @@ Usually not. It is derived from the current tasks, search text, and selected fil
 
 ## 7. Where should shared task state live?
 
-Keep it in the closest common parent that needs to coordinate the list and its controls—often the top-level app for this small example. Pass task values and callbacks to child components through props. If a larger app develops distant consumers, consider a suitable shared-state design then.
+Keep it in the closest common parent that needs to coordinate the list and its controls-often the top-level app for this small example. Pass task values and callbacks to child components through props. If a larger app develops distant consumers, consider a suitable shared-state design then.
 
 ## 8. Why use a stable task ID as a React key?
 
@@ -139,3 +139,13 @@ Vite exposes variables with that prefix to browser code. Visitors can inspect th
 ## 35. What makes this capstone “complete”?
 
 It meets the stated scope: task creation and management, search and filters, derived summary values, persistence with a safe fallback, accessible controls, distinct empty/error states, and a release review. It is not a complete production service for multiple users; that requires backend storage, authentication, authorization, server validation, monitoring, and operational ownership.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="115-production-monitoring-and-maintenance.md">115 - Q&amp;A: Production Errors, Monitoring, and Maintenance</a></td><td><a href="../lessons/116-react-capstone-project.md">Lesson</a></td><td><a href="../examples/116-react-capstone-project.md">Example</a></td><td><a href="117-react-upgrades-and-version-changes.md">117 - Q&amp;A: Upgrading React and Handling Version Changes</a></td></tr>
+  </tbody>
+</table>

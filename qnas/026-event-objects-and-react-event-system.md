@@ -140,9 +140,13 @@ No. It introduces the event object's propagation method, but the next lesson cov
 ### 27. What should I remember about the event system?
 
 Use React's documented event props and event object. Read from `currentTarget` when you need the element whose handler is running, and use `nativeEvent` only for browser-specific details rather than relying on internal mappings.
-
 ## Chapter navigation
 
-| Previous chapter | Chapter lesson | Chapter example | Next chapter |
-| --- | --- | --- | --- |
-| [025 - Event handlers and user interactions](../lessons/025-event-handlers-and-user-interactions.md) | [026 - Event objects and React's event system](../lessons/026-event-objects-and-react-event-system.md) | [Open Example](../examples/026-event-objects-and-react-event-system.md) | [027 - Event propagation, default actions, and cancellation](../lessons/027-event-propagation-and-default-actions.md) |
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="025-event-handlers-and-user-interactions.md">025 - Event handlers and user interactions - Q&amp;A</a></td><td><a href="../lessons/026-event-objects-and-react-event-system.md">Lesson</a></td><td><a href="../examples/026-event-objects-and-react-event-system.md">Example</a></td><td><a href="027-event-propagation-and-default-actions.md">027 - Event propagation, default actions, and cancellation - Q&amp;A</a></td></tr>
+  </tbody>
+</table>

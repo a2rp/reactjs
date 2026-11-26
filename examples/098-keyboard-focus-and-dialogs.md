@@ -1,4 +1,4 @@
-﻿# React Example: A Keyboard-Friendly Native Confirmation Dialog
+# React Example: A Keyboard-Friendly Native Confirmation Dialog
 
 This example uses the browser's native dialog element for a destructive confirmation. React calls the browser dialog API through a ref. The example demonstrates initial focus, Escape, an explicit Cancel action, and a focus fallback when the invoking button disappears.
 
@@ -240,3 +240,13 @@ The native dialog element opened with showModal() supplies modal semantics and b
 ## Key lesson
 
 React refs are appropriate for calling imperative browser APIs such as showModal(), close(), and focus(). Prefer the native dialog behavior, then manage focus explicitly when the normal return target no longer exists.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="097-semantic-html-and-accessible-components.md">097 - React Example: A Semantic and Accessible Contact Page</a></td><td><a href="../lessons/098-keyboard-focus-and-dialogs.md">Lesson</a></td><td><a href="../qnas/098-keyboard-focus-and-dialogs.md">Q&amp;A</a></td><td><a href="099-accessible-announcements-and-async-ui.md">099 - React Example: Accessible Async Search with Current-Request Protection</a></td></tr>
+  </tbody>
+</table>

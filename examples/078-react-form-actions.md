@@ -1,4 +1,4 @@
-# React Form Actions and Asynchronous Submissions — Example
+# React Form Actions and Asynchronous Submissions - Example
 
 This React 19 + Vite example uses a function form Action to add a note. It reads FormData, simulates an asynchronous save, shows pending state with useFormStatus, and relies on React to reset uncontrolled fields after success.
 
@@ -385,3 +385,13 @@ SubmitButton is a child rendered inside the form, so useFormStatus observes the 
 - Successful submission resets uncontrolled fields.
 - Errors from an Action need a recovery boundary.
 - A client Action is not a Server Function and does not persist data across reloads.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="077-async-ui-and-framework-data-loading.md">077 - Async UI, Suspense, and Framework Data Loading - Example</a></td><td><a href="../lessons/078-react-form-actions.md">Lesson</a></td><td><a href="../qnas/078-react-form-actions.md">Q&amp;A</a></td><td><a href="079-useactionstate.md">079 - Managing Submissions with useActionState - Example</a></td></tr>
+  </tbody>
+</table>

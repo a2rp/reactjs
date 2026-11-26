@@ -70,7 +70,7 @@ Yes. A parent can pass a callback to a custom component, and the component can a
 
 No. It can be an ordinary application-defined prop on a custom component. That component may call it in response to an interaction and pass another built-in event prop such as `onClick` to a native button.
 
-### 13. Should a reusable button decide what “save” or “delete” means?
+### 13. Should a reusable button decide what ï¿½saveï¿½ or ï¿½deleteï¿½ means?
 
 Usually not. A reusable button should expose a callback prop; the calling component decides the application behavior. A more specialized component can use an intent-named callback when that matches its API.
 
@@ -133,9 +133,13 @@ No. Event objects, propagation, and default browser actions have dedicated later
 ### 27. What is the core rule to remember?
 
 Pass functions to event props so they run after interactions. Use a wrapper when you need arguments, keep behavior at the right component owner, and use native elements that match the user's action.
-
 ## Chapter navigation
 
-| Previous chapter | Chapter lesson | Chapter example | Next chapter |
-| --- | --- | --- | --- |
-| [024 - Component identity, position, and keys](../lessons/024-component-identity-position-and-keys.md) | [025 - Event handlers and user interactions](../lessons/025-event-handlers-and-user-interactions.md) | [Open Example](../examples/025-event-handlers-and-user-interactions.md) | [026 - Event objects and React's event system](../lessons/026-event-objects-and-react-event-system.md) |
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="024-component-identity-position-and-keys.md">024 - Component identity, position, and keys - Q&amp;A</a></td><td><a href="../lessons/025-event-handlers-and-user-interactions.md">Lesson</a></td><td><a href="../examples/025-event-handlers-and-user-interactions.md">Example</a></td><td><a href="026-event-objects-and-react-event-system.md">026 - Event objects and React's event system - Q&amp;A</a></td></tr>
+  </tbody>
+</table>

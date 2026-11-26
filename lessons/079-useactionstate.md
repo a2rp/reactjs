@@ -236,3 +236,13 @@ useActionState turns an Action's returned value into state and provides its wrap
 - **Returned validation state:** A normal Action result describing field errors or other expected outcomes.
 - **Queued Action:** A call that waits for the prior call to return state.
 - **Permalink:** Optional destination information used by framework-supported progressive enhancement.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="078-react-form-actions.md">078 - React Form Actions and Asynchronous Submissions</a></td><td><a href="../qnas/079-useactionstate.md">Q&amp;A</a></td><td><a href="../examples/079-useactionstate.md">Example</a></td><td><a href="080-useformstatus.md">080 - Pending form state with useFormStatus</a></td></tr>
+  </tbody>
+</table>

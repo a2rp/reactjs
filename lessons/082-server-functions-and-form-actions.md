@@ -210,3 +210,13 @@ A Server Function that only displays a confirmation has not persisted anything. 
 - Validate and authorize on the server because client input is untrusted.
 - Keep server-only secrets on the server and return only safe serializable results.
 - Choose a framework-supported setup; a directive alone does not add backend behavior.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="081-useoptimistic.md">081 - Optimistic UI with useOptimistic</a></td><td><a href="../qnas/082-server-functions-and-form-actions.md">Q&amp;A</a></td><td><a href="../examples/082-server-functions-and-form-actions.md">Example</a></td><td><a href="083-react-server-components.md">083 - React Server Components and server rendering</a></td></tr>
+  </tbody>
+</table>

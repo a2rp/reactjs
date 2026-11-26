@@ -368,9 +368,13 @@ pre {
 ## Important limitation
 
 This example demonstrates browser-owned form values and DOM refs. It does not send data to a server. A production form needs an actual submission path, server-side validation, and appropriate handling for personal data.
-
 ## Chapter navigation
 
-| Previous chapter | Chapter lesson | Chapter Q&A | Next chapter |
-| --- | --- | --- | --- |
-| [032 - Managing state for multi-field forms](../lessons/032-multi-field-form-state.md) | [033 - Uncontrolled forms and refs](../lessons/033-uncontrolled-forms-and-refs.md) | [Open Q&A](../qnas/033-uncontrolled-forms-and-refs.md) | [034 - File inputs and upload flows](../lessons/034-file-inputs-and-upload-flows.md) |
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="032-multi-field-form-state.md">032 - Managing state for multi-field forms - Example</a></td><td><a href="../lessons/033-uncontrolled-forms-and-refs.md">Lesson</a></td><td><a href="../qnas/033-uncontrolled-forms-and-refs.md">Q&amp;A</a></td><td><a href="034-file-inputs-and-upload-flows.md">034 - File inputs and upload flows - Example</a></td></tr>
+  </tbody>
+</table>

@@ -303,3 +303,13 @@ Do not change profile.city directly. Mutating an object and passing the same obj
 ## Summary
 
 useState gives a component a value that persists between renders and a setter that requests a new render with the next value. Call it at the top level, choose a useful initial value, and render the interface from state. State is private to each component instance; use props and shared ownership when another component needs the same information.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="036-accessible-interactive-form-project.md">036 - Build an accessible interactive form feature</a></td><td><a href="../qnas/037-state-with-usestate.md">Q&amp;A</a></td><td><a href="../examples/037-state-with-usestate.md">Example</a></td><td><a href="038-state-as-a-render-snapshot.md">038 - State as a render snapshot</a></td></tr>
+  </tbody>
+</table>

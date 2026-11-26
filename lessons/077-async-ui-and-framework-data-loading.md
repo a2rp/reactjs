@@ -187,3 +187,13 @@ Suspense shows a fallback when a supported dependency is pending. Reading a stab
 - **Waterfall:** Serial requests that could have started in parallel.
 - **Streaming:** Delivering server-rendered content in parts as regions become ready.
 - **Transition:** An update React may prepare without immediately replacing already revealed content.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="076-caching-and-revalidation.md">076 - Caching, Deduplication, Invalidation, and Revalidation</a></td><td><a href="../qnas/077-async-ui-and-framework-data-loading.md">Q&amp;A</a></td><td><a href="../examples/077-async-ui-and-framework-data-loading.md">Example</a></td><td><a href="078-react-form-actions.md">078 - React Form Actions and Asynchronous Submissions</a></td></tr>
+  </tbody>
+</table>

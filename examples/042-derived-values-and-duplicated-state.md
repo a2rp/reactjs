@@ -797,3 +797,13 @@ select {
 - visibleProducts, availableCount, result count, and selectedProduct are calculated during render.
 - No Effect copies source values into a second state variable.
 - Updating product availability replaces the matching object in a new array, and the selected details are recalculated from that updated array.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="041-updating-array-state-immutably.md">041 - Updating array state immutably - Example</a></td><td><a href="../lessons/042-derived-values-and-duplicated-state.md">Lesson</a></td><td><a href="../qnas/042-derived-values-and-duplicated-state.md">Q&amp;A</a></td><td><a href="043-lifting-state-up-and-sharing-data.md">043 - Lifting State Up and Sharing Data - Example</a></td></tr>
+  </tbody>
+</table>

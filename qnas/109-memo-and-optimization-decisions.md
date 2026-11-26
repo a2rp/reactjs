@@ -1,4 +1,4 @@
-﻿# Memoization and Optimization Decisions — Q&A
+# Memoization and Optimization Decisions - Q&A
 
 ## Fundamentals
 
@@ -174,3 +174,13 @@ Profile the interaction to identify the actual cost. If a component tree repeats
 ### 40. What is the central rule for memoization?
 
 Memoize for measured performance, not correctness. Keep code simple until real evidence shows where optimization will help.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="108-react-compiler.md">108 - React Compiler - Q&amp;A</a></td><td><a href="../lessons/109-memo-and-optimization-decisions.md">Lesson</a></td><td><a href="../examples/109-memo-and-optimization-decisions.md">Example</a></td><td><a href="110-large-lists-and-virtualization.md">110 - Large Lists and Virtualization - Q&amp;A</a></td></tr>
+  </tbody>
+</table>

@@ -198,3 +198,13 @@ The component imports the helper, so it displays the new format without duplicat
 - [Lesson 004: JavaScript and browser prerequisites](../lessons/004-javascript-and-browser-prerequisites.md)
 - [Q&A 004: JavaScript and browser prerequisites](../qnas/004-javascript-and-browser-prerequisites.md)
 - [Next: Choose a React project setup](../lessons/005-choose-a-react-project-setup.md)
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="003-react-react-dom-and-frameworks.md">003 - Example: Map a React app to its ecosystem layers</a></td><td><a href="../lessons/004-javascript-and-browser-prerequisites.md">Lesson</a></td><td><a href="../qnas/004-javascript-and-browser-prerequisites.md">Q&amp;A</a></td><td><a href="005-choose-a-react-project-setup.md">005 - Example: Choose and start a React learning project</a></td></tr>
+  </tbody>
+</table>

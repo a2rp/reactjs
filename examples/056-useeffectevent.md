@@ -668,3 +668,13 @@ Do not add **onConnected** to the dependency array or call it from a button hand
 2. Add a server address setting that truly selects a different connection. Make it an Effect dependency.
 3. Add a current message count that appears in a connection notification without causing the room connection to restart.
 4. Change the mock connection delay and confirm that switching rooms cancels the previous timer.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="055-when-an-effect-is-unnecessary.md">055 - Example: When an Effect Is Unnecessary</a></td><td><a href="../lessons/056-useeffectevent.md">Lesson</a></td><td><a href="../qnas/056-useeffectevent.md">Q&amp;A</a></td><td><a href="057-custom-hooks-and-usedebugvalue.md">057 - Example: Custom Hooks and useDebugValue</a></td></tr>
+  </tbody>
+</table>

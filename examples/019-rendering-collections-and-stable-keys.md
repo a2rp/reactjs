@@ -187,9 +187,13 @@ export default function App() {
 3. Add another glossary record with its own ID.
 4. Temporarily replace `key={lesson.id}` with `key={Math.random()}` and observe that the keys change whenever the list renders again, so React treats the rows as new items. Restore the stable ID afterward.
 5. Try `key={index}` and explain why that choice becomes unsafe if the lessons are reordered or removed.
-
 ## Chapter navigation
 
-| Previous chapter | Chapter lesson | Chapter Q&A | Next chapter |
-| --- | --- | --- | --- |
-| [018 - Conditional rendering patterns](../lessons/018-conditional-rendering-patterns.md) | [019 - Rendering collections and choosing stable keys](../lessons/019-rendering-collections-and-stable-keys.md) | [Open Q&A](../qnas/019-rendering-collections-and-stable-keys.md) | [020 - Component boundaries and responsibility](../lessons/020-component-boundaries-and-responsibility.md) |
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="018-conditional-rendering-patterns.md">018 - Conditional rendering patterns - Example</a></td><td><a href="../lessons/019-rendering-collections-and-stable-keys.md">Lesson</a></td><td><a href="../qnas/019-rendering-collections-and-stable-keys.md">Q&amp;A</a></td><td><a href="020-component-boundaries-and-responsibility.md">020 - Component boundaries and responsibility - Example</a></td></tr>
+  </tbody>
+</table>

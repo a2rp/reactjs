@@ -222,9 +222,13 @@ Choose an architecture that fits the product. A small interactive island may not
 - React core does not prescribe a backend, router, or single data-fetching strategy.
 - Client rendering, server rendering, and hydration are related but distinct.
 - A framework may coordinate these pieces, while React remains the UI foundation.
-
 ## Chapter navigation
 
-| Previous chapter | Chapter Q&A | Chapter example | Next chapter |
-| --- | --- | --- | --- |
-| [001 - Introduction to React and declarative UI](001-introduction-to-react-and-declarative-ui.md) | [Open Q&A](../qnas/002-how-react-fits-into-the-web-platform.md) | [Open Example](../examples/002-how-react-fits-into-the-web-platform.md) | [003 - React, React DOM, and the framework ecosystem](003-react-react-dom-and-frameworks.md) |
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="001-introduction-to-react-and-declarative-ui.md">001 - Introduction to React and declarative UI</a></td><td><a href="../qnas/002-how-react-fits-into-the-web-platform.md">Q&amp;A</a></td><td><a href="../examples/002-how-react-fits-into-the-web-platform.md">Example</a></td><td><a href="003-react-react-dom-and-frameworks.md">003 - React, React DOM, and the framework ecosystem</a></td></tr>
+  </tbody>
+</table>

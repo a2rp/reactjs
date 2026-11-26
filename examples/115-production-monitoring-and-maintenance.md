@@ -1,4 +1,4 @@
-﻿# Example: Production Errors, Monitoring, and Maintenance
+# Example: Production Errors, Monitoring, and Maintenance
 
 This small Vite + React example demonstrates two different failure paths:
 
@@ -508,3 +508,13 @@ Keep the request in the same local `try`/`catch` flow. If you use `AbortControll
 - The global browser listeners are backstops. Keep local handling for requests, event handlers, and other expected failures.
 - A retry should repeat the underlying operation or reset its state. Clearing the boundary alone may simply reproduce the same failure.
 - Never include passwords, access tokens, cookies, form contents, or arbitrary application state in an error report.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="114-production-builds-and-deployment.md">114 - Build and Deploy a Vite React App - Complete Example</a></td><td><a href="../lessons/115-production-monitoring-and-maintenance.md">Lesson</a></td><td><a href="../qnas/115-production-monitoring-and-maintenance.md">Q&amp;A</a></td><td><a href="116-react-capstone-project.md">116 - Example: Build and Ship a Complete Accessible React Application</a></td></tr>
+  </tbody>
+</table>

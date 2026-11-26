@@ -1,4 +1,4 @@
-﻿# React Performance Fundamentals and Profiling
+# React Performance Fundamentals and Profiling
 
 ## Learning goals
 
@@ -199,3 +199,13 @@ For more representative timing, test a production or profiling build on hardware
 ## Summary
 
 React performance work begins with a user-visible symptom and a repeatable profile. Keep render pure, avoid Effects that synchronize derived state, and place transient state near the interaction that owns it. Use `memo`, `useMemo`, and `useCallback` only for profiled cases; transitions prioritize work but do not make synchronous calculations cheaper. For large lists and startup costs, measure DOM and bundle work as well as React rendering, then compare one targeted change against the same baseline.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="106-profiling-during-development.md">106 - Profiling Component Behavior During Development</a></td><td><a href="../qnas/107-react-performance-and-profiling.md">Q&amp;A</a></td><td><a href="../examples/107-react-performance-and-profiling.md">Example</a></td><td><a href="108-react-compiler.md">108 - React Compiler and Automatic Optimization</a></td></tr>
+  </tbody>
+</table>

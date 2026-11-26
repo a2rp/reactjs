@@ -1,4 +1,4 @@
-# Client and server boundaries, serialization, and security — Q&A
+# Client and server boundaries, serialization, and security - Q&A
 
 ## Boundaries and module graphs
 
@@ -153,3 +153,13 @@ Server-only code can remain out of the browser bundle, but its rendered result o
 ### 36. What is a practical review checklist for a new boundary?
 
 Trace imports from every client entry point, inspect all props and rendered output, reduce data to explicit DTOs, check authorization at each read and mutation, validate caller-controlled values, review error output, and confirm cache scope cannot mix users.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="083-react-server-components.md">083 - React Server Components and server rendering - Q&amp;A</a></td><td><a href="../lessons/084-client-server-boundaries-and-serialization.md">Lesson</a></td><td><a href="../examples/084-client-server-boundaries-and-serialization.md">Example</a></td><td><a href="085-routing-concepts-and-router-choice.md">085 - Routing concepts and choosing a router - Q&amp;A</a></td></tr>
+  </tbody>
+</table>

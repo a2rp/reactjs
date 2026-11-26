@@ -551,3 +551,13 @@ useEffect(() => {
 ~~~
 
 The dependency list now follows the values that determine the connection rather than the identity of a temporary wrapper.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="052-effect-hooks-and-synchronization.md">052 - Example: Effect Hooks and Synchronization</a></td><td><a href="../lessons/053-effect-dependencies-and-closures.md">Lesson</a></td><td><a href="../qnas/053-effect-dependencies-and-closures.md">Q&amp;A</a></td><td><a href="054-effect-cleanup-and-resource-lifetimes.md">054 - Example: Effect Cleanup and Resource Lifetimes</a></td></tr>
+  </tbody>
+</table>

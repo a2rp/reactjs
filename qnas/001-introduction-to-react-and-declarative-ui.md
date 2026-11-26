@@ -137,9 +137,13 @@ Describe UI as a result of current inputs, organize that UI into components, and
 3. `CourseCard` is the component; `title` is one of its props.
 4. No. Routing is supplied by a separate library or framework.
 5. Each use can receive different props while sharing the same component structure.
-
 ## Chapter navigation
 
-| Chapter lesson | Chapter example | Next chapter |
-| --- | --- | --- |
-| [Open lesson](../lessons/001-introduction-to-react-and-declarative-ui.md) | [Open example](../examples/001-introduction-to-react-and-declarative-ui.md) | [002 - How React fits into the web platform](../qnas/002-how-react-fits-into-the-web-platform.md) |
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Start of course</td><td><a href="../lessons/001-introduction-to-react-and-declarative-ui.md">Lesson</a></td><td><a href="../examples/001-introduction-to-react-and-declarative-ui.md">Example</a></td><td><a href="002-how-react-fits-into-the-web-platform.md">002 - Q&amp;A: How React fits into the web platform</a></td></tr>
+  </tbody>
+</table>

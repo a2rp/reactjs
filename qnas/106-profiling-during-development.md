@@ -1,4 +1,4 @@
-﻿# Profiling Component Behavior During Development: Questions and Answers
+# Profiling Component Behavior During Development: Questions and Answers
 
 ## Render and commit behavior
 
@@ -137,3 +137,13 @@ Record enough times to see whether the pattern is repeatable, while keeping the 
 ### 32. When is a profiling experiment successful?
 
 It is successful when it explains the suspected behavior and a targeted change improves the relevant user outcome in a repeatable comparison without breaking functionality or making the design harder to maintain.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="105-react-devtools-and-debugging.md">105 - React DevTools, Debugging, and Common Warnings: Questions and Answers</a></td><td><a href="../lessons/106-profiling-during-development.md">Lesson</a></td><td><a href="../examples/106-profiling-during-development.md">Example</a></td><td><a href="107-react-performance-and-profiling.md">107 - React Performance Fundamentals and Profiling: Questions and Answers</a></td></tr>
+  </tbody>
+</table>

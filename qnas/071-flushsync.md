@@ -1,4 +1,4 @@
-# Synchronous DOM Updates with flushSync — Q&A
+# Synchronous DOM Updates with flushSync - Q&A
 
 ## Core behavior
 
@@ -183,3 +183,13 @@ The app may be committing updates that React previously could batch. Keep it to 
 ### 40. What is the safest decision rule?
 
 Use `flushSync` only when code outside React needs the updated DOM before the current callback returns and no simpler integration pattern meets that requirement. Otherwise let React schedule the update normally.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="070-react-dom-roots-and-client-apis.md">070 - React DOM Roots, Hydration, and Client APIs - Q&amp;A</a></td><td><a href="../lessons/071-flushsync.md">Lesson</a></td><td><a href="../examples/071-flushsync.md">Example</a></td><td><a href="072-react-dom-resource-hints-and-browser-apis.md">072 - React DOM Resource Hints and Browser APIs - Q&amp;A</a></td></tr>
+  </tbody>
+</table>

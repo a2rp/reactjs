@@ -1,4 +1,4 @@
-# URL State, Search Parameters, and Navigation — Examples
+# URL State, Search Parameters, and Navigation - Examples
 
 This example builds a small course catalog whose search text, category, sort order, and page are stored in the URL. A link can reproduce the same view, reload keeps the controls selected, and Back and Forward restore earlier selections.
 
@@ -679,3 +679,13 @@ For multiple selected tags, read all values with `getAll("tag")` and append each
 ### Verify framework-specific behavior
 
 This client-side example uses React Router. A server-rendered React framework may expose query values through route props or another API. Adapt the parsing code to that framework and validate values on the server as well.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="086-nested-routes-layouts-and-errors.md">086 - Nested routes, layouts, and route errors: course browser</a></td><td><a href="../lessons/087-url-state-and-navigation.md">Lesson</a></td><td><a href="../qnas/087-url-state-and-navigation.md">Q&amp;A</a></td><td><a href="088-organizing-react-applications.md">088 - Organizing Components, Features, and Application Code - Examples</a></td></tr>
+  </tbody>
+</table>

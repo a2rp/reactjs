@@ -1,4 +1,4 @@
-# Global State, `useSyncExternalStore`, and External Stores — Q&A
+# Global State, `useSyncExternalStore`, and External Stores - Q&A
 
 ## Choosing where state belongs
 
@@ -154,3 +154,13 @@ Start with local state, reducer, or Context when React owns the value. Use `useS
 - Context passes React-owned values through a tree; an external store owns data outside it.
 - Avoid duplicate state copies and oversized global subscriptions.
 - A module singleton in SSR can accidentally share state across requests.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="089-design-systems-and-component-libraries.md">089 - Design Systems, Shared Components, and Component Libraries - Q&amp;A</a></td><td><a href="../lessons/090-global-state-and-usesyncexternalstore.md">Lesson</a></td><td><a href="../examples/090-global-state-and-usesyncexternalstore.md">Example</a></td><td><a href="091-typescript-with-react.md">091 - TypeScript with React: Questions and Answers</a></td></tr>
+  </tbody>
+</table>

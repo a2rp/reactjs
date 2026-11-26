@@ -230,9 +230,13 @@ Those topics have dedicated lessons so you can learn each concept in order.
 - React works with HTML, CSS, JavaScript, build tools, and, when needed, a separate framework.
 - A component tree helps organize how interface pieces fit together.
 - React is useful when its model makes an interface easier to build and maintain; it is not mandatory for every page.
-
 ## Chapter navigation
 
-| Previous chapter | Chapter Q&A | Chapter example | Next chapter |
-| --- | --- | --- | --- |
-| — | [Open Q&A](../qnas/001-introduction-to-react-and-declarative-ui.md) | [Open Example](../examples/001-introduction-to-react-and-declarative-ui.md) | [002 - How React fits into the web platform](002-how-react-fits-into-the-web-platform.md) |
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Start of course</td><td><a href="../qnas/001-introduction-to-react-and-declarative-ui.md">Q&amp;A</a></td><td><a href="../examples/001-introduction-to-react-and-declarative-ui.md">Example</a></td><td><a href="002-how-react-fits-into-the-web-platform.md">002 - How React fits into the web platform</a></td></tr>
+  </tbody>
+</table>

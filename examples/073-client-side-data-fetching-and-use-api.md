@@ -1,4 +1,4 @@
-# Client-Side Data Fetching, the `use` API, and Async Values — Example
+# Client-Side Data Fetching, the `use` API, and Async Values - Example
 
 This Vite demo shows two client-side ways to load the same local people list:
 
@@ -554,3 +554,13 @@ The demo uses a static local file and filters the returned array in the browser.
 ## Key takeaway
 
 The Effect panel owns request status in state and cleans up obsolete work. The Suspense panel reads a stable cached Promise, while Suspense and an Error Boundary handle pending and rejected outcomes. Pick the loading model supported by the app's framework or data layer, and give that system clear ownership of each request.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="072-react-dom-resource-hints-and-browser-apis.md">072 - React DOM Resource Hints and Browser APIs - Example</a></td><td><a href="../lessons/073-client-side-data-fetching-and-use-api.md">Lesson</a></td><td><a href="../qnas/073-client-side-data-fetching-and-use-api.md">Q&amp;A</a></td><td><a href="074-request-cancellation-and-race-conditions.md">074 - Request Cancellation, Stale Responses, and Race Conditions - Example</a></td></tr>
+  </tbody>
+</table>

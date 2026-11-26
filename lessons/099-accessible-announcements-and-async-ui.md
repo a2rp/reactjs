@@ -1,4 +1,4 @@
-﻿# Accessible Announcements and Asynchronous Interfaces in React
+# Accessible Announcements and Asynchronous Interfaces in React
 
 ## Learning goals
 
@@ -172,3 +172,13 @@ Async React interfaces need clear feedback for all users. Keep a concise status 
 4. Mark a partially updated region busy, then clear the busy state.
 5. Submit two searches quickly and ensure only the latest response is presented.
 6. Use a screen reader to confirm that the message is useful and not repetitive.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="098-keyboard-focus-and-dialogs.md">098 - Keyboard Support, Focus, and Dialogs in React</a></td><td><a href="../qnas/099-accessible-announcements-and-async-ui.md">Q&amp;A</a></td><td><a href="../examples/099-accessible-announcements-and-async-ui.md">Example</a></td><td><a href="100-testing-strategy-and-component-design.md">100 - Testing Strategy and Testable Component Design</a></td></tr>
+  </tbody>
+</table>

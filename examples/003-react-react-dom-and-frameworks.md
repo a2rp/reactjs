@@ -248,3 +248,13 @@ Do not install each possible library in advance. Identify the requirement first,
 - [Lesson 003: React, React DOM, and the framework ecosystem](../lessons/003-react-react-dom-and-frameworks.md)
 - [Q&A 003: React, React DOM, and the framework ecosystem](../qnas/003-react-react-dom-and-frameworks.md)
 - [Next: JavaScript and browser prerequisites](../lessons/004-javascript-and-browser-prerequisites.md)
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="002-how-react-fits-into-the-web-platform.md">002 - Example: Mount a React feature inside an existing page</a></td><td><a href="../lessons/003-react-react-dom-and-frameworks.md">Lesson</a></td><td><a href="../qnas/003-react-react-dom-and-frameworks.md">Q&amp;A</a></td><td><a href="004-javascript-and-browser-prerequisites.md">004 - Example: Use JavaScript data and functions in a React component</a></td></tr>
+  </tbody>
+</table>

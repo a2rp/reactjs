@@ -1,4 +1,4 @@
-﻿# Testing User Interactions and Complete Flows: Questions and Answers
+# Testing User Interactions and Complete Flows: Questions and Answers
 
 ## Modeling user input
 
@@ -149,3 +149,13 @@ They may use fixed sleeps, fail to await user-event, share input state, depend o
 ### 35. What is the main rule for a user-flow test?
 
 Start from a realistic rendered state, use the controls as a person would, await interactions, and assert on meaningful accessible output and focus. Use a browser or manual check when the behavior exceeds what a DOM simulator can represent.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="101-component-tests-and-test-utilities.md">101 - Component Tests and React Test Utilities: Questions and Answers</a></td><td><a href="../lessons/102-testing-user-interactions.md">Lesson</a></td><td><a href="../examples/102-testing-user-interactions.md">Example</a></td><td><a href="103-testing-forms-and-async-ui.md">103 - Testing Forms, Asynchronous UI, and API Boundaries: Questions and Answers</a></td></tr>
+  </tbody>
+</table>

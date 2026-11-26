@@ -216,3 +216,13 @@ The catch-all component provides a not-found UI in the client app. Whether a dep
 ## Expected result
 
 The app shows a home page with a link to the course list. Each course link opens a detail URL. The shared navigation remains visible, the dynamic ID selects the matching course, and unknown URLs render a helpful not-found message.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="084-client-server-boundaries-and-serialization.md">084 - Client/server boundaries: safe course cards and local interaction</a></td><td><a href="../lessons/085-routing-concepts-and-router-choice.md">Lesson</a></td><td><a href="../qnas/085-routing-concepts-and-router-choice.md">Q&amp;A</a></td><td><a href="086-nested-routes-layouts-and-errors.md">086 - Nested routes, layouts, and route errors: course browser</a></td></tr>
+  </tbody>
+</table>

@@ -1,4 +1,4 @@
-# Caching, Deduplication, Invalidation, and Revalidation — Q&A
+# Caching, Deduplication, Invalidation, and Revalidation - Q&A
 
 ## Cache layers and React
 
@@ -179,3 +179,13 @@ The Promise lets a second consumer share work while the request is pending. The 
 ### 42. What is the core cache-design rule?
 
 A cached value is safe to reuse only when the key identifies the exact data, the freshness policy is appropriate, and every relevant change can invalidate or revalidate it.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="075-loading-empty-success-and-error-states.md">075 - Loading, Empty, Success, and Error States - Q&amp;A</a></td><td><a href="../lessons/076-caching-and-revalidation.md">Lesson</a></td><td><a href="../examples/076-caching-and-revalidation.md">Example</a></td><td><a href="077-async-ui-and-framework-data-loading.md">077 - Async UI, Suspense, and Framework Data Loading - Q&amp;A</a></td></tr>
+  </tbody>
+</table>

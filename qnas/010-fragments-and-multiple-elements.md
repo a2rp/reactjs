@@ -1,4 +1,4 @@
-# 010. Fragments and returning multiple elements — Q&A
+# 010. Fragments and returning multiple elements - Q&A
 
 ## Returning and grouping JSX
 
@@ -111,9 +111,13 @@ No. There is no HTML element named fragment for this purpose. Use the JSX shorth
 ### 22. What should I inspect to confirm a Fragment added no wrapper?
 
 Inspect the rendered elements in browser developer tools. You should see the Fragment's child elements as siblings, without an extra wrapper between them.
-
 ## Chapter navigation
 
-| Lesson | Example | Previous chapter | Next chapter |
-| --- | --- | --- | --- |
-| [010 - Fragments and returning multiple elements](../lessons/010-fragments-and-multiple-elements.md) | [Open Example](../examples/010-fragments-and-multiple-elements.md) | [009 - JSX styles, event props, and DOM properties](../lessons/009-jsx-styles-events-and-dom-properties.md) | [011 - Create a root and render a React application](../lessons/011-create-a-root-and-render-an-application.md) |
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="009-jsx-styles-events-and-dom-properties.md">009 - JSX styles, event props, and DOM properties - Q&amp;A</a></td><td><a href="../lessons/010-fragments-and-multiple-elements.md">Lesson</a></td><td><a href="../examples/010-fragments-and-multiple-elements.md">Example</a></td><td><a href="011-create-a-root-and-render-an-application.md">011 - Create a root and render a React application - Q&amp;A</a></td></tr>
+  </tbody>
+</table>

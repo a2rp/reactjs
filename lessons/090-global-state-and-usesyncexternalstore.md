@@ -251,3 +251,13 @@ Choose based on ownership and required behavior, not on a rule that all shared s
 - Snapshots must be immutable and keep the same identity while unchanged.
 - Server rendering requires an initial server snapshot that matches hydration.
 - Keep store scope and subscriptions narrow; do not make global state a default destination.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="089-design-systems-and-component-libraries.md">089 - Design Systems, Shared Components, and Component Libraries</a></td><td><a href="../qnas/090-global-state-and-usesyncexternalstore.md">Q&amp;A</a></td><td><a href="../examples/090-global-state-and-usesyncexternalstore.md">Example</a></td><td><a href="091-typescript-with-react.md">091 - TypeScript with React Components and Hooks</a></td></tr>
+  </tbody>
+</table>

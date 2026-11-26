@@ -1,4 +1,4 @@
-﻿# Code Splitting and Asset Loading — Complete Example
+# Code Splitting and Asset Loading - Complete Example
 
 This example uses Vite and React to defer an optional Reports panel and a CSV exporter until they are used. It also shows a useful Suspense fallback, an Error Boundary for a failed component chunk, image sizing, and a production-build inspection workflow.
 
@@ -432,3 +432,13 @@ Inspect the build output for entry files, asynchronous JavaScript, CSS, fonts, a
 ## Key takeaway
 
 Split around user-visible features, not around arbitrary files. Keep critical assets prompt, make pending and error states clear, and verify the production build rather than assuming a source-level import changed the user experience.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="110-large-lists-and-virtualization.md">110 - Virtualizing a Large Responsive List - Complete Example</a></td><td><a href="../lessons/111-code-splitting-and-asset-loading.md">Lesson</a></td><td><a href="../qnas/111-code-splitting-and-asset-loading.md">Q&amp;A</a></td><td><a href="112-security-and-untrusted-data.md">112 - Safe Text and URL Handling - Complete Example</a></td></tr>
+  </tbody>
+</table>

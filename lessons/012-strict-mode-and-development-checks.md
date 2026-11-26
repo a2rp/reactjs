@@ -178,9 +178,13 @@ For new applications, wrapping the root is the clearest default. When Strict Mod
 - Rendering must not mutate inputs or perform user actions.
 - Give external work started by Effects or refs a matching cleanup.
 - Enable Strict Mode for the full app when possible, and fix the issues its checks reveal.
-
 ## Chapter navigation
 
-| Previous chapter | Chapter Q&A | Chapter example | Next chapter |
-| --- | --- | --- | --- |
-| [011 - Create a root and render a React application](011-create-a-root-and-render-an-application.md) | [Open Q&A](../qnas/012-strict-mode-and-development-checks.md) | [Open Example](../examples/012-strict-mode-and-development-checks.md) | [013 - Function components and component naming](013-function-components-and-naming.md) |
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="011-create-a-root-and-render-an-application.md">011 - Create a root and render a React application</a></td><td><a href="../qnas/012-strict-mode-and-development-checks.md">Q&amp;A</a></td><td><a href="../examples/012-strict-mode-and-development-checks.md">Example</a></td><td><a href="013-function-components-and-naming.md">013 - Function components and component naming</a></td></tr>
+  </tbody>
+</table>

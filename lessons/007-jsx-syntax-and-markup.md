@@ -266,9 +266,13 @@ Read the first compiler error carefully. It often points near the opening or clo
 - Lowercase tags represent HTML; capitalized names represent components.
 - Use parentheses for multiline returned JSX, with the opening parenthesis beside `return`.
 - Treat JSX as React's description of UI, not as a string or direct DOM-editing instruction.
-
 ## Chapter navigation
 
-| Previous chapter | Chapter Q&A | Chapter example | Next chapter |
-| --- | --- | --- | --- |
-| [006 - Project files, scripts, and the development server](006-project-files-scripts-and-dev-server.md) | [Open Q&A](../qnas/007-jsx-syntax-and-markup.md) | [Open Example](../examples/007-jsx-syntax-and-markup.md) | [008 - JavaScript expressions, attributes, and escaping in JSX](008-jsx-expressions-attributes-and-escaping.md) |
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="006-project-files-scripts-and-dev-server.md">006 - Project files, scripts, and the development server</a></td><td><a href="../qnas/007-jsx-syntax-and-markup.md">Q&amp;A</a></td><td><a href="../examples/007-jsx-syntax-and-markup.md">Example</a></td><td><a href="008-jsx-expressions-attributes-and-escaping.md">008 - JavaScript expressions, attributes, and escaping in JSX</a></td></tr>
+  </tbody>
+</table>

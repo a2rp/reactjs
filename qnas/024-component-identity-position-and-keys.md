@@ -148,9 +148,13 @@ If the items are created by the application, assign a stable ID when the item is
 ### 30. What is the main rule to remember?
 
 Match component lifetime to the user's task. Keep type, position, and key stable when state should continue; remove the component or change its key when a fresh instance should reset; lift or persist state when it must outlive that component.
-
 ## Chapter navigation
 
-| Previous chapter | Chapter lesson | Chapter example | Next chapter |
-| --- | --- | --- | --- |
-| [023 - Thinking in React: from a design to a component tree](../lessons/023-thinking-in-react-and-component-trees.md) | [024 - Component identity, position, and keys](../lessons/024-component-identity-position-and-keys.md) | [Open Example](../examples/024-component-identity-position-and-keys.md) | [025 - Event handlers and user interactions](../lessons/025-event-handlers-and-user-interactions.md) |
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="023-thinking-in-react-and-component-trees.md">023 - Thinking in React: from a design to a component tree - Q&amp;A</a></td><td><a href="../lessons/024-component-identity-position-and-keys.md">Lesson</a></td><td><a href="../examples/024-component-identity-position-and-keys.md">Example</a></td><td><a href="025-event-handlers-and-user-interactions.md">025 - Event handlers and user interactions - Q&amp;A</a></td></tr>
+  </tbody>
+</table>

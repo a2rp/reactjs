@@ -1,4 +1,4 @@
-﻿# 029. Text inputs, selects, checkboxes, and radio buttons
+# 029. Text inputs, selects, checkboxes, and radio buttons
 
 ## Goal
 
@@ -313,9 +313,13 @@ Choose a select when a list is long or a compact control is useful. Choose radio
 - A radio group uses the same `name`, distinct values, and one selected string in state.
 - Labels, fieldsets, legends, and useful names make controls easier to use and understand.
 - Browser input constraints are useful; form submission and validation are covered in the next chapter.
-
 ## Chapter navigation
 
-| Previous chapter | Chapter Q&A | Chapter example | Next chapter |
-| --- | --- | --- | --- |
-| [028 - Controlled form elements](028-controlled-form-elements.md) | [Open Q&A](../qnas/029-inputs-selects-checkboxes-and-radio-buttons.md) | [Open Example](../examples/029-inputs-selects-checkboxes-and-radio-buttons.md) | [030 - Form submission and browser validation](030-form-submission-and-browser-validation.md) |
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="028-controlled-form-elements.md">028 - Controlled form elements</a></td><td><a href="../qnas/029-inputs-selects-checkboxes-and-radio-buttons.md">Q&amp;A</a></td><td><a href="../examples/029-inputs-selects-checkboxes-and-radio-buttons.md">Example</a></td><td><a href="030-form-submission-and-browser-validation.md">030 - Form submission and browser validation</a></td></tr>
+  </tbody>
+</table>

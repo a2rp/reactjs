@@ -189,3 +189,13 @@ The page displays two course cards. Each card has a button that changes between 
 ## Important limitation
 
 This example demonstrates a public catalog and local-only favorites. It does not implement login, a database, or persistent saves. The private-data adaptation shows where the application's real authorization check belongs; it must use a genuine trusted identity and data layer before being used for protected records.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="083-react-server-components.md">083 - React Server Components: lesson list with one interactive island</a></td><td><a href="../lessons/084-client-server-boundaries-and-serialization.md">Lesson</a></td><td><a href="../qnas/084-client-server-boundaries-and-serialization.md">Q&amp;A</a></td><td><a href="085-routing-concepts-and-router-choice.md">085 - Routing concepts: a small React course browser</a></td></tr>
+  </tbody>
+</table>

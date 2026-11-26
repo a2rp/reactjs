@@ -56,7 +56,7 @@ function App() {
   const contactSummary = [
     form.fullName.trim() || 'Your name',
     form.topic || 'No topic selected',
-  ].join(' — ');
+  ].join(' - ');
 
   const completedContactFields = [form.fullName, form.email].filter(
     (value) => value.trim() !== '',
@@ -417,9 +417,13 @@ pre {
 ## Important limitation
 
 This example teaches form state, not validation or server submission. Use the accessible validation patterns from Chapter 031 for errors, and validate data on the server in a real application.
-
 ## Chapter navigation
 
-| Previous chapter | Chapter lesson | Chapter Q&A | Next chapter |
-| --- | --- | --- | --- |
-| [031 - Accessible validation messages and error summaries](../lessons/031-accessible-validation-messages.md) | [032 - Managing state for multi-field forms](../lessons/032-multi-field-form-state.md) | [Open Q&A](../qnas/032-multi-field-form-state.md) | [033 - Uncontrolled forms and refs](../lessons/033-uncontrolled-forms-and-refs.md) |
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="031-accessible-validation-messages.md">031 - Accessible validation messages and error summaries - Example</a></td><td><a href="../lessons/032-multi-field-form-state.md">Lesson</a></td><td><a href="../qnas/032-multi-field-form-state.md">Q&amp;A</a></td><td><a href="033-uncontrolled-forms-and-refs.md">033 - Uncontrolled forms and refs - Example</a></td></tr>
+  </tbody>
+</table>

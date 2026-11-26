@@ -347,3 +347,13 @@ nextTasks[0].done = true;
 - Copy nested objects along the path to a changed property.
 - Sort or reverse a copy instead of the state array.
 - Use stable IDs for rendered list keys and item updates.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="040-updating-object-state-immutably.md">040 - Updating object state immutably</a></td><td><a href="../qnas/041-updating-array-state-immutably.md">Q&amp;A</a></td><td><a href="../examples/041-updating-array-state-immutably.md">Example</a></td><td><a href="042-derived-values-and-duplicated-state.md">042 - Derived values and avoiding duplicated state</a></td></tr>
+  </tbody>
+</table>

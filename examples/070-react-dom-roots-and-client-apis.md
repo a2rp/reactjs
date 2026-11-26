@@ -1,4 +1,4 @@
-# React DOM Roots, Hydration, and Client APIs — Example
+# React DOM Roots, Hydration, and Client APIs - Example
 
 This example compares the two client entry APIs:
 
@@ -239,3 +239,13 @@ On the first page, the interface appears after the client entry runs. On the hyd
 ## Key takeaway
 
 Choose the root API from the initial contents of the container: `createRoot` for an empty client-rendered container and `hydrateRoot` for matching React HTML already rendered into the page. Keep the first hydrated output identical, then let React state handle interaction.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="069-portals.md">069 - Example: A Portaled Help Panel</a></td><td><a href="../lessons/070-react-dom-roots-and-client-apis.md">Lesson</a></td><td><a href="../qnas/070-react-dom-roots-and-client-apis.md">Q&amp;A</a></td><td><a href="071-flushsync.md">071 - Synchronous DOM Updates with flushSync - Example</a></td></tr>
+  </tbody>
+</table>

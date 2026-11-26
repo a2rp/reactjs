@@ -154,7 +154,7 @@ export default function App() {
 
 ## Expected result
 
-The page displays a “Product catalog” heading, a product count, and a table with three product rows. Each row shows the product's category, price, and stock status.
+The page displays a ï¿½Product catalogï¿½ heading, a product count, and a table with three product rows. Each row shows the product's category, price, and stock status.
 
 ## Practice
 
@@ -163,9 +163,13 @@ The page displays a “Product catalog” heading, a product count, and a table with
 3. Move `StockStatus` into its own file and update the import; decide whether that improves navigation for this small example.
 4. Change the product count label to show a different message when the array is empty.
 5. Rename `ProductCatalog` to a clearer domain name and describe how that name changes the way `App` reads.
-
 ## Chapter navigation
 
-| Previous chapter | Chapter lesson | Chapter Q&A | Next chapter |
-| --- | --- | --- | --- |
-| [019 - Rendering collections and choosing stable keys](../lessons/019-rendering-collections-and-stable-keys.md) | [020 - Component boundaries and responsibility](../lessons/020-component-boundaries-and-responsibility.md) | [Open Q&A](../qnas/020-component-boundaries-and-responsibility.md) | [021 - Pure components and predictable rendering](../lessons/021-pure-components-and-predictable-rendering.md) |
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="019-rendering-collections-and-stable-keys.md">019 - Rendering collections and choosing stable keys - Example</a></td><td><a href="../lessons/020-component-boundaries-and-responsibility.md">Lesson</a></td><td><a href="../qnas/020-component-boundaries-and-responsibility.md">Q&amp;A</a></td><td><a href="021-pure-components-and-predictable-rendering.md">021 - Pure components and predictable rendering - Example</a></td></tr>
+  </tbody>
+</table>

@@ -151,3 +151,13 @@ This is framework- and server-rendering behavior. A client-only app using **crea
 - Cached Promise reads through **use**, lazy-loaded components, and Suspense-enabled data sources can activate it.
 - A Transition or deferred update can keep already revealed content visible while React prepares a new suspended result.
 - Use an Error Boundary for failures; use Suspense fallbacks for pending content.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="065-usedeferredvalue.md">065 - useDeferredValue for Interruptible Updates</a></td><td><a href="../qnas/066-suspense-boundaries-and-fallbacks.md">Q&amp;A</a></td><td><a href="../examples/066-suspense-boundaries-and-fallbacks.md">Example</a></td><td><a href="067-lazy-loading-components.md">067 - Lazy Loading Components with lazy</a></td></tr>
+  </tbody>
+</table>

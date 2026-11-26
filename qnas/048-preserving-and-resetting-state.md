@@ -1,4 +1,4 @@
-# Preserving and Resetting State — Q&A
+# Preserving and Resetting State - Q&A
 
 ## Core concepts
 
@@ -191,3 +191,13 @@ Identify what the local state represents and who owns it. Reset when the identit
 - Stable sibling keys let list state follow data identity as items move.
 - Keys are not global IDs or component props.
 - Use a reset boundary only when the state should belong to the new identity.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="047-reducer-design-and-state-machines.md">047 - Reducer Design, Transitions, and State Machines - Q&amp;A</a></td><td><a href="../lessons/048-preserving-and-resetting-state.md">Lesson</a></td><td><a href="../examples/048-preserving-and-resetting-state.md">Example</a></td><td><a href="049-rules-of-hooks.md">049 - Rules of Hooks - Q&amp;A</a></td></tr>
+  </tbody>
+</table>

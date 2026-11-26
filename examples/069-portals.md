@@ -97,7 +97,7 @@ function QuickHelpPanel({ onClose }) {
           aria-label="Close quick help"
           onClick={onClose}
         >
-          Ãƒâ€”
+          ×
         </button>
       </div>
 
@@ -692,3 +692,13 @@ a:focus-visible {
 6. Notice that styles for `.floating-help` are defined as a global class. A selector that requires it to be a DOM descendant of `.page-shell` would not match this portaled element.
 
 The portal target is resolved in an Effect so the code does not access `document` during module initialization. For a modal dialog, add correct dialog semantics and manage its complete keyboard and focus behavior; this non-modal help panel does not trap focus.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="068-error-boundaries-and-recovery-ui.md">068 - Example: Recovering from a Render Error</a></td><td><a href="../lessons/069-portals.md">Lesson</a></td><td><a href="../qnas/069-portals.md">Q&amp;A</a></td><td><a href="070-react-dom-roots-and-client-apis.md">070 - React DOM Roots, Hydration, and Client APIs - Example</a></td></tr>
+  </tbody>
+</table>

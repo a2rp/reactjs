@@ -342,3 +342,13 @@ Suggested answers:
 - Keep a dual-mode component in the same ownership mode for its lifetime.
 - Use checked/defaultChecked for checkbox state and treat file inputs as uncontrolled.
 - Choose the mode based on who needs to own, coordinate, validate, reset, and read the current value.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="044-single-source-of-truth-and-state-ownership.md">044 - Single Source of Truth and State Ownership</a></td><td><a href="../qnas/045-controlled-and-uncontrolled-component-apis.md">Q&amp;A</a></td><td><a href="../examples/045-controlled-and-uncontrolled-component-apis.md">Example</a></td><td><a href="046-complex-state-with-usereducer.md">046 - Complex State with useReducer</a></td></tr>
+  </tbody>
+</table>

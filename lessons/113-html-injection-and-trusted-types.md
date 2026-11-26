@@ -1,4 +1,4 @@
-﻿# HTML Injection, Sanitization, and Trusted Types
+# HTML Injection, Sanitization, and Trusted Types
 
 ## Learning objectives
 
@@ -208,3 +208,13 @@ For every rich content feature:
 - Trusted Types centralizes transformations and can block strings at covered sinks when CSP enforces it.
 - Trusted Types does not sanitize data on its own; the policy must be safe.
 - Keep server validation, authorization, URL policy, and CSP as distinct controls.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="112-security-and-untrusted-data.md">112 - Security Basics: Escaping, URLs, and Untrusted Data</a></td><td><a href="../qnas/113-html-injection-and-trusted-types.md">Q&amp;A</a></td><td><a href="../examples/113-html-injection-and-trusted-types.md">Example</a></td><td><a href="114-production-builds-and-deployment.md">114 - Production Builds, Configuration, and Deployment</a></td></tr>
+  </tbody>
+</table>

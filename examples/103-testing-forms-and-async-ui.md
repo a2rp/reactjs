@@ -1,4 +1,4 @@
-﻿# React Example: Testing an Async Username Form and API Boundary
+# React Example: Testing an Async Username Form and API Boundary
 
 This example builds a username availability form. It submits through the real form controls, passes the normalized value to an injected API function, shows pending feedback, and handles available, already-taken, and service-failure outcomes.
 
@@ -286,3 +286,13 @@ Keep the test at the service boundary. Do not mock useState, call handleSubmit d
 - The asynchronous result is awaited through visible UI.
 - No test uses a live network or arbitrary sleep.
 - React form Action reset behavior is considered if the app uses that pattern.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="102-testing-user-interactions.md">102 - React Example: Testing a Complete User Interaction Flow</a></td><td><a href="../lessons/103-testing-forms-and-async-ui.md">Lesson</a></td><td><a href="../qnas/103-testing-forms-and-async-ui.md">Q&amp;A</a></td><td><a href="104-browser-level-and-end-to-end-tests.md">104 - React Example: Browser-Test a Complete Checkout Journey</a></td></tr>
+  </tbody>
+</table>

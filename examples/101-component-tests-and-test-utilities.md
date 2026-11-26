@@ -1,4 +1,4 @@
-﻿# React Example: Component Tests and React Test Utilities
+# React Example: Component Tests and React Test Utilities
 
 This example builds a small theme-aware greeting component and tests it with React Testing Library. It shows a provider wrapper, document-level queries, user-event, a prop rerender, unmount, an asynchronous findBy query, explicit cleanup setup, and a focused renderHook example.
 
@@ -312,3 +312,13 @@ The component tests use Testing Library's wrapped render and user-event helpers,
 - renderHook is used only for a Hook-level public contract.
 - Direct Hook updates are wrapped in async act.
 - The tests avoid private component state and raw CSS selectors.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="100-testing-strategy-and-component-design.md">100 - React Example: Test Strategy and Testable Component Design</a></td><td><a href="../lessons/101-component-tests-and-test-utilities.md">Lesson</a></td><td><a href="../qnas/101-component-tests-and-test-utilities.md">Q&amp;A</a></td><td><a href="102-testing-user-interactions.md">102 - React Example: Testing a Complete User Interaction Flow</a></td></tr>
+  </tbody>
+</table>

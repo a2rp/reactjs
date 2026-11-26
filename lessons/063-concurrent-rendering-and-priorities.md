@@ -229,3 +229,13 @@ A state update scheduled later in a **setTimeout** is outside the synchronous Tr
 - A Transition’s callback runs immediately; React changes the priority of state updates scheduled inside it.
 - Transitions and deferred values do not use a fixed delay, speed up calculations, or reduce network requests by themselves.
 - Async state updates after **await** currently need another **startTransition** when they should remain non-urgent.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="062-reconciliation-and-component-identity.md">062 - Reconciliation, Component Identity, and Keys</a></td><td><a href="../qnas/063-concurrent-rendering-and-priorities.md">Q&amp;A</a></td><td><a href="../examples/063-concurrent-rendering-and-priorities.md">Example</a></td><td><a href="064-transitions-and-usetransition.md">064 - Transitions with useTransition and startTransition</a></td></tr>
+  </tbody>
+</table>

@@ -272,3 +272,13 @@ The project is ready when:
 ## Summary
 
 An accessible form is a complete interaction: people need to understand what each field asks for, correct mistakes, navigate between errors, and know what happened after submission. Combine native HTML controls with React state, clear text, associated instructions and errors, deliberate focus behavior, and truthful status feedback. Treat client validation as user assistance and repeat validation at the server boundary.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="035-browser-apis-and-event-listeners.md">035 - Working with browser APIs and external event listeners</a></td><td><a href="../qnas/036-accessible-interactive-form-project.md">Q&amp;A</a></td><td><a href="../examples/036-accessible-interactive-form-project.md">Example</a></td><td><a href="037-state-with-usestate.md">037 - State with useState</a></td></tr>
+  </tbody>
+</table>

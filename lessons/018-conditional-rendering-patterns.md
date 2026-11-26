@@ -127,7 +127,7 @@ JavaScript evaluates the left side first. If it is truthy, the expression evalua
 
 ### Avoid the numeric `&&` pitfall
 
-Do not use a number directly as the left side when zero should mean “show nothing”:
+Do not use a number directly as the left side when zero should mean ï¿½show nothingï¿½:
 
 ~~~jsx
 function Inbox({ unreadCount }) {
@@ -169,7 +169,7 @@ function RequestStatus({ status }) {
   let content;
 
   if (status === 'loading') {
-    content = <p>Loading your request…</p>;
+    content = <p>Loading your requestï¿½</p>;
   } else if (status === 'error') {
     content = <p role="alert">The request could not be completed.</p>;
   } else if (status === 'empty') {
@@ -194,7 +194,7 @@ function StatusMessage({ status }) {
 
   switch (status) {
     case 'loading':
-      message = 'Loading…';
+      message = 'Loadingï¿½';
       break;
     case 'error':
       message = 'Something went wrong.';
@@ -214,7 +214,7 @@ Use `switch` or an `if`/`else if` chain outside the JSX when the state values ar
 
 ## Use explicit conditions for fallbacks
 
-JavaScript truthiness can make fallback expressions shorter, but the exact values matter. For example, `name || 'Guest'` uses `Guest` when `name` is an empty string, `0`, `false`, `null`, or `undefined`. If only `null` and `undefined` mean “missing,” use the nullish coalescing operator:
+JavaScript truthiness can make fallback expressions shorter, but the exact values matter. For example, `name || 'Guest'` uses `Guest` when `name` is an empty string, `0`, `false`, `null`, or `undefined`. If only `null` and `undefined` mean ï¿½missing,ï¿½ use the nullish coalescing operator:
 
 ~~~jsx
 function Welcome({ name }) {
@@ -259,9 +259,13 @@ Also distinguish between omitting an element and merely hiding it with CSS. A co
 - A numeric zero on the left of `&&` is rendered as `0`; compare the number explicitly.
 - Use a variable or `switch` when several exclusive states make inline JSX hard to read.
 - Use `null` when a component should render no UI, and keep the decision understandable.
-
 ## Chapter navigation
 
-| Previous chapter | Chapter Q&A | Chapter example | Next chapter |
-| --- | --- | --- | --- |
-| [017 - Composition, containment, and reusable layouts](017-composition-containment-and-layouts.md) | [Open Q&A](../qnas/018-conditional-rendering-patterns.md) | [Open Example](../examples/018-conditional-rendering-patterns.md) | [019 - Rendering collections and choosing stable keys](019-rendering-collections-and-stable-keys.md) |
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="017-composition-containment-and-layouts.md">017 - Composition, containment, and reusable layouts</a></td><td><a href="../qnas/018-conditional-rendering-patterns.md">Q&amp;A</a></td><td><a href="../examples/018-conditional-rendering-patterns.md">Example</a></td><td><a href="019-rendering-collections-and-stable-keys.md">019 - Rendering collections and choosing stable keys</a></td></tr>
+  </tbody>
+</table>

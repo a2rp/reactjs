@@ -1,4 +1,4 @@
-﻿# Code Splitting, Asset Loading, and Bundle Analysis
+# Code Splitting, Asset Loading, and Bundle Analysis
 
 ## Learning objectives
 
@@ -204,3 +204,13 @@ Do not blindly reload on every import error. The error might be an offline conne
 - Prioritize the first screen's code and assets, then load optional work when needed.
 - Measure the production build and browser work, not just file count or raw bundle size.
 - Split around useful features, keep loading states clear, and plan for stale chunk failures.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="110-large-lists-and-virtualization.md">110 - Large Lists, Virtualization, and Responsive Rendering</a></td><td><a href="../qnas/111-code-splitting-and-asset-loading.md">Q&amp;A</a></td><td><a href="../examples/111-code-splitting-and-asset-loading.md">Example</a></td><td><a href="112-security-and-untrusted-data.md">112 - Security Basics: Escaping, URLs, and Untrusted Data</a></td></tr>
+  </tbody>
+</table>

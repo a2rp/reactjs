@@ -1,4 +1,4 @@
-# Lifting State Up and Sharing Data — Q&A
+# Lifting State Up and Sharing Data - Q&A
 
 ## Core ideas
 
@@ -207,3 +207,13 @@ Move that value to their closest common parent, pass it to the siblings as props
 ## Key takeaway
 
 Lifting state up gives coordinated components one clear source of truth. Keep independent state local; move shared state only to the closest common parent that needs to coordinate it.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="042-derived-values-and-duplicated-state.md">042 - Derived values and avoiding duplicated state - Q&amp;A</a></td><td><a href="../lessons/043-lifting-state-up-and-sharing-data.md">Lesson</a></td><td><a href="../examples/043-lifting-state-up-and-sharing-data.md">Example</a></td><td><a href="044-single-source-of-truth-and-state-ownership.md">044 - Single Source of Truth and State Ownership - Q&amp;A</a></td></tr>
+  </tbody>
+</table>

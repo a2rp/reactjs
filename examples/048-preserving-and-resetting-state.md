@@ -658,3 +658,13 @@ Each PersonCard uses person.id. As an experiment, replace that key with the arra
 - Stable keys let local state follow list items through reordering.
 - Conditional removal discards the removed component's local state.
 - Saved profile data lives in App, so it survives editor resets.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="047-reducer-design-and-state-machines.md">047 - Reducer Design, Transitions, and State Machines - Example</a></td><td><a href="../lessons/048-preserving-and-resetting-state.md">Lesson</a></td><td><a href="../qnas/048-preserving-and-resetting-state.md">Q&amp;A</a></td><td><a href="049-rules-of-hooks.md">049 - Example: Following the Rules of Hooks</a></td></tr>
+  </tbody>
+</table>

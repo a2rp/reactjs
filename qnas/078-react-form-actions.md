@@ -1,4 +1,4 @@
-# React Form Actions and Asynchronous Submissions — Q&A
+# React Form Actions and Asynchronous Submissions - Q&A
 
 ## Native forms and React Actions
 
@@ -169,3 +169,13 @@ Each submit button should clearly state what it will do, and the server must enf
 ### 40. What should I check before shipping a form Action?
 
 Check names and FormData types, validation, authorization, pending feedback, field-reset behavior, error recovery, duplicate submission behavior, and whether the action is client-side or server-side.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="077-async-ui-and-framework-data-loading.md">077 - Async UI, Suspense, and Framework Data Loading - Q&amp;A</a></td><td><a href="../lessons/078-react-form-actions.md">Lesson</a></td><td><a href="../examples/078-react-form-actions.md">Example</a></td><td><a href="079-useactionstate.md">079 - Managing Submissions with useActionState - Q&amp;A</a></td></tr>
+  </tbody>
+</table>

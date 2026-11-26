@@ -308,3 +308,13 @@ The sample catalog is public and stored in the client-side example for simplicit
 ## Expected result
 
 The app has persistent top-level navigation and a nested course section. The course index and detail views render inside the courses layout. An unknown course ID renders a local 404 fallback without replacing the whole application shell; an unrelated URL renders the route's not-found page.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="085-routing-concepts-and-router-choice.md">085 - Routing concepts: a small React course browser</a></td><td><a href="../lessons/086-nested-routes-layouts-and-errors.md">Lesson</a></td><td><a href="../qnas/086-nested-routes-layouts-and-errors.md">Q&amp;A</a></td><td><a href="087-url-state-and-navigation.md">087 - URL State, Search Parameters, and Navigation - Examples</a></td></tr>
+  </tbody>
+</table>

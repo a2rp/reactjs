@@ -286,3 +286,13 @@ A folder tree is not an architecture by itself. The important part is that owner
 - Use component props and composition to keep dependencies explicit.
 - Extract hooks for meaningful reusable stateful behavior, not as a way to make separate state instances magically shared.
 - Add architecture when it makes code easier to change; refactor as the application gives you evidence about its boundaries.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="087-url-state-and-navigation.md">087 - URL State, Search Parameters, and Navigation</a></td><td><a href="../qnas/088-organizing-react-applications.md">Q&amp;A</a></td><td><a href="../examples/088-organizing-react-applications.md">Example</a></td><td><a href="089-design-systems-and-component-libraries.md">089 - Design Systems, Shared Components, and Component Libraries</a></td></tr>
+  </tbody>
+</table>

@@ -1,4 +1,4 @@
-# Synchronous DOM Updates with flushSync — Example
+# Synchronous DOM Updates with flushSync - Example
 
 This small Vite app compares a normal React state update with an update forced through `flushSync`. Both buttons change the same React-managed message. Each handler immediately reads the message element's DOM text before the handler finishes:
 
@@ -325,3 +325,13 @@ For simple print-only styling, a `@media print` stylesheet is often enough and a
 ## Key takeaway
 
 Use `flushSync` only when a synchronous integration needs React's updated DOM before the current callback returns. Keep the callback small, read the DOM afterward, and let React schedule ordinary UI updates normally.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="070-react-dom-roots-and-client-apis.md">070 - React DOM Roots, Hydration, and Client APIs - Example</a></td><td><a href="../lessons/071-flushsync.md">Lesson</a></td><td><a href="../qnas/071-flushsync.md">Q&amp;A</a></td><td><a href="072-react-dom-resource-hints-and-browser-apis.md">072 - React DOM Resource Hints and Browser APIs - Example</a></td></tr>
+  </tbody>
+</table>

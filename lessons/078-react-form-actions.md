@@ -112,7 +112,7 @@ Pending feedback should explain the operation. Disabling the submit control can 
 
 When a function passed to action or formAction succeeds, React resets the form's uncontrolled fields to their default values. This is useful for a successful message or comment submission.
 
-A fulfilled Action that returns a validation message is still a success from React's point of view and also resets uncontrolled fields. If the user must keep their entered values after validation fails, preserve them deliberately—for example, with state, controlled fields, suitable defaultValue values, or the stateful pattern in the next lesson.
+A fulfilled Action that returns a validation message is still a success from React's point of view and also resets uncontrolled fields. If the user must keep their entered values after validation fails, preserve them deliberately-for example, with state, controlled fields, suitable defaultValue values, or the stateful pattern in the next lesson.
 
 Controlled inputs keep their values from React state; the form reset does not replace that state. Choose controlled or uncontrolled fields intentionally instead of mixing assumptions.
 
@@ -200,3 +200,13 @@ A React 19 function form Action receives FormData and runs as asynchronous React
 - **Uncontrolled field:** A field whose current value is held by the DOM rather than React state.
 - **Server Function:** A framework-supported function invoked on the server through React's server integration.
 - **Progressive enhancement:** A form remains usable before client JavaScript has loaded.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="077-async-ui-and-framework-data-loading.md">077 - Async UI, Suspense, and Framework Data Loading</a></td><td><a href="../qnas/078-react-form-actions.md">Q&amp;A</a></td><td><a href="../examples/078-react-form-actions.md">Example</a></td><td><a href="079-useactionstate.md">079 - Managing Submissions with useActionState</a></td></tr>
+  </tbody>
+</table>

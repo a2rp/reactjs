@@ -217,9 +217,13 @@ This is a design approach, not a rule that every component must wrap another. So
 - Pass data directly to the component that uses it when composition can avoid needless forwarding.
 - Use context for genuinely shared, distant data rather than as a default replacement for props.
 - Choose component boundaries that make names and responsibilities clear.
-
 ## Chapter navigation
 
-| Previous chapter | Chapter Q&A | Chapter example | Next chapter |
-| --- | --- | --- | --- |
-| [016 - The children prop and nested content](016-children-prop-and-nested-content.md) | [Open Q&A](../qnas/017-composition-containment-and-layouts.md) | [Open Example](../examples/017-composition-containment-and-layouts.md) | [018 - Conditional rendering patterns](018-conditional-rendering-patterns.md) |
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="016-children-prop-and-nested-content.md">016 - The children prop and nested content</a></td><td><a href="../qnas/017-composition-containment-and-layouts.md">Q&amp;A</a></td><td><a href="../examples/017-composition-containment-and-layouts.md">Example</a></td><td><a href="018-conditional-rendering-patterns.md">018 - Conditional rendering patterns</a></td></tr>
+  </tbody>
+</table>

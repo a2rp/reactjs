@@ -1,4 +1,4 @@
-﻿# Large Lists, Virtualization, and Responsive Rendering
+# Large Lists, Virtualization, and Responsive Rendering
 
 ## Learning objectives
 
@@ -185,3 +185,13 @@ Choose an initial size that matches the expected layout when the library require
 - Stable IDs, deliberate row sizing, overscan, focus handling, and accessible semantics are essential.
 - Use CSS for responsive presentation and a measuring virtualizer for changing container dimensions.
 - Profile first, choose a strategy that fits the experience, then measure again.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="109-memo-and-optimization-decisions.md">109 - Memoization with memo and Optimization Decisions</a></td><td><a href="../qnas/110-large-lists-and-virtualization.md">Q&amp;A</a></td><td><a href="../examples/110-large-lists-and-virtualization.md">Example</a></td><td><a href="111-code-splitting-and-asset-loading.md">111 - Code Splitting, Asset Loading, and Bundle Analysis</a></td></tr>
+  </tbody>
+</table>

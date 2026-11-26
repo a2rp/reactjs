@@ -1,4 +1,4 @@
-﻿# Memoization with memo and Optimization Decisions
+# Memoization with memo and Optimization Decisions
 
 ## Learning objectives
 
@@ -211,3 +211,13 @@ Measure realistic data and interactions. Development behavior can differ from pr
 - Manual memoization is for performance, never correctness.
 - Profile first, choose the simplest useful optimization, and measure again.
 - React Compiler can handle many optimizations automatically for eligible code.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="108-react-compiler.md">108 - React Compiler and Automatic Optimization</a></td><td><a href="../qnas/109-memo-and-optimization-decisions.md">Q&amp;A</a></td><td><a href="../examples/109-memo-and-optimization-decisions.md">Example</a></td><td><a href="110-large-lists-and-virtualization.md">110 - Large Lists, Virtualization, and Responsive Rendering</a></td></tr>
+  </tbody>
+</table>

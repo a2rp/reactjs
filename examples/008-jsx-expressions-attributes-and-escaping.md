@@ -139,9 +139,13 @@ Try these changes one at a time:
 - [ ] The topic list appears only when `topicCount` is greater than zero.
 - [ ] The tag-looking example appears as text instead of HTML.
 - [ ] I can distinguish a quoted literal attribute from an expression value.
-
 ## Chapter navigation
 
-| Previous chapter | Lesson | Q&A | Next chapter |
-| --- | --- | --- | --- |
-| [007 - JSX syntax and markup](../lessons/007-jsx-syntax-and-markup.md) | [Open lesson](../lessons/008-jsx-expressions-attributes-and-escaping.md) | [Open Q&A](../qnas/008-jsx-expressions-attributes-and-escaping.md) | [009 - JSX styles, event props, and DOM properties](../lessons/009-jsx-styles-events-and-dom-properties.md) |
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="007-jsx-syntax-and-markup.md">007 - Example: Convert HTML-like markup into valid JSX</a></td><td><a href="../lessons/008-jsx-expressions-attributes-and-escaping.md">Lesson</a></td><td><a href="../qnas/008-jsx-expressions-attributes-and-escaping.md">Q&amp;A</a></td><td><a href="009-jsx-styles-events-and-dom-properties.md">009 - JSX styles, event props, and DOM properties - Example</a></td></tr>
+  </tbody>
+</table>

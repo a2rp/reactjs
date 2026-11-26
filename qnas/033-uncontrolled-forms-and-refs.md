@@ -167,9 +167,13 @@ No. FormData collects values; it does not establish that they are valid or safe.
 ### 40. What are the main rules to remember?
 
 Use defaultValue and defaultChecked for initial uncontrolled values, give submitted fields names, read the form with FormData, and use refs for focused DOM actions. Use React state when current values need to drive rendering.
-
 ## Chapter navigation
 
-| Previous chapter | Chapter lesson | Chapter example | Next chapter |
-| --- | --- | --- | --- |
-| [032 - Managing state for multi-field forms](../lessons/032-multi-field-form-state.md) | [033 - Uncontrolled forms and refs](../lessons/033-uncontrolled-forms-and-refs.md) | [Open Example](../examples/033-uncontrolled-forms-and-refs.md) | [034 - File inputs and upload flows](../lessons/034-file-inputs-and-upload-flows.md) |
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="032-multi-field-form-state.md">032 - Managing state for multi-field forms - Q&amp;A</a></td><td><a href="../lessons/033-uncontrolled-forms-and-refs.md">Lesson</a></td><td><a href="../examples/033-uncontrolled-forms-and-refs.md">Example</a></td><td><a href="034-file-inputs-and-upload-flows.md">034 - File inputs and upload flows - Q&amp;A</a></td></tr>
+  </tbody>
+</table>

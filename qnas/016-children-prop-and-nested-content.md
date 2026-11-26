@@ -153,9 +153,13 @@ Yes. The parent can use its data and conditional rendering to include different 
 ### 22. Is the `children` prop the same as the browser DOM's `childNodes`?
 
 No. `children` is a React prop containing React nodes supplied through JSX. React uses the returned component tree to manage the browser DOM; the prop itself is not a DOM node list.
-
 ## Chapter navigation
 
-| Lesson | Example | Previous chapter | Next chapter |
-| --- | --- | --- | --- |
-| [016 - The children prop and nested content](../lessons/016-children-prop-and-nested-content.md) | [Open Example](../examples/016-children-prop-and-nested-content.md) | [015 - Destructuring props and default values](../lessons/015-destructuring-props-and-default-values.md) | [017 - Composition, containment, and reusable layouts](../lessons/017-composition-containment-and-layouts.md) |
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="015-destructuring-props-and-default-values.md">015 - Destructuring props and default values - Q&amp;A</a></td><td><a href="../lessons/016-children-prop-and-nested-content.md">Lesson</a></td><td><a href="../examples/016-children-prop-and-nested-content.md">Example</a></td><td><a href="017-composition-containment-and-layouts.md">017 - Composition, containment, and reusable layouts - Q&amp;A</a></td></tr>
+  </tbody>
+</table>

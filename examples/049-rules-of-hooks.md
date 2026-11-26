@@ -639,3 +639,13 @@ React's special use API has a limited conditional and loop exception. It is diff
 - Stateful repeated UI is rendered as child components with stable keys.
 - Event handlers update declared state through setters.
 - Mounting and unmounting a child affects that child's local state without changing the parent's Hook call order.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="048-preserving-and-resetting-state.md">048 - Example: Preserving and Resetting State with Keys</a></td><td><a href="../lessons/049-rules-of-hooks.md">Lesson</a></td><td><a href="../qnas/049-rules-of-hooks.md">Q&amp;A</a></td><td><a href="050-context-and-usecontext.md">050 - Example: Context and useContext</a></td></tr>
+  </tbody>
+</table>

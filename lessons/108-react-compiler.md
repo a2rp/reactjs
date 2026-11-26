@@ -1,4 +1,4 @@
-﻿# React Compiler and Automatic Optimization
+# React Compiler and Automatic Optimization
 
 ## Learning goals
 
@@ -168,3 +168,13 @@ It helps avoid some manual memoization work. It does not make every performance 
 ## Summary
 
 React Compiler analyzes components and Hooks during the build and can automatically memoize safe calculations, functions, and rendered subtrees. It relies on the Rules of React and may skip code it cannot safely compile. Integrate it through the framework's supported transform pipeline, use lint diagnostics and DevTools to verify coverage, and adopt it gradually. Treat caches as optimizations rather than correctness guarantees, and compare real interactions before and after enabling the compiler.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="107-react-performance-and-profiling.md">107 - React Performance Fundamentals and Profiling</a></td><td><a href="../qnas/108-react-compiler.md">Q&amp;A</a></td><td><a href="../examples/108-react-compiler.md">Example</a></td><td><a href="109-memo-and-optimization-decisions.md">109 - Memoization with memo and Optimization Decisions</a></td></tr>
+  </tbody>
+</table>

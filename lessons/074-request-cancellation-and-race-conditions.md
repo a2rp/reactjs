@@ -283,3 +283,13 @@ The correctness goal is not "only one request is ever visible in development." T
 ## Summary
 
 Asynchronous responses can arrive out of order. Effect cleanup can ignore results from obsolete setups; `AbortController` can signal supported work to stop; request IDs can enforce a latest-request-wins rule across overlapping operations. Use cancellation to reduce obsolete work and relevance checks to protect state. Keep results tied to their query, handle abort separately from real failures, and remember that aborting a browser request is not a server-side rollback.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="073-client-side-data-fetching-and-use-api.md">073 - Client-Side Data Fetching, the `use` API, and Async Values</a></td><td><a href="../qnas/074-request-cancellation-and-race-conditions.md">Q&amp;A</a></td><td><a href="../examples/074-request-cancellation-and-race-conditions.md">Example</a></td><td><a href="075-loading-empty-success-and-error-states.md">075 - Loading, Empty, Success, and Error States</a></td></tr>
+  </tbody>
+</table>

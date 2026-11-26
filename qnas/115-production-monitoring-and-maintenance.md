@@ -1,4 +1,4 @@
-﻿# Q&A: Production Errors, Monitoring, and Maintenance
+# Q&A: Production Errors, Monitoring, and Maintenance
 
 ## 1. What should a production error strategy accomplish?
 
@@ -147,3 +147,13 @@ Local state handles failures the application expects and understands, such as a 
 ## 37. What is the main principle of production error handling?
 
 Handle a failure at the narrowest layer that has enough context to respond correctly. Use boundaries and global listeners as safeguards, keep user messages safe and useful, and make diagnostic reporting privacy-conscious and tied to a release.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="114-production-builds-and-deployment.md">114 - Production Builds, Configuration, and Deployment - Q&amp;A</a></td><td><a href="../lessons/115-production-monitoring-and-maintenance.md">Lesson</a></td><td><a href="../examples/115-production-monitoring-and-maintenance.md">Example</a></td><td><a href="116-react-capstone-project.md">116 - Q&amp;A: Build and Ship a Complete Accessible React Application</a></td></tr>
+  </tbody>
+</table>

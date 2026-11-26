@@ -375,3 +375,13 @@ setPerson({
 - Copy every object along the path to a nested property before changing it.
 - Use a functional updater when the next object should be based on pending state.
 - Preserve previous objects so earlier render snapshots stay unchanged.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="039-queued-batched-and-functional-updates.md">039 - Queued updates, batching, and functional updates</a></td><td><a href="../qnas/040-updating-object-state-immutably.md">Q&amp;A</a></td><td><a href="../examples/040-updating-object-state-immutably.md">Example</a></td><td><a href="041-updating-array-state-immutably.md">041 - Updating array state immutably</a></td></tr>
+  </tbody>
+</table>

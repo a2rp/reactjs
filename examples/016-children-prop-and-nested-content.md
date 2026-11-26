@@ -132,9 +132,13 @@ Open the local address printed by Vite. You should see a panel with one paragrap
 - A child component can be supplied by the caller and rendered by the wrapper.
 - Fragments group sibling JSX without adding a DOM wrapper.
 - Named JSX props are useful when a component has distinct content regions.
-
 ## Chapter navigation
 
-| Lesson | Q&A | Previous chapter | Next chapter |
-| --- | --- | --- | --- |
-| [016 - The children prop and nested content](../lessons/016-children-prop-and-nested-content.md) | [Open Q&A](../qnas/016-children-prop-and-nested-content.md) | [015 - Destructuring props and default values](../lessons/015-destructuring-props-and-default-values.md) | [017 - Composition, containment, and reusable layouts](../lessons/017-composition-containment-and-layouts.md) |
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="015-destructuring-props-and-default-values.md">015 - Destructuring props and default values - Example</a></td><td><a href="../lessons/016-children-prop-and-nested-content.md">Lesson</a></td><td><a href="../qnas/016-children-prop-and-nested-content.md">Q&amp;A</a></td><td><a href="017-composition-containment-and-layouts.md">017 - Composition, containment, and reusable layouts - Example</a></td></tr>
+  </tbody>
+</table>

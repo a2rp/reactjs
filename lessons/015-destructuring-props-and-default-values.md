@@ -186,7 +186,7 @@ You can destructure a property of an object prop:
 function InstructorLabel({ instructor }) {
   const { name, role } = instructor;
 
-  return <p>{name} — {role}</p>;
+  return <p>{name} - {role}</p>;
 }
 ~~~
 
@@ -202,7 +202,7 @@ function InstructorLabel({ instructor }) {
 
   const { name = 'Guest instructor', role = 'Instructor' } = instructor;
 
-  return <p>{name} — {role}</p>;
+  return <p>{name} - {role}</p>;
 }
 ~~~
 
@@ -258,9 +258,13 @@ Only forward props that are appropriate for the destination element. If a compon
 - Nested destructuring assumes the parent object exists; guard or default the object before reading nested fields.
 - Rest syntax can forward remaining props, but filter out component-only values before spreading onto a DOM element.
 - Destructuring does not clone objects or make props mutable.
-
 ## Chapter navigation
 
-| Previous chapter | Chapter Q&A | Chapter example | Next chapter |
-| --- | --- | --- | --- |
-| [014 - Props and passing data](014-props-and-passing-data.md) | [Open Q&A](../qnas/015-destructuring-props-and-default-values.md) | [Open Example](../examples/015-destructuring-props-and-default-values.md) | [016 - The children prop and nested content](016-children-prop-and-nested-content.md) |
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="014-props-and-passing-data.md">014 - Props and passing data</a></td><td><a href="../qnas/015-destructuring-props-and-default-values.md">Q&amp;A</a></td><td><a href="../examples/015-destructuring-props-and-default-values.md">Example</a></td><td><a href="016-children-prop-and-nested-content.md">016 - The children prop and nested content</a></td></tr>
+  </tbody>
+</table>

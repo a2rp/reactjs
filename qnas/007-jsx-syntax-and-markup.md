@@ -105,9 +105,13 @@ Use a semantic element when it accurately describes the content or provides usef
 ### 24. Where do JavaScript expressions and JSX attribute values fit in?
 
 They are written inside JSX using curly braces and have their own rules for strings, values, escaping, and property syntax. Those topics are the focus of the next lesson.
-
 ## Chapter navigation
 
-| Previous chapter | Lesson | Example | Next chapter |
-| --- | --- | --- | --- |
-| [006 - Project files, scripts, and the development server](../lessons/006-project-files-scripts-and-dev-server.md) | [Open lesson](../lessons/007-jsx-syntax-and-markup.md) | [Open Example](../examples/007-jsx-syntax-and-markup.md) | [008 - JavaScript expressions, attributes, and escaping in JSX](../lessons/008-jsx-expressions-attributes-and-escaping.md) |
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="006-project-files-scripts-and-dev-server.md">006 - Q&amp;A: Project files, scripts, and the development server</a></td><td><a href="../lessons/007-jsx-syntax-and-markup.md">Lesson</a></td><td><a href="../examples/007-jsx-syntax-and-markup.md">Example</a></td><td><a href="008-jsx-expressions-attributes-and-escaping.md">008 - Q&amp;A: JavaScript expressions, attributes, and escaping in JSX</a></td></tr>
+  </tbody>
+</table>

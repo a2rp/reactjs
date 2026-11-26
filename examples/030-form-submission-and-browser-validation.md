@@ -1,4 +1,4 @@
-﻿# 030. Form submission and browser validation - Example
+# 030. Form submission and browser validation - Example
 
 ## Goal
 
@@ -189,9 +189,13 @@ The reset button has `type="reset"`, so the browser restores the uncontrolled co
 - `FormData` collects named controls; React state stores the displayed receipt.
 - A reset button resets uncontrolled controls, while `onReset` can also reset related React state.
 - This demo stores values locally; it does not send them to a server.
-
 ## Chapter navigation
 
-| Previous chapter | Chapter lesson | Chapter Q&A | Next chapter |
-| --- | --- | --- | --- |
-| [029 - Text inputs, selects, checkboxes, and radio buttons](../lessons/029-inputs-selects-checkboxes-and-radio-buttons.md) | [030 - Form submission and browser validation](../lessons/030-form-submission-and-browser-validation.md) | [Open Q&A](../qnas/030-form-submission-and-browser-validation.md) | [031 - Accessible validation messages and error summaries](../lessons/031-accessible-validation-messages.md) |
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="029-inputs-selects-checkboxes-and-radio-buttons.md">029 - Text inputs, selects, checkboxes, and radio buttons - Example</a></td><td><a href="../lessons/030-form-submission-and-browser-validation.md">Lesson</a></td><td><a href="../qnas/030-form-submission-and-browser-validation.md">Q&amp;A</a></td><td><a href="031-accessible-validation-messages.md">031 - Accessible validation messages and error summaries - Example</a></td></tr>
+  </tbody>
+</table>

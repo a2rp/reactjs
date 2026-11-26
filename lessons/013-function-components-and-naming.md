@@ -201,9 +201,13 @@ Do not make every few lines a new component automatically. A component boundary 
 - Define component functions at the top level of a module.
 - Compose larger interfaces by nesting component elements in JSX.
 - Keep small related components together and split files when their size or reuse calls for it.
-
 ## Chapter navigation
 
-| Previous chapter | Chapter Q&A | Chapter example | Next chapter |
-| --- | --- | --- | --- |
-| [012 - Strict Mode and development checks](012-strict-mode-and-development-checks.md) | [Open Q&A](../qnas/013-function-components-and-naming.md) | [Open Example](../examples/013-function-components-and-naming.md) | [014 - Props and passing data](014-props-and-passing-data.md) |
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="012-strict-mode-and-development-checks.md">012 - Strict Mode and development checks</a></td><td><a href="../qnas/013-function-components-and-naming.md">Q&amp;A</a></td><td><a href="../examples/013-function-components-and-naming.md">Example</a></td><td><a href="014-props-and-passing-data.md">014 - Props and passing data</a></td></tr>
+  </tbody>
+</table>

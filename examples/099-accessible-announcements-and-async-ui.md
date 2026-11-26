@@ -1,4 +1,4 @@
-﻿# React Example: Accessible Async Search with Current-Request Protection
+# React Example: Accessible Async Search with Current-Request Protection
 
 This example builds a small client-side search interface. It does not call a network service; a local function waits briefly and filters sample data so the UI can demonstrate asynchronous states without external dependencies.
 
@@ -412,3 +412,13 @@ The query error is intentionally simulated by submitting the word error. It show
 ## Key lesson
 
 A visible state change is not necessarily announced. Keep a status region ready, announce meaningful milestones at an appropriate priority, mark incomplete content busy, and ensure the latest user request owns the final result.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="098-keyboard-focus-and-dialogs.md">098 - React Example: A Keyboard-Friendly Native Confirmation Dialog</a></td><td><a href="../lessons/099-accessible-announcements-and-async-ui.md">Lesson</a></td><td><a href="../qnas/099-accessible-announcements-and-async-ui.md">Q&amp;A</a></td><td><a href="100-testing-strategy-and-component-design.md">100 - React Example: Test Strategy and Testable Component Design</a></td></tr>
+  </tbody>
+</table>

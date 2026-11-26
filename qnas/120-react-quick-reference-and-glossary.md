@@ -301,3 +301,13 @@ Check the installed react and react-dom versions, the matching framework/runtime
 ### 70. What should I remember after finishing the course?
 
 Describe UI from current inputs, keep rendering pure, model state once, use semantic and accessible HTML, synchronize external systems with Effects, profile before optimizing, and check the framework/runtime boundary for server features. Use the roadmap and the root summary/glossary to return to the full lesson for any topic.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="119-react-19-3-features.md">119 - Q&amp;A: React 19.3 View Transitions, Fragment refs, and browser APIs</a></td><td><a href="../lessons/120-react-quick-reference-and-glossary.md">Lesson</a></td><td><a href="../examples/120-react-quick-reference-and-glossary.md">Example</a></td><td>End of course</td></tr>
+  </tbody>
+</table>

@@ -1,4 +1,4 @@
-﻿# Example: Preserve Panel State and Profile React 19.2 Work
+# Example: Preserve Panel State and Profile React 19.2 Work
 
 This example shows a small workspace with two panels. Switching panels uses React 19.2's `<Activity>` so the inactive panel is hidden while its React state is retained. One panel also runs a timer in an Effect; hiding it cleans up the timer, and showing it sets the Effect up again.
 
@@ -437,3 +437,13 @@ function RoomConnection({ roomId, theme }) {
 - Server-rendered hidden Activity content is not part of the initial server HTML; check the framework's hydration behavior.
 - Profiling builds and development traces add instrumentation; measure production behavior separately.
 - Use Activity only for screens users are likely to revisit or content with a clear measured benefit.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="117-react-upgrades-and-version-changes.md">117 - Example: Upgrade a React Application Deliberately</a></td><td><a href="../lessons/118-react-19-2-features.md">Lesson</a></td><td><a href="../qnas/118-react-19-2-features.md">Q&amp;A</a></td><td><a href="119-react-19-3-features.md">119 - Example: React 19.3 View Transitions, Fragment refs, and browser-only rendering</a></td></tr>
+  </tbody>
+</table>

@@ -264,9 +264,13 @@ Whichever approach you choose:
 - Changing `ref.current` does not trigger a render; use state for values that affect rendered UI.
 - Do not manipulate React-owned DOM directly or mix controlled and uncontrolled props on a control.
 - Client-side form handling does not replace server-side validation.
-
 ## Chapter navigation
 
-| Previous chapter | Chapter Q&A | Chapter example | Next chapter |
-| --- | --- | --- | --- |
-| [032 - Managing state for multi-field forms](032-multi-field-form-state.md) | [Open Q&A](../qnas/033-uncontrolled-forms-and-refs.md) | [Open Example](../examples/033-uncontrolled-forms-and-refs.md) | [034 - File inputs and upload flows](034-file-inputs-and-upload-flows.md) |
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="032-multi-field-form-state.md">032 - Managing state for multi-field forms</a></td><td><a href="../qnas/033-uncontrolled-forms-and-refs.md">Q&amp;A</a></td><td><a href="../examples/033-uncontrolled-forms-and-refs.md">Example</a></td><td><a href="034-file-inputs-and-upload-flows.md">034 - File inputs and upload flows</a></td></tr>
+  </tbody>
+</table>

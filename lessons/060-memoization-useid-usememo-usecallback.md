@@ -1,4 +1,4 @@
-﻿# Memoization, useId, useMemo, and useCallback
+# Memoization, useId, useMemo, and useCallback
 
 ## Keep work and identities stable only when it helps
 
@@ -261,3 +261,13 @@ The Compiler does not change the purpose of **useId**: use it for related access
 - **useId** generates IDs for accessibility relationships such as **htmlFor** and **aria-describedby**.
 - Generate list keys from stable data IDs, never from **useId**.
 - React Compiler can reduce manual memoization when it is configured for the project.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="059-refs-and-imperative-handles.md">059 - React 19 Refs, forwardRef, and Imperative Handles</a></td><td><a href="../qnas/060-memoization-useid-usememo-usecallback.md">Q&amp;A</a></td><td><a href="../examples/060-memoization-useid-usememo-usecallback.md">Example</a></td><td><a href="061-rendering-and-committing.md">061 - Rendering, Committing, and Updating the UI</a></td></tr>
+  </tbody>
+</table>

@@ -1,4 +1,4 @@
-﻿# Example: Upgrade a React Application Deliberately
+# Example: Upgrade a React Application Deliberately
 
 This runbook demonstrates a staged migration for a fictional Vite application moving from React 18.2 to React 19. It shows how to make the change reviewable, handle representative API migrations, inspect dependency compatibility, and prepare to release.
 
@@ -257,3 +257,13 @@ Keep the React upgrade separate from unrelated feature work where possible. Smal
 The application now uses the selected compatible React and React DOM versions, no longer depends on removed migration APIs, and has a lockfile that records the resolved dependency tree. Its existing behavior has been checked with the project's real framework and integrations.
 
 This runbook does not certify every package or application for React 19.3. The compatibility decision and final version selection must be based on the specific project's dependency graph and current React release guidance.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="116-react-capstone-project.md">116 - Example: Build and Ship a Complete Accessible React Application</a></td><td><a href="../lessons/117-react-upgrades-and-version-changes.md">Lesson</a></td><td><a href="../qnas/117-react-upgrades-and-version-changes.md">Q&amp;A</a></td><td><a href="118-react-19-2-features.md">118 - Example: Preserve Panel State and Profile React 19.2 Work</a></td></tr>
+  </tbody>
+</table>

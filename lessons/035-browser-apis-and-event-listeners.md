@@ -311,3 +311,13 @@ When a browser event behaves incorrectly, check:
 ## Summary
 
 React event props handle interactions on React-rendered elements. Effects synchronize components with external browser systems such as window events, media queries, timers, and observers. Pair every subscription or scheduled resource with cleanup, list the reactive values used by the Effect, and access browser-only globals after the component commits.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="034-file-inputs-and-upload-flows.md">034 - File inputs and upload flows</a></td><td><a href="../qnas/035-browser-apis-and-event-listeners.md">Q&amp;A</a></td><td><a href="../examples/035-browser-apis-and-event-listeners.md">Example</a></td><td><a href="036-accessible-interactive-form-project.md">036 - Build an accessible interactive form feature</a></td></tr>
+  </tbody>
+</table>

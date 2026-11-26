@@ -193,9 +193,13 @@ This example first removes values used by the component itself, then applies the
 - Use className, htmlFor, and camelCase DOM property names in JSX; keep aria-* and data-* hyphenated.
 - Pass booleans as booleans and keep component-only values off native DOM elements.
 - Choose native semantic elements, especially buttons and links, for interactive controls.
-
 ## Chapter navigation
 
-| Previous chapter | Chapter Q&A | Chapter example | Next chapter |
-| --- | --- | --- | --- |
-| [008 - JavaScript expressions, attributes, and escaping in JSX](008-jsx-expressions-attributes-and-escaping.md) | [Open Q&A](../qnas/009-jsx-styles-events-and-dom-properties.md) | [Open Example](../examples/009-jsx-styles-events-and-dom-properties.md) | [010 - Fragments and returning multiple elements](010-fragments-and-multiple-elements.md) |
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="008-jsx-expressions-attributes-and-escaping.md">008 - JavaScript expressions, attributes, and escaping in JSX</a></td><td><a href="../qnas/009-jsx-styles-events-and-dom-properties.md">Q&amp;A</a></td><td><a href="../examples/009-jsx-styles-events-and-dom-properties.md">Example</a></td><td><a href="010-fragments-and-multiple-elements.md">010 - Fragments and returning multiple elements</a></td></tr>
+  </tbody>
+</table>

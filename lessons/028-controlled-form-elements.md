@@ -1,4 +1,4 @@
-﻿# 028. Controlled form elements
+# 028. Controlled form elements
 
 ## Goal
 
@@ -155,7 +155,7 @@ A controlled element uses `value` or `checked` instead:
 />
 ~~~
 
-Choose a controlled element when the current value should drive React behavior—for example, a live preview, conditional UI, or validation while typing. Choose an uncontrolled element when the browser can own the value until the form is read or submitted. The form submission chapter covers more ways to read form data.
+Choose a controlled element when the current value should drive React behavior-for example, a live preview, conditional UI, or validation while typing. Choose an uncontrolled element when the browser can own the value until the form is read or submitted. The form submission chapter covers more ways to read form data.
 
 Do not combine `value` with `defaultValue` or `checked` with `defaultChecked` for the same element. Decide who owns the current value.
 
@@ -245,9 +245,13 @@ A named controlled field can still be included in `FormData`. React state determ
 - `defaultValue` and `defaultChecked` set initial values for uncontrolled elements.
 - Keep a control consistently controlled or consistently uncontrolled.
 - Keep labels, names, and semantic form markup even when React manages the value.
-
 ## Chapter navigation
 
-| Previous chapter | Chapter Q&A | Chapter example | Next chapter |
-| --- | --- | --- | --- |
-| [027 - Event propagation and default actions](027-event-propagation-and-default-actions.md) | [Open Q&A](../qnas/028-controlled-form-elements.md) | [Open Example](../examples/028-controlled-form-elements.md) | [029 - Text inputs, selects, checkboxes, and radio buttons](029-inputs-selects-checkboxes-and-radio-buttons.md) |
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="027-event-propagation-and-default-actions.md">027 - Event propagation, default actions, and cancellation</a></td><td><a href="../qnas/028-controlled-form-elements.md">Q&amp;A</a></td><td><a href="../examples/028-controlled-form-elements.md">Example</a></td><td><a href="029-inputs-selects-checkboxes-and-radio-buttons.md">029 - Text inputs, selects, checkboxes, and radio buttons</a></td></tr>
+  </tbody>
+</table>

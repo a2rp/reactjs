@@ -1,4 +1,4 @@
-# Controlled and Uncontrolled Component APIs — Example
+# Controlled and Uncontrolled Component APIs - Example
 
 This example demonstrates three ownership patterns:
 
@@ -532,7 +532,7 @@ h2 {
       name="description"
       content="A React example comparing controlled and uncontrolled component APIs."
     />
-    <title>Controlled and Uncontrolled — React Example</title>
+    <title>Controlled and Uncontrolled - React Example</title>
   </head>
   <body>
     <div id="root"></div>
@@ -584,3 +584,13 @@ Open the local address printed by Vite.
 - Both components can call onOpenChange, but the callback does not decide ownership.
 - The form demonstrates that one interface can mix controlled and uncontrolled fields.
 - The current value has one owner in each case, avoiding a prop and internal state competing for the same fact.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="044-single-source-of-truth-and-state-ownership.md">044 - Single Source of Truth and State Ownership - Example</a></td><td><a href="../lessons/045-controlled-and-uncontrolled-component-apis.md">Lesson</a></td><td><a href="../qnas/045-controlled-and-uncontrolled-component-apis.md">Q&amp;A</a></td><td><a href="046-complex-state-with-usereducer.md">046 - Complex State with useReducer - Example</a></td></tr>
+  </tbody>
+</table>

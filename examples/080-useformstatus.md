@@ -109,3 +109,13 @@ The hook calls are in descendants of the form. If either hook were moved into Ap
 This is an interface demonstration, not a real newsletter subscription. It has no server endpoint, persistence, email delivery, or server-side validation. A production action must validate submitted data and enforce access rules in the trusted server environment.
 
 The pending state only describes work associated with this form submission. It does not prove that the operation succeeded; the message returned by the Action demonstrates a separate result state.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="079-useactionstate.md">079 - Managing Submissions with useActionState - Example</a></td><td><a href="../lessons/080-useformstatus.md">Lesson</a></td><td><a href="../qnas/080-useformstatus.md">Q&amp;A</a></td><td><a href="081-useoptimistic.md">081 - Optimistic UI with useOptimistic - Example</a></td></tr>
+  </tbody>
+</table>

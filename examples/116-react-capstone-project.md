@@ -1,4 +1,4 @@
-﻿# Example: Build and Ship a Complete Accessible React Application
+# Example: Build and Ship a Complete Accessible React Application
 
 This example builds a small task tracker with React and Vite. It supports adding, completing, deleting, searching, and filtering tasks. It saves changes in the current browser when local storage is available and stays usable in memory when storage is unavailable.
 
@@ -807,3 +807,13 @@ After the base version works, possible follow-up work includes:
 - add production error reporting and release monitoring.
 
 Keep the data model and access rules clear before adding these features. The local version is a complete single-browser learning project, not a multi-user task service.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="115-production-monitoring-and-maintenance.md">115 - Example: Production Errors, Monitoring, and Maintenance</a></td><td><a href="../lessons/116-react-capstone-project.md">Lesson</a></td><td><a href="../qnas/116-react-capstone-project.md">Q&amp;A</a></td><td><a href="117-react-upgrades-and-version-changes.md">117 - Example: Upgrade a React Application Deliberately</a></td></tr>
+  </tbody>
+</table>

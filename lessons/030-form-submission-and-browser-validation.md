@@ -1,8 +1,8 @@
-﻿# 030. Form submission and browser validation
+# 030. Form submission and browser validation
 
 ## Goal
 
-A form groups related controls and gives the browser a standard way to validate and submit their values. React can let a form submit normally, handle its submit event, or—starting with React 19—use a function as its `action`.
+A form groups related controls and gives the browser a standard way to validate and submit their values. React can let a form submit normally, handle its submit event, or-starting with React 19-use a function as its `action`.
 
 This chapter covers the browser and React basics: when submission happens, how native constraints affect it, and how to read named controls with `FormData`. Accessible custom error messages are the next chapter; asynchronous React form Actions are covered later in the course.
 
@@ -207,9 +207,13 @@ Do not pass a function to `action` and also call `preventDefault()` in `onSubmit
 - A submit button submits; set other button types explicitly.
 - React 19 function form Actions are a separate model, covered in later chapters.
 - Accessible validation messages and summaries are covered next.
-
 ## Chapter navigation
 
-| Previous chapter | Chapter Q&A | Chapter example | Next chapter |
-| --- | --- | --- | --- |
-| [029 - Text inputs, selects, checkboxes, and radio buttons](029-inputs-selects-checkboxes-and-radio-buttons.md) | [Open Q&A](../qnas/030-form-submission-and-browser-validation.md) | [Open Example](../examples/030-form-submission-and-browser-validation.md) | [031 - Accessible validation messages and error summaries](031-accessible-validation-messages.md) |
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="029-inputs-selects-checkboxes-and-radio-buttons.md">029 - Text inputs, selects, checkboxes, and radio buttons</a></td><td><a href="../qnas/030-form-submission-and-browser-validation.md">Q&amp;A</a></td><td><a href="../examples/030-form-submission-and-browser-validation.md">Example</a></td><td><a href="031-accessible-validation-messages.md">031 - Accessible validation messages and error summaries</a></td></tr>
+  </tbody>
+</table>

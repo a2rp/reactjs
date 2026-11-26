@@ -1,4 +1,4 @@
-﻿# React Example: Browser-Test a Complete Checkout Journey
+# React Example: Browser-Test a Complete Checkout Journey
 
 This example runs a small React checkout app in a real browser. The Playwright test adds a product, proceeds to checkout, submits an email address, and checks the confirmation. The order API is controlled by the test so the browser journey is deterministic and does not need a live backend.
 
@@ -156,7 +156,7 @@ export default function App() {
       {inCart && (
         <section aria-labelledby="cart-title" className="card">
           <h2 id="cart-title">Cart</h2>
-          <p>{product.name} — ${product.price.toFixed(2)}</p>
+          <p>{product.name} - ${product.price.toFixed(2)}</p>
           <p role="status">{product.name} added to cart.</p>
           <button type="button" onClick={() => setShowCheckout(true)}>
             Continue to checkout
@@ -450,3 +450,13 @@ When a test fails, inspect its trace and screenshot, then check the app's consol
 - While the response is pending, the page communicates progress and prevents a duplicate submission.
 - A service error produces a recoverable message and re-enables the submit button.
 - An empty required email is blocked by browser form validation.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="103-testing-forms-and-async-ui.md">103 - React Example: Testing an Async Username Form and API Boundary</a></td><td><a href="../lessons/104-browser-level-and-end-to-end-tests.md">Lesson</a></td><td><a href="../qnas/104-browser-level-and-end-to-end-tests.md">Q&amp;A</a></td><td><a href="105-react-devtools-and-debugging.md">105 - React Example: Debug and Profile a Task Board with React DevTools</a></td></tr>
+  </tbody>
+</table>

@@ -298,3 +298,13 @@ Refs are an escape hatch. If most application data flow depends on mutable refs,
 - Store non-visual values, such as timer IDs, in refs when handlers or cleanup need them.
 - Read and write refs in event handlers, Effects, callback refs, or the one-time initialization pattern; do not use them as render-time state.
 - Let React own the DOM structure and clean up resources that refs help you manage.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="057-custom-hooks-and-usedebugvalue.md">057 - Custom Hooks and useDebugValue</a></td><td><a href="../qnas/058-useref.md">Q&amp;A</a></td><td><a href="../examples/058-useref.md">Example</a></td><td><a href="059-refs-and-imperative-handles.md">059 - React 19 Refs, forwardRef, and Imperative Handles</a></td></tr>
+  </tbody>
+</table>

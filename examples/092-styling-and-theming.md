@@ -1,4 +1,4 @@
-﻿# React Styling and Theming: CSS Modules Dashboard Example
+# React Styling and Theming: CSS Modules Dashboard Example
 
 This example builds a responsive learning dashboard using a CSS Module for component classes, global CSS for document foundations, CSS custom properties for semantic color tokens, and React state for a light/dark theme toggle.
 
@@ -562,3 +562,13 @@ Global CSS is kept small: it defines box sizing, document defaults, and shared t
 - A semantic token such as `--surface` makes a theme change reusable across components.
 - CSS Modules reduce class-name collisions but do not replace CSS inheritance or the cascade.
 - Responsive layout, keyboard focus, and reduced-motion behavior stay in CSS.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="091-typescript-with-react.md">091 - TypeScript with React: Reading List Example</a></td><td><a href="../lessons/092-styling-and-theming.md">Lesson</a></td><td><a href="../qnas/092-styling-and-theming.md">Q&amp;A</a></td><td><a href="093-animation-and-motion-preferences.md">093 - React Animation and View Transitions: Interactive Example</a></td></tr>
+  </tbody>
+</table>

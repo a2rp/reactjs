@@ -221,3 +221,13 @@ Error boundaries are not a substitute for validating props, handling expected em
 - Place boundaries around meaningful regions so unrelated interface remains available.
 - Make recovery actions honest: reset or retry only when the application can change the condition that failed.
 - Keep user-facing recovery text separate from private diagnostic details.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="067-lazy-loading-components.md">067 - Lazy Loading Components with lazy</a></td><td><a href="../qnas/068-error-boundaries-and-recovery-ui.md">Q&amp;A</a></td><td><a href="../examples/068-error-boundaries-and-recovery-ui.md">Example</a></td><td><a href="069-portals.md">069 - Portals and Rendering Outside the Parent DOM Node</a></td></tr>
+  </tbody>
+</table>

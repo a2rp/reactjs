@@ -307,3 +307,13 @@ Suggested answers:
 - Choose a state shape that represents valid choices and avoids impossible combinations.
 - Keep independent state local, and avoid copied or redundant state.
 - Context can help distribute values across distant descendants, but a common parent is the simplest starting point for sibling coordination.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="042-derived-values-and-duplicated-state.md">042 - Derived values and avoiding duplicated state</a></td><td><a href="../qnas/043-lifting-state-up-and-sharing-data.md">Q&amp;A</a></td><td><a href="../examples/043-lifting-state-up-and-sharing-data.md">Example</a></td><td><a href="044-single-source-of-truth-and-state-ownership.md">044 - Single Source of Truth and State Ownership</a></td></tr>
+  </tbody>
+</table>

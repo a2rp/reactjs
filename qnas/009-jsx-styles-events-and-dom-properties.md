@@ -1,4 +1,4 @@
-# 009. JSX styles, event props, and DOM properties — Q&A
+# 009. JSX styles, event props, and DOM properties - Q&A
 
 ## CSS classes and the style prop
 
@@ -154,9 +154,13 @@ No. Component props may include application-only values that the browser element
 ### 22. How can I recognize a style or DOM prop mistake?
 
 Check the browser console and the JSX spelling. Common issues include using class instead of className, for instead of htmlFor, kebab-case in a style object, a string instead of a boolean, or calling a handler during render.
-
 ## Chapter navigation
 
-| Lesson | Example | Previous chapter | Next chapter |
-| --- | --- | --- | --- |
-| [009 - JSX styles, event props, and DOM properties](../lessons/009-jsx-styles-events-and-dom-properties.md) | [Open Example](../examples/009-jsx-styles-events-and-dom-properties.md) | [008 - JavaScript expressions, attributes, and escaping in JSX](../lessons/008-jsx-expressions-attributes-and-escaping.md) | [010 - Fragments and returning multiple elements](../lessons/010-fragments-and-multiple-elements.md) |
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="008-jsx-expressions-attributes-and-escaping.md">008 - Q&amp;A: JavaScript expressions, attributes, and escaping in JSX</a></td><td><a href="../lessons/009-jsx-styles-events-and-dom-properties.md">Lesson</a></td><td><a href="../examples/009-jsx-styles-events-and-dom-properties.md">Example</a></td><td><a href="010-fragments-and-multiple-elements.md">010 - Fragments and returning multiple elements - Q&amp;A</a></td></tr>
+  </tbody>
+</table>

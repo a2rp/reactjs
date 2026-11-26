@@ -231,3 +231,13 @@ Use these semantics only where they match the interaction. Too many live announc
 ## Summary
 
 A reliable data view distinguishes pending work, successful results, successful emptiness, and failure. Model the state explicitly, associate data with its query, and make retry a real action. Decide intentionally whether refresh replaces existing data or keeps it visible as stale, and use accessible status and error messages.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="074-request-cancellation-and-race-conditions.md">074 - Request Cancellation, Stale Responses, and Race Conditions</a></td><td><a href="../qnas/075-loading-empty-success-and-error-states.md">Q&amp;A</a></td><td><a href="../examples/075-loading-empty-success-and-error-states.md">Example</a></td><td><a href="076-caching-and-revalidation.md">076 - Caching, Deduplication, Invalidation, and Revalidation</a></td></tr>
+  </tbody>
+</table>

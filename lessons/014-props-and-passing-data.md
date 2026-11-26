@@ -246,9 +246,13 @@ Do not spread props everywhere by default. An explicit list shows what informati
 - Treat props as read-only; pass callbacks when a child needs to request an action.
 - React reserves `key`; pass a separate prop if the component needs the same identifier.
 - Props communicate data between components; state stores changing data owned by a component.
-
 ## Chapter navigation
 
-| Previous chapter | Chapter Q&A | Chapter example | Next chapter |
-| --- | --- | --- | --- |
-| [013 - Function components and component naming](013-function-components-and-naming.md) | [Open Q&A](../qnas/014-props-and-passing-data.md) | [Open Example](../examples/014-props-and-passing-data.md) | [015 - Destructuring props and default values](015-destructuring-props-and-default-values.md) |
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="013-function-components-and-naming.md">013 - Function components and component naming</a></td><td><a href="../qnas/014-props-and-passing-data.md">Q&amp;A</a></td><td><a href="../examples/014-props-and-passing-data.md">Example</a></td><td><a href="015-destructuring-props-and-default-values.md">015 - Destructuring props and default values</a></td></tr>
+  </tbody>
+</table>

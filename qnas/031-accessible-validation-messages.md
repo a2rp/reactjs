@@ -169,9 +169,13 @@ Submit invalid data using a keyboard, read the summary, activate each link, and 
 ### 40. What are the most important rules to remember?
 
 Use specific visible text, connect each inline error to its field, show a useful summary after a failed submit, avoid marking untouched fields invalid too early, announce updates without excessive repetition, and validate again on the server.
-
 ## Chapter navigation
 
-| Previous chapter | Chapter lesson | Chapter example | Next chapter |
-| --- | --- | --- | --- |
-| [030 - Form submission and browser validation](../lessons/030-form-submission-and-browser-validation.md) | [031 - Accessible validation messages and error summaries](../lessons/031-accessible-validation-messages.md) | [Open Example](../examples/031-accessible-validation-messages.md) | [032 - Managing state for multi-field forms](../lessons/032-multi-field-form-state.md) |
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="030-form-submission-and-browser-validation.md">030 - Form submission and browser validation - Q&amp;A</a></td><td><a href="../lessons/031-accessible-validation-messages.md">Lesson</a></td><td><a href="../examples/031-accessible-validation-messages.md">Example</a></td><td><a href="032-multi-field-form-state.md">032 - Managing state for multi-field forms - Q&amp;A</a></td></tr>
+  </tbody>
+</table>

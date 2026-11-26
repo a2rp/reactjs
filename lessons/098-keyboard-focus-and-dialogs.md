@@ -1,4 +1,4 @@
-﻿# Keyboard Support, Focus, and Dialogs in React
+# Keyboard Support, Focus, and Dialogs in React
 
 ## Learning goals
 
@@ -229,3 +229,13 @@ Keyboard support depends on real, operable controls, a sensible focus order, and
 3. Open a native modal dialog and test its focus lifecycle.
 4. Remove a dialog's opener after confirmation and move focus to an appropriate remaining element.
 5. Explain why aria-modal does not create a working modal by itself.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="097-semantic-html-and-accessible-components.md">097 - Semantic HTML and Accessible React Components</a></td><td><a href="../qnas/098-keyboard-focus-and-dialogs.md">Q&amp;A</a></td><td><a href="../examples/098-keyboard-focus-and-dialogs.md">Example</a></td><td><a href="099-accessible-announcements-and-async-ui.md">099 - Accessible Announcements and Asynchronous Interfaces in React</a></td></tr>
+  </tbody>
+</table>

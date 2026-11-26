@@ -1,4 +1,4 @@
-﻿# React Compiler — Q&A
+# React Compiler - Q&A
 
 ## Core ideas
 
@@ -172,3 +172,13 @@ No. It is intended to avoid unnecessary work, but real performance depends on th
 ## Key takeaway
 
 Treat the React Compiler as a build-time performance optimization. Keep components correct without memoization, follow the Rules of React, use diagnostics to guide adoption, and measure real interactions.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="107-react-performance-and-profiling.md">107 - React Performance Fundamentals and Profiling: Questions and Answers</a></td><td><a href="../lessons/108-react-compiler.md">Lesson</a></td><td><a href="../examples/108-react-compiler.md">Example</a></td><td><a href="109-memo-and-optimization-decisions.md">109 - Memoization and Optimization Decisions - Q&amp;A</a></td></tr>
+  </tbody>
+</table>

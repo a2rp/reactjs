@@ -402,3 +402,13 @@ Unrelated changes can update consumers that only need one part. Separate context
 - React updates context consumers when the provider value changes according to Object.is.
 - Prefer props for local data flow and use context for shared subtree needs.
 - In React 19, render the context object as a provider; earlier versions use its Provider property.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="049-rules-of-hooks.md">049 - Rules of Hooks and Why They Matter</a></td><td><a href="../qnas/050-context-and-usecontext.md">Q&amp;A</a></td><td><a href="../examples/050-context-and-usecontext.md">Example</a></td><td><a href="051-context-provider-design.md">051 - Designing Context Providers and Avoiding Overuse</a></td></tr>
+  </tbody>
+</table>

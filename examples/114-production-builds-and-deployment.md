@@ -1,4 +1,4 @@
-﻿# Build and Deploy a Vite React App — Complete Example
+# Build and Deploy a Vite React App - Complete Example
 
 This example configures an existing Vite React app for a static host that publishes the app below the path /react-production-demo/. It includes:
 
@@ -381,3 +381,13 @@ If the HTML loads but the app is blank, inspect the JavaScript request path and 
 - Use BASE_URL for dynamic public asset references.
 - Preview the production build locally, then verify the actual hosted app.
 - Hosting fallbacks, API routes, cache behavior, and server runtime depend on the deployment architecture.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="113-html-injection-and-trusted-types.md">113 - Sanitized Rich Text with React and Trusted Types - Complete Example</a></td><td><a href="../lessons/114-production-builds-and-deployment.md">Lesson</a></td><td><a href="../qnas/114-production-builds-and-deployment.md">Q&amp;A</a></td><td><a href="115-production-monitoring-and-maintenance.md">115 - Example: Production Errors, Monitoring, and Maintenance</a></td></tr>
+  </tbody>
+</table>

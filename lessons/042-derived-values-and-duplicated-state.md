@@ -307,3 +307,13 @@ Then consider a list with selectedItem stored as a whole object. Change the stat
 - A deliberate editable draft can be separate state when it is meant to diverge.
 - Use useMemo only when profiling justifies caching an expensive calculation.
 - Keep render calculations pure and avoid mutating source data.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="041-updating-array-state-immutably.md">041 - Updating array state immutably</a></td><td><a href="../qnas/042-derived-values-and-duplicated-state.md">Q&amp;A</a></td><td><a href="../examples/042-derived-values-and-duplicated-state.md">Example</a></td><td><a href="043-lifting-state-up-and-sharing-data.md">043 - Lifting State Up and Sharing Data</a></td></tr>
+  </tbody>
+</table>

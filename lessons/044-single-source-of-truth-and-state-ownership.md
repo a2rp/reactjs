@@ -281,3 +281,13 @@ Suggested answers:
 - Keep independent state local.
 - Preserve separate values when they represent different facts, such as saved data and an unsaved draft.
 - Use callbacks for children to request changes; let the owner apply the update rules.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="043-lifting-state-up-and-sharing-data.md">043 - Lifting State Up and Sharing Data</a></td><td><a href="../qnas/044-single-source-of-truth-and-state-ownership.md">Q&amp;A</a></td><td><a href="../examples/044-single-source-of-truth-and-state-ownership.md">Example</a></td><td><a href="045-controlled-and-uncontrolled-component-apis.md">045 - Controlled and Uncontrolled Component APIs</a></td></tr>
+  </tbody>
+</table>

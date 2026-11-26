@@ -163,9 +163,13 @@ Log the handler order while learning, but remove noisy debugging logs from produ
 - Stop propagation only when a nested interaction should not be handled by its ancestor.
 - Use explicit callbacks and semantic links/buttons to make interaction intent easier to follow.
 - Portal events follow the React tree, and some event types have special propagation behavior.
-
 ## Chapter navigation
 
-| Previous chapter | Chapter Q&A | Chapter example | Next chapter |
-| --- | --- | --- | --- |
-| [026 - Event objects and React's event system](026-event-objects-and-react-event-system.md) | [Open Q&A](../qnas/027-event-propagation-and-default-actions.md) | [Open Example](../examples/027-event-propagation-and-default-actions.md) | [028 - Controlled form elements](028-controlled-form-elements.md) |
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="026-event-objects-and-react-event-system.md">026 - Event objects and React's event system</a></td><td><a href="../qnas/027-event-propagation-and-default-actions.md">Q&amp;A</a></td><td><a href="../examples/027-event-propagation-and-default-actions.md">Example</a></td><td><a href="028-controlled-form-elements.md">028 - Controlled form elements</a></td></tr>
+  </tbody>
+</table>

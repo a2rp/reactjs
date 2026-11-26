@@ -1,4 +1,4 @@
-# useEffectEvent and Non-Reactive Event Logic — Q&A
+# useEffectEvent and Non-Reactive Event Logic - Q&A
 
 ## Core concepts
 
@@ -172,3 +172,13 @@ Confirm that the function is called only by Effect logic, that it handles an eve
 - Pass the event's original triggering value as an argument when it must be preserved.
 - Effect Events are neither user event handlers nor stable callbacks.
 - Call them only from Effect logic where they are declared; do not pass them to components or other Hooks.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="055-when-an-effect-is-unnecessary.md">055 - When an Effect Is Unnecessary - Q&amp;A</a></td><td><a href="../lessons/056-useeffectevent.md">Lesson</a></td><td><a href="../examples/056-useeffectevent.md">Example</a></td><td><a href="057-custom-hooks-and-usedebugvalue.md">057 - Custom Hooks and useDebugValue - Q&amp;A</a></td></tr>
+  </tbody>
+</table>

@@ -577,3 +577,13 @@ The example uses ThemeContext.Provider syntax, which works in React 18 and React
 - The nested provider changes only its own branch.
 - The default applies only when a matching provider is absent.
 - Memoization helps keep object value identity stable, but should be used when useful rather than added automatically.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="049-rules-of-hooks.md">049 - Example: Following the Rules of Hooks</a></td><td><a href="../lessons/050-context-and-usecontext.md">Lesson</a></td><td><a href="../qnas/050-context-and-usecontext.md">Q&amp;A</a></td><td><a href="051-context-provider-design.md">051 - Example: Designing a Scoped Context Provider</a></td></tr>
+  </tbody>
+</table>

@@ -1,4 +1,4 @@
-﻿# Q&A: React 19.2 Activity and Performance Tooling
+# Q&A: React 19.2 Activity and Performance Tooling
 
 ## 1. What is the main focus of React 19.2 in this chapter?
 
@@ -151,3 +151,13 @@ Verify the visible navigation or selection control communicates the active view.
 ## 38. What is the main principle for using React 19.2's performance features?
 
 Choose the feature that matches a measured problem. Use Activity when state retention or background preparation helps, Effect Events only for Effect-fired events, and Performance Tracks to locate work before optimizing.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="117-react-upgrades-and-version-changes.md">117 - Q&amp;A: Upgrading React and Handling Version Changes</a></td><td><a href="../lessons/118-react-19-2-features.md">Lesson</a></td><td><a href="../examples/118-react-19-2-features.md">Example</a></td><td><a href="119-react-19-3-features.md">119 - Q&amp;A: React 19.3 View Transitions, Fragment refs, and browser APIs</a></td></tr>
+  </tbody>
+</table>

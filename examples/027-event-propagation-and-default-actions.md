@@ -168,9 +168,13 @@ Submit a search query. The form handler prevents the browser's normal submission
 4. Move the form inside the article. Observe that preventing the `submit` default does not by itself cancel the separate click event from the submit button.
 5. Add a nested button inside the article and give it a callback. Prefer the native button and avoid nesting it inside another interactive control.
 6. If you test a portal, remember that its events propagate according to the React tree, even when its DOM nodes are elsewhere.
-
 ## Chapter navigation
 
-| Previous chapter | Chapter lesson | Chapter Q&A | Next chapter |
-| --- | --- | --- | --- |
-| [026 - Event objects and React's event system](../lessons/026-event-objects-and-react-event-system.md) | [027 - Event propagation, default actions, and cancellation](../lessons/027-event-propagation-and-default-actions.md) | [Open Q&A](../qnas/027-event-propagation-and-default-actions.md) | [028 - Controlled form elements](../lessons/028-controlled-form-elements.md) |
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="026-event-objects-and-react-event-system.md">026 - Event objects and React's event system - Example</a></td><td><a href="../lessons/027-event-propagation-and-default-actions.md">Lesson</a></td><td><a href="../qnas/027-event-propagation-and-default-actions.md">Q&amp;A</a></td><td><a href="028-controlled-form-elements.md">028 - Controlled form elements - Example</a></td></tr>
+  </tbody>
+</table>

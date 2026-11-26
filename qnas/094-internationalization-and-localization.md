@@ -1,4 +1,4 @@
-﻿# Internationalization, Localization, and Text Direction: Questions and Answers
+# Internationalization, Localization, and Text Direction: Questions and Answers
 
 ## Core concepts and messages
 
@@ -141,3 +141,13 @@ Choose a supported locale model, centralize translated messages, use `Intl` for 
 
 ### 44. What is the most important separation to maintain?
 Keep translation text, locale-sensitive formatting, semantic language/direction metadata, and layout presentation as related but distinct concerns. Each has a different correct mechanism.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="093-animation-and-motion-preferences.md">093 - Animation, Motion Preferences, and View Transitions: Questions and Answers</a></td><td><a href="../lessons/094-internationalization-and-localization.md">Lesson</a></td><td><a href="../examples/094-internationalization-and-localization.md">Example</a></td><td><a href="095-frameworks-and-rendering-strategies.md">095 - Frameworks, Client Rendering, SSR, and Static Generation: Questions and Answers</a></td></tr>
+  </tbody>
+</table>

@@ -1,4 +1,4 @@
-﻿# Testing Forms, Asynchronous UI, and API Boundaries: Questions and Answers
+# Testing Forms, Asynchronous UI, and API Boundaries: Questions and Answers
 
 ## Forms and submitted values
 
@@ -147,3 +147,13 @@ Yes, depending on how the form is wired. React documents that a function action 
 ### 35. What is the key rule for testing forms and API boundaries?
 
 Use the real form controls and submit path, keep the service boundary controlled, and assert pending, success, rejection, and failure outcomes that matter to users. Await the result instead of sleeping, and account for the exact React form pattern in the application.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="102-testing-user-interactions.md">102 - Testing User Interactions and Complete Flows: Questions and Answers</a></td><td><a href="../lessons/103-testing-forms-and-async-ui.md">Lesson</a></td><td><a href="../examples/103-testing-forms-and-async-ui.md">Example</a></td><td><a href="104-browser-level-and-end-to-end-tests.md">104 - Browser-Level Tests and End-to-End Behavior: Questions and Answers</a></td></tr>
+  </tbody>
+</table>

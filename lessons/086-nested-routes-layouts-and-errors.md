@@ -180,3 +180,13 @@ A visitor can request a URL directly. Check identity and authorization whenever 
 ## Summary
 
 Nested routes let a parent layout provide shared UI and render the matched child through an outlet. Index routes represent the parent's default child, while pathless layout routes add structure without changing the URL. Route error boundaries can catch supported failures and let the nearest route boundary replace only the affected section. Use explicit UI for expected states, keep diagnostics private, and enforce authorization in the trusted data layer.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="085-routing-concepts-and-router-choice.md">085 - Routing concepts and choosing a router</a></td><td><a href="../qnas/086-nested-routes-layouts-and-errors.md">Q&amp;A</a></td><td><a href="../examples/086-nested-routes-layouts-and-errors.md">Example</a></td><td><a href="087-url-state-and-navigation.md">087 - URL State, Search Parameters, and Navigation</a></td></tr>
+  </tbody>
+</table>

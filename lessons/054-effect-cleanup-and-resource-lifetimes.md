@@ -376,3 +376,13 @@ For every Effect that acquires a resource, ask:
 - Cancellation cannot undo a remote operation that has already completed.
 - React does not await asynchronous cleanup.
 - Keep cleanup focused on releasing the external work that its setup owns.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="053-effect-dependencies-and-closures.md">053 - Effect Dependencies, Closures, and Synchronization</a></td><td><a href="../qnas/054-effect-cleanup-and-resource-lifetimes.md">Q&amp;A</a></td><td><a href="../examples/054-effect-cleanup-and-resource-lifetimes.md">Example</a></td><td><a href="055-when-an-effect-is-unnecessary.md">055 - When an Effect Is Unnecessary</a></td></tr>
+  </tbody>
+</table>

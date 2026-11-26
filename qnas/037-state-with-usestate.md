@@ -175,3 +175,13 @@ Move the state to their nearest common parent and pass the value and event handl
 ### 42. What is the core rule for useState?
 
 Call it unconditionally at the top level, choose an initial value that fits the UI, update it through its setter, and render from the current value.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="036-accessible-interactive-form-project.md">036 - Build an accessible interactive form feature - Q&amp;A</a></td><td><a href="../lessons/037-state-with-usestate.md">Lesson</a></td><td><a href="../examples/037-state-with-usestate.md">Example</a></td><td><a href="038-state-as-a-render-snapshot.md">038 - State as a render snapshot - Q&amp;A</a></td></tr>
+  </tbody>
+</table>

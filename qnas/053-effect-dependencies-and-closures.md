@@ -1,4 +1,4 @@
-# Effect Dependencies, Closures, and Synchronization — Q&A
+# Effect Dependencies, Closures, and Synchronization - Q&A
 
 ## Closures and render snapshots
 
@@ -193,3 +193,13 @@ Change the surrounding code first so it reads the intended reactive values. Then
 - Use state updaters to calculate from previous state without capturing it.
 - Refs and mutable globals do not trigger renders and cannot make an Effect reactive.
 - Change code instead of suppressing the dependency linter.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="052-effect-hooks-and-synchronization.md">052 - Effect Hooks and Synchronization - Q&amp;A</a></td><td><a href="../lessons/053-effect-dependencies-and-closures.md">Lesson</a></td><td><a href="../examples/053-effect-dependencies-and-closures.md">Example</a></td><td><a href="054-effect-cleanup-and-resource-lifetimes.md">054 - Effect Cleanup and Resource Lifetimes - Q&amp;A</a></td></tr>
+  </tbody>
+</table>

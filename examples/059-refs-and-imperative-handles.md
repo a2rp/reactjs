@@ -1,4 +1,4 @@
-﻿# Example: React 19 Refs and Imperative Handles
+# Example: React 19 Refs and Imperative Handles
 
 This runnable React 19 app demonstrates how a parent can use refs across function-component boundaries without owning the child’s markup:
 
@@ -670,3 +670,13 @@ The parent’s **<NoteComposer ref={composerRef} />** usage is unchanged. Keep t
 4. Add a **scrollToNote(id)** method that finds the matching rendered note. Keep the item data in props and use refs only for the DOM operation.
 5. Remove the **select()** method and confirm that the parent can no longer request text selection. This illustrates how the child’s handle defines the public API.
 6. Temporarily change a note or a draft to a ref and observe why ref mutation alone does not update the visible interface. Restore state for those values.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="058-useref.md">058 - Example: useRef for DOM Nodes and Mutable Values</a></td><td><a href="../lessons/059-refs-and-imperative-handles.md">Lesson</a></td><td><a href="../qnas/059-refs-and-imperative-handles.md">Q&amp;A</a></td><td><a href="060-memoization-useid-usememo-usecallback.md">060 - Example: Memoization and useId</a></td></tr>
+  </tbody>
+</table>

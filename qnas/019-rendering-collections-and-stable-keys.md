@@ -160,9 +160,13 @@ No. The key belongs on each sibling produced by the map. Giving the `<ul>` a key
 ### 24. What is the safest default for keys?
 
 Use a stable ID that is part of each data record. Keep it unchanged while the record represents the same item, make it unique among siblings, and pass it separately as a prop if the component needs to read it.
-
 ## Chapter navigation
 
-| Previous chapter | Chapter lesson | Chapter example | Next chapter |
-| --- | --- | --- | --- |
-| [018 - Conditional rendering patterns](../lessons/018-conditional-rendering-patterns.md) | [019 - Rendering collections and choosing stable keys](../lessons/019-rendering-collections-and-stable-keys.md) | [Open Example](../examples/019-rendering-collections-and-stable-keys.md) | [020 - Component boundaries and responsibility](../lessons/020-component-boundaries-and-responsibility.md) |
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="018-conditional-rendering-patterns.md">018 - Conditional rendering patterns - Q&amp;A</a></td><td><a href="../lessons/019-rendering-collections-and-stable-keys.md">Lesson</a></td><td><a href="../examples/019-rendering-collections-and-stable-keys.md">Example</a></td><td><a href="020-component-boundaries-and-responsibility.md">020 - Component boundaries and responsibility - Q&amp;A</a></td></tr>
+  </tbody>
+</table>

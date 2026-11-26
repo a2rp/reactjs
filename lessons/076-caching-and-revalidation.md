@@ -192,3 +192,13 @@ A cache can count active subscribers, let the request finish for reuse, or cance
 ## Summary
 
 A cache is correct only when its key and lifecycle match the data. Deduplicate identical in-flight requests, define freshness separately from memory retention, and invalidate data after changes that can affect it. Revalidation can refresh stale results while keeping them visible, but communicate their freshness. Keep private data scoped safely, and use the framework or query library when it already manages these rules.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="075-loading-empty-success-and-error-states.md">075 - Loading, Empty, Success, and Error States</a></td><td><a href="../qnas/076-caching-and-revalidation.md">Q&amp;A</a></td><td><a href="../examples/076-caching-and-revalidation.md">Example</a></td><td><a href="077-async-ui-and-framework-data-loading.md">077 - Async UI, Suspense, and Framework Data Loading</a></td></tr>
+  </tbody>
+</table>

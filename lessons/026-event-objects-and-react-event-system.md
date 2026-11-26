@@ -54,7 +54,7 @@ The wrapper can pass both an application value and the event to another function
 </button>
 ~~~
 
-If the user clicks the star, `target` may be the `<span>`, while `currentTarget` is the `<button>` where `onClick` is attached. If the user clicks the button text, the target may be the button itself. Use `currentTarget` when you specifically need the element that owns the current handler—for example, to read an input's value or a form's submitted data.
+If the user clicks the star, `target` may be the `<span>`, while `currentTarget` is the `<button>` where `onClick` is attached. If the user clicks the button text, the target may be the button itself. Use `currentTarget` when you specifically need the element that owns the current handlerï¿½for example, to read an input's value or a form's submitted data.
 
 For a handler attached directly to an input, both properties will ordinarily refer to that input. Still, `currentTarget` communicates that you are reading from the element whose handler is being handled:
 
@@ -169,9 +169,13 @@ Avoid storing the event object in React state or passing it around as if it were
 - `nativeEvent` is available when browser-level details are needed, but do not rely on internal event mappings.
 - React DOM does not require `event.persist()`; read the needed values and pass plain data onward.
 - Use `preventDefault()` to cancel a browser default and `stopPropagation()` to stop ancestor handlers.
-
 ## Chapter navigation
 
-| Previous chapter | Chapter Q&A | Chapter example | Next chapter |
-| --- | --- | --- | --- |
-| [025 - Event handlers and user interactions](025-event-handlers-and-user-interactions.md) | [Open Q&A](../qnas/026-event-objects-and-react-event-system.md) | [Open Example](../examples/026-event-objects-and-react-event-system.md) | [027 - Event propagation, default actions, and cancellation](027-event-propagation-and-default-actions.md) |
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="025-event-handlers-and-user-interactions.md">025 - Event handlers and user interactions</a></td><td><a href="../qnas/026-event-objects-and-react-event-system.md">Q&amp;A</a></td><td><a href="../examples/026-event-objects-and-react-event-system.md">Example</a></td><td><a href="027-event-propagation-and-default-actions.md">027 - Event propagation, default actions, and cancellation</a></td></tr>
+  </tbody>
+</table>

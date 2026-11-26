@@ -172,3 +172,13 @@ The hook only observes form status. The form Action or submit handler must do th
 - data, method, and action provide additional information about the active parent form.
 - A form Action and a manual onSubmit handler have different reset behavior.
 - Pending UI improves feedback but does not replace validation or security checks.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="079-useactionstate.md">079 - Managing Submissions with useActionState</a></td><td><a href="../qnas/080-useformstatus.md">Q&amp;A</a></td><td><a href="../examples/080-useformstatus.md">Example</a></td><td><a href="081-useoptimistic.md">081 - Optimistic UI with useOptimistic</a></td></tr>
+  </tbody>
+</table>

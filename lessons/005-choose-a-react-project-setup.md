@@ -134,9 +134,13 @@ Create React App is deprecated. Do not start a new project with tutorials using 
 - Existing sites can adopt React gradually; Expo and React Native target native mobile UI.
 - Choose JavaScript or TypeScript to suit the learner and project.
 - Create React App is deprecated.
-
 ## Chapter navigation
 
-| Previous chapter | Chapter Q&A | Chapter example | Next chapter |
-| --- | --- | --- | --- |
-| [004 - JavaScript and browser prerequisites](004-javascript-and-browser-prerequisites.md) | [Open Q&A](../qnas/005-choose-a-react-project-setup.md) | [Open Example](../examples/005-choose-a-react-project-setup.md) | [006 - Project files, scripts, and the development server](006-project-files-scripts-and-dev-server.md) |
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="004-javascript-and-browser-prerequisites.md">004 - JavaScript and browser prerequisites</a></td><td><a href="../qnas/005-choose-a-react-project-setup.md">Q&amp;A</a></td><td><a href="../examples/005-choose-a-react-project-setup.md">Example</a></td><td><a href="006-project-files-scripts-and-dev-server.md">006 - Project files, scripts, and the development server</a></td></tr>
+  </tbody>
+</table>

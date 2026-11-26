@@ -1,4 +1,4 @@
-﻿# Animation, Motion Preferences, and View Transitions in React
+# Animation, Motion Preferences, and View Transitions in React
 
 ## Learning goals
 
@@ -277,3 +277,13 @@ Do not animate every update. A text field value or urgent confirmation should no
 ## Summary
 
 React state determines the UI state; CSS transitions and keyframes animate visual changes. `prefers-reduced-motion` lets CSS tone down or remove nonessential effects, while JavaScript-started animations need their own preference handling and cleanup. The browser View Transition API animates snapshots between DOM states. React 19.3's stable `<ViewTransition>` coordinates React transitions with that browser capability; it does not animate ordinary urgent updates automatically and does not honor reduced motion unless the app styles for it.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="092-styling-and-theming.md">092 - Styling Strategies, CSS Modules, and Theming in React</a></td><td><a href="../qnas/093-animation-and-motion-preferences.md">Q&amp;A</a></td><td><a href="../examples/093-animation-and-motion-preferences.md">Example</a></td><td><a href="094-internationalization-and-localization.md">094 - Internationalization, Localization, and Text Direction in React</a></td></tr>
+  </tbody>
+</table>

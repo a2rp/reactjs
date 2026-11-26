@@ -140,9 +140,13 @@ Open the printed local address. You should see the heading, summary, topic list,
 - [ ] The semantic content appears in the browser.
 - [ ] I can explain what a Fragment adds and what it leaves out.
 - [ ] I know whether the sample image file exists in my project.
-
 ## Chapter navigation
 
-| Previous chapter | Lesson | Q&A | Next chapter |
-| --- | --- | --- | --- |
-| [006 - Project files, scripts, and the development server](../lessons/006-project-files-scripts-and-dev-server.md) | [Open lesson](../lessons/007-jsx-syntax-and-markup.md) | [Open Q&A](../qnas/007-jsx-syntax-and-markup.md) | [008 - JavaScript expressions, attributes, and escaping in JSX](../lessons/008-jsx-expressions-attributes-and-escaping.md) |
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="006-project-files-scripts-and-dev-server.md">006 - Example: Trace and run a Vite React project</a></td><td><a href="../lessons/007-jsx-syntax-and-markup.md">Lesson</a></td><td><a href="../qnas/007-jsx-syntax-and-markup.md">Q&amp;A</a></td><td><a href="008-jsx-expressions-attributes-and-escaping.md">008 - Example: Render data and expressions in JSX</a></td></tr>
+  </tbody>
+</table>

@@ -1,4 +1,4 @@
-# Server Functions and form Actions — Q&A
+# Server Functions and form Actions - Q&A
 
 ## Definitions and setup
 
@@ -191,3 +191,13 @@ Persist the change, then update or revalidate the UI data using the framework's 
 ### 42. What is the main mental model?
 
 The form sends serialized user-controlled data to an asynchronous server function through framework support. The function validates and authorizes the request, performs the mutation, and returns only safe UI state.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="081-useoptimistic.md">081 - Optimistic UI with useOptimistic - Q&amp;A</a></td><td><a href="../lessons/082-server-functions-and-form-actions.md">Lesson</a></td><td><a href="../examples/082-server-functions-and-form-actions.md">Example</a></td><td><a href="083-react-server-components.md">083 - React Server Components and server rendering - Q&amp;A</a></td></tr>
+  </tbody>
+</table>

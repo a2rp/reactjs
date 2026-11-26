@@ -201,9 +201,13 @@ The terminal reports build-tool and compilation problems. The browser Console re
 - Vite's `public/` files are copied as-is; imported assets can be processed by the build.
 - Anything exposed with a `VITE_` prefix is public client data, not a secret.
 - Build and preview help inspect production assets locally, but do not deploy them.
-
 ## Chapter navigation
 
-| Previous chapter | Chapter Q&A | Chapter example | Next chapter |
-| --- | --- | --- | --- |
-| [005 - Choose a React project setup](005-choose-a-react-project-setup.md) | [Open Q&A](../qnas/006-project-files-scripts-and-dev-server.md) | [Open Example](../examples/006-project-files-scripts-and-dev-server.md) | [007 - JSX syntax and markup](007-jsx-syntax-and-markup.md) |
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="005-choose-a-react-project-setup.md">005 - Choose a React project setup</a></td><td><a href="../qnas/006-project-files-scripts-and-dev-server.md">Q&amp;A</a></td><td><a href="../examples/006-project-files-scripts-and-dev-server.md">Example</a></td><td><a href="007-jsx-syntax-and-markup.md">007 - JSX syntax and markup</a></td></tr>
+  </tbody>
+</table>

@@ -398,3 +398,13 @@ Before finalizing an Effect, check:
 - Use functional state updaters when an Effect needs to calculate the next state from the previous state.
 - Ref mutations and global mutations do not trigger React renders and cannot make an Effect reactive.
 - Use the linter to find stale closures, and change code rather than suppressing a real dependency.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="052-effect-hooks-and-synchronization.md">052 - Effect Hooks and Synchronization</a></td><td><a href="../qnas/053-effect-dependencies-and-closures.md">Q&amp;A</a></td><td><a href="../examples/053-effect-dependencies-and-closures.md">Example</a></td><td><a href="054-effect-cleanup-and-resource-lifetimes.md">054 - Effect Cleanup and Resource Lifetimes</a></td></tr>
+  </tbody>
+</table>

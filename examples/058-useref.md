@@ -681,3 +681,13 @@ textarea::placeholder {
 2. Add a browser media element and use its DOM ref to call **play()** and **pause()** from button handlers.
 3. Add a status value to state if the timer needs to display an error. Do not put that visible error only in a ref.
 4. Replace the list-end object ref with callback refs keyed by entry ID, then remove each map entry when its node detaches.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="057-custom-hooks-and-usedebugvalue.md">057 - Example: Custom Hooks and useDebugValue</a></td><td><a href="../lessons/058-useref.md">Lesson</a></td><td><a href="../qnas/058-useref.md">Q&amp;A</a></td><td><a href="059-refs-and-imperative-handles.md">059 - Example: React 19 Refs and Imperative Handles</a></td></tr>
+  </tbody>
+</table>

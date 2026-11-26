@@ -340,3 +340,13 @@ Client-side context can affect what a user sees, but trusted server code must en
 - Separate state and dispatch contexts when it makes subscriptions clearer.
 - Split contexts by ownership and update needs, not by arbitrary rules.
 - Optimize context value identity when it matters, and keep local state local.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="050-context-and-usecontext.md">050 - Context and useContext</a></td><td><a href="../qnas/051-context-provider-design.md">Q&amp;A</a></td><td><a href="../examples/051-context-provider-design.md">Example</a></td><td><a href="052-effect-hooks-and-synchronization.md">052 - Effect Hooks and Synchronization</a></td></tr>
+  </tbody>
+</table>

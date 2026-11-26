@@ -1,4 +1,4 @@
-﻿# React Animation and View Transitions: Interactive Example
+# React Animation and View Transitions: Interactive Example
 
 This example compares three approaches in one small motion playground:
 
@@ -524,3 +524,13 @@ The example uses two APIs with similar names for different work:
 - Use the Web Animations API only when imperative control is useful, and cancel its `Animation` handle.
 - Honor `prefers-reduced-motion` in CSS and in JavaScript-started animation.
 - Keep the interface functional when animation is disabled or unsupported.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="092-styling-and-theming.md">092 - React Styling and Theming: CSS Modules Dashboard Example</a></td><td><a href="../lessons/093-animation-and-motion-preferences.md">Lesson</a></td><td><a href="../qnas/093-animation-and-motion-preferences.md">Q&amp;A</a></td><td><a href="094-internationalization-and-localization.md">094 - React Internationalization and RTL: Locale Dashboard Example</a></td></tr>
+  </tbody>
+</table>

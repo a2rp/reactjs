@@ -1,4 +1,4 @@
-﻿# React Native and the Shared React Mental Model: Questions and Answers
+# React Native and the Shared React Mental Model: Questions and Answers
 
 ## Core concepts
 
@@ -204,3 +204,13 @@ React's component, props, state, and rendering model is shared. The host environ
 - Prefer FlatList for long collections.
 - Isolate differences at clear platform boundaries.
 - Use a suitable framework for app setup and verify every supported platform.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="095-frameworks-and-rendering-strategies.md">095 - Frameworks, Client Rendering, SSR, and Static Generation: Questions and Answers</a></td><td><a href="../lessons/096-react-native-and-shared-react-concepts.md">Lesson</a></td><td><a href="../examples/096-react-native-and-shared-react-concepts.md">Example</a></td><td><a href="097-semantic-html-and-accessible-components.md">097 - Semantic HTML and Accessible React Components: Questions and Answers</a></td></tr>
+  </tbody>
+</table>

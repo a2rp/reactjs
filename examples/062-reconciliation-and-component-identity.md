@@ -1,4 +1,4 @@
-﻿# Example: Reconciliation, Component Identity, and Keys
+# Example: Reconciliation, Component Identity, and Keys
 
 This runnable React app demonstrates two key behaviors:
 
@@ -348,3 +348,13 @@ The long Fragment syntax supports a key without adding a wrapper element to the 
 5. Add a new person with an ID stored in the data before rendering it. Give it a draft and reorder the list.
 6. Move the profile drafts into parent state so switching away and back restores each one.
 7. Define a small stateful component inside **App** and trigger an App update. Observe why nested component definitions can remount their children; then move the definition to module scope.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="061-rendering-and-committing.md">061 - Example: Rendering, Committing, and Updating the UI</a></td><td><a href="../lessons/062-reconciliation-and-component-identity.md">Lesson</a></td><td><a href="../qnas/062-reconciliation-and-component-identity.md">Q&amp;A</a></td><td><a href="063-concurrent-rendering-and-priorities.md">063 - Example: Concurrent Rendering and Update Priorities</a></td></tr>
+  </tbody>
+</table>

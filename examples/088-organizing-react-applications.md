@@ -1,4 +1,4 @@
-# Organizing Components, Features, and Application Code — Examples
+# Organizing Components, Features, and Application Code - Examples
 
 This example builds a small task feature and organizes it by ownership. The application shell composes the feature. The task feature owns its page, form, filters, list, reducer, starter data, and styles.
 
@@ -583,3 +583,13 @@ The reducer is the only module that defines how task actions change the task col
 - If the app adds routing or global providers, compose them in `app/App.jsx` or the framework's designated app entry point.
 
 Do not create empty folders for hypothetical future code. Add structure when it makes current ownership and changes clearer.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="087-url-state-and-navigation.md">087 - URL State, Search Parameters, and Navigation - Examples</a></td><td><a href="../lessons/088-organizing-react-applications.md">Lesson</a></td><td><a href="../qnas/088-organizing-react-applications.md">Q&amp;A</a></td><td><a href="089-design-systems-and-component-libraries.md">089 - Design Systems, Shared Components, and Component Libraries - Examples</a></td></tr>
+  </tbody>
+</table>

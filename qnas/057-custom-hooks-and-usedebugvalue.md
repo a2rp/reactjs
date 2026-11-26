@@ -1,4 +1,4 @@
-# Custom Hooks and useDebugValue — Q&A
+# Custom Hooks and useDebugValue - Q&A
 
 ## Custom Hook basics
 
@@ -200,3 +200,13 @@ Extract a Hook when a meaningful, reusable stateful capability gets a clearer na
 - Reactive inputs and Effect dependencies stay meaningful after extraction.
 - Prefer focused capability Hooks over generic lifecycle wrappers.
 - **useDebugValue** adds optional DevTools diagnostics, not user-facing UI.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="056-useeffectevent.md">056 - useEffectEvent and Non-Reactive Event Logic - Q&amp;A</a></td><td><a href="../lessons/057-custom-hooks-and-usedebugvalue.md">Lesson</a></td><td><a href="../examples/057-custom-hooks-and-usedebugvalue.md">Example</a></td><td><a href="058-useref.md">058 - useRef for DOM Nodes and Mutable Values - Q&amp;A</a></td></tr>
+  </tbody>
+</table>

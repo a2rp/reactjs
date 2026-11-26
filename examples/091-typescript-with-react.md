@@ -1,4 +1,4 @@
-﻿# TypeScript with React: Reading List Example
+# TypeScript with React: Reading List Example
 
 This example builds a small reading-list interface with typed component props, controlled form state, a DOM ref, a filter union, and an exhaustive reducer action union.
 
@@ -559,3 +559,13 @@ select:focus-visible {
 - The input ref accounts for the element being absent before it mounts.
 - The select’s string value is checked before it becomes a `BookFilter`.
 - TypeScript checks the program’s declared shapes; external data would still need runtime validation.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="090-global-state-and-usesyncexternalstore.md">090 - Global State, `useSyncExternalStore`, and External Stores - Examples</a></td><td><a href="../lessons/091-typescript-with-react.md">Lesson</a></td><td><a href="../qnas/091-typescript-with-react.md">Q&amp;A</a></td><td><a href="092-styling-and-theming.md">092 - React Styling and Theming: CSS Modules Dashboard Example</a></td></tr>
+  </tbody>
+</table>

@@ -1,4 +1,4 @@
-# 011. Create a root and render a React application — Q&A
+# 011. Create a root and render a React application - Q&A
 
 ## The root container and startup
 
@@ -93,9 +93,13 @@ For a current client-rendered React app, use createRoot from react-dom/client an
 ### 22. What should I check first when the browser is blank?
 
 Check that the HTML contains the expected container id, that the entry module runs after the document element is available, that the id lookup matches, and that the browser Console shows no import or runtime error.
-
 ## Chapter navigation
 
-| Lesson | Example | Previous chapter | Next chapter |
-| --- | --- | --- | --- |
-| [011 - Create a root and render a React application](../lessons/011-create-a-root-and-render-an-application.md) | [Open Example](../examples/011-create-a-root-and-render-an-application.md) | [010 - Fragments and returning multiple elements](../lessons/010-fragments-and-multiple-elements.md) | [012 - Strict Mode and development checks](../lessons/012-strict-mode-and-development-checks.md) |
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="010-fragments-and-multiple-elements.md">010 - Fragments and returning multiple elements - Q&amp;A</a></td><td><a href="../lessons/011-create-a-root-and-render-an-application.md">Lesson</a></td><td><a href="../examples/011-create-a-root-and-render-an-application.md">Example</a></td><td><a href="012-strict-mode-and-development-checks.md">012 - Strict Mode and development checks - Q&amp;A</a></td></tr>
+  </tbody>
+</table>

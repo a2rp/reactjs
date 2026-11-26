@@ -169,9 +169,13 @@ A state setter replaces the previous state; it does not merge object properties 
 ### 40. What are the key rules for a multi-field form?
 
 Choose a clear shape for related values, keep controlled values synchronized with React, use name to identify fields, update objects immutably, store checkboxes as booleans, and derive values that can be calculated from current state.
-
 ## Chapter navigation
 
-| Previous chapter | Chapter lesson | Chapter example | Next chapter |
-| --- | --- | --- | --- |
-| [031 - Accessible validation messages and error summaries](../lessons/031-accessible-validation-messages.md) | [032 - Managing state for multi-field forms](../lessons/032-multi-field-form-state.md) | [Open Example](../examples/032-multi-field-form-state.md) | [033 - Uncontrolled forms and refs](../lessons/033-uncontrolled-forms-and-refs.md) |
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="031-accessible-validation-messages.md">031 - Accessible validation messages and error summaries - Q&amp;A</a></td><td><a href="../lessons/032-multi-field-form-state.md">Lesson</a></td><td><a href="../examples/032-multi-field-form-state.md">Example</a></td><td><a href="033-uncontrolled-forms-and-refs.md">033 - Uncontrolled forms and refs - Q&amp;A</a></td></tr>
+  </tbody>
+</table>

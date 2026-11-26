@@ -1,4 +1,4 @@
-# React DOM Resource Hints and Browser APIs — Example
+# React DOM Resource Hints and Browser APIs - Example
 
 This Vite example uses local assets to demonstrate the six React DOM resource-hint APIs. DNS and connection hints are optional and only run if you configure an origin you control for separate report assets.
 
@@ -404,3 +404,13 @@ The request may be deduplicated with its later use, delayed, or ignored by the b
 ## Key takeaway
 
 Choose the least eager hint that fits a likely need: DNS lookup, connection setup, download, or activation. Let React and the framework handle routine loading, and use targeted hints for a measured gap.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="071-flushsync.md">071 - Synchronous DOM Updates with flushSync - Example</a></td><td><a href="../lessons/072-react-dom-resource-hints-and-browser-apis.md">Lesson</a></td><td><a href="../qnas/072-react-dom-resource-hints-and-browser-apis.md">Q&amp;A</a></td><td><a href="073-client-side-data-fetching-and-use-api.md">073 - Client-Side Data Fetching, the `use` API, and Async Values - Example</a></td></tr>
+  </tbody>
+</table>

@@ -480,3 +480,13 @@ The submit handler is only a front-end demonstration. A real product should send
 ## Key lesson
 
 Accessible React code is semantic HTML composed through components. Native elements supply useful roles and behavior; labels and descriptions supply context; ARIA fills specific gaps. Confirm the rendered result with keyboard and assistive technology instead of treating JSX or an automated scan as proof.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="096-react-native-and-shared-react-concepts.md">096 - React Native Example: A Native Task List with Shared React Logic</a></td><td><a href="../lessons/097-semantic-html-and-accessible-components.md">Lesson</a></td><td><a href="../qnas/097-semantic-html-and-accessible-components.md">Q&amp;A</a></td><td><a href="098-keyboard-focus-and-dialogs.md">098 - React Example: A Keyboard-Friendly Native Confirmation Dialog</a></td></tr>
+  </tbody>
+</table>

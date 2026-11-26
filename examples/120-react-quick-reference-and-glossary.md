@@ -1,4 +1,4 @@
-﻿# React quick reference and glossary: examples
+# React quick reference and glossary: examples
 
 These examples accompany [the quick reference lesson](../lessons/120-react-quick-reference-and-glossary.md). They put the main React ideas into usable patterns. Start with the task-list app, then use the focused recipes as needed.
 
@@ -786,4 +786,14 @@ Before reusing an example in an application, check that:
 - [React form actions](../lessons/078-react-form-actions.md)
 - [React quick reference and glossary](../lessons/120-react-quick-reference-and-glossary.md)
 
-The maintained React API documentation is at [react.dev/reference](https://react.dev/reference).
+Use this glossary and the course notes above to find the API concepts covered here.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="119-react-19-3-features.md">119 - Example: React 19.3 View Transitions, Fragment refs, and browser-only rendering</a></td><td><a href="../lessons/120-react-quick-reference-and-glossary.md">Lesson</a></td><td><a href="../qnas/120-react-quick-reference-and-glossary.md">Q&amp;A</a></td><td>End of course</td></tr>
+  </tbody>
+</table>

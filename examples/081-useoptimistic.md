@@ -1,4 +1,4 @@
-# Optimistic UI with useOptimistic — Example
+# Optimistic UI with useOptimistic - Example
 
 ## Goal
 
@@ -133,3 +133,13 @@ Replace src/App.jsx with the following component.
 - The message explains whether the operation succeeded or rolled back.
 
 In a real application, replace saveLike with the application's request or server-supported Action. Validate and authorize the operation on the server, and use the server's response as the confirmed value. Client-side optimistic state is never proof that a change was accepted.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="080-useformstatus.md">080 - Example: Pending form state with useFormStatus</a></td><td><a href="../lessons/081-useoptimistic.md">Lesson</a></td><td><a href="../qnas/081-useoptimistic.md">Q&amp;A</a></td><td><a href="082-server-functions-and-form-actions.md">082 - Server Functions and form Actions - Example</a></td></tr>
+  </tbody>
+</table>

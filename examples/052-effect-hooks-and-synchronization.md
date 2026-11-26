@@ -533,3 +533,13 @@ input[type="search"] {
 ## Why the style-insertion Hook is not used here
 
 The style-insertion Hook is intended primarily for CSS-in-JS library authors who insert generated style rules before layout Effects. A normal application should use stylesheets, extracted CSS, or ordinary style props. It is intentionally omitted from the runnable UI so the example does not present a specialized library API as a standard component pattern.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="051-context-provider-design.md">051 - Example: Designing a Scoped Context Provider</a></td><td><a href="../lessons/052-effect-hooks-and-synchronization.md">Lesson</a></td><td><a href="../qnas/052-effect-hooks-and-synchronization.md">Q&amp;A</a></td><td><a href="053-effect-dependencies-and-closures.md">053 - Example: Effect Dependencies, Closures, and Synchronization</a></td></tr>
+  </tbody>
+</table>

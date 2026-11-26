@@ -1,4 +1,4 @@
-# Nested routes, layouts, and route errors — Q&A
+# Nested routes, layouts, and route errors - Q&A
 
 ## Nested routes and layouts
 
@@ -143,3 +143,13 @@ If the nearest boundary is inside the shared layout, that layout can remain visi
 ### 35. What is the key mental model for nested route errors?
 
 Layouts compose shared UI, outlets place child routes, and error boundaries define where supported failures are recovered. Expected states should be rendered directly, while permissions and sensitive diagnostics belong to trusted layers.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="085-routing-concepts-and-router-choice.md">085 - Routing concepts and choosing a router - Q&amp;A</a></td><td><a href="../lessons/086-nested-routes-layouts-and-errors.md">Lesson</a></td><td><a href="../examples/086-nested-routes-layouts-and-errors.md">Example</a></td><td><a href="087-url-state-and-navigation.md">087 - URL State, Search Parameters, and Navigation - Q&amp;A</a></td></tr>
+  </tbody>
+</table>

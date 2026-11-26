@@ -1,4 +1,4 @@
-# Design Systems, Shared Components, and Component Libraries — Q&A
+# Design Systems, Shared Components, and Component Libraries - Q&A
 
 ## Foundations
 
@@ -159,3 +159,13 @@ Review accessibility behavior, visual and theme fit, React compatibility, bundle
 - Use tokens for repeated design decisions.
 - Document and validate the public contract, including keyboard behavior.
 - Publish and version a package only when consumers need that boundary.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="088-organizing-react-applications.md">088 - Organizing Components, Features, and Application Code - Q&amp;A</a></td><td><a href="../lessons/089-design-systems-and-component-libraries.md">Lesson</a></td><td><a href="../examples/089-design-systems-and-component-libraries.md">Example</a></td><td><a href="090-global-state-and-usesyncexternalstore.md">090 - Global State, `useSyncExternalStore`, and External Stores - Q&amp;A</a></td></tr>
+  </tbody>
+</table>

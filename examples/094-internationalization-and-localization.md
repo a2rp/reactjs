@@ -1,4 +1,4 @@
-﻿# React Internationalization and RTL: Locale Dashboard Example
+# React Internationalization and RTL: Locale Dashboard Example
 
 This example switches among US English, French, and Egyptian Arabic. It formats a date, an amount, a list, and a plural-sensitive count with the active locale; sets language and direction semantics; and uses CSS logical properties for an RTL-ready layout.
 
@@ -493,3 +493,13 @@ The CSS uses logical properties such as `padding-block`, `padding-inline`, `bord
 - A locale can change formatting without changing the underlying date instant or currency value.
 - `lang` declares language, `dir` sets direction, and `<bdi>` isolates mixed-direction inline values.
 - CSS logical properties make the same component layout work in LTR and RTL contexts.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="093-animation-and-motion-preferences.md">093 - React Animation and View Transitions: Interactive Example</a></td><td><a href="../lessons/094-internationalization-and-localization.md">Lesson</a></td><td><a href="../qnas/094-internationalization-and-localization.md">Q&amp;A</a></td><td><a href="095-frameworks-and-rendering-strategies.md">095 - React Rendering Modes: One Article Page as CSR, SSR, and SSG</a></td></tr>
+  </tbody>
+</table>

@@ -526,3 +526,13 @@ React may yield between component work, but it cannot interrupt the loop inside 
 - Use the source/deferred difference for stale feedback, not as a network status.
 - There is no fixed delay, and a quick render may show no visible lag.
 - **useDeferredValue** does not make the calculation faster or limit requests.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="064-transitions-and-usetransition.md">064 - Example: Async Actions with useTransition</a></td><td><a href="../lessons/065-usedeferredvalue.md">Lesson</a></td><td><a href="../qnas/065-usedeferredvalue.md">Q&amp;A</a></td><td><a href="066-suspense-boundaries-and-fallbacks.md">066 - Example: Suspense Boundaries and Progressive Fallbacks</a></td></tr>
+  </tbody>
+</table>

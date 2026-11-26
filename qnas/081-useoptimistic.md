@@ -1,4 +1,4 @@
-# Optimistic UI with useOptimistic — Q&A
+# Optimistic UI with useOptimistic - Q&A
 
 ## API and core behavior
 
@@ -179,3 +179,13 @@ Often yes. A subtle “Sending…” or “Pending” label helps users distingu
 ### 42. What is the main mental model?
 
 The Action carries a temporary optimistic view. The base value remains the truth after the Action ends. Update that base from confirmed results, and explain failures when the prediction rolls back.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="080-useformstatus.md">080 - Q&amp;A: Pending form state with useFormStatus</a></td><td><a href="../lessons/081-useoptimistic.md">Lesson</a></td><td><a href="../examples/081-useoptimistic.md">Example</a></td><td><a href="082-server-functions-and-form-actions.md">082 - Server Functions and form Actions - Q&amp;A</a></td></tr>
+  </tbody>
+</table>

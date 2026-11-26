@@ -1,4 +1,4 @@
-# Complex State with useReducer — Example
+# Complex State with useReducer - Example
 
 This example is a small task manager. It uses one reducer to handle related task-list transitions:
 
@@ -724,7 +724,7 @@ h2 {
       name="description"
       content="A React task manager example using useReducer for related state transitions."
     />
-    <title>useReducer Task Manager — React Example</title>
+    <title>useReducer Task Manager - React Example</title>
   </head>
   <body>
     <div id="root"></div>
@@ -785,3 +785,13 @@ Open the local address printed by Vite. Add tasks, edit one and cancel, edit and
 - IDs are created in the event handler, not in the reducer.
 - The list and counts are derived instead of duplicated in state.
 - editDraft is kept separately because it represents an unsaved change.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="045-controlled-and-uncontrolled-component-apis.md">045 - Controlled and Uncontrolled Component APIs - Example</a></td><td><a href="../lessons/046-complex-state-with-usereducer.md">Lesson</a></td><td><a href="../qnas/046-complex-state-with-usereducer.md">Q&amp;A</a></td><td><a href="047-reducer-design-and-state-machines.md">047 - Reducer Design, Transitions, and State Machines - Example</a></td></tr>
+  </tbody>
+</table>

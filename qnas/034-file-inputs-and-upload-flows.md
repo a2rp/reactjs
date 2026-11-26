@@ -167,9 +167,13 @@ Use the keyboard to reach the file input and buttons, choose allowed and disallo
 ### 40. What are the most important upload rules?
 
 Use the browser's files property or FormData to access user-selected File objects, treat accept and client checks as guidance, let the browser set multipart boundaries, and enforce upload policy on the server.
-
 ## Chapter navigation
 
-| Previous chapter | Chapter lesson | Chapter example | Next chapter |
-| --- | --- | --- | --- |
-| [033 - Uncontrolled forms and refs](../lessons/033-uncontrolled-forms-and-refs.md) | [034 - File inputs and upload flows](../lessons/034-file-inputs-and-upload-flows.md) | [Open Example](../examples/034-file-inputs-and-upload-flows.md) | [035 - Browser APIs and event listeners](../lessons/035-browser-apis-and-event-listeners.md) |
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="033-uncontrolled-forms-and-refs.md">033 - Uncontrolled forms and refs - Q&amp;A</a></td><td><a href="../lessons/034-file-inputs-and-upload-flows.md">Lesson</a></td><td><a href="../examples/034-file-inputs-and-upload-flows.md">Example</a></td><td><a href="035-browser-apis-and-event-listeners.md">035 - Working with browser APIs and external event listeners - Q&amp;A</a></td></tr>
+  </tbody>
+</table>

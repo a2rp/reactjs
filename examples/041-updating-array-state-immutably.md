@@ -709,3 +709,13 @@ select {
 - Nested item updates copy each changed object along the path.
 - Sorting and reversing operate on a copy.
 - The task ID is created when the task is added and reused as its React key.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="040-updating-object-state-immutably.md">040 - Updating object state immutably - Example</a></td><td><a href="../lessons/041-updating-array-state-immutably.md">Lesson</a></td><td><a href="../qnas/041-updating-array-state-immutably.md">Q&amp;A</a></td><td><a href="042-derived-values-and-duplicated-state.md">042 - Derived values and avoiding duplicated state - Example</a></td></tr>
+  </tbody>
+</table>

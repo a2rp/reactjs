@@ -805,3 +805,13 @@ The browser owns the document title, so the Effect synchronizes that external br
 3. Add a cancel button that clears the current editor draft only when the user selects it.
 4. Replace the local order preview with a server request initiated by the submit handler. Handle loading and errors in the form flow, and protect remote commands from accidental duplicates.
 5. Remove the document-title Effect and explain which external browser value would stop staying synchronized.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="054-effect-cleanup-and-resource-lifetimes.md">054 - Example: Effect Cleanup and Resource Lifetimes</a></td><td><a href="../lessons/055-when-an-effect-is-unnecessary.md">Lesson</a></td><td><a href="../qnas/055-when-an-effect-is-unnecessary.md">Q&amp;A</a></td><td><a href="056-useeffectevent.md">056 - Example: useEffectEvent and Non-Reactive Event Logic</a></td></tr>
+  </tbody>
+</table>

@@ -201,3 +201,13 @@ Framework routers may mark navigation updates as Transitions for this reason. Ap
 - Keep input values and immediate error feedback responsive, and show pending status near the affected UI.
 - Transitions do not interrupt synchronous calculations, guarantee request ordering, or replace error handling.
 - Transitions work with Suspense to avoid hiding already revealed content, while nested boundaries can still show their own fallbacks.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="063-concurrent-rendering-and-priorities.md">063 - Concurrent Rendering and Update Priorities</a></td><td><a href="../qnas/064-transitions-and-usetransition.md">Q&amp;A</a></td><td><a href="../examples/064-transitions-and-usetransition.md">Example</a></td><td><a href="065-usedeferredvalue.md">065 - useDeferredValue for Interruptible Updates</a></td></tr>
+  </tbody>
+</table>

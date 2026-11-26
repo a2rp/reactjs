@@ -1,4 +1,4 @@
-﻿# Upgrading React and Handling Version Changes
+# Upgrading React and Handling Version Changes
 
 React upgrades can include new features, changed behavior, removed deprecated APIs, and updated type definitions. A reliable upgrade is a reviewed migration of the whole application dependency graph, not a version-number edit followed by hope.
 
@@ -280,3 +280,13 @@ After deployment, watch errors, failed requests, rendering or hydration warnings
 - Use warnings and codemods to find work, then validate their changes.
 - Check integrations and production behavior, not only package installation.
 - Deploy with monitoring and a rollback plan appropriate to the application's impact.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="116-react-capstone-project.md">116 - Build and Ship a Complete Accessible React Application</a></td><td><a href="../qnas/117-react-upgrades-and-version-changes.md">Q&amp;A</a></td><td><a href="../examples/117-react-upgrades-and-version-changes.md">Example</a></td><td><a href="118-react-19-2-features.md">118 - React 19.2: Activity and Performance Tooling</a></td></tr>
+  </tbody>
+</table>

@@ -138,16 +138,20 @@ Do not add an Effect to keep filtered data synchronized with search state. Filte
 
 ## Key takeaways
 
-- Begin with the interface, user actions, and data shape—not a component for every DOM element.
+- Begin with the interface, user actions, and data shapeï¿½not a component for every DOM element.
 - Choose component boundaries that clarify responsibility, repeated content, or behavior.
 - Build a static tree with props before adding interactions.
 - Use state for values users can change; derive values that can be calculated from props and state.
 - Put shared state in the closest parent that coordinates all consumers.
 - Pass current values down and callbacks up through the component tree.
 - Refine the hierarchy as real requirements become clear.
-
 ## Chapter navigation
 
-| Previous chapter | Chapter Q&A | Chapter example | Next chapter |
-| --- | --- | --- | --- |
-| [022 - Designing reusable component APIs](022-designing-reusable-component-apis.md) | [Open Q&A](../qnas/023-thinking-in-react-and-component-trees.md) | [Open Example](../examples/023-thinking-in-react-and-component-trees.md) | [024 - Component identity, position, and keys](024-component-identity-position-and-keys.md) |
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="022-designing-reusable-component-apis.md">022 - Designing reusable component APIs</a></td><td><a href="../qnas/023-thinking-in-react-and-component-trees.md">Q&amp;A</a></td><td><a href="../examples/023-thinking-in-react-and-component-trees.md">Example</a></td><td><a href="024-component-identity-position-and-keys.md">024 - Component identity, position, and keys</a></td></tr>
+  </tbody>
+</table>

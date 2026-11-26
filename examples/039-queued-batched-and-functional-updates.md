@@ -448,3 +448,13 @@ button {
 - Queue order matters, especially when a replacement follows an updater.
 - A handler can update multiple state variables; batching helps React render their combined result.
 - An updater should calculate state only. Keep side effects in the appropriate handler or Effect.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="038-state-as-a-render-snapshot.md">038 - State as a render snapshot - Example</a></td><td><a href="../lessons/039-queued-batched-and-functional-updates.md">Lesson</a></td><td><a href="../qnas/039-queued-batched-and-functional-updates.md">Q&amp;A</a></td><td><a href="040-updating-object-state-immutably.md">040 - Updating object state immutably - Example</a></td></tr>
+  </tbody>
+</table>

@@ -1,4 +1,4 @@
-﻿# Profiling Component Behavior During Development
+# Profiling Component Behavior During Development
 
 ## Learning goals
 
@@ -197,3 +197,13 @@ Keep the change only if it improves the relevant behavior without making the cod
 ## Summary
 
 Development profiling shows which React work happened during a chosen interaction. Distinguish render, commit, and Effects; inspect the subtree and changed inputs; and look for cascades or expensive work that matches the user-visible symptom. Use React-specific tracks for component behavior and browser Performance tools for the full page. Make a narrow change and compare the same interaction before and after, accounting for development instrumentation and Strict Mode.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="105-react-devtools-and-debugging.md">105 - React DevTools, Debugging, and Common Warnings</a></td><td><a href="../qnas/106-profiling-during-development.md">Q&amp;A</a></td><td><a href="../examples/106-profiling-during-development.md">Example</a></td><td><a href="107-react-performance-and-profiling.md">107 - React Performance Fundamentals and Profiling</a></td></tr>
+  </tbody>
+</table>

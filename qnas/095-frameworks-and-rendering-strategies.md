@@ -1,4 +1,4 @@
-﻿# Frameworks, Client Rendering, SSR, and Static Generation: Questions and Answers
+# Frameworks, Client Rendering, SSR, and Static Generation: Questions and Answers
 
 ## Frameworks and rendering modes
 
@@ -141,3 +141,13 @@ For SSR/SSG, meaningful initial HTML can remain readable before hydration. For C
 
 ### 44. What is the main rule for hydration?
 Render the same initial UI from the same inputs on both sides. Let React hydrate that exact snapshot, then make browser-only or user-specific changes through an intentional client update.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="094-internationalization-and-localization.md">094 - Internationalization, Localization, and Text Direction: Questions and Answers</a></td><td><a href="../lessons/095-frameworks-and-rendering-strategies.md">Lesson</a></td><td><a href="../examples/095-frameworks-and-rendering-strategies.md">Example</a></td><td><a href="096-react-native-and-shared-react-concepts.md">096 - React Native and the Shared React Mental Model: Questions and Answers</a></td></tr>
+  </tbody>
+</table>

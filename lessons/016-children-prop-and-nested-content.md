@@ -222,9 +222,13 @@ Nested components still render as components. Passing a JSX element through `chi
 - Use Fragments to group siblings without adding a DOM wrapper.
 - Use named JSX props when a component has distinct content regions.
 - The caller supplies content; the wrapper decides where and how it is rendered.
-
 ## Chapter navigation
 
-| Previous chapter | Chapter Q&A | Chapter example | Next chapter |
-| --- | --- | --- | --- |
-| [015 - Destructuring props and default values](015-destructuring-props-and-default-values.md) | [Open Q&A](../qnas/016-children-prop-and-nested-content.md) | [Open Example](../examples/016-children-prop-and-nested-content.md) | [017 - Composition, containment, and reusable layouts](017-composition-containment-and-layouts.md) |
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="015-destructuring-props-and-default-values.md">015 - Destructuring props and default values</a></td><td><a href="../qnas/016-children-prop-and-nested-content.md">Q&amp;A</a></td><td><a href="../examples/016-children-prop-and-nested-content.md">Example</a></td><td><a href="017-composition-containment-and-layouts.md">017 - Composition, containment, and reusable layouts</a></td></tr>
+  </tbody>
+</table>

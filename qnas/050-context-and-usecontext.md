@@ -1,4 +1,4 @@
-# Context and useContext — Q&A
+# Context and useContext - Q&A
 
 ## Foundations
 
@@ -192,3 +192,13 @@ It can provide a short, consistent API and centralize validation. For example, u
 - Context distributes a value; state or a reducer changes it.
 - React compares old and new values with Object.is.
 - Use props for local relationships and context for shared subtree values.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="049-rules-of-hooks.md">049 - Rules of Hooks - Q&amp;A</a></td><td><a href="../lessons/050-context-and-usecontext.md">Lesson</a></td><td><a href="../examples/050-context-and-usecontext.md">Example</a></td><td><a href="051-context-provider-design.md">051 - Designing Context Providers and Avoiding Overuse - Q&amp;A</a></td></tr>
+  </tbody>
+</table>

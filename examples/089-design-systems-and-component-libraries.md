@@ -1,4 +1,4 @@
-# Design Systems, Shared Components, and Component Libraries — Examples
+# Design Systems, Shared Components, and Component Libraries - Examples
 
 This example creates a small application-level UI system: shared design tokens, a button, a controlled text field, and a card. A profile settings feature composes these components.
 
@@ -588,3 +588,13 @@ The reusable components expose a small contract:
 ## 9. What would change before publishing a package?
 
 This example is private app code. If other projects need it as a package, add a deliberate public entry point, documented exports, supported React compatibility, a build output, styling instructions, and a release process. Configure the build so React is provided by the consuming application. The exact package fields and build configuration depend on the chosen toolchain.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="088-organizing-react-applications.md">088 - Organizing Components, Features, and Application Code - Examples</a></td><td><a href="../lessons/089-design-systems-and-component-libraries.md">Lesson</a></td><td><a href="../qnas/089-design-systems-and-component-libraries.md">Q&amp;A</a></td><td><a href="090-global-state-and-usesyncexternalstore.md">090 - Global State, `useSyncExternalStore`, and External Stores - Examples</a></td></tr>
+  </tbody>
+</table>

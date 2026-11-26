@@ -94,7 +94,7 @@ return (
     <ul>
       {files.map((file) => (
         <li key={file.name + file.lastModified}>
-          {file.name} — {Math.ceil(file.size / 1024)} KB
+          {file.name} - {Math.ceil(file.size / 1024)} KB
         </li>
       ))}
     </ul>
@@ -280,9 +280,13 @@ A status message can use role=status for non-urgent progress or completion feedb
 - Clear both the DOM file input and any React state that mirrors its selection.
 - Send uploads as FormData and let the browser set the multipart boundary.
 - Validate, authorize, limit, and safely store uploaded files on the server.
-
 ## Chapter navigation
 
-| Previous chapter | Chapter Q&A | Chapter example | Next chapter |
-| --- | --- | --- | --- |
-| [033 - Uncontrolled forms and refs](033-uncontrolled-forms-and-refs.md) | [Open Q&A](../qnas/034-file-inputs-and-upload-flows.md) | [Open Example](../examples/034-file-inputs-and-upload-flows.md) | [035 - Browser APIs and event listeners](035-browser-apis-and-event-listeners.md) |
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="033-uncontrolled-forms-and-refs.md">033 - Uncontrolled forms and refs</a></td><td><a href="../qnas/034-file-inputs-and-upload-flows.md">Q&amp;A</a></td><td><a href="../examples/034-file-inputs-and-upload-flows.md">Example</a></td><td><a href="035-browser-apis-and-event-listeners.md">035 - Working with browser APIs and external event listeners</a></td></tr>
+  </tbody>
+</table>

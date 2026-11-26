@@ -1,4 +1,4 @@
-﻿# React Native and the Shared React Mental Model
+# React Native and the Shared React Mental Model
 
 ## Learning goals
 
@@ -220,3 +220,13 @@ React Native reuses React's component, props, state, hooks, and rendering mental
 3. Describe at least three differences between React Native Flexbox defaults and browser CSS.
 4. Identify which parts of a small web app can be shared with its mobile app.
 5. Name two behaviors that must be checked on both iOS and Android.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="095-frameworks-and-rendering-strategies.md">095 - Frameworks, Client Rendering, SSR, and Static Generation in React</a></td><td><a href="../qnas/096-react-native-and-shared-react-concepts.md">Q&amp;A</a></td><td><a href="../examples/096-react-native-and-shared-react-concepts.md">Example</a></td><td><a href="097-semantic-html-and-accessible-components.md">097 - Semantic HTML and Accessible React Components</a></td></tr>
+  </tbody>
+</table>

@@ -1,4 +1,4 @@
-﻿# Animation, Motion Preferences, and View Transitions: Questions and Answers
+# Animation, Motion Preferences, and View Transitions: Questions and Answers
 
 ## Animation fundamentals
 
@@ -144,3 +144,13 @@ Render and update the same content normally. The feature should add continuity w
 
 ### 45. When should I choose CSS animation, the Web Animations API, or a view transition?
 Use CSS for selector-driven state changes and keyframe sequences. Use the Web Animations API for a custom imperative effect that CSS cannot express conveniently. Use view transitions when the old and new UI snapshots need continuity.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="092-styling-and-theming.md">092 - Styling Strategies, CSS Modules, and Theming: Questions and Answers</a></td><td><a href="../lessons/093-animation-and-motion-preferences.md">Lesson</a></td><td><a href="../examples/093-animation-and-motion-preferences.md">Example</a></td><td><a href="094-internationalization-and-localization.md">094 - Internationalization, Localization, and Text Direction: Questions and Answers</a></td></tr>
+  </tbody>
+</table>

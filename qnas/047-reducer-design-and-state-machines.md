@@ -1,4 +1,4 @@
-# Reducer Design, Transitions, and State Machines — Q&A
+# Reducer Design, Transitions, and State Machines - Q&A
 
 ## State-machine foundations
 
@@ -225,3 +225,13 @@ Probably not. A boolean or small reducer is enough unless more states and transi
 ## Key takeaway
 
 Define valid states, events, guards, and transitions explicitly when a workflow needs them. Keep the reducer pure, represent exclusive modes clearly, and keep side effects outside the transition logic.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="046-complex-state-with-usereducer.md">046 - Complex State with useReducer - Q&amp;A</a></td><td><a href="../lessons/047-reducer-design-and-state-machines.md">Lesson</a></td><td><a href="../examples/047-reducer-design-and-state-machines.md">Example</a></td><td><a href="048-preserving-and-resetting-state.md">048 - Preserving and Resetting State - Q&amp;A</a></td></tr>
+  </tbody>
+</table>

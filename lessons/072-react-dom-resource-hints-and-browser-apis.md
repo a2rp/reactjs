@@ -247,3 +247,13 @@ Avoid managing the same resource through conflicting hints and framework directi
 ## Summary
 
 React DOM exposes `prefetchDNS` for DNS lookup, `preconnect` for connection setup, `preload` and `preloadModule` for downloads, and `preinit` and `preinitModule` for resources that should become active or evaluated immediately. These are browser hints, not guarantees. Use the least eager hint that helps a likely user path, and let a framework manage assets when it already does that well.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="071-flushsync.md">071 - Synchronous DOM Updates with flushSync</a></td><td><a href="../qnas/072-react-dom-resource-hints-and-browser-apis.md">Q&amp;A</a></td><td><a href="../examples/072-react-dom-resource-hints-and-browser-apis.md">Example</a></td><td><a href="073-client-side-data-fetching-and-use-api.md">073 - Client-Side Data Fetching, the `use` API, and Async Values</a></td></tr>
+  </tbody>
+</table>

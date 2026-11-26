@@ -1,4 +1,4 @@
-# Controlled and Uncontrolled Component APIs — Q&A
+# Controlled and Uncontrolled Component APIs - Q&A
 
 ## Core concepts
 
@@ -259,3 +259,13 @@ Choose who owns the current value, keep the mode stable, and make the value and 
 ## Key takeaway
 
 Controlled components render a value supplied by their parent. Uncontrolled components own their current value and may start from a default. Callbacks can report changes in either model; ownership is determined by who supplies and updates the current value.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="044-single-source-of-truth-and-state-ownership.md">044 - Single Source of Truth and State Ownership - Q&amp;A</a></td><td><a href="../lessons/045-controlled-and-uncontrolled-component-apis.md">Lesson</a></td><td><a href="../examples/045-controlled-and-uncontrolled-component-apis.md">Example</a></td><td><a href="046-complex-state-with-usereducer.md">046 - Complex State with useReducer - Q&amp;A</a></td></tr>
+  </tbody>
+</table>

@@ -1,4 +1,4 @@
-﻿# Code Splitting, Asset Loading, and Bundle Analysis — Q&A
+# Code Splitting, Asset Loading, and Bundle Analysis - Q&A
 
 ## Code splitting and loading behavior
 
@@ -175,3 +175,13 @@ Usually not. Establish a baseline, identify the critical resource or expensive e
 ### 40. What is the central rule for bundle optimization?
 
 Optimize what users wait for. Keep essential code and assets ready for the initial screen, load optional work at a useful boundary, and validate the production build with real measurements.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="110-large-lists-and-virtualization.md">110 - Large Lists and Virtualization - Q&amp;A</a></td><td><a href="../lessons/111-code-splitting-and-asset-loading.md">Lesson</a></td><td><a href="../examples/111-code-splitting-and-asset-loading.md">Example</a></td><td><a href="112-security-and-untrusted-data.md">112 - Security Basics: Escaping, URLs, and Untrusted Data - Q&amp;A</a></td></tr>
+  </tbody>
+</table>

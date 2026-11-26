@@ -213,3 +213,13 @@ In your explanation, identify which render supplied count to the handler.
 - A later render creates new handlers that use the new state.
 - A delayed callback keeps the values it captured when it was created.
 - Multiple direct calculations in one handler all start from that handler's snapshot; queued and functional updates are the topic of the next chapter.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="037-state-with-usestate.md">037 - State with useState</a></td><td><a href="../qnas/038-state-as-a-render-snapshot.md">Q&amp;A</a></td><td><a href="../examples/038-state-as-a-render-snapshot.md">Example</a></td><td><a href="039-queued-batched-and-functional-updates.md">039 - Queued updates, batching, and functional updates</a></td></tr>
+  </tbody>
+</table>

@@ -317,3 +317,13 @@ Some work is truly external synchronization. Keep Effects for that job, make the
 - Use a stable key to reset a component subtree when its identity changes.
 - Reserve render-time state adjustment for narrow cases that cannot be expressed more clearly.
 - Use a purpose-built external-store Hook when integrating with a mutable store.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="054-effect-cleanup-and-resource-lifetimes.md">054 - Effect Cleanup and Resource Lifetimes</a></td><td><a href="../qnas/055-when-an-effect-is-unnecessary.md">Q&amp;A</a></td><td><a href="../examples/055-when-an-effect-is-unnecessary.md">Example</a></td><td><a href="056-useeffectevent.md">056 - useEffectEvent and Non-Reactive Event Logic</a></td></tr>
+  </tbody>
+</table>

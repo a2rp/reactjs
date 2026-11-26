@@ -1,4 +1,4 @@
-﻿# Component Tests and React Test Utilities
+# Component Tests and React Test Utilities
 
 ## Learning goals
 
@@ -136,3 +136,13 @@ Component tests render React into a DOM and query the result through the same se
 6. Verify cleanup configuration for your chosen test runner.
 7. Use rerender or unmount only to test prop changes or teardown.
 8. Decide whether a Hook should be exercised through its consumer component.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="100-testing-strategy-and-component-design.md">100 - Testing Strategy and Testable Component Design</a></td><td><a href="../qnas/101-component-tests-and-test-utilities.md">Q&amp;A</a></td><td><a href="../examples/101-component-tests-and-test-utilities.md">Example</a></td><td><a href="102-testing-user-interactions.md">102 - Testing User Interactions and Complete Flows</a></td></tr>
+  </tbody>
+</table>

@@ -1,4 +1,4 @@
-# useDeferredValue — Q&A
+# useDeferredValue - Q&A
 
 ## Basics
 
@@ -213,3 +213,13 @@ It can defer any value the component can read, but consider whether that consume
 ### 50. What is the short mental model?
 
 Keep the source state current. Let a slower consumer use the previous value briefly while React prepares an interruptible render with the latest value.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="064-transitions-and-usetransition.md">064 - Transitions with useTransition and startTransition - Q&amp;A</a></td><td><a href="../lessons/065-usedeferredvalue.md">Lesson</a></td><td><a href="../examples/065-usedeferredvalue.md">Example</a></td><td><a href="066-suspense-boundaries-and-fallbacks.md">066 - Suspense Boundaries and Fallbacks - Q&amp;A</a></td></tr>
+  </tbody>
+</table>

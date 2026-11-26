@@ -413,14 +413,13 @@ Then return to the root [ReactJS summary](../reactjs-summary.md) for a longer re
 - Use Effects only when React must synchronize with something external.
 - Preserve semantics, accessibility, security, and hydration correctness while building.
 - Optimize measured bottlenecks and keep version-sensitive features in view.
+## Chapter navigation
 
-## Official references
-
-- [React 19.3 documentation](https://react.dev/)
-- [Built-in React Hooks](https://react.dev/reference/react/hooks)
-- [Built-in React components](https://react.dev/reference/react/components)
-- [Built-in React APIs](https://react.dev/reference/react/apis)
-- [React DOM APIs](https://react.dev/reference/react-dom)
-- [React DOM client APIs](https://react.dev/reference/react-dom/client)
-- [React DOM server APIs](https://react.dev/reference/react-dom/server)
-- [Server Components](https://react.dev/reference/rsc/server-components)
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="119-react-19-3-features.md">119 - React 19.3: View Transitions, Fragment refs, and browser APIs</a></td><td><a href="../qnas/120-react-quick-reference-and-glossary.md">Q&amp;A</a></td><td><a href="../examples/120-react-quick-reference-and-glossary.md">Example</a></td><td>End of course</td></tr>
+  </tbody>
+</table>

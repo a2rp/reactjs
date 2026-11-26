@@ -191,3 +191,13 @@ People need to know whether their action succeeded. Saying that data was sent wh
 ### 45. What is the overall form review checklist?
 
 Confirm the labels and instructions are visible, errors are connected to their fields, the summary is actionable and focused, the result is announced, keyboard use works, and the interface accurately distinguishes local checks from server submission.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="035-browser-apis-and-event-listeners.md">035 - Working with browser APIs and external event listeners - Q&amp;A</a></td><td><a href="../lessons/036-accessible-interactive-form-project.md">Lesson</a></td><td><a href="../examples/036-accessible-interactive-form-project.md">Example</a></td><td><a href="037-state-with-usestate.md">037 - State with useState - Q&amp;A</a></td></tr>
+  </tbody>
+</table>

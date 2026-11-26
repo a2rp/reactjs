@@ -1,4 +1,4 @@
-# Server Functions and form Actions — Example
+# Server Functions and form Actions - Example
 
 ## Goal
 
@@ -174,3 +174,13 @@ The page is a Server Component by default. NoteForm is a Client Component becaus
 - This function is callable through a network request, so real code must authenticate and authorize the requested operation inside the function.
 - A returned message does not mean data was persisted. Connect a real data layer before claiming that a note was saved.
 - Do not return secrets or raw internal errors in state sent back to the browser.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="081-useoptimistic.md">081 - Optimistic UI with useOptimistic - Example</a></td><td><a href="../lessons/082-server-functions-and-form-actions.md">Lesson</a></td><td><a href="../qnas/082-server-functions-and-form-actions.md">Q&amp;A</a></td><td><a href="083-react-server-components.md">083 - React Server Components: lesson list with one interactive island</a></td></tr>
+  </tbody>
+</table>

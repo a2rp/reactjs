@@ -652,3 +652,13 @@ select {
 2. Add a maximum duration option. Decide whether changing it should alter the current timer's behavior.
 3. Create a separate component that displays a formatted duration using values passed from its parent; do not call the Hook again if it should show the parent's timer.
 4. Remove **useDebugValue** and compare what the timer's caller sees with what appears in React DevTools.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="056-useeffectevent.md">056 - Example: useEffectEvent and Non-Reactive Event Logic</a></td><td><a href="../lessons/057-custom-hooks-and-usedebugvalue.md">Lesson</a></td><td><a href="../qnas/057-custom-hooks-and-usedebugvalue.md">Q&amp;A</a></td><td><a href="058-useref.md">058 - Example: useRef for DOM Nodes and Mutable Values</a></td></tr>
+  </tbody>
+</table>

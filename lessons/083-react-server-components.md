@@ -163,3 +163,13 @@ Browser APIs such as `window`, `document`, local storage, and event listeners be
 ## Summary
 
 A Server Component runs in a server environment managed by an RSC-capable framework. It can load data and render UI without shipping its implementation to the browser. A Client Component provides state, effects, browser APIs, and event handlers. Use Server Components for server-owned data and composition, add focused Client Component boundaries for interaction, and treat all rendered or passed data as potentially visible to the user. SSR, hydration, and Server Components can work together, but they describe different parts of the system.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="082-server-functions-and-form-actions.md">082 - Server Functions and form Actions</a></td><td><a href="../qnas/083-react-server-components.md">Q&amp;A</a></td><td><a href="../examples/083-react-server-components.md">Example</a></td><td><a href="084-client-server-boundaries-and-serialization.md">084 - Client and server boundaries, serialization, and security</a></td></tr>
+  </tbody>
+</table>

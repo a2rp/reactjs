@@ -1,4 +1,4 @@
-﻿# React Rendering Modes: One Article Page as CSR, SSR, and SSG
+# React Rendering Modes: One Article Page as CSR, SSR, and SSG
 
 This example uses one interactive article component in three delivery modes:
 
@@ -370,3 +370,13 @@ The same `ArticlePage` is used in all cases. Rendering mode changes when the ini
 - SSR renders for a request; SSG renders during a build; both can hydrate the same component tree.
 - One React component can support different delivery modes when its initial inputs are deterministic.
 - A framework usually handles streaming, routing, data, assets, and hydration details that this teaching example shows manually.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="094-internationalization-and-localization.md">094 - React Internationalization and RTL: Locale Dashboard Example</a></td><td><a href="../lessons/095-frameworks-and-rendering-strategies.md">Lesson</a></td><td><a href="../qnas/095-frameworks-and-rendering-strategies.md">Q&amp;A</a></td><td><a href="096-react-native-and-shared-react-concepts.md">096 - React Native Example: A Native Task List with Shared React Logic</a></td></tr>
+  </tbody>
+</table>

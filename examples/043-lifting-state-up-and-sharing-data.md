@@ -1,4 +1,4 @@
-# Lifting State Up and Sharing Data — Example
+# Lifting State Up and Sharing Data - Example
 
 This example shows two related patterns:
 
@@ -475,7 +475,7 @@ textarea {
       name="description"
       content="A React example of lifting state up and sharing data between components."
     />
-    <title>Lifting State Up — React Example</title>
+    <title>Lifting State Up - React Example</title>
   </head>
   <body>
     <div id="root"></div>
@@ -530,3 +530,13 @@ The example uses two different state owners because it has two independent coord
 - Accordion owns the active panel ID shared by its panels.
 
 This keeps each piece of state at the nearest level that needs it. The values flow down through props, and interactions flow back through callbacks.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="042-derived-values-and-duplicated-state.md">042 - Derived values and avoiding duplicated state - Example</a></td><td><a href="../lessons/043-lifting-state-up-and-sharing-data.md">Lesson</a></td><td><a href="../qnas/043-lifting-state-up-and-sharing-data.md">Q&amp;A</a></td><td><a href="044-single-source-of-truth-and-state-ownership.md">044 - Single Source of Truth and State Ownership - Example</a></td></tr>
+  </tbody>
+</table>

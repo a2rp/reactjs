@@ -182,3 +182,13 @@ Use a scroll listener when you need scroll position or custom scroll calculation
 ### 42. What is the first debugging checklist for a browser subscription?
 
 Confirm that setup is inside an Effect, cleanup removes the exact callback, all reactive dependencies are included, browser globals are accessed in a browser-safe place, and the listener is attached to the narrowest suitable event source.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="034-file-inputs-and-upload-flows.md">034 - File inputs and upload flows - Q&amp;A</a></td><td><a href="../lessons/035-browser-apis-and-event-listeners.md">Lesson</a></td><td><a href="../examples/035-browser-apis-and-event-listeners.md">Example</a></td><td><a href="036-accessible-interactive-form-project.md">036 - Build an accessible interactive form feature - Q&amp;A</a></td></tr>
+  </tbody>
+</table>

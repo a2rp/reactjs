@@ -1,4 +1,4 @@
-# Error Boundaries and Recovery UI — Q&A
+# Error Boundaries and Recovery UI - Q&A
 
 ## Fundamentals
 
@@ -233,3 +233,13 @@ An empty state is a normal result such as zero search matches. An error fallback
 ### 55. What is the practical rule for Error Boundary placement?
 
 Place boundaries where a failure can be isolated and where a user can recover or continue using the rest of the interface.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="067-lazy-loading-components.md">067 - Lazy Loading Components with lazy - Q&amp;A</a></td><td><a href="../lessons/068-error-boundaries-and-recovery-ui.md">Lesson</a></td><td><a href="../examples/068-error-boundaries-and-recovery-ui.md">Example</a></td><td><a href="069-portals.md">069 - Portals and Rendering Outside the Parent DOM Node - Q&amp;A</a></td></tr>
+  </tbody>
+</table>

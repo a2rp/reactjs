@@ -1,4 +1,4 @@
-﻿# React Example: Test Strategy and Testable Component Design
+# React Example: Test Strategy and Testable Component Design
 
 This example builds a quantity stepper and tests it at two useful levels. A pure helper test checks the numeric boundary rule. A component test renders the real React component, activates its accessible buttons, and checks the text and disabled state a user can see.
 
@@ -227,3 +227,13 @@ Do not add a test for every implementation detail. If a refactor preserves the b
 - The tested UI and state updates remain real.
 - Test inputs are local and do not need a live network.
 - Any added browser test covers a complete, high-value workflow.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="099-accessible-announcements-and-async-ui.md">099 - React Example: Accessible Async Search with Current-Request Protection</a></td><td><a href="../lessons/100-testing-strategy-and-component-design.md">Lesson</a></td><td><a href="../qnas/100-testing-strategy-and-component-design.md">Q&amp;A</a></td><td><a href="101-component-tests-and-test-utilities.md">101 - React Example: Component Tests and React Test Utilities</a></td></tr>
+  </tbody>
+</table>

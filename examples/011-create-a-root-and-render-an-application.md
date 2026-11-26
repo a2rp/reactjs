@@ -1,4 +1,4 @@
-# 011. Create a root and render a React application — Example
+# 011. Create a root and render a React application - Example
 
 ## Goal
 
@@ -107,9 +107,13 @@ The existing Vite project may have additional files such as global CSS, a favico
 ## Expected result
 
 The browser shows a heading and short paragraph rendered by React inside the root container. The app has one createRoot call, made in the entry module, and one root.render call to display App.
-
 ## Chapter navigation
 
-| Lesson | Q&A | Previous chapter | Next chapter |
-| --- | --- | --- | --- |
-| [011 - Create a root and render a React application](../lessons/011-create-a-root-and-render-an-application.md) | [Open Q&A](../qnas/011-create-a-root-and-render-an-application.md) | [010 - Fragments and returning multiple elements](../lessons/010-fragments-and-multiple-elements.md) | [012 - Strict Mode and development checks](../lessons/012-strict-mode-and-development-checks.md) |
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="010-fragments-and-multiple-elements.md">010 - Fragments and returning multiple elements - Example</a></td><td><a href="../lessons/011-create-a-root-and-render-an-application.md">Lesson</a></td><td><a href="../qnas/011-create-a-root-and-render-an-application.md">Q&amp;A</a></td><td><a href="012-strict-mode-and-development-checks.md">012 - Strict Mode and development checks - Example</a></td></tr>
+  </tbody>
+</table>

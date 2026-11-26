@@ -123,9 +123,13 @@ Common character references such as `&amp;` and `&lt;` can represent characters 
 ### 24. Does indentation control spaces in the rendered page?
 
 No. JSX source indentation helps people read the structure, but ordinary whitespace is normalized similarly to HTML. Use CSS for visual spacing and explicit text for meaningful spaces or line breaks.
-
 ## Chapter navigation
 
-| Previous chapter | Lesson | Example | Next chapter |
-| --- | --- | --- | --- |
-| [007 - JSX syntax and markup](../lessons/007-jsx-syntax-and-markup.md) | [Open lesson](../lessons/008-jsx-expressions-attributes-and-escaping.md) | [Open Example](../examples/008-jsx-expressions-attributes-and-escaping.md) | [009 - JSX styles, event props, and DOM properties](../lessons/009-jsx-styles-events-and-dom-properties.md) |
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="007-jsx-syntax-and-markup.md">007 - Q&amp;A: JSX syntax and markup</a></td><td><a href="../lessons/008-jsx-expressions-attributes-and-escaping.md">Lesson</a></td><td><a href="../examples/008-jsx-expressions-attributes-and-escaping.md">Example</a></td><td><a href="009-jsx-styles-events-and-dom-properties.md">009 - JSX styles, event props, and DOM properties - Q&amp;A</a></td></tr>
+  </tbody>
+</table>

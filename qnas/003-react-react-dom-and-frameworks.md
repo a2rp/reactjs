@@ -177,9 +177,13 @@ Must it use React?
 4. No. Their responsibilities can overlap, but a framework handles broader application structure.
 5. React DOM.
 6. A framework may already coordinate routing, data, rendering, and deployment, reducing separate integration work.
-
 ## Chapter navigation
 
-| Previous chapter | Chapter lesson | Chapter example | Next chapter |
-| --- | --- | --- | --- |
-| [002 - How React fits into the web platform](../lessons/002-how-react-fits-into-the-web-platform.md) | [Open lesson](../lessons/003-react-react-dom-and-frameworks.md) | [Open example](../examples/003-react-react-dom-and-frameworks.md) | [004 - JavaScript and browser prerequisites](../qnas/004-javascript-and-browser-prerequisites.md) |
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="002-how-react-fits-into-the-web-platform.md">002 - Q&amp;A: How React fits into the web platform</a></td><td><a href="../lessons/003-react-react-dom-and-frameworks.md">Lesson</a></td><td><a href="../examples/003-react-react-dom-and-frameworks.md">Example</a></td><td><a href="004-javascript-and-browser-prerequisites.md">004 - Q&amp;A: JavaScript and browser prerequisites</a></td></tr>
+  </tbody>
+</table>

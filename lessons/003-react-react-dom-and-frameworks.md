@@ -179,9 +179,13 @@ Before adding a library, framework, or separate service, state which problem it 
 - A build tool processes source and assets; it is not automatically a full application framework.
 - Choose architecture according to the application, not by adding every available tool.
 - The course teaches the foundations with a build-tool workflow, then treats frameworks as an informed application choice.
-
 ## Chapter navigation
 
-| Previous chapter | Chapter Q&A | Chapter example | Next chapter |
-| --- | --- | --- | --- |
-| [002 - How React fits into the web platform](002-how-react-fits-into-the-web-platform.md) | [Open Q&A](../qnas/003-react-react-dom-and-frameworks.md) | [Open Example](../examples/003-react-react-dom-and-frameworks.md) | [004 - JavaScript and browser prerequisites](004-javascript-and-browser-prerequisites.md) |
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="002-how-react-fits-into-the-web-platform.md">002 - How React fits into the web platform</a></td><td><a href="../qnas/003-react-react-dom-and-frameworks.md">Q&amp;A</a></td><td><a href="../examples/003-react-react-dom-and-frameworks.md">Example</a></td><td><a href="004-javascript-and-browser-prerequisites.md">004 - JavaScript and browser prerequisites</a></td></tr>
+  </tbody>
+</table>

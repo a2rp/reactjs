@@ -1,4 +1,4 @@
-# Lazy Loading Components with lazy — Q&A
+# Lazy Loading Components with lazy - Q&A
 
 ## Core concepts
 
@@ -262,3 +262,13 @@ The dynamically imported module must resolve to an object with a valid component
 ### 58. What is the practical rule for deciding what to split?
 
 Defer meaningful code that is not needed on the common initial path; measure the production result instead of splitting every component by default.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="066-suspense-boundaries-and-fallbacks.md">066 - Suspense Boundaries and Fallbacks - Q&amp;A</a></td><td><a href="../lessons/067-lazy-loading-components.md">Lesson</a></td><td><a href="../examples/067-lazy-loading-components.md">Example</a></td><td><a href="068-error-boundaries-and-recovery-ui.md">068 - Error Boundaries and Recovery UI - Q&amp;A</a></td></tr>
+  </tbody>
+</table>

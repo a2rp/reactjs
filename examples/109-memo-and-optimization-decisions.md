@@ -1,4 +1,4 @@
-﻿# Memoization with memo — Complete Example
+# Memoization with memo - Complete Example
 
 This example compares a plain React implementation with a measured manual optimization. It uses a product search with enough rows to make profiling meaningful, plus a theme toggle and selection state that update the parent independently of the list.
 
@@ -42,7 +42,7 @@ Start with this complete component implementation in src/App.jsx, after the data
           {items.map((product) => (
             <li key={product.id}>
               <button onClick={() => onSelect(product)}>
-                {product.name} — {product.category}
+                {product.name} - {product.category}
               </button>
             </li>
           ))}
@@ -121,7 +121,7 @@ For a manual memoization comparison, replace the import and component implementa
           {items.map((product) => (
             <li key={product.id}>
               <button onClick={() => onSelect(product)}>
-                {product.name} — {product.category}
+                {product.name} - {product.category}
               </button>
             </li>
           ))}
@@ -238,3 +238,13 @@ Do not add manual memoization everywhere just because the app has a compiler. Ex
 - Theme and selection changes do not need to recompute the filtered list in this example.
 - Profiling tells you whether a more complex implementation is worthwhile.
 - The plain version is already correct; memoization is only a performance optimization.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="108-react-compiler.md">108 - React Compiler - Complete Example</a></td><td><a href="../lessons/109-memo-and-optimization-decisions.md">Lesson</a></td><td><a href="../qnas/109-memo-and-optimization-decisions.md">Q&amp;A</a></td><td><a href="110-large-lists-and-virtualization.md">110 - Virtualizing a Large Responsive List - Complete Example</a></td></tr>
+  </tbody>
+</table>

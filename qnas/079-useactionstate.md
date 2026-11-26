@@ -1,4 +1,4 @@
-# Managing Submissions with useActionState — Q&A
+# Managing Submissions with useActionState - Q&A
 
 ## API and Action arguments
 
@@ -169,3 +169,13 @@ Avoid it when submissions should run independently in parallel, when the operati
 ### 40. What should I check before shipping it?
 
 Check the argument order, returned state shape, validation and field preservation, pending feedback, thrown-error behavior, queue semantics, reset behavior, and server authorization.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="078-react-form-actions.md">078 - React Form Actions and Asynchronous Submissions - Q&amp;A</a></td><td><a href="../lessons/079-useactionstate.md">Lesson</a></td><td><a href="../examples/079-useactionstate.md">Example</a></td><td><a href="080-useformstatus.md">080 - Q&amp;A: Pending form state with useFormStatus</a></td></tr>
+  </tbody>
+</table>

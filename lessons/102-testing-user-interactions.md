@@ -1,4 +1,4 @@
-﻿# Testing User Interactions and Complete Flows
+# Testing User Interactions and Complete Flows
 
 ## Learning goals
 
@@ -135,3 +135,13 @@ Model interactions through the controls people use. Create a fresh user-event se
 6. Add a keyboard path when keyboard use matters.
 7. Keep side effects and clicks outside waitFor callbacks.
 8. Decide whether layout or native browser behavior requires a browser-level check.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="101-component-tests-and-test-utilities.md">101 - Component Tests and React Test Utilities</a></td><td><a href="../qnas/102-testing-user-interactions.md">Q&amp;A</a></td><td><a href="../examples/102-testing-user-interactions.md">Example</a></td><td><a href="103-testing-forms-and-async-ui.md">103 - Testing Forms, Asynchronous UI, and API Boundaries</a></td></tr>
+  </tbody>
+</table>

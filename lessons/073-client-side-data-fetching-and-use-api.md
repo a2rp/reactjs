@@ -256,3 +256,13 @@ Strict Mode may run an extra setup-and-cleanup cycle for Effects in development.
 ## Summary
 
 Use Effects and state for straightforward client-side synchronization with requests, including explicit loading and error UI. Use `use` with Suspense when a framework or stable cache supplies a Promise designed for render-time reading. Pending Promises suspend, fulfilled Promises provide a value, and rejected Promises reach an Error Boundary. Never create a fresh fetch Promise directly during every client render.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="072-react-dom-resource-hints-and-browser-apis.md">072 - React DOM Resource Hints and Browser APIs</a></td><td><a href="../qnas/073-client-side-data-fetching-and-use-api.md">Q&amp;A</a></td><td><a href="../examples/073-client-side-data-fetching-and-use-api.md">Example</a></td><td><a href="074-request-cancellation-and-race-conditions.md">074 - Request Cancellation, Stale Responses, and Race Conditions</a></td></tr>
+  </tbody>
+</table>

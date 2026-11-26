@@ -195,3 +195,13 @@ Each target must exist before its portal is rendered. Keep separate targets only
 - A portal changes physical DOM placement while remaining in the same React tree.
 - Context and React event propagation follow the React tree; CSS inheritance and selectors follow the DOM tree.
 - Use portals for UI that needs a different DOM placement, not as a replacement for a separate root or accessibility work.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="068-error-boundaries-and-recovery-ui.md">068 - Error Boundaries and Recovery UI</a></td><td><a href="../qnas/069-portals.md">Q&amp;A</a></td><td><a href="../examples/069-portals.md">Example</a></td><td><a href="070-react-dom-roots-and-client-apis.md">070 - React DOM Roots, Hydration, and Client APIs</a></td></tr>
+  </tbody>
+</table>

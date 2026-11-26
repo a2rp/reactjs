@@ -277,9 +277,13 @@ There is no second copy of the filtered product list to synchronize. Each render
 - Do not pass application-wide values to a row that only needs one product.
 - Do not use the array index as a key when each product already has a stable `id`.
 - Do not add a component boundary for every HTML element. Keep boundaries that make the design or data flow clearer.
-
 ## Chapter navigation
 
-| Previous chapter | Chapter lesson | Chapter Q&A | Next chapter |
-| --- | --- | --- | --- |
-| [022 - Designing reusable component APIs](../lessons/022-designing-reusable-component-apis.md) | [023 - Thinking in React: from a design to a component tree](../lessons/023-thinking-in-react-and-component-trees.md) | [Open Q&A](../qnas/023-thinking-in-react-and-component-trees.md) | [024 - Component identity, position, and keys](../lessons/024-component-identity-position-and-keys.md) |
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="022-designing-reusable-component-apis.md">022 - Designing reusable component APIs - Example</a></td><td><a href="../lessons/023-thinking-in-react-and-component-trees.md">Lesson</a></td><td><a href="../qnas/023-thinking-in-react-and-component-trees.md">Q&amp;A</a></td><td><a href="024-component-identity-position-and-keys.md">024 - Component identity, position, and keys - Example</a></td></tr>
+  </tbody>
+</table>

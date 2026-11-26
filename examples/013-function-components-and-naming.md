@@ -136,9 +136,13 @@ Open the local address printed by Vite. The page should show a heading, two iden
 - A component definition can be reused at several locations.
 - Small components can be grouped or moved into separate modules based on clarity and reuse.
 - Props, which let component instances display different data, are introduced in the next chapter.
-
 ## Chapter navigation
 
-| Lesson | Q&A | Previous chapter | Next chapter |
-| --- | --- | --- | --- |
-| [013 - Function components and component naming](../lessons/013-function-components-and-naming.md) | [Open Q&A](../qnas/013-function-components-and-naming.md) | [012 - Strict Mode and development checks](../lessons/012-strict-mode-and-development-checks.md) | [014 - Props and passing data](../lessons/014-props-and-passing-data.md) |
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="012-strict-mode-and-development-checks.md">012 - Strict Mode and development checks - Example</a></td><td><a href="../lessons/013-function-components-and-naming.md">Lesson</a></td><td><a href="../qnas/013-function-components-and-naming.md">Q&amp;A</a></td><td><a href="014-props-and-passing-data.md">014 - Props and passing data - Example</a></td></tr>
+  </tbody>
+</table>

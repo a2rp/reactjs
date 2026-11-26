@@ -308,3 +308,13 @@ Ask what operation is intended: add, remove, replace, insert, sort, or reverse. 
 - Copy each nested object along the path to a changed property.
 - Sort or reverse a copy, not the state array.
 - Use stable, unique IDs for item updates and rendered list keys.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="040-updating-object-state-immutably.md">040 - Updating object state immutably - Q&amp;A</a></td><td><a href="../lessons/041-updating-array-state-immutably.md">Lesson</a></td><td><a href="../examples/041-updating-array-state-immutably.md">Example</a></td><td><a href="042-derived-values-and-duplicated-state.md">042 - Derived values and avoiding duplicated state - Q&amp;A</a></td></tr>
+  </tbody>
+</table>

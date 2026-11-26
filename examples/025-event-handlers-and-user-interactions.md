@@ -121,9 +121,13 @@ The Publish button uses the browser's native `disabled` behavior. It cannot be a
 ## What this example does not do
 
 The panel records a local interaction; it does not perform a network request, save data to a server, or navigate to another page. Those behaviors can be placed in the parent handler when the application requires them. Use an anchor for navigation and a form submit handler for form submission.
-
 ## Chapter navigation
 
-| Previous chapter | Chapter lesson | Chapter Q&A | Next chapter |
-| --- | --- | --- | --- |
-| [024 - Component identity, position, and keys](../lessons/024-component-identity-position-and-keys.md) | [025 - Event handlers and user interactions](../lessons/025-event-handlers-and-user-interactions.md) | [Open Q&A](../qnas/025-event-handlers-and-user-interactions.md) | [026 - Event objects and React's event system](../lessons/026-event-objects-and-react-event-system.md) |
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="024-component-identity-position-and-keys.md">024 - Component identity, position, and keys - Example</a></td><td><a href="../lessons/025-event-handlers-and-user-interactions.md">Lesson</a></td><td><a href="../qnas/025-event-handlers-and-user-interactions.md">Q&amp;A</a></td><td><a href="026-event-objects-and-react-event-system.md">026 - Event objects and React's event system - Example</a></td></tr>
+  </tbody>
+</table>

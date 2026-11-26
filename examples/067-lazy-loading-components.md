@@ -1108,3 +1108,13 @@ input:focus-visible {
 6. The Error Boundary is separate from the loading fallback. To see a real rejected-import state, use browser developer tools to block a panel's emitted module request, then select that panel. Restore normal network behavior afterward.
 
 This example demonstrates client-side component code loading. It does not use Suspense for data fetching, and the local fallback may be too quick to notice without network throttling.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="066-suspense-boundaries-and-fallbacks.md">066 - Example: Suspense Boundaries and Progressive Fallbacks</a></td><td><a href="../lessons/067-lazy-loading-components.md">Lesson</a></td><td><a href="../qnas/067-lazy-loading-components.md">Q&amp;A</a></td><td><a href="068-error-boundaries-and-recovery-ui.md">068 - Example: Recovering from a Render Error</a></td></tr>
+  </tbody>
+</table>

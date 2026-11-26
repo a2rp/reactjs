@@ -1,4 +1,4 @@
-# useRef for DOM Nodes and Mutable Values — Q&A
+# useRef for DOM Nodes and Mutable Values - Q&A
 
 ## Ref basics
 
@@ -170,3 +170,13 @@ Use a ref to access the committed node and an Effect to synchronize with the ren
 - Use DOM refs for focused imperative actions, and let React own rendered structure.
 - Store timer IDs and similar non-visual values in refs; clean up external resources.
 - Keep ref reads and writes out of rendering, except predictable one-time initialization.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="057-custom-hooks-and-usedebugvalue.md">057 - Custom Hooks and useDebugValue - Q&amp;A</a></td><td><a href="../lessons/058-useref.md">Lesson</a></td><td><a href="../examples/058-useref.md">Example</a></td><td><a href="059-refs-and-imperative-handles.md">059 - React 19 Refs, forwardRef, and Imperative Handles - Q&amp;A</a></td></tr>
+  </tbody>
+</table>

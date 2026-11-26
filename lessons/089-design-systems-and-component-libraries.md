@@ -286,3 +286,13 @@ Avoid making every implementation detail part of the contract. A small, intentio
 - Preserve native semantics, keyboard behavior, labels, and accessible states.
 - Document and validate the public contract, not only the rendered appearance.
 - Publish a package when independent consumers need an explicit, versioned boundary.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="088-organizing-react-applications.md">088 - Organizing Components, Features, and Application Code</a></td><td><a href="../qnas/089-design-systems-and-component-libraries.md">Q&amp;A</a></td><td><a href="../examples/089-design-systems-and-component-libraries.md">Example</a></td><td><a href="090-global-state-and-usesyncexternalstore.md">090 - Global State, `useSyncExternalStore`, and External Stores</a></td></tr>
+  </tbody>
+</table>

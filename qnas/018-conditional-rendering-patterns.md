@@ -10,7 +10,7 @@ Conditional rendering means returning or including different UI depending on a v
 
 No. `if`, `else`, `switch`, the conditional operator, and `&&` are JavaScript. React renders the JSX value that the component returns or includes.
 
-### 3. Why can’t I write an `if` statement directly inside JSX braces?
+### 3. Why canï¿½t I write an `if` statement directly inside JSX braces?
 
 JSX braces contain a JavaScript expression. An `if` statement is a statement, so it cannot be used as the value inside braces. Put the `if` before the return, use a ternary expression, or calculate a value first:
 
@@ -118,7 +118,7 @@ Use one `if`/`else if` chain or a `switch` before the return so one status selec
 
 ~~~jsx
 function RequestStatus({ status }) {
-  if (status === 'loading') return <p>Loading…</p>;
+  if (status === 'loading') return <p>Loadingï¿½</p>;
   if (status === 'error') return <p role="alert">Request failed.</p>;
   if (status === 'empty') return <p>No results.</p>;
   if (status === 'ready') return <p>Results are ready.</p>;
@@ -141,7 +141,7 @@ Yes. Assign a JSX element to a variable in a component, then include that variab
 let content;
 
 if (isLoading) {
-  content = <p>Loading…</p>;
+  content = <p>Loadingï¿½</p>;
 } else {
   content = <p>Content is ready.</p>;
 }
@@ -153,13 +153,13 @@ This is useful when several branches share the same outer structure.
 
 ### 17. What is the difference between `||` and `??` in a fallback?
 
-`value || fallback` uses the fallback for any falsey value, including `''`, `0`, and `false`. `value ?? fallback` uses the fallback only when `value` is `null` or `undefined`. Use the operator that matches what “missing” means for the data.
+`value || fallback` uses the fallback for any falsey value, including `''`, `0`, and `false`. `value ?? fallback` uses the fallback only when `value` is `null` or `undefined`. Use the operator that matches what ï¿½missingï¿½ means for the data.
 
 ~~~jsx
 const displayName = name ?? 'Guest';
 ~~~
 
-These operators select values. They do not by themselves mean “conditionally show this component.”
+These operators select values. They do not by themselves mean ï¿½conditionally show this component.ï¿½
 
 ### 18. Is `condition ? <Thing /> : null` valid?
 
@@ -187,9 +187,13 @@ No. Conditional rendering leaves the element out of the rendered UI for that bra
 - Use a variable or `switch` when several alternatives make inline JSX hard to follow.
 
 The simplest readable form is usually best; no single syntax is required for every condition.
-
 ## Chapter navigation
 
-| Previous chapter | Chapter lesson | Chapter example | Next chapter |
-| --- | --- | --- | --- |
-| [017 - Composition, containment, and reusable layouts](../lessons/017-composition-containment-and-layouts.md) | [018 - Conditional rendering patterns](../lessons/018-conditional-rendering-patterns.md) | [Open Example](../examples/018-conditional-rendering-patterns.md) | [019 - Rendering collections and choosing stable keys](../lessons/019-rendering-collections-and-stable-keys.md) |
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="017-composition-containment-and-layouts.md">017 - Composition, containment, and reusable layouts - Q&amp;A</a></td><td><a href="../lessons/018-conditional-rendering-patterns.md">Lesson</a></td><td><a href="../examples/018-conditional-rendering-patterns.md">Example</a></td><td><a href="019-rendering-collections-and-stable-keys.md">019 - Rendering collections and choosing stable keys - Q&amp;A</a></td></tr>
+  </tbody>
+</table>

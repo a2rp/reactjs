@@ -2,7 +2,7 @@
 
 ## Starting from a design
 
-### 1. What does “Thinking in React” mean?
+### 1. What does ï¿½Thinking in Reactï¿½ mean?
 
 It means using the interface, its data, and its interactions to plan the component tree and data flow. Instead of starting with arbitrary files or markup, identify what each part displays, what can change, and which component should own each changing value.
 
@@ -32,7 +32,7 @@ Usually not. Multiple trees can work. Choose a hierarchy that makes responsibili
 
 It separates layout and data-mapping work from interaction and state decisions. Once the static tree displays the expected content, adding changing values is easier to reason about.
 
-### 8. What does “static” mean in this workflow?
+### 8. What does ï¿½staticï¿½ mean in this workflow?
 
 The interface renders its structure and supplied data, but the controls do not yet change the results. It is fine to pass fixed example values while checking the layout and component boundaries.
 
@@ -129,9 +129,13 @@ No. Component boundaries are about responsibilities and composition. They often 
 ### 30. What is the workflow to remember?
 
 Understand the interface and data, sketch meaningful components, build the static tree with props, identify the minimum state, put shared state in the closest coordinating parent, derive the rest, and pass values down with callbacks for interactions.
-
 ## Chapter navigation
 
-| Previous chapter | Chapter lesson | Chapter example | Next chapter |
-| --- | --- | --- | --- |
-| [022 - Designing reusable component APIs](../lessons/022-designing-reusable-component-apis.md) | [023 - Thinking in React: from a design to a component tree](../lessons/023-thinking-in-react-and-component-trees.md) | [Open Example](../examples/023-thinking-in-react-and-component-trees.md) | [024 - Component identity, position, and keys](../lessons/024-component-identity-position-and-keys.md) |
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="022-designing-reusable-component-apis.md">022 - Designing reusable component APIs - Q&amp;A</a></td><td><a href="../lessons/023-thinking-in-react-and-component-trees.md">Lesson</a></td><td><a href="../examples/023-thinking-in-react-and-component-trees.md">Example</a></td><td><a href="024-component-identity-position-and-keys.md">024 - Component identity, position, and keys - Q&amp;A</a></td></tr>
+  </tbody>
+</table>

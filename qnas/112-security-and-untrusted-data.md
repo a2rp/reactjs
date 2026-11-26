@@ -1,4 +1,4 @@
-﻿# Security Basics: Escaping, URLs, and Untrusted Data — Q&A
+# Security Basics: Escaping, URLs, and Untrusted Data - Q&A
 
 ## Untrusted data and React rendering
 
@@ -167,3 +167,13 @@ Test an allowed relative path, allowed HTTP and HTTPS examples, malformed input,
 ### 40. What is the central rule for handling untrusted data?
 
 Keep values as data. Render text with normal React children, validate URLs against an explicit policy, avoid raw HTML and code execution, and enforce validation and permissions on the server.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="111-code-splitting-and-asset-loading.md">111 - Code Splitting, Asset Loading, and Bundle Analysis - Q&amp;A</a></td><td><a href="../lessons/112-security-and-untrusted-data.md">Lesson</a></td><td><a href="../examples/112-security-and-untrusted-data.md">Example</a></td><td><a href="113-html-injection-and-trusted-types.md">113 - HTML Injection, Sanitization, and Trusted Types - Q&amp;A</a></td></tr>
+  </tbody>
+</table>

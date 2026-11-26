@@ -275,3 +275,13 @@ Ask whether the next value is already known, comes from the event, or must be ca
 - Use an updater when the next value depends on pending state, but do not add one when a direct value expresses the intent more clearly.
 - Updaters must be pure and must not contain side effects.
 - An updater only receives pending state for its own state variable; it does not refresh other captured values.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="038-state-as-a-render-snapshot.md">038 - State as a render snapshot - Q&amp;A</a></td><td><a href="../lessons/039-queued-batched-and-functional-updates.md">Lesson</a></td><td><a href="../examples/039-queued-batched-and-functional-updates.md">Example</a></td><td><a href="040-updating-object-state-immutably.md">040 - Updating object state immutably - Q&amp;A</a></td></tr>
+  </tbody>
+</table>

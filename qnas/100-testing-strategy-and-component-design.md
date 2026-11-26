@@ -1,4 +1,4 @@
-﻿# Testing Strategy and Testable Component Design: Questions and Answers
+# Testing Strategy and Testable Component Design: Questions and Answers
 
 ## Purpose and test levels
 
@@ -149,3 +149,13 @@ Describe the condition and observable result, such as “disables increase when 
 ### 35. What is the main design lesson?
 
 Good testability usually comes from clear responsibilities and explicit boundaries, not special hooks added only for tests. When a behavior is difficult to exercise, first ask whether the component owns too many concerns or hides important dependencies.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="099-accessible-announcements-and-async-ui.md">099 - Accessible Announcements and Asynchronous Interfaces: Questions and Answers</a></td><td><a href="../lessons/100-testing-strategy-and-component-design.md">Lesson</a></td><td><a href="../examples/100-testing-strategy-and-component-design.md">Example</a></td><td><a href="101-component-tests-and-test-utilities.md">101 - Component Tests and React Test Utilities: Questions and Answers</a></td></tr>
+  </tbody>
+</table>

@@ -1,4 +1,4 @@
-﻿# Styling Strategies, CSS Modules, and Theming: Questions and Answers
+# Styling Strategies, CSS Modules, and Theming: Questions and Answers
 
 ## React and styling fundamentals
 
@@ -139,3 +139,13 @@ It can hide unclear style ownership and make later variants harder to override. 
 
 ### 40. Which styling strategy should I choose?
 Start from the project's current toolchain and team conventions. Global CSS works well for foundations, CSS Modules for component-local selectors, inline styles for isolated dynamic values, and utility classes or CSS-in-JS when their trade-offs fit the project.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="091-typescript-with-react.md">091 - TypeScript with React: Questions and Answers</a></td><td><a href="../lessons/092-styling-and-theming.md">Lesson</a></td><td><a href="../examples/092-styling-and-theming.md">Example</a></td><td><a href="093-animation-and-motion-preferences.md">093 - Animation, Motion Preferences, and View Transitions: Questions and Answers</a></td></tr>
+  </tbody>
+</table>

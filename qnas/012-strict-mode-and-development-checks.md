@@ -1,4 +1,4 @@
-# 012. Strict Mode and development checks — Q&A
+# 012. Strict Mode and development checks - Q&A
 
 ## Enabling Strict Mode
 
@@ -105,9 +105,13 @@ No. It checks for a focused set of common problems during development. Continue 
 ### 22. How should I investigate a Strict Mode warning?
 
 Read the warning, find the component or dependency that triggered it, and correct the underlying behavior. Check for data mutation during rendering, missing Effect or ref cleanup, and deprecated APIs.
-
 ## Chapter navigation
 
-| Lesson | Example | Previous chapter | Next chapter |
-| --- | --- | --- | --- |
-| [012 - Strict Mode and development checks](../lessons/012-strict-mode-and-development-checks.md) | [Open Example](../examples/012-strict-mode-and-development-checks.md) | [011 - Create a root and render a React application](../lessons/011-create-a-root-and-render-an-application.md) | [013 - Function components and component naming](../lessons/013-function-components-and-naming.md) |
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="011-create-a-root-and-render-an-application.md">011 - Create a root and render a React application - Q&amp;A</a></td><td><a href="../lessons/012-strict-mode-and-development-checks.md">Lesson</a></td><td><a href="../examples/012-strict-mode-and-development-checks.md">Example</a></td><td><a href="013-function-components-and-naming.md">013 - Function components and component naming - Q&amp;A</a></td></tr>
+  </tbody>
+</table>

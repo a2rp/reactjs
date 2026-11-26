@@ -170,9 +170,13 @@ The dev server and preview are separate terminal processes. Use the URL printed 
 - [ ] I built and previewed the production output locally.
 - [ ] I know not to edit `node_modules/` or generated `dist/`.
 - [ ] I know that `VITE_*` values are client-visible, not private secrets.
-
 ## Chapter navigation
 
-| Previous chapter | Lesson | Q&A | Next chapter |
-| --- | --- | --- | --- |
-| [005 - Choose a React project setup](../lessons/005-choose-a-react-project-setup.md) | [Open lesson](../lessons/006-project-files-scripts-and-dev-server.md) | [Open Q&A](../qnas/006-project-files-scripts-and-dev-server.md) | [007 - JSX syntax and markup](../lessons/007-jsx-syntax-and-markup.md) |
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="005-choose-a-react-project-setup.md">005 - Example: Choose and start a React learning project</a></td><td><a href="../lessons/006-project-files-scripts-and-dev-server.md">Lesson</a></td><td><a href="../qnas/006-project-files-scripts-and-dev-server.md">Q&amp;A</a></td><td><a href="007-jsx-syntax-and-markup.md">007 - Example: Convert HTML-like markup into valid JSX</a></td></tr>
+  </tbody>
+</table>
